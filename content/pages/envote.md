@@ -26,8 +26,9 @@ wp_comment_count: 3
 ![Logo enVote]({static}/images/envote.png){style=float:right;padding:20px}
 
 enVote es un programa de uso y distribución libre
-que hemos desarrollado en la acampada de indignad@s de
-Sant Joan Despí para poder dar respuesta de forma 
+que se desarrolló en el contexto de
+la acampada de indignad@s de Sant Joan Despí
+para poder dar respuesta de forma 
 más ágil a las muchas dudas que teníamos sobre el 
 funcionamiento del sistema electoral. Las normas 
 pueden estar claras, pero a veces deducir los 
@@ -35,7 +36,7 @@ efectos de esas normas es complejo.
 
 ## Funcionalidades
 
-[![Pantalla enVote]({static}images/envote-AbstencioMaxima.png)]({static}images/envote-AbstencioMaxima.png)
+[![Pantalla enVote]({static}/images/envote-AbstencioMaxima.png)]({static}/images/envote-AbstencioMaxima.png)
 
 Los puntos fuertes del programa son:
 
@@ -96,7 +97,7 @@ castellano y catalán. Si quieres contribuir la traducción
 a tu idioma, puedes bajarte el [fichero de traducción][TranslationFiles] y 
 usar [Qt Linguist][QtLinguist] para rellenarlo.
 
-[TranslationFiles]:(https://github.com/vokimon/envote/tree/master/i18n)
-[QtLinguist]:(http://qt-apps.org/content/show.php/Qt+Linguist+Download?content=89360)
+[TranslationFiles]:https://github.com/vokimon/envote/tree/master/i18n
+[QtLinguist]:http://qt-apps.org/content/show.php/Qt+Linguist+Download?content=89360
 
 

@@ -55,7 +55,7 @@ Para **cada circumscripción** se hace lo siguiente:
 1. Se obtienen cocientes de dividir los votos de cada candidatura por 1, 2, 3, 4....
 1. Se asigna escaño a los mayores cocientes de todas las candidaturas
 
-![Pantalla del enVote con la estadística de El Pais](parlament2012-EncuestaElPais17N.png "Encuesta de El Pais del 17 de Noviembre simulada con enVote")
+![Pantalla del enVote con la estadística de El Pais]({static}/images/parlament2012-EncuestaElPais17N.png "Encuesta de El Pais del 17 de Noviembre simulada con enVote")
 
 Mecánicamente la norma es esa.
 Pero ¿qué implicaciones tiene?

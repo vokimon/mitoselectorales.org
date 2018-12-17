@@ -29,15 +29,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DISPLAY_PAGES_ON_MENU=True
+DISPLAY_PAGES_ON_MENU=False
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = "Otros"
 
 
 MENUITEMS=(
-	('Simulador', 'envote.md'),
-	('Mitos', 'mitos.md'),
-	('Memes', 'memes.md'),
+	('Simulador', 'pages/envote-simulador-de-flujos-electorales.html'),
+	#('Mitos', 'mitos.md'),
+	#('Memes', 'memes.md'),
 )
 
 # Blogroll

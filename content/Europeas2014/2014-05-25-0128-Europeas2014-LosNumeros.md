@@ -116,8 +116,7 @@ Los partidos que forman las coaliciones y a qué partido europeo pertenecen los 
 Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas así que el partido europeo solo es importante de cara a la elección de los cargos y no en las votaciones concretas.
 
 
-[1]: http://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29
-
+[1]: https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29
 
 ## Teoría de juegos
 
