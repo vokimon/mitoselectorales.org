@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="/posts/2014-05-25-0128-Europeas2014-LosNumeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-25:/posts/2014-05-25-0128-Europeas2014-LosNumeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-25:/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
 Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
@@ -191,7 +191,7 @@ Que conste que no es mi opción, pero la recomendaré siempre como mejor opción
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
+&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
 Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
 Sabes leer.
 Pero hay mucha gente que vota al azar partidos pequeños como castigo.
@@ -249,7 +249,7 @@ Se que hay mucha gente que meteria en esta lista al PP y a otros, pero hay que s
 Puede que en el PP haya algun facha y algun nazi, pero
 muchos PPeros solo estan ahi para pillar cacho y es injusto que les tachemos de nazis o fachas por ello.&lt;/p&gt;
 &lt;p&gt;Y despues de esto, me dejo de dar capones por parcial y pasamos a los numeros y a las matematicas.
-Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
 Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
 Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
 Y este primero, sin números, para que lo entiendan.</summary><content type="html">&lt;p&gt;A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
@@ -269,7 +269,7 @@ Como demostraré más abajo estas cosas no son ciertas, pero teneis la ventaja d
 &lt;p&gt;Un no-voto, de cualquiera de los tres tipos, no entra en competencia con el tuyo de cara a conseguir escaños.
 Un voto a otra candidatura sí os lo puede quitar.
 Para ti es tan importante ir a votar a PP-PSOE como desmotivar a otros que no voten a otras candidaturas.
-Así que ya sabes que hacer.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>Elecciones al Parlament 2012: Cómo afecta mi voto</title><link href="/posts/2012-11-25-1624-Parlament2012-ComoAfectaMiVoto.html" rel="alternate"></link><published>2012-11-25T16:24:00+01:00</published><updated>2012-11-25T16:24:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2012-11-25:/posts/2012-11-25-1624-Parlament2012-ComoAfectaMiVoto.html</id><summary type="html">Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.</summary><content type="html">&lt;h3&gt;¿Cómo evalúo el efecto de mi voto o no voto?&lt;/h3&gt;
+Así que ya sabes que hacer.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>Elecciones al Parlament 2012: Cómo afecta mi voto</title><link href="/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html" rel="alternate"></link><published>2012-11-25T16:24:00+01:00</published><updated>2012-11-25T16:24:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2012-11-25:/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html</id><summary type="html">Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.</summary><content type="html">&lt;h3&gt;¿Cómo evalúo el efecto de mi voto o no voto?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;El efecto de tu opción es lo que haces, pero también lo que dejas de hacer: Es importante el &lt;strong&gt;voto cesante&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;A los que votastes y ahora no.&lt;/li&gt;
@@ -478,22 +478,22 @@ Pero ¿qué implicaciones tiene?
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Consejo: No hay voto más útil que el que se ajusta bien a lo que piensas.&lt;/strong&gt;&lt;/p&gt;</content><category term="Parlament"></category></entry><entry><title>Xerrada: Llei electoral, mites i llegendes.</title><link href="/posts/2011-11-16-0009-xerrada-llei-electoral-mites-i-llegendes.html" rel="alternate"></link><published>2011-11-16T00:09:46+01:00</published><updated>2011-11-16T00:09:46+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-16:/posts/2011-11-16-0009-xerrada-llei-electoral-mites-i-llegendes.html</id><summary type="html"></summary><content type="html">&lt;p style="display:block; width:220; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
+&lt;p&gt;&lt;strong&gt;Consejo: No hay voto más útil que el que se ajusta bien a lo que piensas.&lt;/strong&gt;&lt;/p&gt;</content><category term="Parlament"></category></entry><entry><title>Xerrada: Llei electoral, mites i llegendes.</title><link href="/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html" rel="alternate"></link><published>2011-11-16T00:09:46+01:00</published><updated>2011-11-16T00:09:46+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-16:/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html</id><summary type="html"></summary><content type="html">&lt;p style="display:block; width:220; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Aquest &lt;b&gt;dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí&lt;/b&gt; farem una xerrada sobre el
-&lt;a title="Com s'aplica la llei electoral a les generals a Barcelona" href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html"&gt;sistema electoral&lt;/a&gt;,
-les &lt;a title="20N: opcions de vot i no vot" href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;diferents opcions de vot y no vot&lt;/a&gt;,
+&lt;a title="Com s'aplica la llei electoral a les generals a Barcelona" href="/posts/2011-11-15-20n-llei-electoral-actual.html"&gt;sistema electoral&lt;/a&gt;,
+les &lt;a title="20N: opcions de vot i no vot" href="/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;diferents opcions de vot y no vot&lt;/a&gt;,
 i les seves possibles conseqüències.&lt;/p&gt;
 &lt;p&gt;A l'acampada hem dut a terme una intensa recerca per comprovar si allò que
-&lt;a title="Resum de mites i llegendes sobre el sistema electoral" href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;es diu sobre el tema és realment cert o no&lt;/a&gt;,
+&lt;a title="Resum de mites i llegendes sobre el sistema electoral" href="/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;es diu sobre el tema és realment cert o no&lt;/a&gt;,
 analitzant lleis i &lt;a title="enVote: simulador de fluxos electorals" href="/pages/envote-simulador-de-flujos-electorales.html"&gt;simulant casos&lt;/a&gt;.
 Volem compartir aquest esforç amb tota la gent de Sant Joan Despi i d'altres galaxies.
 Us assegurem que algunes conclusions són realment sorprenents i tenen una bona base de justificació.&lt;/p&gt;
 &lt;p&gt;Esteu tots convidats a vindre amb els vostres pròpis dubtes, si no coneixem la resposta, potser ho podem passar pel simulador.
 I si no podeu vindre, teniu resums penjats al
-&lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="/posts/2011-11-15-0215-20n.html"&gt;blog de l'acampada&lt;/a&gt;.
+&lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="/posts/2011-11-15-20n.html"&gt;blog de l'acampada&lt;/a&gt;.
 Doneu-los difussió!&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.</summary><content type="html">&lt;h2&gt;Votos a candidaturas&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.</summary><content type="html">&lt;h2&gt;Votos a candidaturas&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.&lt;/p&gt;
 &lt;p&gt;Infórmate de las opciones. No hay ningún voto más útil que otro.&lt;/p&gt;
 &lt;ul&gt;
@@ -579,7 +579,7 @@ Doneu-los difussió!&lt;/p&gt;
 &lt;div class='caption'&gt;
 Resumen difundible sobre ley electoral  y las opciones para el 20N.
 &lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category></entry><entry><title>20N: Llei electoral actual</title><link href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html" rel="alternate"></link><published>2011-11-15T04:14:31+01:00</published><updated>2011-11-15T04:14:31+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0414-20n-llei-electoral-actual.html</id><summary type="html">&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category></entry><entry><title>20N: Llei electoral actual</title><link href="/posts/2011-11-15-20n-llei-electoral-actual.html" rel="alternate"></link><published>2011-11-15T04:14:31+01:00</published><updated>2011-11-15T04:14:31+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-20n-llei-electoral-actual.html</id><summary type="html">&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
 
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;De la 
@@ -623,7 +623,7 @@ Es calculen dividint els vots de cada partit per 1, 2, 3, 4...&lt;/p&gt;
 &lt;div class='caption'&gt;
 Taula de fla llei d'Hondt - Generals 2008 a Barcelona (Click per ampliar)
 &lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Legislación"></category></entry><entry><title>20N</title><link href="/posts/2011-11-15-0215-20n.html" rel="alternate"></link><published>2011-11-15T02:15:37+01:00</published><updated>2011-11-15T02:15:37+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0215-20n.html</id><summary type="html">&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Legislación"></category></entry><entry><title>20N</title><link href="/posts/2011-11-15-20n.html" rel="alternate"></link><published>2011-11-15T02:15:37+01:00</published><updated>2011-11-15T02:15:37+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-20n.html</id><summary type="html">&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
 
 Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
 
@@ -634,22 +634,22 @@ Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Material de difusión preparado por la acampada para el 20N.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html"&gt;Sistema electoral actual, com funciona, que ens pertoca a la circunscripció de Barcelona
+&lt;li&gt;&lt;a href="/posts/2011-11-15-20n-llei-electoral-actual.html"&gt;Sistema electoral actual, com funciona, que ens pertoca a la circunscripció de Barcelona
     &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;Opciones de voto (o no voto)
+&lt;li&gt;&lt;a href="/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;Opciones de voto (o no voto)
     &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;Mitos y leyendas sobre el sistema electoral
+&lt;li&gt;&lt;a href="/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;Mitos y leyendas sobre el sistema electoral
     &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote: Simulador de flujos electorales
     &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.</summary><content type="html">&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.</summary><content type="html">&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
 &lt;p&gt;Para confirmar o desmentir todas estas historias las hemos contrastado con lo que dice la
 &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
 y hemos simulado los efectos varios en nuestra circunscripción (Barcelona) con un simulador.
 Puedes bajarte &lt;a href="/pages/envote-simulador-de-flujos-electorales.html" title="enVote"&gt;el simulador y los datos&lt;/a&gt;
 y comprobarlo por ti mismo o simular tu propia provincia.&lt;/p&gt;
 &lt;p&gt;También puedes querer conocer cuales son las diferentes
-&lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;opciones de voto o no voto&lt;/a&gt;
+&lt;a href="/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;opciones de voto o no voto&lt;/a&gt;
 que consideramos.&lt;/p&gt;
 &lt;p&gt;&lt;a href="/images/MitosElectorales.png"&gt;&lt;img src="/images/MitosElectorales.png" alt="" title="Mitos Electorales" width="100%" class="aligncenter size-full wp-image-245" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;dl&gt;
@@ -698,13 +698,13 @@ que consideramos.&lt;/p&gt;
 &lt;p&gt;En resumen:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Si encuentras una opción que te represente puedes votar en consciencia sin miedo a que perjudicar a otras opciones.
-  &lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;Infórmate de las opciones que hay&lt;/a&gt;.&lt;/li&gt;
+  &lt;a href="/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;Infórmate de las opciones que hay&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Si ninguna opción te representa, puedes votar a candidaturas de protesta contra el sistema electoral.&lt;/li&gt;
 &lt;li&gt;No hay un voto mas perdido que otro, no hay una candidatura más útil que otra.&lt;/li&gt;
 &lt;li&gt;Si la candidatura que votas toma un escaño por tu voto, se lo quitará con más probabilidad a un mayoritario. Mientras no lo tome, no afecta a nadie.&lt;/li&gt;
 &lt;li&gt;También puedes votar en nulo, blanco o abstenerte activamente para mostrar tu queja, sin miedo de que afecte en el reparto.&lt;/li&gt;
 &lt;li&gt;De estas tres opciones de no-voto, el voto nulo es más visible que la abstención activa, y no tiene el peligro de favorecer a los mayoritarios como voto en blanco.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>De la politica ficción a la política acción</title><link href="/posts/2011-11-13-1659-SantFeliu-PoliticaFiccioPoliticaAccio-talkoutline.html" rel="alternate"></link><published>2011-11-13T16:59:00+01:00</published><updated>2011-11-13T16:59:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2011-11-13:/posts/2011-11-13-1659-SantFeliu-PoliticaFiccioPoliticaAccio-talkoutline.html</id><summary type="html">Este es el &lt;em&gt;outline&lt;/em&gt; que seguimos en las primeras charlas que dimos
+&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>De la politica ficción a la política acción</title><link href="/posts/2011-11-13-de-la-politica-ficcion-a-la-politica-accion.html" rel="alternate"></link><published>2011-11-13T16:59:00+01:00</published><updated>2011-11-13T16:59:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2011-11-13:/posts/2011-11-13-de-la-politica-ficcion-a-la-politica-accion.html</id><summary type="html">Este es el &lt;em&gt;outline&lt;/em&gt; que seguimos en las primeras charlas que dimos
 para dar difusión a los resultados de nuestras pesquisas.
 La primera fue en la Plaça de la Vila de &lt;strong&gt;Sant Feliu de Llobregat&lt;/strong&gt;
 y la segunda en el Foment Cultural I Artístic de &lt;strong&gt;Sant Joan Despí&lt;/strong&gt;.
