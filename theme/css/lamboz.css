@@ -120,7 +120,7 @@ div.hp-header {
   height:45%;
   max-height: 55;
   position:relative;
-  background:url('/images/Urnes_votació_2015_02.jpg') no-repeat center -200px fixed;
+  background:url('../../images/Urnes_votació_2015_02.jpg') no-repeat center -200px fixed;
   background-size:cover;
 
 }
@@ -130,7 +130,7 @@ div.hp-header-inner {
   width:100%;
   height:30%;
   position:relative;
-  background:url('/images/Urnes_votació_2015_02.jpg') no-repeat center -400px fixed;
+  background:url('../../images/Urnes_votació_2015_02.jpg') no-repeat center -400px fixed;
   background-size:cover;
 
 }
@@ -330,7 +330,7 @@ div#title-block P.blurb {
     width:100%;
     height:100%;
     position:relative;
-    background:url('/images/Urnes_votació_2015_02.jpg') no-repeat scroll;
+    background:url('../../images/Urnes_votació_2015_02.jpg') no-repeat scroll;
     background-position-y: top;
     background-position-x: left 50%;
     background-size:cover;
@@ -342,7 +342,7 @@ div#title-block P.blurb {
     height:30%;
     position:relative;
     /* TODO: shold be mobile version */
-    background:url('/images/Urnes_votació_2015_02.jpg') no-repeat scroll top middle;
+    background:url('../../images/Urnes_votació_2015_02.jpg') no-repeat scroll top middle;
     background-size:cover;
   
   }
