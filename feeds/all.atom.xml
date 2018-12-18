@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="/posts/2014-05-25-0128-Europeas2014-LosNumeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-25:/posts/2014-05-25-0128-Europeas2014-LosNumeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.&lt;/p&gt;
+&lt;h2&gt;La teoría&lt;/h2&gt;
+&lt;p&gt;Primero un poco de teoria básica:
+La ley electoral que se aplica a todas las elecciones dice que
+el reparto de escaños en una circunscripción se hará repartiéndolos según la regla de Hondt
+entre los partidos que superen un determinado porcentaje sobre el voto válido.
+El voto válido es el voto a candidaturas más el blanco.&lt;/p&gt;
+&lt;p&gt;La ley explica la Regla de Hondt con el algoritmo para calcularlo.
+Pero se puede entender mejor lo que hace explicando el objetivo:
+Lo que hace es fijar un &lt;strong&gt;precio de escaño&lt;/strong&gt; (&lt;span class="math"&gt;\(P\)&lt;/span&gt;)
+de tal manera que se repartan &lt;strong&gt;todos los escaños&lt;/strong&gt; (&lt;span class="math"&gt;\(E\)&lt;/span&gt;)
+sin que a ningún partido le sobren votos para pillar un escaño más.&lt;/p&gt;
+&lt;p&gt;En general, los &lt;strong&gt;votos totales a candidaturas&lt;/strong&gt; (&lt;span class="math"&gt;\(V\)&lt;/span&gt;)
+se repartiran entre los votos que han servido para obtener el escaño &lt;span class="math"&gt;\(P·E\)&lt;/span&gt;
+y los que han sobrado.
+A cada candididatura le pueden sobrar de &lt;span class="math"&gt;\(0\)&lt;/span&gt; a &lt;span class="math"&gt;\(P-1\)&lt;/span&gt; votos.
+Si &lt;span class="math"&gt;\(C\)&lt;/span&gt; es el &lt;strong&gt;número de candidaturas&lt;/strong&gt; podemos delimitar esto:&lt;/p&gt;
+&lt;div class="math"&gt;$$P*E &amp;lt; V &amp;lt; P*E + P*C$$&lt;/div&gt;
+&lt;p&gt;Haciendo algebra podemos delimitar delimitar el precio del escaño:&lt;/p&gt;
+&lt;div class="math"&gt;$${V \over E+C} &amp;lt; P &amp;lt; {V \over E}$$&lt;/div&gt;
+&lt;p&gt;Expresado en porcentaje del "voto a candidatura":&lt;/p&gt;
+&lt;div class="math"&gt;$${100 \over E+C} &amp;lt; 100 {P \over V} &amp;lt; {100 \over E}$$&lt;/div&gt;
+&lt;p&gt;Esa expresión delimita entre los dos casos extremos e improbables, pero ¿qué es lo más probable?&lt;/p&gt;
+&lt;p&gt;Los &lt;strong&gt;partidos con escaños&lt;/strong&gt; tienen una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
+Por eso, el sobrante medio de los partidos con escaños tenderá a ser &lt;span class="math"&gt;\(P/2\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Respecto a los &lt;strong&gt;partidos sin escaño&lt;/strong&gt;, por el comportamiento electoral típico,
+no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
+Voy a hacer una suposición de que algo menos de un cuarto de los partidos sigue la distribución uniforme de los partidos con escaño
+y que el resto cubren el &lt;em&gt;algo menos&lt;/em&gt; que le falta al cuarto.
+Mi suposición más o menos corresponde con pasados eventos electorles.
+Podeis experimentar con otras proporciones pero más o menos da lo mismo.&lt;/p&gt;
+&lt;p&gt;El voto sobrante no sería &lt;span class="math"&gt;\({P·C\over 2}\)&lt;/span&gt; sinó que se aproximaría mejor con &lt;span class="math"&gt;\({P \over 2}·{C \over 4} = { P·C \over 8}\)&lt;/span&gt;
+y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al &lt;span class="math"&gt;\({ 100 \over E+C/8}%\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;En resumen, el porcentaje de voto a candidatura necesario para un escaño es:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mínimo: 100/(E+C) %&lt;/li&gt;
+&lt;li&gt;Típico: 100/(E+C/8) %&lt;/li&gt;
+&lt;li&gt;Máximo: 100/E %&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;¿Cuales son los números concretos de estas elecciones?&lt;/h2&gt;
+&lt;p&gt;En las Europeas del 2014 tenemos&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una circunscripción única para toda España&lt;/li&gt;
+&lt;li&gt;El umbral para entrar en el reparto es del 0% (¡no hay umbral!)&lt;/li&gt;
+&lt;li&gt;34.420.170 electores&lt;/li&gt;
+&lt;li&gt;Hay 54 escaños a repartir&lt;/li&gt;
+&lt;li&gt;Hay 39 candidaturas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El precio del escaño en porcentaje de voto a candidatura sería:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mínimo: 1,07%, Típico: 1,70%, Máximo: 1'85%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En votos dependiendo de la participación:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participación: 100%, Mínimo: 370mil, Típico: 585mil, Máximo: 637mil&lt;/li&gt;
+&lt;li&gt;Participación: 50%, Mínimo: 187mil, Típico: 292mil, Máximo: 318mil&lt;/li&gt;
+&lt;li&gt;Participación: 40%, Mínimo: 148mil, Típico: 234mil, Máximo: 250mil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Primera conclusión:&lt;/strong&gt; En las elecciones europeas, al no haber umbral de entrada, el voto en blanco no tiene ningún efecto especial respecto al voto nulo o la abstención.
+El único efecto de las tres elecciones de no-voto es el efecto del VOTO CESANTE del que hablo más abajo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segunda conclusión:&lt;/strong&gt; ¿Es más fácil o más difícil para un partido pequeño conseguir su primer escaño? El precio en las generales ronda los 100mil votos.
+Pero en unas generales esos 100mil se tienen que sumar en una sola provincia, y en unas europeas se pueden sumar 300mil en todo el estado.
+Los partidos pequeños lo tienen mucho más fácil que en las generales para obtener representación.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tercera conclusión:&lt;/strong&gt; De como hemos obtenido la fórmula del precio típico se puede deducir que el hecho de que una candidatura extraparlamentaria acumule bastantes votos, aunque no obtenga escaño, sirve para bajar el precio de Hondt, ayudando a otras candidaturas extraparlamentarias a obtener su primer escaño.
+Como no hay umbral de entrada, votando a minoritarios, si no se obtiene escaño, ayudas a los otros minoritarios a salir.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cuarta conclusión:&lt;/strong&gt; En las generales, los partidos locales (nacionalistas, independentistas, regionalistas...) tienen ventaja, respecto a los pequeños de ámbito estatal, por concentrar su voto en ciertas circunscripciones.
+Pero en las europeas pierden esa ventaja.
+Quizás por eso, los partidos locales se han coaligado con partidos locales de otras autonomías para que su fortaleza en generales no se convierta en debilidad en las europeas.
+¿Que posibilidades tienen partidos regionalistas minoritarios que no se han coaligado, como les pasa a los dos que hay de Extremadura? Muy, muy pocas: Solo mirando el censo ves, que si Extremadura tuviera una participación similar a la del resto del estado, dos terceras partes de los votos de Extremadura tendrían ir a una de estas dos opciones para que sacara un solo escaño.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Falsa conclusión:&lt;/strong&gt; Podriamos pensar que contra menos participación, al bajar el precio sería mas fácil entrar para los partidos extraparlamentarios.
+Pero la abstención en sí no beneficia directamente a derecha, izquierda, mayoritarios, minoritarios o extraparlamentarios.
+Depende del perfil del desmotivado.
+Un descontento que no vota es voto cesante de los grandes partidos.
+Una persona que vea las elecciones como un pulso entre los mayoritarios que no vota es voto cesante de los grandes.
+En la abstención yo creo que hoy en día predomina el primer caso.&lt;/p&gt;
+&lt;h2&gt;Coaliciones, candidatos ocultos y partidos europeos&lt;/h2&gt;
+&lt;p&gt;Respecto a las candidaturas, coaliciones y demás hay algunas cosas importantes a tener en cuenta:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Las candidaturas pueden presentarse con una marca autonómica en la papeleta para que los hooligans identifiquemos a nuestro equipo de toda la vida&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En esa papeleta autonómica la lista de candidatos que aparecen puede ocultar los candidatos no locales, aunque el voto vaya a la lista completa estatal.
+Si veis una papeleta medio vacía, es el caso.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cada partido participante en una coalición puede apoyar a un partido europeo diferente, que tampoco aparece en la papeleta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por eso es importante saber que hay una parte de la lista que puede que no veas en la papeleta.
+Podría pasar que un votante de Euskadi vote a una lista en la que solo aparece gente del PNV, que apoyan a los Democratas Europeos, pero su voto contribuiría sin saberlo a que entrara un diputado de Unió que apoya a los Populares Europeos.
+Puede que le parezca bien o puede que no, pero es importante ser consciente de ello.
+Los partidos que forman las coaliciones y a qué partido europeo pertenecen los puedes encontrar en la &lt;a href="https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29"&gt;wikipedia&lt;/a&gt;, por ejemplo.
+Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas así que el partido europeo solo es importante de cara a la elección de los cargos y no en las votaciones concretas.&lt;/p&gt;
+&lt;h2&gt;Teoría de juegos&lt;/h2&gt;
+&lt;p&gt;A partir de aqui, ¿como evalúo el efecto de mi (no)voto? Siguiendo la teoría de juegos, tendríamos que pensar que todo el mundo ha tomado su decisión y faltas tú.
+Tendríamos que considerar los posibles escenarios previos a tu decisión, lo que se llama las hipótesis de partida, y la probabilidad de que pasen.
+La triste noticia es que tu voto considerado así es muy poco probable que tenga efecto alguno, votes a quien votes.
+Es así: ni minoritarios ni mayoritarios tu voto aislado es inútil.
+Solo tendría efecto en el caso de que el partido tenga P-1 votos sobrantes y el tuyo sea el que haga P.
+Eso pasa con una probabilidad de 1/P, donde P hemos visto que son cientosmiles.&lt;/p&gt;
+&lt;p&gt;Pos vaya, ¿no? ¿Como lo hacemos entonces? Pues no considerando un voto o no-voto, sino considerando unos cuantos.
+Dado un dilema si hacer una cosa o otra, me pregunto: Que efecto tiene que mil, 10mil, 100mil...
+en mi misma disyuntiva tome una misma opción y después qué probabilidad hay de que os junteis todos esos en todo el estado.
+Todo es un poco difuso pero vereis que nos permitirá hacer algunos razonamientos para entender el efecto de nuestro voto o no voto.
+Con ayuda de programas como &lt;a href="/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
+&lt;p&gt;¿Como construimos la situación probable antes de nuestro voto (la hipótesis de partida)? Pues considerando encuestas, elecciones anteriores, los hooligans de cada partido (también llamado suelo electoral), diversas hipotesis de abstención y situación electoral.
+También es útil considerar como situación probable de partida situaciones extremas.
+Si en condiciones extremas opuestas algo sigue pasando, es que pasará.
+Y ojo con nuestro sesgo, no tiene porque pasar lo que queremos nosotros que pase y mola mucho construir situaciones bonitas.&lt;/p&gt;
+&lt;h2&gt;El voto cesante&lt;/h2&gt;
+&lt;p&gt;Cuando consideramos nuestra opción (y la de los otros ene-mil que ante la misma disyuntiva hacen lo mismo), el otro efecto importante que tiene nuestro voto o no-voto es el de VOTO (O NO-VOTO) CESANTE a cualquier opción que podríamos haber escogido.
+El efecto es más importante cuanta mayor hubiera sido probabilidad de escoger la otra opción.
+Por ejemplo, si construimos la hipótesis de partida a partir de los resultados de las elecciones anteriores, es importante considerar que habíamos escogido en las elecciones previas y elegir 'grupo con nuestro dilema' entre la gente que había tomado esa opción.
+Si hemos construido esa situación probable a partir de encuestas, tenemos que valorar el voto cesante entre las que eran nuestras opciones en el momento de la encuesta.&lt;/p&gt;
+&lt;p&gt;Por eso decia en la anterior entrada que a los "partidos de gobierno" les interesa que los descontentos no voten a candidaturas.
+Si los descontentos escogen opciones de no-voto, el voto cesante se lo llevan sobretodo las otras candidaturas y ellos salen ganando con menos competencia en el reparto de escaños.&lt;/p&gt;
+&lt;h2&gt;Casos simulados&lt;/h2&gt;
+&lt;p&gt;Como no creo que me de tiempo a la cuarta parte, en la que quería poner algunas conclusiones de casos que he simulado, os resumo un par aquí, uno de aplicacion a los extraparlamentario y otro de aplicación a los que consideráis varias opciones con representación:&lt;/p&gt;
+&lt;p&gt;Si no-votos se convirtieran en votos al azar a partidos extraparlamentarios no fascistas (20 opciones) dichas opciones suben el doble de lo que pudiera subir el precio por escaño por añadir votos a la cesta.
+Si lo concentras en 10 o en 5 opciones, la cosa tiene un efecto mas grande aun.
+Además como he dicho arriba, si no consiguen el voto sirve para bajar el precio para que el resto consiga su primer escaño.&lt;/p&gt;
+&lt;p&gt;Desplazar 100mil de un partido con representacion a otro, implica que con un 30% de posibilidades el emisor pierda el voto, y otro 30% de que el receptor lo gane.
+Pero las dos cosas se pueden dar a la vez, por separado o no darse.
+Si se da una o otra pero no las dos, implica que tiene un efecto revote en otro partido.
+Que partido puede recibir o perder ese voto? Todos tienen posibilidades pero normalmente hay mas probabilidad que lo pierda o lo gane un mayoritario.&lt;/p&gt;
+&lt;p&gt;En todo caso, coged el enVote y haced vuestra simulacion, oye.&lt;/p&gt;
+&lt;p&gt;Sin más, creo que os he dado herramientas suficientes para que hagáis los experimentos vosotros mismos.
+Espero que os sea útil.
+Como siempre en estas cosas os recomiendo que voteis a quien penséis que os representa mejor
+y si no habéis encontrado ese alguien,
+dejadme sugeriros que no os quedéis en casa, que considereis votar aunque sea a &lt;strong&gt;Escaños en Blanco&lt;/strong&gt;
+que convierten el voto en blanco en escaños vacios para que realmente nadie os represente.
+Que conste que no es mi opción, pero la recomendaré siempre como mejor opción que el no-voto.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
+Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
+Sabes leer.
+Pero hay mucha gente que vota al azar partidos pequeños como castigo.
+Ojo, que puedes acabar financiando los pintorescos autobuses del 12 de Octubre repleto de orangutanes gamados.</summary><content type="html">&lt;p&gt;Antes de entrar con los números un poco de poca imparcialidad:
+Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
+Sabes leer.
+Pero hay mucha gente que vota al azar partidos pequeños como castigo.
+Ojo, que puedes acabar financiando los pintorescos autobuses del 12 de Octubre repleto de orangutanes gamados.&lt;/p&gt;
+&lt;p&gt;Lo de votar partidos pequeños al azar es una estrategia viable cuyo efecto analizo en otro post,
+y no es del todo es mala, siempre que saques del sorteo a partidos neo-nazis o xenòfobos.
+Así que para que no haya confusiones aquí una lista de dichos partidos
+con una pequeña descripción por si te sientes orangutan gamado, sepas cual es tu clan.
+Hay unos cuantos.
+Mejor.
+Menos posibilidades de que salgan.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Democracia Nacional (DN):&lt;/strong&gt;
+Claramente neonazis, adscritos al partido de la señora LePen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;La España en marcha (LEM):&lt;/strong&gt;
+No, Leticia Sabater no se presenta. :-(
+Son varios partidos fachas que se han juntado para ver si llegan a algo en las europeas.
+Gente tan maja como
+Nudo Patriótico Español (NPe),
+La Falange (FE),
+Alianza Nacional (AN) y
+Movimiento Católico Español.
+Mea culpa, se ve que se han unido por culpa de los catalanes.
+Po venga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Movimiento Social Republicano (MSR):&lt;/strong&gt;
+Estos juegan muy al despiste.
+Le han copiado a alguien un programa de izquierdas pero finalizan todos los párrafos con
+'y eso es culpa de los inmigrantes y de los políticos que les dejan entrar, españa una, grande y libre y sin rey, mejor un fürher'.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Falange Española de las JONS (FE-JONS):&lt;/strong&gt;
+No mucho a decir de esto.
+La otra falange esta en LEM pero estos van por libre.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impulso Social (IS):&lt;/strong&gt;
+Garrulos del opus y nacionalcatolicistas unidos:
+Partido Familia y Vida (PFyV),
+la Comunión Tradicionalista Carlista (CTC) y
+Alternativa Española (AES)
+el último un limpiado de cara a Fuerza Nueva, eliminando la simbologia franquista.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pues eso, que si no eres un puto fascista de mierda, no tienes por que votar a esta gente.
+Se que hay mucha gente que meteria en esta lista al PP y a otros, pero hay que ser justos.
+Puede que en el PP haya algun facha y algun nazi, pero
+muchos PPeros solo estan ahi para pillar cacho y es injusto que les tachemos de nazis o fachas por ello.&lt;/p&gt;
+&lt;p&gt;Y despues de esto, me dejo de dar capones por parcial y pasamos a los numeros y a las matematicas.
+Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
+Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
+Y este primero, sin números, para que lo entiendan.</summary><content type="html">&lt;p&gt;A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
+Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
+Y este primero, sin números, para que lo entiendan.&lt;/p&gt;
+&lt;p&gt;Este es: &lt;strong&gt;No os olvideis de ir a votar a vuestro partido, como siempre&lt;/strong&gt;, pero, en vuestro caso,
+casi tan importante como votar es &lt;strong&gt;emplearos a fondo para desmotivar a todo aquel que veais que no tiene pinta de votar a vuestra opción&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;¿Por qué? Porque la gente esta que trina con los partidos que han ejercido "su responsabilidad de gobierno", y, si ese descontento se materializase en votos a candidaturas alternativas, podría ser una debacle electoral sin precedentes.
+Ademas en las europeas al ser circumscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
+Hay que evitar que la mayoría social se convierta en mayoría electoral.
+Hay que mantener a gente lejos de las candidaturas alternativas al bipartito.
+Hasta ahora habeis podido disfrutar de mayorias absolutas con entre un 20% y un 30% de los votos.
+Pero para que siga este chollo os teneis que emplear convenciendo a la gente de que no vote a candidaturas alternativas&lt;/p&gt;
+&lt;p&gt;Podeis decirles cosas como que todos los políticos en el fondo son iguales, que votar a partidos pequeños es tirar el voto, o que abstenerse o votar nulo es lo más radical porque rechaza el sistema o que votar en blanco es lo que decia Saramago que había que hacer.
+Como demostraré más abajo estas cosas no son ciertas, pero teneis la ventaja de que mucha gente se piensan que lo son, sólo teneis que repetirlo y la gente se quedara en casa o demostrará su descontento con una loncha de chorizo.&lt;/p&gt;
+&lt;p&gt;Un no-voto, de cualquiera de los tres tipos, no entra en competencia con el tuyo de cara a conseguir escaños.
+Un voto a otra candidatura sí os lo puede quitar.
+Para ti es tan importante ir a votar a PP-PSOE como desmotivar a otros que no voten a otras candidaturas.
+Así que ya sabes que hacer.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>Elecciones al Parlament 2012: Cómo afecta mi voto</title><link href="/posts/2012-11-25-1624-Parlament2012-ComoAfectaMiVoto.html" rel="alternate"></link><published>2012-11-25T16:24:00+01:00</published><updated>2012-11-25T16:24:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2012-11-25:/posts/2012-11-25-1624-Parlament2012-ComoAfectaMiVoto.html</id><summary type="html">Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.</summary><content type="html">&lt;h3&gt;¿Cómo evalúo el efecto de mi voto o no voto?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;El efecto de tu opción es lo que haces, pero también lo que dejas de hacer: Es importante el &lt;strong&gt;voto cesante&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;A los que votastes y ahora no.&lt;/li&gt;
+&lt;li&gt;A los que tenías como opción y te has decidido por otra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Para evaluar el efecto de tu opción, conviene&lt;ul&gt;
+&lt;li&gt;suponer que todos han elegido ya,&lt;/li&gt;
+&lt;li&gt;determinar la situación más probable&lt;/li&gt;
+&lt;li&gt;y entonces ver que pasa si quitas tu opción pasada y añades tu posible opción ahora&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Un voto aislado rara vez tiene efecto (1 de cada 24000), considera tu opción &lt;strong&gt;una opción de grupo&lt;/strong&gt;:&lt;ul&gt;
+&lt;li&gt;Es probable que una determinada gente que hizo lo que tú en el pasado, haga lo mismo que tú y por los mismos motivos.&lt;/li&gt;
+&lt;li&gt;Plantearte: &lt;strong&gt;¿Cuántos tenemos que ser para provocar un cambio, bueno o malo, en el resultado?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;10, 100, 1000, 10000...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Y después: &lt;strong&gt;¿Es probable que seamos todos esos?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El resultado dependerá bastante de la situación de partida&lt;ul&gt;
+&lt;li&gt;Puedes partir de situaciones probables:&lt;ul&gt;
+&lt;li&gt;Últimas elecciones&lt;/li&gt;
+&lt;li&gt;Últimas encuestas&lt;/li&gt;
+&lt;li&gt;Añadiendo lo que crees que ha pasado desde entonces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Puedes plantear hipótesis extremas de partida para delimitar los efectos posibles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tu opción solo afecta a los resultados de tu circumscripción (província)&lt;ul&gt;
+&lt;li&gt;Un voto solo suma con otros iguales en la misma província.&lt;/li&gt;
+&lt;li&gt;Esta es la mayor causa de desproporción del sistema electoral. Más que la ley de hondt o el umbral del 3%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;El caso que nos atañe&lt;/h3&gt;
+&lt;p&gt;Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se reparten 85 escaños.&lt;ul&gt;
+&lt;li&gt;Muy diferente de los 31 escaños de las generales donde es improbable que afecte el umbral del 3%.&lt;/li&gt;
+&lt;li&gt;Muy diferente de Lleida, Tarragona y Girona donde es casi imposible que afecte el umbral del 3%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Somos 3.916.014 votantes potenciales, según el censo de octubre.&lt;/li&gt;
+&lt;li&gt;Tenemos 16 candidaturas&lt;ul&gt;
+&lt;li&gt;7 con representacion actualmente (uno, SI, con muchas opciones de salirse según encuestas)&lt;/li&gt;
+&lt;li&gt;9 extraparlamentarios (uno, CUP, con muchas opciones de entrar según encuestas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Si no se dice lo contrario, cuando se habla de número de votos se habla de este caso.
+Y se considera un voto válido de 60% del censo. (abstencion+nulo=40%).&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;El recuento según la ley&lt;/h3&gt;
+&lt;p&gt;Para el Parlament de Catalunya, la ley es la misma que
+para elegir diputados en el Congreso de los Diputados.&lt;/p&gt;
+&lt;p&gt;Para &lt;strong&gt;cada circumscripción&lt;/strong&gt; se hace lo siguiente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Se cuentan los votos validos, esto es los votos a candidaturas y los votos en blanco, descartándose los nulos (y las abstenciones)&lt;/li&gt;
+&lt;li&gt;Se descartan las candidaturas que no lleguen al 3% de esos votos válidos&lt;/li&gt;
+&lt;li&gt;Se obtienen cocientes de dividir los votos de cada candidatura por 1, 2, 3, 4....&lt;/li&gt;
+&lt;li&gt;Se asigna escaño a los mayores cocientes de todas las candidaturas&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Pantalla del enVote con la estadística de El Pais" src="/images/parlament2012-EncuestaElPais17N.png" title="Encuesta de El Pais del 17 de Noviembre simulada con enVote"&gt;&lt;/p&gt;
+&lt;p&gt;Mecánicamente la norma es esa.
+Pero ¿qué implicaciones tiene?
+¿Cómo afecta mi voto?
+¿Cúal es la mejor estratégia como votante?&lt;/p&gt;
+&lt;h3&gt;Costo mínimo por escaño&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;El &lt;strong&gt;costo por escaño&lt;/strong&gt; para una formación es el cociente votos/escaños.&lt;ul&gt;
+&lt;li&gt;Coincide con el último cociente de la formación que obtuvo escaño.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El último repartido de todas las formaciones coincide con el &lt;strong&gt;coste mínimo&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;En enVote es el número rojo con fondo de celda azul.&lt;/li&gt;
+&lt;li&gt;Este coste mínimo sube con la participación:&lt;ul&gt;
+&lt;li&gt;En Barcelona, para las últimas autonómicas, ronda los 24mil votos&lt;/li&gt;
+&lt;li&gt;Los extremos han sido 28mil en 2006 y 22mil en 1980&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El reparto asegura que &lt;strong&gt;si asignáramos ese coste mínimo por escaño a todas las formaciones,
+  a ninguna le sobrarían votos para obtener un escaño más&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Lo que sobre de este reparto por el costo mínimo, es el &lt;strong&gt;resto inútil&lt;/strong&gt;.&lt;ul&gt;
+&lt;li&gt;El efecto del resto inútil es el mismo que si fueran votos en blanco.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Todas las formaciones que han superado el umbral tienen una igual probabilidad de obtener cualquier resto entre cero y el mínimo coste sin llegar a él.&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;En porcentaje, se diluye en los mayoritarios, y gana importancia en minoritarios.&lt;ul&gt;
+&lt;li&gt;Esto es lo que genera la desproporción en la ley de Hondt.&lt;/li&gt;
+&lt;li&gt;Mitificado: Hay causas mayores para la desproporción como son la división en circumscripciones, y, en Barcelona para las autonómicas, el umbral.&lt;/li&gt;
+&lt;li&gt;Esta acotada por el coste mínimo, suele dar como máximo dos o tres escaños más a los mayoritarios respecto a una repartición proporcional pura.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;En cambio, considerando que todos han votado ya y os toca a tu grupo:&lt;ul&gt;
+&lt;li&gt;tienes las mismas posibilidades de que vuestro voto sea resto inútil para cualquier opción que haya pasado del umbral.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Efecto del umbral&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;En las autonómicas en Barcelona, cobra importancia el umbral del 3%.&lt;ul&gt;
+&lt;li&gt;Hay suficientes escaños (85) para que el &lt;strong&gt;coste mínimo de los escaños esté por debajo del umbral&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;En Tarragona, Lleida i Girona es practicamente imposible que se aplique el umbral.&lt;/li&gt;
+&lt;li&gt;En las Generales en Barcelona, tampoco es probable que se aplique el umbral:&lt;ul&gt;
+&lt;li&gt;Solo se reparten 31 escaños,&lt;/li&gt;
+&lt;li&gt;El umbral queda más o menos donde el coste mínimo, si afecta lo hace en un intervalo muy pequeño de votos.&lt;/li&gt;
+&lt;li&gt;Nunca ha llegado a pasar con 31 escaños. (Paso en Madrid una vez cuando tenian 35)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Las formaciones que entran, lo hacen con dos escaños y se quedan muy cerca (a unos 800 votos) del tercero&lt;/li&gt;
+&lt;li&gt;Se necesitan 56 votos válidos para subir el umbral un voto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Efectos en general&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Abstención y nulo son equivalentes en el conteo. No cuentan y su único efecto es su voto cesante.&lt;ul&gt;
+&lt;li&gt;Si los usas como protesta, (abstencion activa y nulo intencionado) se confunden con abstención pasiva y errores no intencionados.&lt;/li&gt;
+&lt;li&gt;Si quieres visibilizar tu protesta con un no-voto:&lt;ul&gt;
+&lt;li&gt;Hay mucha abstención pasiva comparada con la activa&lt;/li&gt;
+&lt;li&gt;Quizás no haya tantos nulos por error como intencionados y aquí sea mas visible la protesta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Aún así hay opciones de voto claramente de protesta contra el sistema electoral&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El voto cesante del no-voto (blanco, nulo, abstención) &lt;strong&gt;beneficia a quien no te hubieras planteado votar para nada.&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Porque el voto cesante perjudica a los que si te hubieras planteado, y por contraste beneficia a los otros.&lt;/li&gt;
+&lt;li&gt;Si convenzo a la gente de izquierdas de que votar es inútil, sale beneficiada la derecha.&lt;/li&gt;
+&lt;li&gt;Si convenzo a los minoritarios de que su voto es inútil, se benefician los mayoritarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El blanco sería igual que el nulo y la abstención, en cuanto a efecto, si no fuera porque sube el umbral del 3% pues se cuenta como uno válido.&lt;/li&gt;
+&lt;li&gt;El efecto real del voto en blanco sobre el umbral del 3%:&lt;ul&gt;
+&lt;li&gt;Sube el umbral igual que un voto a una candidatura. &lt;strong&gt;Ni más ni menos.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;No es tan malo como dicen&lt;/li&gt;
+&lt;li&gt;Hay mínimo tres opciones extra-parlamentarias que proponen el blanco computable y una que lo implementa dejando el escaño en blanco y no cobrando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hay gente que descarta el voto en blanco, y escoge el nulo por no perjudicar a los extraparlamentarios subiendo el umbral.&lt;ul&gt;
+&lt;li&gt;Si realmente les preocupasen los extraparlamentarios, no deberían votar ni nulo ni blanco sino a uno de los 11 extraparlamentario aunque fuera al azar.&lt;/li&gt;
+&lt;li&gt;Como el umbral sube un voto cada 56 votos que se den de esta manera:&lt;ul&gt;
+&lt;li&gt;Representaría 5 votos para cada extraparlamentario por cada voto que subiera el umbral.&lt;/li&gt;
+&lt;li&gt;Si excluimos a los 3 xenófobos (PxC, MSR y vD) son 7 votos por voto arriba del umbral.&lt;/li&gt;
+&lt;li&gt;Si tienes preferencias más especificas, darlo al azar entre ellas la subida del umbral será aún menos efectiva.&lt;/li&gt;
+&lt;li&gt;Conclusión: Si quieres ayudar a los extraparlamentarios, vale la pena subir el umbral votándoles aunque sea a uno al azar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Efecto del voto a formaciones que se quedan fuera:&lt;ul&gt;
+&lt;li&gt;El principal efecto es el voto cesante si lo hubiera&lt;/li&gt;
+&lt;li&gt;Sube el umbral igual que cualquier otra opción&lt;/li&gt;
+&lt;li&gt;No tiene efectos sobre el reparto.&lt;/li&gt;
+&lt;li&gt;En resumen, es equivalente a un voto en blanco.&lt;/li&gt;
+&lt;li&gt;Si es alto, tiene el efecto psicológico sobre futuros votantes potenciales de que esa opción tendrá posibilidades en el futuro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Para que entre un extraparlamentario:&lt;ul&gt;
+&lt;li&gt;Con participaciones típicas entre 60% y 70%, en Autonómicas Barcelona, &lt;strong&gt;los extraparlamentarios tienen que juntar entre 70mil y 80mil votos para entrar&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Eso es mucho mas que el costo que el costo mínimo, pero cuando entran entran con dos escaños y de camino para el tercero.&lt;/li&gt;
+&lt;li&gt;Este umbral solo afecta a las autonómicas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Votos que se podrían convertir en blancos sin cambiar el resultado:&lt;ul&gt;
+&lt;li&gt;Los votos en blanco, evidentemente&lt;/li&gt;
+&lt;li&gt;Los votos de los restos de cada partido con representación después de repartir los escaños por el costo mínimo&lt;ul&gt;
+&lt;li&gt;entre 0 y 24mil votos inútiles, de media 12mil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Los votos a formaciones que no logran pasar el umbral (entre 0 y 71mil)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;No hay limite para el voto en blanco, abstencion o nulo que pueda invalidar las elecciones o algo similar&lt;ul&gt;
+&lt;li&gt;En el caso muy improbable de que ninguna formacion tuviera el 3% del voto válido (el resto deberian de ser blancos) no se podría escoger ningún escaño.&lt;/li&gt;
+&lt;li&gt;No es una buena estrategia, antes de llegar a ahí es posible que saliera un parlamento unicolor o solo de mayoritarios que da más miedo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Efecto de flujos de votantes en partidos con representación segura:&lt;ul&gt;
+&lt;li&gt;La probabilidad de que N votos ayuden a ganar (o perder, si los quitas) un escaño es exactamente la misma para mayoritarios y minoritarios.&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Esto es contrario al mito de que tu voto es más útil si votas a un mayoritario&lt;/strong&gt;a&lt;/li&gt;
+&lt;li&gt;Porqué es así?&lt;ul&gt;
+&lt;li&gt;Para que esos N ganen un escaño tienen que sumar con los que haya de resto para llegar al costo mínimo&lt;/li&gt;
+&lt;li&gt;El resto existente antes de añadir los N, es un número al azar menor que el costo mínimo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El supuesto voto útil para evitar un mal mayor, puede tener un efecto contrario al deseado:&lt;ul&gt;
+&lt;li&gt;En las elecciones generales de 2008, algunos votantes de Iniciativa votaron al PSC para frenar al PP.&lt;/li&gt;
+&lt;li&gt;Si 2000 de ellos no lo hubieran hecho, un escaño que perdió iniciativa no lo hubiera ganado el PP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Los minoritarios son más sensibles a estos flujos pequeños:&lt;ul&gt;
+&lt;li&gt;Un solo escaño sube o baja mucho más su representatividad relativa.&lt;/li&gt;
+&lt;li&gt;El coste del escaño para un partido pequeño se reduce mucho a cada escaño ganado.&lt;/li&gt;
+&lt;li&gt;En los mayoritarios ese coste relativo es mas uniforme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Consejo: No hay voto más útil que el que se ajusta bien a lo que piensas.&lt;/strong&gt;&lt;/p&gt;</content><category term="Parlament"></category></entry><entry><title>Xerrada: Llei electoral, mites i llegendes.</title><link href="/posts/2011-11-16-0009-xerrada-llei-electoral-mites-i-llegendes.html" rel="alternate"></link><published>2011-11-16T00:09:46+01:00</published><updated>2011-11-16T00:09:46+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-16:/posts/2011-11-16-0009-xerrada-llei-electoral-mites-i-llegendes.html</id><summary type="html"></summary><content type="html">&lt;p style="display:block; width:220; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aquest &lt;b&gt;dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí&lt;/b&gt; farem una xerrada sobre el
+&lt;a title="Com s'aplica la llei electoral a les generals a Barcelona" href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html"&gt;sistema electoral&lt;/a&gt;,
+les &lt;a title="20N: opcions de vot i no vot" href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;diferents opcions de vot y no vot&lt;/a&gt;,
+i les seves possibles conseqüències.&lt;/p&gt;
+&lt;p&gt;A l'acampada hem dut a terme una intensa recerca per comprovar si allò que
+&lt;a title="Resum de mites i llegendes sobre el sistema electoral" href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;es diu sobre el tema és realment cert o no&lt;/a&gt;,
+analitzant lleis i &lt;a title="enVote: simulador de fluxos electorals" href="/pages/envote-simulador-de-flujos-electorales.html"&gt;simulant casos&lt;/a&gt;.
+Volem compartir aquest esforç amb tota la gent de Sant Joan Despi i d'altres galaxies.
+Us assegurem que algunes conclusions són realment sorprenents i tenen una bona base de justificació.&lt;/p&gt;
+&lt;p&gt;Esteu tots convidats a vindre amb els vostres pròpis dubtes, si no coneixem la resposta, potser ho podem passar pel simulador.
+I si no podeu vindre, teniu resums penjats al
+&lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="/posts/2011-11-15-0215-20n.html"&gt;blog de l'acampada&lt;/a&gt;.
+Doneu-los difussió!&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.</summary><content type="html">&lt;h2&gt;Votos a candidaturas&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.&lt;/p&gt;
+&lt;p&gt;Infórmate de las opciones. No hay ningún voto más útil que otro.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mayoritarios:&lt;/strong&gt;  PP, PSC/PSOE y CiU. Són los que se alternan en el poder actualmente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minoritarios con representación:&lt;/strong&gt;  UI/ICV, ERC, UPyD. Ayudan a romper el bipartidismo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extra parlamentarios:&lt;/strong&gt; Añaden pluralidad. Han tenido que juntar firmas para presentarse.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Con programa ideológico:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Anticapitalistes (Altermundialistas)&lt;/li&gt;
+&lt;li&gt;PACMA (Animalistas)&lt;/li&gt;
+&lt;li&gt;UCE (Comunistas, No nacionalistas)&lt;/li&gt;
+&lt;li&gt;PxC (Xenófobos, Extrema derecha)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Queja contra el sistema electoral y político&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Escons en Blanc: Dejan el escaño vacío y no cobran. Consiguieron "no-regidores" en las municipales.&lt;/li&gt;
+&lt;li&gt;Pirates.cat: Sus diputados delegarian el voto por internet. Consiguieron "regidores colmena" en las municipales.&lt;/li&gt;
+&lt;li&gt;No pudieron recoger firmas: Hartos.org y PATO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Abstención&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; No votando.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En Generales/BCN la abstención máxima fue del 34% en 2000, siempre es primera o segunda opción&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Límite:&lt;/strong&gt; Los votantes acérrimos de cada partido no dejarían que pasara del 44%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recuento:&lt;/strong&gt; Ningún efecto más allá del voto cesante.&lt;ul&gt;
+&lt;li&gt;No hay ningún tope en el voto nulo que haga que se anulen las elecciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hay dos tipos de abstención según los motivos.&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abstención pasiva:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; &lt;em&gt;No me interesa la política&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;resenta mínimo el 85% de la abstención (según CIS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstención activa:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; &lt;em&gt;No quiero legitimar el sistema con mi participación&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;És difícil diferenciarla de la pasiva&lt;/li&gt;
+&lt;li&gt;Sigue siendo una opción ética personal válida&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Voto nulo (activo)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Metiendo algo que no sea una papeleta de un partido o tachándola.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; Es un voto de queja&lt;ul&gt;
+&lt;li&gt;Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito por nosotros o una loncha de chorizo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problema:&lt;/strong&gt; Confundible con errores, pero, si hay mucho, la queja es perfectamente visible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efecto:&lt;/strong&gt; Ningún efecto para los partidos de ningún tipo, más allá del voto cesante.&lt;ul&gt;
+&lt;li&gt;No hay ningún tope en el voto nulo que haga que se anulen las elecciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Voto blanco&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; No metiendo nada en el sobre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; 'no me gusta ninguno'&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problema:&lt;/strong&gt;Sube el umbral que tienen los partidos minoritarios para entrar.&lt;ul&gt;
+&lt;li&gt;En las Generales, el efecto del umbral no es tan importante como en las autonòmicas.&lt;/li&gt;
+&lt;li&gt;Nunca ha afectado en Generales pero podría evitar que el último partido no entre si entra justo.&lt;/li&gt;
+&lt;li&gt;En ese caso, ese escaño iría a parar con mayor probabilidad a un mayoritario.&lt;/li&gt;
+&lt;li&gt;Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efecto:&lt;/strong&gt; A parte de subir el umbral del 3%, ninguno a los partidos&lt;ul&gt;
+&lt;li&gt;No hay ningún tope al voto en blanco que haga que se anulen las elecciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Planteándote el efecto de tu opción&lt;/h2&gt;
+&lt;p&gt;Todas las opciones, tienen el efecto del voto cesante. Es decir, si en las anteriores elecciones tu optaste por la opción A, o si A es una de las opciones que planteas para estas elecciones, pero acabas escogiendo la opción B, la opción A sale perjudicada respecto a una tercera opción C que no te planteabas escoger.&lt;/p&gt;
+&lt;p&gt;El truco para pensar en el efecto de tu voto es:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Imaginarte la situación más probable como si aun no hubieras votado&lt;/li&gt;
+&lt;li&gt;Imaginar que tu voto vale por 100, 1.000, 10.00, o 100.000 y pensar en cada escala que pasaría si todas esas personas hicieran lo mismo que tu: pasar de la opcion A a la opción B.&lt;/li&gt;
+&lt;li&gt;Puedes usar &lt;a href="/pages/envote-simulador-de-flujos-electorales.html"&gt;nuestro simulador&lt;/a&gt; para visualizar el efecto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+&lt;div class='caption'&gt;
+Resumen difundible sobre ley electoral  y las opciones para el 20N.
+&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category></entry><entry><title>20N: Llei electoral actual</title><link href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html" rel="alternate"></link><published>2011-11-15T04:14:31+01:00</published><updated>2011-11-15T04:14:31+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0414-20n-llei-electoral-actual.html</id><summary type="html">&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De la 
+&lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
+hem extret el que ens afecta en aquestes eleccions com a part de la circunscripció de Barcelona.
+</summary><content type="html">&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+&lt;div class=caption&gt;Octaveta llei i opcions&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De la 
+&lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
+hem extret el que ens afecta en aquestes eleccions com a part de la circunscripció de Barcelona.
+&lt;/p&gt;
+&lt;h2&gt;Qué decidim a les eleccions?&lt;/h2&gt;
+&lt;p&gt;Com el sistema electoral está &lt;strong&gt;dividit en circunscripcions provincials&lt;/strong&gt;,
+només podem decidir sobre els &lt;strong&gt;31 diputats&lt;/strong&gt; i els &lt;strong&gt;4 senadors&lt;/strong&gt; que surten de &lt;strong&gt;Barcelona&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Només una part del Senat es renova per elecció directa dels ciutadans.
+La resta s'escull indirectament des dels parlaments autonómics.&lt;/p&gt;
+&lt;h2&gt;Com s'escullen els senadors?&lt;/h2&gt;
+&lt;p&gt;Pel Senat, &lt;strong&gt;el vot va a la persona i no pas al partit&lt;/strong&gt;.
+Cada votant pot donar &lt;strong&gt;de zero a tres vots&lt;/strong&gt;.
+Els 4 senadors que tinguin més vots son els que surten.&lt;/p&gt;
+&lt;p&gt;Si només poses una creu, no van tots tres al mateix senador,
+les creus que no poses, es perden.&lt;/p&gt;
+&lt;h2&gt;Com s'escullen els diputats al congrés&lt;/h2&gt;
+&lt;p&gt;Pel congrés, &lt;strong&gt;el vot va als partits&lt;/strong&gt;,
+que proposen una &lt;strong&gt;llista ordenada de candidats&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Les candidatures amb menys del 3% del vot válid no entren en el repartiment.
+Es consideren vàlids els vots blancs i els vots a candidatures.
+No ho són els vots nuls.&lt;/p&gt;
+&lt;p&gt;El repartiment es fa obtenint, per cada partit, un números, anomenats quocients.
+Es calculen dividint els vots de cada partit per 1, 2, 3, 4...&lt;/p&gt;
+&lt;p&gt;Obtenen l'escò els 31 cocients més alts.&lt;/p&gt;
+&lt;h2&gt;Exemple: Generals a Barcelona, 2008&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Els que surten amb el número en gris els partits que estan per sota del 3%.&lt;/li&gt;
+&lt;li&gt;Els que surten amb fons blau son el dividends que obtenen escons&lt;/li&gt;
+&lt;li&gt;Els quocient amb el fons fosc són els escollits.&lt;/li&gt;
+&lt;li&gt;Els numeros vermells i taronges son els que estan que sí que no.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="/images/Envote-HondtGeneralsBCN2008.png"&gt;&lt;img alt="" src="/images/Envote-HondtGeneralsBCN2008.png"&gt;
+&lt;div class='caption'&gt;
+Taula de fla llei d'Hondt - Generals 2008 a Barcelona (Click per ampliar)
+&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Legislación"></category></entry><entry><title>20N</title><link href="/posts/2011-11-15-0215-20n.html" rel="alternate"></link><published>2011-11-15T02:15:37+01:00</published><updated>2011-11-15T02:15:37+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0215-20n.html</id><summary type="html">&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+
+Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
+
+&lt;/a&gt;</summary><content type="html">&lt;p&gt;&lt;a href="/images/LleiOpcions.png"&gt;&lt;img alt="" src="/images/LleiOpcions.png"&gt;
+&lt;div class='caption'&gt;
+Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
+&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material de difusión preparado por la acampada para el 20N.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/posts/2011-11-15-0414-20n-llei-electoral-actual.html"&gt;Sistema electoral actual, com funciona, que ens pertoca a la circunscripció de Barcelona
+    &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;Opciones de voto (o no voto)
+    &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;Mitos y leyendas sobre el sistema electoral
+    &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote: Simulador de flujos electorales
+    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:None,2011-11-15:/posts/2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.</summary><content type="html">&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
+&lt;p&gt;Para confirmar o desmentir todas estas historias las hemos contrastado con lo que dice la
+&lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
+y hemos simulado los efectos varios en nuestra circunscripción (Barcelona) con un simulador.
+Puedes bajarte &lt;a href="/pages/envote-simulador-de-flujos-electorales.html" title="enVote"&gt;el simulador y los datos&lt;/a&gt;
+y comprobarlo por ti mismo o simular tu propia provincia.&lt;/p&gt;
+&lt;p&gt;También puedes querer conocer cuales son las diferentes
+&lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;opciones de voto o no voto&lt;/a&gt;
+que consideramos.&lt;/p&gt;
+&lt;p&gt;&lt;a href="/images/MitosElectorales.png"&gt;&lt;img src="/images/MitosElectorales.png" alt="" title="Mitos Electorales" width="100%" class="aligncenter size-full wp-image-245" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Se vota para decidir quien gobierna.&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Falso.&lt;/strong&gt; Se vota para ver &lt;strong&gt;quien nos representa&lt;/strong&gt;.&lt;/dd&gt;
+&lt;dd&gt;La primera decisión que toman nuestros representantes en nuestro nombre es &lt;em&gt;quien gobierna&lt;/em&gt;.&lt;/dd&gt;
+&lt;dd&gt;Aunque una fuerza tenga más votos, si tiene mas votos en contra puede no gobernar, o lo hará subordinada a la mayoría de parlamentarios.&lt;/dd&gt;
+&lt;dd&gt;No tiene sentido votar para que gane uno o gane otro.&lt;/dd&gt;
+&lt;dt&gt;Si la abstención o el voto blanco o nulo supera un límite, pasa algo&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;No, no pasa nada&lt;/strong&gt;, ya pueden ser altísimos. Sería escándaloso pero ni se anulan, ni se repiten elecciones.&lt;/dd&gt;
+&lt;dt&gt;El umbral del 3% sobre el voto válido perjudica a los minoritarios&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Cierto&lt;/strong&gt;, pero en unas generales en Barcelona &lt;strong&gt;nunca ha llegado a pasar&lt;/strong&gt;.&lt;/dd&gt;
+&lt;dd&gt;Hay pocos escaños, comparado con las autonómicas, y cuesta que el reparto llegue a partidos por debajo del umbral.&lt;/dd&gt;
+&lt;dd&gt;Si pasara, afectaría como máximo al partido menos votado si tuviera los votos justos para un escaño.&lt;/dd&gt;
+&lt;dd&gt;En ese caso el voto no tiene por que irse a un mayoritario, pero sí que el mayoritario tiene más números que un minoritario para quedárselo.&lt;/dd&gt;
+&lt;dt&gt;El voto en blanco sube el umbral del 3%&lt;/dt&gt;
+&lt;dd&gt;Cierto, el voto en blanco se considera válido y se usa para calcular el 3%. Sin embargo sube en la misma medida que lo subiría un voto a candidatura. Por cada 1% mas de voto en blanco, el umbral sube en 700 votos aprox.&lt;/dd&gt;
+&lt;dt&gt;El voto blanco, nulo o la abstención favorecen a los mayoritarios&lt;/dt&gt;
+&lt;dd&gt;Falso. Si el voto blanco no activa el umbral del 3%, el reparto de Hondt es indiferente a la existencia de estas opciones. Si que se puede considerar el efecto del voto cesante, si se considera que los que han optado por estas opciones hubieran podido votar a minoritarios o alternativos sobre todo el nulo o el blanco que está más relacionado con la protesta y muy seguramente no votarian a mayoritarios.&lt;/dd&gt;
+&lt;dt&gt;El voto blanco, nulo o a la abstención es voto cesante a los minoritarios&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;No es cierto del todo sobre todo para la abstención&lt;/strong&gt;.&lt;/dd&gt;
+&lt;dd&gt;La abstención tiene un componente muy fuerte de abstención pasiva o de gente poco informada en política segun el CIS. Gran parte este 33% de gente que opta por estas opciones no votaría ni a mayoritarios ni a minoritarios ni a alternativas y muchos simplemente votarían a uno de los mayoritarios.&lt;/dd&gt;
+&lt;dd&gt;Otro tema distinto es que a los mayoritarios si que les conviene que el voto de queja se traduzca en voto nulo, blanco o abstención y no en votos a una candidatura que si que les podría suponer problemas.&lt;/dd&gt;
+&lt;dt&gt;El voto nulo perjudica a mayoritarios&lt;/dt&gt;
+&lt;dd&gt;Falso. Si optas por nulo porque querias perjudicar a los mayoritarios seguramente tampoco ibas a votar mayoritarios, por lo cual no les perjudica ni por ser un voto cesante.&lt;/dd&gt;
+&lt;dt&gt;La ley de Hondt favorece a los mayoritarios&lt;/dt&gt;
+&lt;dd&gt;Cierto. Sin embargo mantiene la proporcionalidad de los escaños que se obtendrían enteros. La desproporcion viene del reparto de restos. En Generales en BCN, el más mayoritario gana como máximo dos escaños por encima de lo proporcional. En Generales en BCN, el más minoritario pierde como máximo un escaño por debajo de lo proporcional. Contra más desproporción haya en los votos, más desproporción hay en el reparto de restos.&lt;/dd&gt;
+&lt;dt&gt;Se requieren menos votos para un escaño contra más escaños tengas&lt;/dt&gt;
+&lt;dd&gt;Falso. El 'precio por escaño' (votos/escaños) sube a medida que una candidatura se acerca al siguiente escaño sin obtenerlo. Cuando lo obtiene el precio pasa a ser el precio mínimo. Ese precio mínimo es el que hay que juntar para obtener cada escaño. Y en ese sentido tienen igual fuerza 100 votos en una candidatura con ningún escaño que en una con diez.&lt;/dd&gt;
+&lt;dt&gt;Algunas formaciones tienen que juntar 10 veces más votos que otras&lt;/dt&gt;
+&lt;dd&gt;Eso pasa a nivel nacional porque se juntan los restos que no han obtenido escaño en cada provincia. Sirve para visualizar la injusticia del sistema electoral por circunscripciones, pero tu voto vale lo mismo votes a quien votes a excepción de los restos en Hondt.&lt;/dd&gt;
+&lt;dt&gt;Es voto útil votar al grande menos malo&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Falso.&lt;/strong&gt; Para restarle votos a un partido, puedes sumar votos en cualquiera de las otras opciones. Todas tienen la misma probabilidad de que no acabes sumando votos para obtener el siguiente escaño.&lt;/dd&gt;
+&lt;dt&gt;Es voto tirado votar a candidaturas extraparlamentarias&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Si, pero es relativo.&lt;/strong&gt;
+  Todas las candidaturas con o sin representación tienen un número de votos de resto desde el último voto que consiguió escaño. Por probabilidades, ese número de votos tirados es igual en todos los partidos.&lt;/dd&gt;
+&lt;dt&gt;Cuando una opción se divide normalmente sale perdiendo&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Cierto.&lt;/strong&gt; Si una opción se divide por tres, habrá tres restos de escaño en vez de solo uno.&lt;/dd&gt;
+&lt;dt&gt;La nueva ley electoral que exige firmas a los extra-parlamentarios reducirá la pluralidad&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Verdad&lt;/strong&gt; pero también tiene un &lt;strong&gt;efecto boomerang&lt;/strong&gt;. Al ser menos alternativas extraparlamentarias, el voto alternativo estará más concentrado y hay mas posibilidades de que entren.&lt;/dd&gt;
+&lt;dt&gt;Si la gente concentra su voto en una formación, se consiguen más escaños&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;Mentira.&lt;/strong&gt; Siempre habrá gente que vote a las otras, y mientras haya formaciones que reciban restos la concentración no es un beneficio.&lt;/dd&gt;
+&lt;dt&gt;Cuando un extra-parlamentario o minoritario coge un escaño, fastidia a otros partidos pequeños&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;¡Es al revés!&lt;/strong&gt; Los partidos mayoritarios tienen mas probabilidad de perder el escaño que gana un extra-parlamentario o minoritario.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;En resumen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si encuentras una opción que te represente puedes votar en consciencia sin miedo a que perjudicar a otras opciones.
+  &lt;a href="/posts/2011-11-15-0441-20n-opciones-de-voto-o-no-voto.html"&gt;Infórmate de las opciones que hay&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Si ninguna opción te representa, puedes votar a candidaturas de protesta contra el sistema electoral.&lt;/li&gt;
+&lt;li&gt;No hay un voto mas perdido que otro, no hay una candidatura más útil que otra.&lt;/li&gt;
+&lt;li&gt;Si la candidatura que votas toma un escaño por tu voto, se lo quitará con más probabilidad a un mayoritario. Mientras no lo tome, no afecta a nadie.&lt;/li&gt;
+&lt;li&gt;También puedes votar en nulo, blanco o abstenerte activamente para mostrar tu queja, sin miedo de que afecte en el reparto.&lt;/li&gt;
+&lt;li&gt;De estas tres opciones de no-voto, el voto nulo es más visible que la abstención activa, y no tiene el peligro de favorecer a los mayoritarios como voto en blanco.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>De la politica ficción a la política acción</title><link href="/posts/2011-11-13-1659-SantFeliu-PoliticaFiccioPoliticaAccio-talkoutline.html" rel="alternate"></link><published>2011-11-13T16:59:00+01:00</published><updated>2011-11-13T16:59:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:None,2011-11-13:/posts/2011-11-13-1659-SantFeliu-PoliticaFiccioPoliticaAccio-talkoutline.html</id><summary type="html">Este es el &lt;em&gt;outline&lt;/em&gt; que seguimos en las primeras charlas que dimos
+para dar difusión a los resultados de nuestras pesquisas.
+La primera fue en la Plaça de la Vila de &lt;strong&gt;Sant Feliu de Llobregat&lt;/strong&gt;
+y la segunda en el Foment Cultural I Artístic de &lt;strong&gt;Sant Joan Despí&lt;/strong&gt;.
+sobre los resultados de nuestra investigación.</summary><content type="html">&lt;p&gt;Este es el &lt;em&gt;outline&lt;/em&gt; que seguimos en las primeras charlas que dimos
+para dar difusión a los resultados de nuestras pesquisas.
+La primera fue en la Plaça de la Vila de &lt;strong&gt;Sant Feliu de Llobregat&lt;/strong&gt;
+y la segunda en el Foment Cultural I Artístic de &lt;strong&gt;Sant Joan Despí&lt;/strong&gt;.
+sobre los resultados de nuestra investigación.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ojo:&lt;/strong&gt; Algunas de las conclusiones que dimos aquí,
+después las tuvimos que revisar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No somos expertos.&lt;ul&gt;
+&lt;li&gt;No es una clase magistral sino una exposición de lo aprendido&lt;/li&gt;
+&lt;li&gt;15M como punto de aprendizaje: economia, politica, organizacion, informatica, derecho&lt;/li&gt;
+&lt;li&gt;Cada uno vuelca lo que sabe y lo contrasta con lo que sabe el otro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Que os voy a explicar?&lt;ul&gt;
+&lt;li&gt;No como mejorar el sistema electoral -&amp;gt; Como funciona para usarlo o no&lt;/li&gt;
+&lt;li&gt;Yo tengo mis opciones, ojo conmigo&lt;ul&gt;
+&lt;li&gt;Anarquista pero no abstencionista&lt;/li&gt;
+&lt;li&gt;Voto a izquierdas: normalmente ICV&lt;/li&gt;
+&lt;li&gt;Hago campaña por Eb, Pirates, Anticapitalistas, Equo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;No os voy a decir que hacer el 20N -&amp;gt; Explicar opciones y sus consecuencias&lt;ul&gt;
+&lt;li&gt;Hasta donde se puede llegar con cada opcion?&lt;/li&gt;
+&lt;li&gt;Que masa critica se necesita?&lt;/li&gt;
+&lt;li&gt;Que efectos laterales tiene?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A menudo escuchamos historias sobre esto.&lt;/li&gt;
+&lt;li&gt;No siempre estan fundamentadas&lt;/li&gt;
+&lt;li&gt;Muchas veces nos creemos unas o otras&lt;ul&gt;
+&lt;li&gt;segun lo que queremos creer&lt;/li&gt;
+&lt;li&gt;segun las veces que nos lo repiten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ejemplos:&lt;ul&gt;
+&lt;li&gt;El voto util&lt;/li&gt;
+&lt;li&gt;El voto en blanco que se quedan los mayoritarios&lt;/li&gt;
+&lt;li&gt;El voto en blanco que hacia daño a los minoritarios&lt;/li&gt;
+&lt;li&gt;El voto nulo que no lo hacia&lt;/li&gt;
+&lt;li&gt;El voto a las fuerzas sin representacion que hacia daño a las minoritarias con representación&lt;/li&gt;
+&lt;li&gt;La abstención favoreciendo a las mayorias&lt;/li&gt;
+&lt;li&gt;La ley de Hondt favoreciendo las mayorias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En Sant Joan, queriamos hacer algo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Decidimos no apoyar una opcion concreta, sino informar&lt;/li&gt;
+&lt;li&gt;Pusimos en comun lo que pensabamos que sabiamos&lt;ul&gt;
+&lt;li&gt;Muchas cosas contradictorias&lt;/li&gt;
+&lt;li&gt;Ninguna estaba fundamentada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Decidimos:&lt;ul&gt;
+&lt;li&gt;Buscar fuentes primarias sobre la ley&lt;/li&gt;
+&lt;li&gt;Simular los efectos de cada opcion&lt;ul&gt;
+&lt;li&gt;Para ello construimos el simulador&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Os voy a explicar los resultados de este proceso&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Que opciones de voto consideramos?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voto a candidatura&lt;ul&gt;
+&lt;li&gt;Mayoritarias&lt;ul&gt;
+&lt;li&gt;PP, PSOE, CiU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Minoritarias con representación&lt;ul&gt;
+&lt;li&gt;UI/ICV, ERC, UPyD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Extraparlamentarias&lt;ul&gt;
+&lt;li&gt;Anticapitalistes (Moviments antiglobalització)&lt;/li&gt;
+&lt;li&gt;PACMA (Animalistas)&lt;/li&gt;
+&lt;li&gt;UCE (Comunistes, Maoistes, Espanyolistes) venen a ser pel PSUC el que era UPyD y C's pel PSC/PSOE&lt;/li&gt;
+&lt;li&gt;PxC (Xenofobs, Extrema dreta) concentra el vot d'extrema dreta (AN, Falanges, E2000...)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;De castigo o contra sistema:&lt;ul&gt;
+&lt;li&gt;Escons en Blanc: No cogen el escaño ni lo cobran. Consiguieron regidores.&lt;/li&gt;
+&lt;li&gt;Pirata: Democrácia líquida. Derechos humanos, Ideario Pirata, Voto por internet.&lt;/li&gt;
+&lt;li&gt;Hartos (Al final no se presentan): Agrega minoritarios que no han conseguido firmas. (agregados tampoco pudieron)&lt;/li&gt;
+&lt;li&gt;Pato (Al final no se presentan): Ridiculizar la politica. Carmen de Mairena y otros personajes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Voto nulo&lt;ul&gt;
+&lt;li&gt;Cualquier cosa que no sean papeletas a un partido politico&lt;/li&gt;
+&lt;li&gt;Hay gente que hace modelos de papeletas&lt;/li&gt;
+&lt;li&gt;Se dice que la mesa esta obligada a leer lo que hay puesto (no lo hemos podido comprobar en la ley)&lt;/li&gt;
+&lt;li&gt;También se dice que &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Voto blanco&lt;ul&gt;
+&lt;li&gt;Sobre vacio. A diferencia del nulo no cuenta para el umbral.&lt;/li&gt;
+&lt;li&gt;A veces afecta, en las generales, en barcelona podria, pero veremos que no.&lt;/li&gt;
+&lt;li&gt;Hay webs que proporcionan modelos de voto nulo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Abstención&lt;ul&gt;
+&lt;li&gt;Pasiva: Es la que se hace por vagancia, desidia, desapego, desesperanza...&lt;/li&gt;
+&lt;li&gt;Activa: Quien no quiere legitimar el sistema con su participación y plantea alternativas.&lt;/li&gt;
+&lt;li&gt;No hay forma de diferenciarlas&lt;/li&gt;
+&lt;li&gt;Casi siempre es mayor que el partido mayoritario. Es la opcion mayoritaria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Como se agrupan las opciones&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Censo = Abstencion + Participacion&lt;/li&gt;
+&lt;li&gt;Participacion = Nulos + Validos&lt;/li&gt;
+&lt;li&gt;Validos = Blancos + Candidaturas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sistema electoral actual&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El sistema electoral espanyol funciona per circunscripcions&lt;ul&gt;
+&lt;li&gt;Els vots d'una provincia serveixen nomes per escollir el numero diputats que te assignada aquesta provincia&lt;/li&gt;
+&lt;li&gt;Es fatal per la representativitat perque es perden vots&lt;/li&gt;
+&lt;li&gt;Ens va de conya per analitzar-ho a petita escala a Barcelona&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El Senat&lt;ul&gt;
+&lt;li&gt;Solo se escoge una parte de los senadores&lt;ul&gt;
+&lt;li&gt;La otra parte la escogen los parlamentos autonomicos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Los votos son a la persona y no al partido&lt;/li&gt;
+&lt;li&gt;Cada votante da de 0 a 3 votos&lt;/li&gt;
+&lt;li&gt;De Barcelona salen 4 senadores, los cuatro que tengan mas votos&lt;/li&gt;
+&lt;li&gt;Entonces, según esto...&lt;ul&gt;
+&lt;li&gt;Si voto solo a uno, van los tres votos a el?&lt;ul&gt;
+&lt;li&gt;No, los otros 2 votos los tiras.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Si voto solo a uno de los tres de un partido, y le sobran votos, caen en los otros candidatos?&lt;ul&gt;
+&lt;li&gt;No, el voto es a la persona, no al partido.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Es bueno repartir el voto en varias formaciones?&lt;ul&gt;
+&lt;li&gt;Depende de lo que pretendas, si otros votantes han hecho lo mismo escogiendo candidatos diferentes de cada lista, no sumaran.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Preguntas? Chao senado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El Congres&lt;ul&gt;
+&lt;li&gt;S'escullen 31 de 350&lt;/li&gt;
+&lt;li&gt;Umbral per entrar al recompte: 30% a les generals (canvia a d'altres convocatories, no a Barcelona)&lt;/li&gt;
+&lt;li&gt;Recompte per llei d'Hondt&lt;ul&gt;
+&lt;li&gt;Obtenció dels cocients: dividir els vots de cadascu per 1, 2..&lt;/li&gt;
+&lt;li&gt;Els 31 cocients majors obtenen l'esco&lt;/li&gt;
+&lt;li&gt;Es un algoritme per obtindre-ho pero no il·lustra l'objectiu:&lt;ul&gt;
+&lt;li&gt;Es cerca un preu d'esco mínim&lt;/li&gt;
+&lt;li&gt;Que es reparteixen tots els escons i a ningú li sobra per&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El simulador&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esta pensado para simular una sola circunscripción por cada caso&lt;ul&gt;
+&lt;li&gt;Lo que pasa en cada circunscripción es independiente&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Carga casos reales o hipotéticos&lt;ul&gt;
+&lt;li&gt;Viene con todas las generales y autonómicas en la provincia de Barcelona&lt;/li&gt;
+&lt;li&gt;Viene con algunos casos hipotéticos con candidaturas y censos reales de estas elecciones&lt;/li&gt;
+&lt;li&gt;Viene con diferentes opciones acordes con las ultimas estadisticas del CIS (bastante poco explicitas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Se puede experimentar situaciones alternativas haciendo transferencias de votos entre opciones (incluyendo nulo, abstencion y blanco)&lt;ul&gt;
+&lt;li&gt;Para transferir, basta con:&lt;ul&gt;
+&lt;li&gt;clickar en las tartas con el botón izquierdo el origen&lt;/li&gt;
+&lt;li&gt;clickar en las tartas con el derecho el destino&lt;/li&gt;
+&lt;li&gt;seleccionar el numero de votos&lt;/li&gt;
+&lt;li&gt;clickar en 'Transferir'&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Las tartas de arriba representan:&lt;ul&gt;
+&lt;li&gt;Las opciones de la totalidad del censo, incluyendo abstencion, nulo y blanco&lt;/li&gt;
+&lt;li&gt;La proporcion de votos a candidaturas&lt;/li&gt;
+&lt;li&gt;El reparto segun la ley electoral actual&lt;/li&gt;
+&lt;li&gt;Un reparto mas proporcional (Metodo Hamilton)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;La tabla inferior ilustra lo que esta pasando según la ley electoral&lt;ul&gt;
+&lt;li&gt;Las candidaturas que no superan el umbral aparecen en gris&lt;/li&gt;
+&lt;li&gt;Los cocientes que obtienen escaño aparecen con fondo oscuro&lt;/li&gt;
+&lt;li&gt;Los cocientes que estan a punto de pasar a un lado o a otro aparecen en rojo o naranja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;En medio hay controles para editar el caso y estadisticas varias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rumors i certeses&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En generales y en Barcelona, el umbral del 3% de los votos válidos no afecta casi nunca porque no hay demasiados escaños (31)&lt;ul&gt;
+&lt;li&gt;El reparto por ley de Hondt se suele quedar por arriba de ese umbral&lt;/li&gt;
+&lt;li&gt;Sí que afecta en las autonómicas porque:&lt;ul&gt;
+&lt;li&gt;reparten mas escaños por provincia (85 en Barcelona)&lt;/li&gt;
+&lt;li&gt;y ademas, en algunas provincias el umbral está más alto (p.e. 5% en valencia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;En Generales afectó sólo una vez en Madrid porque tienen más escaños.&lt;/li&gt;
+&lt;li&gt;En el resto de provincias mas pequeñas que Barcelona es imposible en unas Generales el umbral limite&lt;/li&gt;
+&lt;li&gt;Nunca ha pasado en Barcelona pero podría, en ese caso hipotético:&lt;ul&gt;
+&lt;li&gt;afectará solo a un escaño, nunca a tres como pasó en las autonómicas catalanas&lt;/li&gt;
+&lt;li&gt;el escaño anulado no tiene porque ir a un mayoritario&lt;/li&gt;
+&lt;li&gt;aunque la probabilidad de recibirlo si que es proporcional a los votos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Además lo que el voto en blanco aporta al monto de votos válidos es ridículo&lt;ul&gt;
+&lt;li&gt;El voto a candidaturas tiene mucho más peso en el umbral (98%) que el blanco&lt;/li&gt;
+&lt;li&gt;Un 2% de voto en blanco, subiría el umbral menos de 1700 votos. (Generales BCN 2008)&lt;/li&gt;
+&lt;li&gt;Si no es testimonial es que el voto en blanco lo ha petado&lt;/li&gt;
+&lt;li&gt;Y si lo peta ya sería una victoria si lo que se quiere es solo mostrar descontento&lt;/li&gt;
+&lt;li&gt;En todo caso, si no te quieres arriesgar a perjudicar a los extraparlamentarios usa otras opciones&lt;/li&gt;
+&lt;li&gt;Por ejemplo, un 3% de voto en blanco se acerca al escaño, si fuera a Escons en Blanc, se computaria como una silla vacía&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A parte del efecto improbable del umbral, abstenciones, blancos, nulos y candidaturas que no cogieran escaño tienen el mismo efecto&lt;ul&gt;
+&lt;li&gt;No alteran para nada el reparto de Hondt por el hecho de estar ahí&lt;/li&gt;
+&lt;li&gt;Solo afectan en tanto son voto cesante de algún otro partido&lt;ul&gt;
+&lt;li&gt;Un indignado no votaría normalmente a PP, PSOE o CiU&lt;/li&gt;
+&lt;li&gt;Por tanto abstenciones, nulos, blancos... de indignados benefician a estos partidos porque perjudican a alguno del resto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ni abstención, ni blancos, ni nulos tienen un máximo a partir del qual se anulen las elecciones ni nada por el estilo&lt;ul&gt;
+&lt;li&gt;Existe el mito porque si que lo suele haber en referendum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;De estos el único que puede alterar los resultados es el voto a candidaturas extraparlamentaria si sube suficiente para obtener el escaño&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cuando una candidatura gana un escaño se lo quita a la que tuviera el menor de los cocientes escogidos.&lt;ul&gt;
+&lt;li&gt;Es como decir que se lo quita a la candidatura para la que habían sido más baratos los escaños&lt;/li&gt;
+&lt;li&gt;Ese menor último cociente puede estar tanto en mayoritarios como en minoritarios.&lt;/li&gt;
+&lt;li&gt;Pero la probabilidad de que esté en mayoritarios es mayor.&lt;/li&gt;
+&lt;li&gt;Por eso es falso que si aparece un nuevo minoritario entra en competencia con los otros minoritarios&lt;ul&gt;
+&lt;li&gt;Al menos que compitan por los mismos votantes.&lt;/li&gt;
+&lt;li&gt;Pero si tu alternativa era votar nulo, blanco o abstenerte, no tienes que tener miedo de votar a una opción&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El poder de unos pocos votos&lt;ul&gt;
+&lt;li&gt;Cuando compiten los últimos divisores&lt;/li&gt;
+&lt;li&gt;Votar en un partido con 0 escaños sube el divisor una unidad&lt;/li&gt;
+&lt;li&gt;Votar en un partido con N escaños tienes que juntar N+1 votos para subir el divisor esa misma unidad unidad&lt;/li&gt;
+&lt;li&gt;Al reves tambien es cierto, si pierdes un voto, es mas grave en los pequeños&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Si esto es así, votemos siempre a minoritarios y vayamos sumando siempre un escaño&lt;ul&gt;
+&lt;li&gt;Pues no, tampoco es así&lt;/li&gt;
+&lt;li&gt;Cada vez que consigues un escaño el siguiente umbral esta proporcionalmente mas cerca en unidades de cociente&lt;ul&gt;
+&lt;li&gt;Cuando el trasvase de votos es grande acaba compensandose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pero si, de cara a la competencia por los escaños de resto, pocos votos son muy importantes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Voto útil y voto tirado&lt;ul&gt;
+&lt;li&gt;Vende la ilusion de control&lt;/li&gt;
+&lt;li&gt;Éticamente criticable por desincentivar el voto en consciencia&lt;/li&gt;
+&lt;li&gt;Pero es que ademés es totalmente falso&lt;/li&gt;
+&lt;li&gt;La verdad es que todo voto 'es inutil' hasta que se alcanza el siguiente escaño&lt;/li&gt;
+&lt;li&gt;Los escalones para el siguiente escaño, aunque parezcan cada vez mas juntos, son mas o menos iguales porque cada voto vale una enesima parte&lt;/li&gt;
+&lt;li&gt;Para el primer, para el segundo y para el decimo escaño&lt;/li&gt;
+&lt;li&gt;Mientras que haya gente que vote a un partido habra la misma probabilidad de que tenga un resto para llegar al siguiente escaño.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Voto dividido&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dividir las opciones hace que cada opción tenga su resto&lt;/li&gt;
+&lt;li&gt;Es probable que signifique la perdida de un escaño por cada división&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En resumen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si quieres votar nulo, abstención o blanco, el unico problema es que, siendo un indignado, es un voto cesante a un partido alternativo&lt;ul&gt;
+&lt;li&gt;Pero no tiene ningún otro efecto lateral!! Hazlo sin miedo de perjudicar a nadie, si es lo que quieres&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El voto más útil es el que mejor te representa&lt;/li&gt;
+&lt;li&gt;Los minoritarios son más sensibles a perder votos, pero tambien a ganarlos!&lt;/li&gt;
+&lt;li&gt;La division es mala&lt;ul&gt;
+&lt;li&gt;Por desgracia pero para bien hay menos extra parlamentarios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Si no te representa ninguno vota formaciones como Escons en Blanc&lt;/li&gt;
+&lt;li&gt;Si no quieres delegar tu poder de decisión por 4 años, los Piratas te dejaran votar por internet en el congreso.&lt;/li&gt;
+&lt;li&gt;El gran poder de la abstención es que es grande&lt;ul&gt;
+&lt;li&gt;Si se puede convertir en otra cosa, se puede cambiar mucho el panorama&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preguntes de la gent&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rumorologia&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Si la abstención o el voto blanco o nulo supera un límite, pasa algo.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No, no pasa nada, ya pueden ser altísimos. Ni se anulan, ni se repiten elecciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: El umbral del 3% perjudica a los minoritarios&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cierto, pero en unas generales en Barcelona nunca ha pasado.&lt;/strong&gt;
+    Hay pocos escaños y cuesta que el reparto llegue a partidos por debajo del umbral.
+    Si pasara, como máximo afectaria a un partido con los votos justos para un escaño.
+    En ese caso el voto no tiene por que irse a un mayoritario.
+    Sí que el mayoritario tiene más números que un minoritario de quedarselo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: El voto en blanco sube el umbral del 3%&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cierto&lt;/strong&gt;, el voto en blanco se considera válido y se usa para calcular el 3%.
+    Sin embargo sube en la misma medida que lo subiría un voto a candidatura.
+    Por cada 1% mas de voto en blanco, el umbral sube en 700 votos aprox.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: El voto blanco, nulo o la abstención favorecen a los mayoritarios.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Falso.&lt;/strong&gt; Si el voto blanco no activa el umbral del 3%,
+    el reparto de Hondt es indiferente a la existencia de estas opciones.
+    Si que se puede considerar el efecto del voto cesante, si se considera
+    que los que han optado por estas opciones hubieran podido votar a minoritarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: El voto nulo perjudica a mayoritarios&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Falso.&lt;/strong&gt; Si optas por nulo porque querias perjudicar a los mayoritarios
+    seguramente tampoco ibas a votar mayoritarios, por lo cual no les
+    perjudica ni por ser un voto cesante.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: La ley de Hondt favorece a los mayoritarios&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cierto.&lt;/strong&gt; Sin embargo mantiene la proporcionalidad de los escaños que se
+    obtendrían enteros. La desproporcion viene del reparto de restos.
+    En Generales en BCN, el más mayoritario gana como máximo dos escaños por encima de lo proporcional.
+    En Generales en BCN, el más minoritario pierde como máximo un escaño respecto a una ley proporcional pura.
+    Contra mas desproporción haya en los votos, mas desproporción hay en el reparto de restos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Se requieren menos votos para un escaño contra más escaños tengas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong class="red"&gt;Falso.&lt;/strong&gt; Los coeficientes están más apretados pero subirlos una unidad 
+    cuesta tantos votos como escaños se hayan conseguido.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Es voto útil votar al grande menos malo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Falso.&lt;/strong&gt; Para restarle votos a un partido, puedes sumar votos en cualquiera
+    de las otras opciones. Todas tienen la misma probabilidad de que no
+    acabes sumando votos para obtener el siguiente escaño.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Es voto tirado votar a candidaturas extraparlamentarias&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Si, pero es relativo.&lt;/strong&gt; Si no sumas un escaño, tan tirado es el voto
+    en uno que ya tenga escaños y no llegue al siguiente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Cuando una opción se divide normalmente sale perdiendo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cierto.&lt;/strong&gt; Si una opción se divide por tres, habrá tres restos de escaño.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rumor: Cuando un extraparlamentario entra, fastidia al siguiente partido mas pequeño.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;¡Es al revés!&lt;/strong&gt; Entra en competencia con el partido que tenga el último cociente más pequeño.
+    Los partidos mayoritarios tienen mas probabilidad de tenerlo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Opciones de no-voto&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Abstención:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Generales/BCN:&lt;/strong&gt; Máxima del 34% en 2000, suele ser primera o segunda opción.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Límite:&lt;/strong&gt; Los votantes acérrimos de los partidos no dejarían que pasara del 44%
+Por muy alta que sea la abstención no se repiten las elecciones ni nada parecido.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Efecto en el recuento:&lt;/strong&gt; Ninguno más allá del voto cesante.
+Hay dos tipos de abstención según los motivos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Abstención pasiva:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Significa:&lt;/strong&gt; No me interesa la política&lt;/p&gt;
+&lt;p&gt;Como: Simplemente no ir a votar.
+Representa el aprox 85% de la abstención (según CIS)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Abstención activa:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Significa:&lt;/strong&gt; No quiero legitimar el sistema con mi participación&lt;/p&gt;
+&lt;p&gt;Es activa si se contribuye a alternativas
+Problema: És difícil diferenciarla de la pasiva
+Sigue siendo una opción ética personal válida&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Voto nulo (activo):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Significa:&lt;/strong&gt; Es un voto de queja&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Poner en el sobre algo que no sea una papeleta de un partido&lt;/p&gt;
+&lt;p&gt;Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito
+Confundible con error, pero no si hay mucho&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Efecto en el recuento:&lt;/strong&gt; Ninguno más allá del voto cesante.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mito falso:&lt;/strong&gt; Por muy alto que sea el voto nulo no se repiten las elecciones ni nada parecido.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mito falso:&lt;/strong&gt; La mesa no esta obligada a leer lo que diga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Voto blanco:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Significa:&lt;/strong&gt; 'no me gusta ninguno'&lt;/p&gt;
+&lt;p&gt;Sube el umbral que tienen los partidos minoritarios para entrar.
+En las Generales, es muy improbable que afecte ese umbral.
+En Barcelona, afectaria como máximo a un partido que tenga el primer escaño justito.
+Ese escaño no tiene porque llevarselo un mayoritario, cualquiera con representación tiene igual probabilidad.
+El voto en blanco contribuye poco a subir ese umbral pero contribuye.
+Efecto en el reparto: A parte de subir el umbral, ninguno más allá del voto cesante.
+Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry></feed>

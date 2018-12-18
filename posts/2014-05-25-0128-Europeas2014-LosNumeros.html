@@ -1,0 +1,314 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contraste de los mitos sobre el efecto de las distintas opciones de voto y de no voto y su aplicación a las distintas convocatorias electorales.">
+  <meta name="author" content="envoter">
+  <link rel="stylesheet" href="/theme/css/foundation.min.css" media="all">
+  <script type="text/javascript" src="/theme/js/modernizr.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/theme/css/lamboz.css" media="all">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <title>El efecto de tu (no)voto (III): Los números - Mitos Electorales</title>
+<link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mitos Electorales Full Atom Feed" />
+ <!-- Preventing FOUC -->
+  <script type="text/javascript">
+    var elm=document.getElementsByTagName("html")[0];
+    elm.style.display="none";
+    document.addEventListener("DOMContentLoaded",function(event) {
+		elm.style.display="block";
+	});
+  </script>
+ <!-- Preventing FOUC -->
+</head>
+<body>
+    <div class="pages">
+        <ul>
+            <li class="home"><a href="/index.html">Home</a></li>
+            <li >
+               <a href="/pages/envote-simulador-de-flujos-electorales.html">Simulador</a></li>
+        </ul>
+    </div>
+<div class="hp-header-inner">
+    <div class="page-header">
+        <div class="content-header">
+            <div id="title-block">
+            <h1>  <a href="/posts/2014-05-25-0128-Europeas2014-LosNumeros.html" rel="bookmark"
+                    title="Permalink to El efecto de tu (no)voto (III): Los números">El efecto de tu (no)voto (III): Los números</a></h1>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content">
+        <div class="data-holder">
+        <div class="row">
+           <div class="large-10 content-column column">
+<div class="content-article">
+    <header class="header-article">
+        <div class="read-more">Posted on 2014-05-25 01:28</div>
+ 
+   </header>
+    <section class='article'>
+        
+<!--
+        <div class="entry-summary">
+            Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.
+        </div>
+-->    
+        <div class="entry-content">
+            <p>Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</p>
+<h2>La teoría</h2>
+<p>Primero un poco de teoria básica:
+La ley electoral que se aplica a todas las elecciones dice que
+el reparto de escaños en una circunscripción se hará repartiéndolos según la regla de Hondt
+entre los partidos que superen un determinado porcentaje sobre el voto válido.
+El voto válido es el voto a candidaturas más el blanco.</p>
+<p>La ley explica la Regla de Hondt con el algoritmo para calcularlo.
+Pero se puede entender mejor lo que hace explicando el objetivo:
+Lo que hace es fijar un <strong>precio de escaño</strong> (<span class="math">\(P\)</span>)
+de tal manera que se repartan <strong>todos los escaños</strong> (<span class="math">\(E\)</span>)
+sin que a ningún partido le sobren votos para pillar un escaño más.</p>
+<p>En general, los <strong>votos totales a candidaturas</strong> (<span class="math">\(V\)</span>)
+se repartiran entre los votos que han servido para obtener el escaño <span class="math">\(P·E\)</span>
+y los que han sobrado.
+A cada candididatura le pueden sobrar de <span class="math">\(0\)</span> a <span class="math">\(P-1\)</span> votos.
+Si <span class="math">\(C\)</span> es el <strong>número de candidaturas</strong> podemos delimitar esto:</p>
+<div class="math">$$P*E &lt; V &lt; P*E + P*C$$</div>
+<p>Haciendo algebra podemos delimitar delimitar el precio del escaño:</p>
+<div class="math">$${V \over E+C} &lt; P &lt; {V \over E}$$</div>
+<p>Expresado en porcentaje del "voto a candidatura":</p>
+<div class="math">$${100 \over E+C} &lt; 100 {P \over V} &lt; {100 \over E}$$</div>
+<p>Esa expresión delimita entre los dos casos extremos e improbables, pero ¿qué es lo más probable?</p>
+<p>Los <strong>partidos con escaños</strong> tienen una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
+Por eso, el sobrante medio de los partidos con escaños tenderá a ser <span class="math">\(P/2\)</span>.</p>
+<p>Respecto a los <strong>partidos sin escaño</strong>, por el comportamiento electoral típico,
+no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
+Voy a hacer una suposición de que algo menos de un cuarto de los partidos sigue la distribución uniforme de los partidos con escaño
+y que el resto cubren el <em>algo menos</em> que le falta al cuarto.
+Mi suposición más o menos corresponde con pasados eventos electorles.
+Podeis experimentar con otras proporciones pero más o menos da lo mismo.</p>
+<p>El voto sobrante no sería <span class="math">\({P·C\over 2}\)</span> sinó que se aproximaría mejor con <span class="math">\({P \over 2}·{C \over 4} = { P·C \over 8}\)</span>
+y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al <span class="math">\({ 100 \over E+C/8}%\)</span>.</p>
+<p>En resumen, el porcentaje de voto a candidatura necesario para un escaño es:</p>
+<ul>
+<li>Mínimo: 100/(E+C) %</li>
+<li>Típico: 100/(E+C/8) %</li>
+<li>Máximo: 100/E %</li>
+</ul>
+<h2>¿Cuales son los números concretos de estas elecciones?</h2>
+<p>En las Europeas del 2014 tenemos</p>
+<ul>
+<li>Una circunscripción única para toda España</li>
+<li>El umbral para entrar en el reparto es del 0% (¡no hay umbral!)</li>
+<li>34.420.170 electores</li>
+<li>Hay 54 escaños a repartir</li>
+<li>Hay 39 candidaturas</li>
+</ul>
+<p>El precio del escaño en porcentaje de voto a candidatura sería:</p>
+<ul>
+<li>Mínimo: 1,07%, Típico: 1,70%, Máximo: 1'85%</li>
+</ul>
+<p>En votos dependiendo de la participación:</p>
+<ul>
+<li>Participación: 100%, Mínimo: 370mil, Típico: 585mil, Máximo: 637mil</li>
+<li>Participación: 50%, Mínimo: 187mil, Típico: 292mil, Máximo: 318mil</li>
+<li>Participación: 40%, Mínimo: 148mil, Típico: 234mil, Máximo: 250mil</li>
+</ul>
+<p><strong>Primera conclusión:</strong> En las elecciones europeas, al no haber umbral de entrada, el voto en blanco no tiene ningún efecto especial respecto al voto nulo o la abstención.
+El único efecto de las tres elecciones de no-voto es el efecto del VOTO CESANTE del que hablo más abajo.</p>
+<p><strong>Segunda conclusión:</strong> ¿Es más fácil o más difícil para un partido pequeño conseguir su primer escaño? El precio en las generales ronda los 100mil votos.
+Pero en unas generales esos 100mil se tienen que sumar en una sola provincia, y en unas europeas se pueden sumar 300mil en todo el estado.
+Los partidos pequeños lo tienen mucho más fácil que en las generales para obtener representación.</p>
+<p><strong>Tercera conclusión:</strong> De como hemos obtenido la fórmula del precio típico se puede deducir que el hecho de que una candidatura extraparlamentaria acumule bastantes votos, aunque no obtenga escaño, sirve para bajar el precio de Hondt, ayudando a otras candidaturas extraparlamentarias a obtener su primer escaño.
+Como no hay umbral de entrada, votando a minoritarios, si no se obtiene escaño, ayudas a los otros minoritarios a salir.</p>
+<p><strong>Cuarta conclusión:</strong> En las generales, los partidos locales (nacionalistas, independentistas, regionalistas...) tienen ventaja, respecto a los pequeños de ámbito estatal, por concentrar su voto en ciertas circunscripciones.
+Pero en las europeas pierden esa ventaja.
+Quizás por eso, los partidos locales se han coaligado con partidos locales de otras autonomías para que su fortaleza en generales no se convierta en debilidad en las europeas.
+¿Que posibilidades tienen partidos regionalistas minoritarios que no se han coaligado, como les pasa a los dos que hay de Extremadura? Muy, muy pocas: Solo mirando el censo ves, que si Extremadura tuviera una participación similar a la del resto del estado, dos terceras partes de los votos de Extremadura tendrían ir a una de estas dos opciones para que sacara un solo escaño.</p>
+<p><strong>Falsa conclusión:</strong> Podriamos pensar que contra menos participación, al bajar el precio sería mas fácil entrar para los partidos extraparlamentarios.
+Pero la abstención en sí no beneficia directamente a derecha, izquierda, mayoritarios, minoritarios o extraparlamentarios.
+Depende del perfil del desmotivado.
+Un descontento que no vota es voto cesante de los grandes partidos.
+Una persona que vea las elecciones como un pulso entre los mayoritarios que no vota es voto cesante de los grandes.
+En la abstención yo creo que hoy en día predomina el primer caso.</p>
+<h2>Coaliciones, candidatos ocultos y partidos europeos</h2>
+<p>Respecto a las candidaturas, coaliciones y demás hay algunas cosas importantes a tener en cuenta:</p>
+<ul>
+<li>
+<p>Las candidaturas pueden presentarse con una marca autonómica en la papeleta para que los hooligans identifiquemos a nuestro equipo de toda la vida</p>
+</li>
+<li>
+<p>En esa papeleta autonómica la lista de candidatos que aparecen puede ocultar los candidatos no locales, aunque el voto vaya a la lista completa estatal.
+Si veis una papeleta medio vacía, es el caso.</p>
+</li>
+<li>
+<p>Cada partido participante en una coalición puede apoyar a un partido europeo diferente, que tampoco aparece en la papeleta.</p>
+</li>
+</ul>
+<p>Por eso es importante saber que hay una parte de la lista que puede que no veas en la papeleta.
+Podría pasar que un votante de Euskadi vote a una lista en la que solo aparece gente del PNV, que apoyan a los Democratas Europeos, pero su voto contribuiría sin saberlo a que entrara un diputado de Unió que apoya a los Populares Europeos.
+Puede que le parezca bien o puede que no, pero es importante ser consciente de ello.
+Los partidos que forman las coaliciones y a qué partido europeo pertenecen los puedes encontrar en la <a href="https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29">wikipedia</a>, por ejemplo.
+Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas así que el partido europeo solo es importante de cara a la elección de los cargos y no en las votaciones concretas.</p>
+<h2>Teoría de juegos</h2>
+<p>A partir de aqui, ¿como evalúo el efecto de mi (no)voto? Siguiendo la teoría de juegos, tendríamos que pensar que todo el mundo ha tomado su decisión y faltas tú.
+Tendríamos que considerar los posibles escenarios previos a tu decisión, lo que se llama las hipótesis de partida, y la probabilidad de que pasen.
+La triste noticia es que tu voto considerado así es muy poco probable que tenga efecto alguno, votes a quien votes.
+Es así: ni minoritarios ni mayoritarios tu voto aislado es inútil.
+Solo tendría efecto en el caso de que el partido tenga P-1 votos sobrantes y el tuyo sea el que haga P.
+Eso pasa con una probabilidad de 1/P, donde P hemos visto que son cientosmiles.</p>
+<p>Pos vaya, ¿no? ¿Como lo hacemos entonces? Pues no considerando un voto o no-voto, sino considerando unos cuantos.
+Dado un dilema si hacer una cosa o otra, me pregunto: Que efecto tiene que mil, 10mil, 100mil...
+en mi misma disyuntiva tome una misma opción y después qué probabilidad hay de que os junteis todos esos en todo el estado.
+Todo es un poco difuso pero vereis que nos permitirá hacer algunos razonamientos para entender el efecto de nuestro voto o no voto.
+Con ayuda de programas como <a href="/pages/envote-simulador-de-flujos-electorales.html">envote</a> puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.</p>
+<p>¿Como construimos la situación probable antes de nuestro voto (la hipótesis de partida)? Pues considerando encuestas, elecciones anteriores, los hooligans de cada partido (también llamado suelo electoral), diversas hipotesis de abstención y situación electoral.
+También es útil considerar como situación probable de partida situaciones extremas.
+Si en condiciones extremas opuestas algo sigue pasando, es que pasará.
+Y ojo con nuestro sesgo, no tiene porque pasar lo que queremos nosotros que pase y mola mucho construir situaciones bonitas.</p>
+<h2>El voto cesante</h2>
+<p>Cuando consideramos nuestra opción (y la de los otros ene-mil que ante la misma disyuntiva hacen lo mismo), el otro efecto importante que tiene nuestro voto o no-voto es el de VOTO (O NO-VOTO) CESANTE a cualquier opción que podríamos haber escogido.
+El efecto es más importante cuanta mayor hubiera sido probabilidad de escoger la otra opción.
+Por ejemplo, si construimos la hipótesis de partida a partir de los resultados de las elecciones anteriores, es importante considerar que habíamos escogido en las elecciones previas y elegir 'grupo con nuestro dilema' entre la gente que había tomado esa opción.
+Si hemos construido esa situación probable a partir de encuestas, tenemos que valorar el voto cesante entre las que eran nuestras opciones en el momento de la encuesta.</p>
+<p>Por eso decia en la anterior entrada que a los "partidos de gobierno" les interesa que los descontentos no voten a candidaturas.
+Si los descontentos escogen opciones de no-voto, el voto cesante se lo llevan sobretodo las otras candidaturas y ellos salen ganando con menos competencia en el reparto de escaños.</p>
+<h2>Casos simulados</h2>
+<p>Como no creo que me de tiempo a la cuarta parte, en la que quería poner algunas conclusiones de casos que he simulado, os resumo un par aquí, uno de aplicacion a los extraparlamentario y otro de aplicación a los que consideráis varias opciones con representación:</p>
+<p>Si no-votos se convirtieran en votos al azar a partidos extraparlamentarios no fascistas (20 opciones) dichas opciones suben el doble de lo que pudiera subir el precio por escaño por añadir votos a la cesta.
+Si lo concentras en 10 o en 5 opciones, la cosa tiene un efecto mas grande aun.
+Además como he dicho arriba, si no consiguen el voto sirve para bajar el precio para que el resto consiga su primer escaño.</p>
+<p>Desplazar 100mil de un partido con representacion a otro, implica que con un 30% de posibilidades el emisor pierda el voto, y otro 30% de que el receptor lo gane.
+Pero las dos cosas se pueden dar a la vez, por separado o no darse.
+Si se da una o otra pero no las dos, implica que tiene un efecto revote en otro partido.
+Que partido puede recibir o perder ese voto? Todos tienen posibilidades pero normalmente hay mas probabilidad que lo pierda o lo gane un mayoritario.</p>
+<p>En todo caso, coged el enVote y haced vuestra simulacion, oye.</p>
+<p>Sin más, creo que os he dado herramientas suficientes para que hagáis los experimentos vosotros mismos.
+Espero que os sea útil.
+Como siempre en estas cosas os recomiendo que voteis a quien penséis que os representa mejor
+y si no habéis encontrado ese alguien,
+dejadme sugeriros que no os quedéis en casa, que considereis votar aunque sea a <strong>Escaños en Blanco</strong>
+que convierten el voto en blanco en escaños vacios para que realmente nadie os represente.
+Que conste que no es mi opción, pero la recomendaré siempre como mejor opción que el no-voto.</p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+        </div>
+    </section>
+    <footer class="footer-article">
+        <div class="tags-and-categories">Filed under <a href="/category/europeas2014.html">Europeas2014</a>
+        | Tagged: <a href="/tag/europeas.html">Europeas </a>
+        | <a href="/posts/2014-05-25-0128-Europeas2014-LosNumeros.html" rel="bookmark"
+         title="Permalink to El efecto de tu (no)voto (III): Los números">Permalink</a>            
+        </div>
+        <!-- metaldata 
+        -->
+    </footer>
+    <!-- disqus  -->
+</div>
+            </div>
+            <div class="large-2 aside column">
+                <h3>Tags</h3>
+                <ul>
+                    <li class="active"><a href="/tag/europeas.html">Europeas</a>&nbsp;(3)</li>
+                    <li><a href="/tag/parlament.html">Parlament</a>&nbsp;(1)</li>
+                    <li><a href="/tag/generales.html">Generales</a>&nbsp;(6)</li>
+                    <li><a href="/tag/charlas.html">Charlas</a>&nbsp;(2)</li>
+                    <li><a href="/tag/legislacion.html">Legislación</a>&nbsp;(1)</li>
+                </ul>
+                <h3>Categories</h3>
+                <ul>
+                    <li class="active"><a href="/category/europeas2014.html">Europeas2014</a>&nbsp;(3)</li>
+                    <li><a href="/category/generales2011.html">Generales2011</a>&nbsp;(6)</li>
+                    <li><a href="/category/parlament2012.html">Parlament2012</a>&nbsp;(1)</li>
+                </ul>
+            </div>
+         </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="data-holder">
+        <div class="row">
+            <div class="large-3 column">
+           </div>
+           <div class="large-6 tag-cloud column">
+                <h3>Tags</h3>
+                <ul>
+                    <li><a href="/tag/europeas.html">Europeas</a>(3)</li>
+                    <li><a href="/tag/parlament.html">Parlament</a>(1)</li>
+                    <li><a href="/tag/generales.html">Generales</a>(6)</li>
+                    <li><a href="/tag/charlas.html">Charlas</a>(2)</li>
+                    <li><a href="/tag/legislacion.html">Legislación</a>(1)</li>
+                </ul>
+            </div>
+            <div class="large-3 category-column column">
+                <h3>Categories</h3>
+                <ul>
+                    <li class="active"><a href="/category/europeas2014.html">Europeas2014</a> (3)</li>
+                    <li><a href="/category/generales2011.html">Generales2011</a> (6)</li>
+                    <li><a href="/category/parlament2012.html">Parlament2012</a> (1)</li>
+                </ul>
+             
+            </div>
+        </row>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Europeas2014</title><link href="/" rel="alternate"></link><link href="/feeds/europeas2014.atom.xml" rel="self"></link><id>/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="/posts/2014-05-25-0128-Europeas2014-LosNumeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-25:/posts/2014-05-25-0128-Europeas2014-LosNumeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
+Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.&lt;/p&gt;
+&lt;h2&gt;La teoría&lt;/h2&gt;
+&lt;p&gt;Primero un poco de teoria básica:
+La ley electoral que se aplica a todas las elecciones dice que
+el reparto de escaños en una circunscripción se hará repartiéndolos según la regla de Hondt
+entre los partidos que superen un determinado porcentaje sobre el voto válido.
+El voto válido es el voto a candidaturas más el blanco.&lt;/p&gt;
+&lt;p&gt;La ley explica la Regla de Hondt con el algoritmo para calcularlo.
+Pero se puede entender mejor lo que hace explicando el objetivo:
+Lo que hace es fijar un &lt;strong&gt;precio de escaño&lt;/strong&gt; (&lt;span class="math"&gt;\(P\)&lt;/span&gt;)
+de tal manera que se repartan &lt;strong&gt;todos los escaños&lt;/strong&gt; (&lt;span class="math"&gt;\(E\)&lt;/span&gt;)
+sin que a ningún partido le sobren votos para pillar un escaño más.&lt;/p&gt;
+&lt;p&gt;En general, los &lt;strong&gt;votos totales a candidaturas&lt;/strong&gt; (&lt;span class="math"&gt;\(V\)&lt;/span&gt;)
+se repartiran entre los votos que han servido para obtener el escaño &lt;span class="math"&gt;\(P·E\)&lt;/span&gt;
+y los que han sobrado.
+A cada candididatura le pueden sobrar de &lt;span class="math"&gt;\(0\)&lt;/span&gt; a &lt;span class="math"&gt;\(P-1\)&lt;/span&gt; votos.
+Si &lt;span class="math"&gt;\(C\)&lt;/span&gt; es el &lt;strong&gt;número de candidaturas&lt;/strong&gt; podemos delimitar esto:&lt;/p&gt;
+&lt;div class="math"&gt;$$P*E &amp;lt; V &amp;lt; P*E + P*C$$&lt;/div&gt;
+&lt;p&gt;Haciendo algebra podemos delimitar delimitar el precio del escaño:&lt;/p&gt;
+&lt;div class="math"&gt;$${V \over E+C} &amp;lt; P &amp;lt; {V \over E}$$&lt;/div&gt;
+&lt;p&gt;Expresado en porcentaje del "voto a candidatura":&lt;/p&gt;
+&lt;div class="math"&gt;$${100 \over E+C} &amp;lt; 100 {P \over V} &amp;lt; {100 \over E}$$&lt;/div&gt;
+&lt;p&gt;Esa expresión delimita entre los dos casos extremos e improbables, pero ¿qué es lo más probable?&lt;/p&gt;
+&lt;p&gt;Los &lt;strong&gt;partidos con escaños&lt;/strong&gt; tienen una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
+Por eso, el sobrante medio de los partidos con escaños tenderá a ser &lt;span class="math"&gt;\(P/2\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Respecto a los &lt;strong&gt;partidos sin escaño&lt;/strong&gt;, por el comportamiento electoral típico,
+no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
+Voy a hacer una suposición de que algo menos de un cuarto de los partidos sigue la distribución uniforme de los partidos con escaño
+y que el resto cubren el &lt;em&gt;algo menos&lt;/em&gt; que le falta al cuarto.
+Mi suposición más o menos corresponde con pasados eventos electorles.
+Podeis experimentar con otras proporciones pero más o menos da lo mismo.&lt;/p&gt;
+&lt;p&gt;El voto sobrante no sería &lt;span class="math"&gt;\({P·C\over 2}\)&lt;/span&gt; sinó que se aproximaría mejor con &lt;span class="math"&gt;\({P \over 2}·{C \over 4} = { P·C \over 8}\)&lt;/span&gt;
+y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al &lt;span class="math"&gt;\({ 100 \over E+C/8}%\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;En resumen, el porcentaje de voto a candidatura necesario para un escaño es:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mínimo: 100/(E+C) %&lt;/li&gt;
+&lt;li&gt;Típico: 100/(E+C/8) %&lt;/li&gt;
+&lt;li&gt;Máximo: 100/E %&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;¿Cuales son los números concretos de estas elecciones?&lt;/h2&gt;
+&lt;p&gt;En las Europeas del 2014 tenemos&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una circunscripción única para toda España&lt;/li&gt;
+&lt;li&gt;El umbral para entrar en el reparto es del 0% (¡no hay umbral!)&lt;/li&gt;
+&lt;li&gt;34.420.170 electores&lt;/li&gt;
+&lt;li&gt;Hay 54 escaños a repartir&lt;/li&gt;
+&lt;li&gt;Hay 39 candidaturas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El precio del escaño en porcentaje de voto a candidatura sería:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mínimo: 1,07%, Típico: 1,70%, Máximo: 1'85%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En votos dependiendo de la participación:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participación: 100%, Mínimo: 370mil, Típico: 585mil, Máximo: 637mil&lt;/li&gt;
+&lt;li&gt;Participación: 50%, Mínimo: 187mil, Típico: 292mil, Máximo: 318mil&lt;/li&gt;
+&lt;li&gt;Participación: 40%, Mínimo: 148mil, Típico: 234mil, Máximo: 250mil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Primera conclusión:&lt;/strong&gt; En las elecciones europeas, al no haber umbral de entrada, el voto en blanco no tiene ningún efecto especial respecto al voto nulo o la abstención.
+El único efecto de las tres elecciones de no-voto es el efecto del VOTO CESANTE del que hablo más abajo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segunda conclusión:&lt;/strong&gt; ¿Es más fácil o más difícil para un partido pequeño conseguir su primer escaño? El precio en las generales ronda los 100mil votos.
+Pero en unas generales esos 100mil se tienen que sumar en una sola provincia, y en unas europeas se pueden sumar 300mil en todo el estado.
+Los partidos pequeños lo tienen mucho más fácil que en las generales para obtener representación.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tercera conclusión:&lt;/strong&gt; De como hemos obtenido la fórmula del precio típico se puede deducir que el hecho de que una candidatura extraparlamentaria acumule bastantes votos, aunque no obtenga escaño, sirve para bajar el precio de Hondt, ayudando a otras candidaturas extraparlamentarias a obtener su primer escaño.
+Como no hay umbral de entrada, votando a minoritarios, si no se obtiene escaño, ayudas a los otros minoritarios a salir.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cuarta conclusión:&lt;/strong&gt; En las generales, los partidos locales (nacionalistas, independentistas, regionalistas...) tienen ventaja, respecto a los pequeños de ámbito estatal, por concentrar su voto en ciertas circunscripciones.
+Pero en las europeas pierden esa ventaja.
+Quizás por eso, los partidos locales se han coaligado con partidos locales de otras autonomías para que su fortaleza en generales no se convierta en debilidad en las europeas.
+¿Que posibilidades tienen partidos regionalistas minoritarios que no se han coaligado, como les pasa a los dos que hay de Extremadura? Muy, muy pocas: Solo mirando el censo ves, que si Extremadura tuviera una participación similar a la del resto del estado, dos terceras partes de los votos de Extremadura tendrían ir a una de estas dos opciones para que sacara un solo escaño.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Falsa conclusión:&lt;/strong&gt; Podriamos pensar que contra menos participación, al bajar el precio sería mas fácil entrar para los partidos extraparlamentarios.
+Pero la abstención en sí no beneficia directamente a derecha, izquierda, mayoritarios, minoritarios o extraparlamentarios.
+Depende del perfil del desmotivado.
+Un descontento que no vota es voto cesante de los grandes partidos.
+Una persona que vea las elecciones como un pulso entre los mayoritarios que no vota es voto cesante de los grandes.
+En la abstención yo creo que hoy en día predomina el primer caso.&lt;/p&gt;
+&lt;h2&gt;Coaliciones, candidatos ocultos y partidos europeos&lt;/h2&gt;
+&lt;p&gt;Respecto a las candidaturas, coaliciones y demás hay algunas cosas importantes a tener en cuenta:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Las candidaturas pueden presentarse con una marca autonómica en la papeleta para que los hooligans identifiquemos a nuestro equipo de toda la vida&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En esa papeleta autonómica la lista de candidatos que aparecen puede ocultar los candidatos no locales, aunque el voto vaya a la lista completa estatal.
+Si veis una papeleta medio vacía, es el caso.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cada partido participante en una coalición puede apoyar a un partido europeo diferente, que tampoco aparece en la papeleta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por eso es importante saber que hay una parte de la lista que puede que no veas en la papeleta.
+Podría pasar que un votante de Euskadi vote a una lista en la que solo aparece gente del PNV, que apoyan a los Democratas Europeos, pero su voto contribuiría sin saberlo a que entrara un diputado de Unió que apoya a los Populares Europeos.
+Puede que le parezca bien o puede que no, pero es importante ser consciente de ello.
+Los partidos que forman las coaliciones y a qué partido europeo pertenecen los puedes encontrar en la &lt;a href="https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29"&gt;wikipedia&lt;/a&gt;, por ejemplo.
+Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas así que el partido europeo solo es importante de cara a la elección de los cargos y no en las votaciones concretas.&lt;/p&gt;
+&lt;h2&gt;Teoría de juegos&lt;/h2&gt;
+&lt;p&gt;A partir de aqui, ¿como evalúo el efecto de mi (no)voto? Siguiendo la teoría de juegos, tendríamos que pensar que todo el mundo ha tomado su decisión y faltas tú.
+Tendríamos que considerar los posibles escenarios previos a tu decisión, lo que se llama las hipótesis de partida, y la probabilidad de que pasen.
+La triste noticia es que tu voto considerado así es muy poco probable que tenga efecto alguno, votes a quien votes.
+Es así: ni minoritarios ni mayoritarios tu voto aislado es inútil.
+Solo tendría efecto en el caso de que el partido tenga P-1 votos sobrantes y el tuyo sea el que haga P.
+Eso pasa con una probabilidad de 1/P, donde P hemos visto que son cientosmiles.&lt;/p&gt;
+&lt;p&gt;Pos vaya, ¿no? ¿Como lo hacemos entonces? Pues no considerando un voto o no-voto, sino considerando unos cuantos.
+Dado un dilema si hacer una cosa o otra, me pregunto: Que efecto tiene que mil, 10mil, 100mil...
+en mi misma disyuntiva tome una misma opción y después qué probabilidad hay de que os junteis todos esos en todo el estado.
+Todo es un poco difuso pero vereis que nos permitirá hacer algunos razonamientos para entender el efecto de nuestro voto o no voto.
+Con ayuda de programas como &lt;a href="/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
+&lt;p&gt;¿Como construimos la situación probable antes de nuestro voto (la hipótesis de partida)? Pues considerando encuestas, elecciones anteriores, los hooligans de cada partido (también llamado suelo electoral), diversas hipotesis de abstención y situación electoral.
+También es útil considerar como situación probable de partida situaciones extremas.
+Si en condiciones extremas opuestas algo sigue pasando, es que pasará.
+Y ojo con nuestro sesgo, no tiene porque pasar lo que queremos nosotros que pase y mola mucho construir situaciones bonitas.&lt;/p&gt;
+&lt;h2&gt;El voto cesante&lt;/h2&gt;
+&lt;p&gt;Cuando consideramos nuestra opción (y la de los otros ene-mil que ante la misma disyuntiva hacen lo mismo), el otro efecto importante que tiene nuestro voto o no-voto es el de VOTO (O NO-VOTO) CESANTE a cualquier opción que podríamos haber escogido.
+El efecto es más importante cuanta mayor hubiera sido probabilidad de escoger la otra opción.
+Por ejemplo, si construimos la hipótesis de partida a partir de los resultados de las elecciones anteriores, es importante considerar que habíamos escogido en las elecciones previas y elegir 'grupo con nuestro dilema' entre la gente que había tomado esa opción.
+Si hemos construido esa situación probable a partir de encuestas, tenemos que valorar el voto cesante entre las que eran nuestras opciones en el momento de la encuesta.&lt;/p&gt;
+&lt;p&gt;Por eso decia en la anterior entrada que a los "partidos de gobierno" les interesa que los descontentos no voten a candidaturas.
+Si los descontentos escogen opciones de no-voto, el voto cesante se lo llevan sobretodo las otras candidaturas y ellos salen ganando con menos competencia en el reparto de escaños.&lt;/p&gt;
+&lt;h2&gt;Casos simulados&lt;/h2&gt;
+&lt;p&gt;Como no creo que me de tiempo a la cuarta parte, en la que quería poner algunas conclusiones de casos que he simulado, os resumo un par aquí, uno de aplicacion a los extraparlamentario y otro de aplicación a los que consideráis varias opciones con representación:&lt;/p&gt;
+&lt;p&gt;Si no-votos se convirtieran en votos al azar a partidos extraparlamentarios no fascistas (20 opciones) dichas opciones suben el doble de lo que pudiera subir el precio por escaño por añadir votos a la cesta.
+Si lo concentras en 10 o en 5 opciones, la cosa tiene un efecto mas grande aun.
+Además como he dicho arriba, si no consiguen el voto sirve para bajar el precio para que el resto consiga su primer escaño.&lt;/p&gt;
+&lt;p&gt;Desplazar 100mil de un partido con representacion a otro, implica que con un 30% de posibilidades el emisor pierda el voto, y otro 30% de que el receptor lo gane.
+Pero las dos cosas se pueden dar a la vez, por separado o no darse.
+Si se da una o otra pero no las dos, implica que tiene un efecto revote en otro partido.
+Que partido puede recibir o perder ese voto? Todos tienen posibilidades pero normalmente hay mas probabilidad que lo pierda o lo gane un mayoritario.&lt;/p&gt;
+&lt;p&gt;En todo caso, coged el enVote y haced vuestra simulacion, oye.&lt;/p&gt;
+&lt;p&gt;Sin más, creo que os he dado herramientas suficientes para que hagáis los experimentos vosotros mismos.
+Espero que os sea útil.
+Como siempre en estas cosas os recomiendo que voteis a quien penséis que os representa mejor
+y si no habéis encontrado ese alguien,
+dejadme sugeriros que no os quedéis en casa, que considereis votar aunque sea a &lt;strong&gt;Escaños en Blanco&lt;/strong&gt;
+que convierten el voto en blanco en escaños vacios para que realmente nadie os represente.
+Que conste que no es mi opción, pero la recomendaré siempre como mejor opción que el no-voto.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1922-Europeas2014-NoEresUnPutoNazi.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
+Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
+Sabes leer.
+Pero hay mucha gente que vota al azar partidos pequeños como castigo.
+Ojo, que puedes acabar financiando los pintorescos autobuses del 12 de Octubre repleto de orangutanes gamados.</summary><content type="html">&lt;p&gt;Antes de entrar con los números un poco de poca imparcialidad:
+Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
+Sabes leer.
+Pero hay mucha gente que vota al azar partidos pequeños como castigo.
+Ojo, que puedes acabar financiando los pintorescos autobuses del 12 de Octubre repleto de orangutanes gamados.&lt;/p&gt;
+&lt;p&gt;Lo de votar partidos pequeños al azar es una estrategia viable cuyo efecto analizo en otro post,
+y no es del todo es mala, siempre que saques del sorteo a partidos neo-nazis o xenòfobos.
+Así que para que no haya confusiones aquí una lista de dichos partidos
+con una pequeña descripción por si te sientes orangutan gamado, sepas cual es tu clan.
+Hay unos cuantos.
+Mejor.
+Menos posibilidades de que salgan.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Democracia Nacional (DN):&lt;/strong&gt;
+Claramente neonazis, adscritos al partido de la señora LePen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;La España en marcha (LEM):&lt;/strong&gt;
+No, Leticia Sabater no se presenta. :-(
+Son varios partidos fachas que se han juntado para ver si llegan a algo en las europeas.
+Gente tan maja como
+Nudo Patriótico Español (NPe),
+La Falange (FE),
+Alianza Nacional (AN) y
+Movimiento Católico Español.
+Mea culpa, se ve que se han unido por culpa de los catalanes.
+Po venga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Movimiento Social Republicano (MSR):&lt;/strong&gt;
+Estos juegan muy al despiste.
+Le han copiado a alguien un programa de izquierdas pero finalizan todos los párrafos con
+'y eso es culpa de los inmigrantes y de los políticos que les dejan entrar, españa una, grande y libre y sin rey, mejor un fürher'.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Falange Española de las JONS (FE-JONS):&lt;/strong&gt;
+No mucho a decir de esto.
+La otra falange esta en LEM pero estos van por libre.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impulso Social (IS):&lt;/strong&gt;
+Garrulos del opus y nacionalcatolicistas unidos:
+Partido Familia y Vida (PFyV),
+la Comunión Tradicionalista Carlista (CTC) y
+Alternativa Española (AES)
+el último un limpiado de cara a Fuerza Nueva, eliminando la simbologia franquista.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pues eso, que si no eres un puto fascista de mierda, no tienes por que votar a esta gente.
+Se que hay mucha gente que meteria en esta lista al PP y a otros, pero hay que ser justos.
+Puede que en el PP haya algun facha y algun nazi, pero
+muchos PPeros solo estan ahi para pillar cacho y es injusto que les tachemos de nazis o fachas por ello.&lt;/p&gt;
+&lt;p&gt;Y despues de esto, me dejo de dar capones por parcial y pasamos a los numeros y a las matematicas.
+Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:None,2014-05-23:/posts/2014-05-23-1815-Europeas2014-TeMolaPpPsoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
+Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
+Y este primero, sin números, para que lo entiendan.</summary><content type="html">&lt;p&gt;A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
+Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
+Y este primero, sin números, para que lo entiendan.&lt;/p&gt;
+&lt;p&gt;Este es: &lt;strong&gt;No os olvideis de ir a votar a vuestro partido, como siempre&lt;/strong&gt;, pero, en vuestro caso,
+casi tan importante como votar es &lt;strong&gt;emplearos a fondo para desmotivar a todo aquel que veais que no tiene pinta de votar a vuestra opción&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;¿Por qué? Porque la gente esta que trina con los partidos que han ejercido "su responsabilidad de gobierno", y, si ese descontento se materializase en votos a candidaturas alternativas, podría ser una debacle electoral sin precedentes.
+Ademas en las europeas al ser circumscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
+Hay que evitar que la mayoría social se convierta en mayoría electoral.
+Hay que mantener a gente lejos de las candidaturas alternativas al bipartito.
+Hasta ahora habeis podido disfrutar de mayorias absolutas con entre un 20% y un 30% de los votos.
+Pero para que siga este chollo os teneis que emplear convenciendo a la gente de que no vote a candidaturas alternativas&lt;/p&gt;
+&lt;p&gt;Podeis decirles cosas como que todos los políticos en el fondo son iguales, que votar a partidos pequeños es tirar el voto, o que abstenerse o votar nulo es lo más radical porque rechaza el sistema o que votar en blanco es lo que decia Saramago que había que hacer.
+Como demostraré más abajo estas cosas no son ciertas, pero teneis la ventaja de que mucha gente se piensan que lo son, sólo teneis que repetirlo y la gente se quedara en casa o demostrará su descontento con una loncha de chorizo.&lt;/p&gt;
+&lt;p&gt;Un no-voto, de cualquiera de los tres tipos, no entra en competencia con el tuyo de cara a conseguir escaños.
+Un voto a otra candidatura sí os lo puede quitar.
+Para ti es tan importante ir a votar a PP-PSOE como desmotivar a otros que no voten a otras candidaturas.
+Así que ya sabes que hacer.&lt;/p&gt;</content><category term="Europeas"></category></entry></feed>
