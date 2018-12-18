@@ -296,9 +296,11 @@ div#title-block P.blurb {
 	display: inline;
 }
 
-
-
-
+.summary-thumbnail {
+  width:33%;
+  float:right;
+  margin:10pt;
+}
 
 
 

@@ -1,5 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-25:/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2014-12-05T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Llistes d'unitat nacional, confluències i d'altres animals (polítics)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="alternate"></link><published>2014-12-05T00:00:00+01:00</published><updated>2014-12-05T00:00:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-12-05:/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html</id><summary type="html">Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
+Junts o barrejats.
+Un dels arguments que s'han fet servir per fer una candidatura unitària
+és que es veuria beneficiada pel sistema electoral.
+Jo em pregunto, segur?
+Anem a fer els deures per ells, farem l'anàlisis electoral.</summary><content type="html">&lt;p&gt;Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
+Junts o barrejats.
+Un dels arguments que s'han fet servir per fer una candidatura unitària
+és que es veuria beneficiada pel sistema electoral.
+Jo em pregunto, segur?
+Anem a fer els deures per ells, farem l'anàlisis electoral.&lt;/p&gt;
+&lt;p&gt;Sent honest, cal dir que tinc un cert biaix:
+Personalment em sembla una bejenada democrática
+que es vulgui diluir els matissos polítics de la gent que vota.
+A més opcions, més fàcil de trobar una opció amb la que comulguis amb més coses.
+Si juntes en l'eix nacional, treus als ciutadans capacitat de decidir sobre l'eix social,
+i això simplificant les opcions es puguin simplificar en dos únics eixos.&lt;/p&gt;
+&lt;p&gt;Així doncs, malgrat que intento recolzar-me en les matemàtiques,
+otorgo la responsabilitat jutjar l'efecte del meu biaix al lector.&lt;/p&gt;
+&lt;p&gt;Realment el sistema electoral afavoriria una llista conjunta?&lt;/p&gt;
+&lt;h2&gt;La hipòtesis de simplement sumar (ni restar, ni multiplicar)&lt;/h2&gt;
+&lt;p&gt;Hi ha factors en l'efecte d'una llista conjunta que són molt poc previsibles
+i que cal estimar de forma molt subjectiva.
+No tothom que votés a una opció per separat votaria la conjunta i a l'inrevés.
+Per això el que faré és primer fer la hipòtesi de que
+els vots a les diferents opcions en una llista conjunta simplement s'agregarien,
+sense foragitar votants, ni atreure nous votant.
+Una hipòtesi molt improbable, però que dibuixa un escenari base
+sobre el que fer després les nostres estimacions subjectives sobre els fluxos electorals que es puguin donar.&lt;/p&gt;
+&lt;h2&gt;Efecte de la suma de restes&lt;/h2&gt;
+&lt;p&gt;Sovint s'explica D'Hondt descrivint el procediment que cal seguir per repartir els escons,
+i aquest procediment sovint enmascara la comprensió del s'està fent:
+&lt;strong&gt;Una subasta que estableix el preu mínim en vots per cada escó&lt;/strong&gt;
+tal que, si reparteixes tots els escons a aquest preu, a cap opció li queden vots per tenir-ne més.&lt;/p&gt;
+&lt;p&gt;Una conseqüència d'aquesta definició és que, un cop establert aquest preu mínim,
+a totes les formacions els sobrarà un nombre de vots
+entre 0 i el preu mínim (menys 1) per obtindre el següent escó.&lt;/p&gt;
+&lt;p&gt;Evidentment, si les formacions s'uneixen, aquests vots sobrants
+podrien sumar per obtenir un nou escó que no obtindrien per separat.&lt;/p&gt;
+&lt;p&gt;Si considerem les formacions que clarament obtindran representació,
+com ho son CiU, ERC, ICV...
+estadísticament el número de vots sobrants tenen la mateixa probabilitat
+de ser 0, 1, 40, o el preu minim menys 1.
+És el que s'en diu una distribució de probabilitat uniforme
+que seria la corba plana de la gràfica.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://vokimon.github.io/mitoselectorales.org/images/llistaunitaria-sumarestos.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/Parlament2015/llistaunitaria.py"&gt;Codi Python per generar la gràfica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quan sumes els sobrants de N partits amb representacio,
+el resultat són distribucions que ja no són uniformes.
+En general, el realme del que és possible estaria entre 0 i N-1 escons addicionals,
+però, la situació més esperable serien (N-1)/2 escons.&lt;/p&gt;
+&lt;p&gt;Per exemple, com es pot veure al graf,
+amb dos formacions hi ha una probabilitat del 50%
+d'obtenir 0 escons i 50% d'obtenir 1 escó.
+Amb tres formacions, lo més probable, 67%, és que sumi un escò
+però també podria obtindre cap o 2.&lt;/p&gt;
+&lt;p&gt;És a dir, la suma dels sobrants afegirien per cada circumscripció:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 formacions: 0-1 (igual de probable 0 o 1)&lt;/li&gt;
+&lt;li&gt;3 formacions: 1&lt;/li&gt;
+&lt;li&gt;4 formacions: 1-2 (igual de probable 1 o 2)&lt;/li&gt;
+&lt;li&gt;5 formacions: 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Com aquest mateix efecte passa a cada circumscripció, cal multiplicar per quatre.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;En resum, cada formació que juntem, de les que normalment obtenen representació en les quatre circumscripcions,
+aporta 2 escons addicionals per suma de restos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ERC+CiU obtindria 2 escons addicionals i ERC+CIU+CUP obtindria 4.
+No és gaire però podria ser decissiu.&lt;/p&gt;
+&lt;h2&gt;Sumant restes de formacions amb perill de quedar fora&lt;/h2&gt;
+&lt;p&gt;Hi ha formacions que incorporades a la candidatura unitària
+tenen un efecte a la suma dels restos més gran del normal.
+Es tracta de les candidatures que, a Barcelona província, i només a Barcelona,
+tenen perill de no arribar al llidar del 3% que marca la llei.&lt;/p&gt;
+&lt;p&gt;Això és una singularitat que es dona a les autonòmiques catalanes
+i només a la província de Barcelona perquè el preu de l'escò,
+que normalment és lleugerament superior al 1%, està molt per sota del llindar del 3%.
+Així una formació es pot quedar fora del repartiment tenint vots
+per 2 o gairebé 3 escons.&lt;/p&gt;
+&lt;p&gt;Això vol dir que incorporar a Barcelona,
+una candidatura amb perill de quedar-se
+sense representació i amb posibilitats de tenir-ne,
+assegura 2 o 3 escons més a la candidatura unitària
+que d'una altra manera es podrien perdre.&lt;/p&gt;
+&lt;p&gt;També és diferent l'efecte de les formacions marginals.
+En aquestes formacions, el vot residual, que és tot el vot rebut,
+no respon a una distribució uniforme,
+sinó que tendeix a estar concentrat a la part baixa.
+Sumaran, però una part molt petita.&lt;/p&gt;
+&lt;h2&gt;Repartiment desproporcional de les fraccions per D'Hondt&lt;/h2&gt;
+&lt;p&gt;Adalt he suposat que el preu per escó no varia pel fet de agregar les candidatures.
+Pero no és així.
+D'Hondt fa que les candidatures amb més vots estiguin sobrerepresentades.
+Però aquesta tendència mal entesa, fa que sovint treguem conclusions errònies
+com les que s'han vist als mitjans aquests dies.
+Analitzem-ho.&lt;/p&gt;
+&lt;p&gt;D'on ve aquesta sobrerrepresentació?
+Si poguessim repartir trossos d'escons podríem fer repartiment totalment proporcional als vots.
+Una formació podria tindre 7'3 escons i una altra 2'7.
+Els sistemes de repartiment, difereixen en com es reparteixen els escons trossejats per tenir escons sencers.
+Un sistema com el de Hamilton, més proporcional,
+repartiria els escons a les formacions que tenen més decimals.
+És a dir, que 2'7 s'emportaria l'escò perque està més a prop del 3 que 7'3 del 8.&lt;/p&gt;
+&lt;p&gt;D'Hondt, en canvi, el que fa es baixar el preu de l'escó fins que es reparteixen tots.
+Si baixem el preu de l'escò un 1%, un formació amb 10 escons es com si li sumessis als restos un 11% del preu d'escó,
+en canvi una formació amb 3 econs només li pujaries un 4%.
+És possible que una formació minoritària obtingues l'escó sobrant (si ja tingues un 96% del següent escó), però és molt menys probable.&lt;/p&gt;
+&lt;p&gt;A un nombre do vots fix:
+- Preu minim: quan totes les candidatures tenen molts restos 1/(E+C)
+- Preu maxim: quan totes les candidatures tenen minims restos 1/C&lt;/p&gt;
+&lt;p&gt;Considerem que a un repartiment hi han hagut &lt;em&gt;V&lt;/em&gt; vots i &lt;em&gt;E&lt;/em&gt; escons a repartir.
+El preu màxim sera &lt;code&gt;P=V/E&lt;/code&gt; vots per escó.
+Assignant escons a aquest preu, una formació que ha obtingut &lt;em&gt;v&lt;/em&gt; vots obte &lt;em&gt;e&lt;/em&gt; escons i li sobren &lt;em&gt;r&lt;/em&gt; vots.
+Quin factor &lt;em&gt;f&lt;/em&gt; ha de reduir el preu la llei D'Hondt per que s'obtingui exactament el següent escò?&lt;/p&gt;
+&lt;div class="math"&gt;$$ v = e · p + r  = (e+1) · p · f $$&lt;/div&gt;
+&lt;div class="math"&gt;$$ e + r/p = (e + 1) · f  $$&lt;/div&gt;
+&lt;div class="math"&gt;$$ f = { e + r/p \over  e + 1}  $$&lt;/div&gt;
+&lt;div class="math"&gt;$$ v = e · p + r  = (e+1) · p · f $$&lt;/div&gt;
+&lt;p&gt;f = (e·p + r) / (e·p + p)&lt;/p&gt;
+&lt;p&gt;f = (e + r/p) / (e+1)&lt;/p&gt;
+&lt;p&gt;v = e · p + r = (e+1) · (p - d)&lt;/p&gt;
+&lt;p&gt;ep+r = ep -ed +p -d
+r = -ed +p -d&lt;/p&gt;
+&lt;p&gt;d = (p-r) / (e+1)
+d/p = (p-r)/p / (e+1)&lt;/p&gt;
+&lt;p&gt;Quants es el minim d'escons de restos que es reparteixen?&lt;/p&gt;
+&lt;p&gt;Descartant el cas infinitament improbable que totes les candidatures recollissin l'escó just per tenir el darrer escó (&lt;span class="math"&gt;\(1\over {p^C}\)&lt;/span&gt;),
+la següent opció molt més probable es que totes les formacions tinguèssin alguna part d'un sól escó.&lt;/p&gt;
+&lt;p&gt;Quants escons extres podrien acabar caient en una formació?
+Doncs normalment un.
+És possible que es donin més d'un però, per a que això passi
+la força majoritària hauria de tenir uns percentatges de vots tals que
+ja no ens treuria la son un o dos escons més o menys.&lt;/p&gt;
+&lt;p&gt;Així doncs, D'Hondt reparteix un escó extra
+a cadascuna de les formacions majoritàries a cada circumscripció.
+I aquí està la clau!!
+Donat que CiU i ERC són ara mateix les dues formacions majoritàries,
+serien les primeres en rebre els escons de sobrerrepresentació.
+Dos escons per circumscripció. Total: 8 escons.
+I si van juntes, com només són una formació,
+només reben 4 escons, un per circumscripció.&lt;/p&gt;
+&lt;h2&gt;Resumint els efectes de la llei electoral&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Suma de restos:&lt;ul&gt;
+&lt;li&gt;Una candidatura amb representació a totes les circumscripcions, que s'agregui a la candidatura unitària sumaria 2 escons&lt;/li&gt;
+&lt;li&gt;Una candidatura en risc de no arribar per separat a Barcelona al llindar del 3%, a la candidatura 2 i 3 escons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sobrerrepresentació per D'Hondt&lt;ul&gt;
+&lt;li&gt;Cada candidatura majoritaria a una circumscripció implica perdre 4 escons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En resum, si considerem que la unió de candidatures no crea
+moviment de vot ni en positiu ni en negatiu, tenim que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Separats ERC + CiU: 0 de restes + 8 de D'Hondt = 8 escons extra&lt;/li&gt;
+&lt;li&gt;Junts ERC + CiU: 2 de restes + 4 de D'Hondt = 6 escons extra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Matemàticament perdrien 2 escons!&lt;/p&gt;
+&lt;p&gt;Si fiquem a l'equació CUP, suposant que CUP
+és de la meitat cap abaix entre les formacions amb representació i no té bonificació D'Hondt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Separats ERC + CiU + CUP: 0 de restes + 8 de D'Hondt = 8 escons extra&lt;/li&gt;
+&lt;li&gt;Junts ERC + CiU + CUP: 4 de restes + 4 de D'Hondt = 8 escons extra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sorprenentment la llei electoral els deixa igual.&lt;/p&gt;
+&lt;p&gt;Altres fórmules podrien ser més beneficioses,
+sobretot, com hem dit agregant partits amb risc de quedar-se fora.
+Però la llei D'Hondt no serà més beneficiosa del que ja és
+i només tindra l'efecte dels restes que s'agregarien.&lt;/p&gt;
+&lt;h2&gt;Moviment de vot (o no vot) pel fet de juntar-se&lt;/h2&gt;
+&lt;p&gt;Amb la base del que ens dona la llei electoral,
+que ho pinta una mica magre per una llista unitària que agregui les dues opcions majoritàries.
+cal analitzar els fluxes entre les diferents opcions de vot o de no-vot.&lt;/p&gt;
+&lt;p&gt;Per fer aquest anàlisis, la clau està en identificar els perfils dels votants
+que canviarien el seu vot o no-vot i després intentar quantificar el seu número.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quin perfil de votant de un partit deixaria de votar a la llista unitària si en ella van els partits que hi van?&lt;/li&gt;
+&lt;li&gt;Quin perfil de votant que no votaria als partits de la llista, passaria a votar la llista?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Subjectivament, a mi em fa la impressió que el primer cas domina sobre el segon.&lt;/p&gt;
+&lt;p&gt;El fluxe negatiu d'una llista independentista unitària crec que seria important.
+Molta gent que votaria per separat a CUP, ICV o ERC no voldria votar al Mas de les retallades.
+No crec que sigui tant important en el cas de votants de CiU respecte la inclusió dels altres.&lt;/p&gt;
+&lt;p&gt;I el fluxe positiu, d'on hauria de vindre?
+No vindrà pas tampoc del votant unionista del PP i C's.
+El fluxe entre opcions independentistes no varia l'efecte.
+Només pot vindre de l'abstenció independentista i del votant que,
+tot i ser independentista, prioritza l'eix social.
+L'abstenció independentista no crec que sigui significativa
+en unes eleccions plantejades com a plebiscitàries.
+I la capacitat d'atreure els &lt;em&gt;independentistes socials&lt;/em&gt;
+està bastant condicionada a la generositat que es tingui en aquest eix
+a l'hora de plantejar la unitat.&lt;/p&gt;
+&lt;p&gt;En tot cas, l'efecte amunt i avall de tot plegat, ha de poder compensar-se
+amb l'efecte clarament contrari de la llei electoral envers una llista unitària.
+O sigui, en global, crec que una candidatura unitària és electoralment contraproduent
+pel bloc independentista, a part de que és contrari a la democràcia,
+en castrar la possibilitat de que els ciutadans es posicionin també
+en altres aspectes de la vida i, molt important,
+quines serien les bases sobre les que construir aquest nou país.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="Parlament"></category><category term="Coaliciones"></category><category term="D'Hont"></category></entry><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-25:/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
 Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
@@ -108,7 +363,7 @@ Eso pasa con una probabilidad de 1/P, donde P hemos visto que son cientosmiles.&
 Dado un dilema si hacer una cosa o otra, me pregunto: Que efecto tiene que mil, 10mil, 100mil...
 en mi misma disyuntiva tome una misma opción y después qué probabilidad hay de que os junteis todos esos en todo el estado.
 Todo es un poco difuso pero vereis que nos permitirá hacer algunos razonamientos para entender el efecto de nuestro voto o no voto.
-Con ayuda de programas como &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
+Con ayuda de programas como &lt;a href="https://vokimon.github.io/mitoselectorales.org/drafts/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
 &lt;p&gt;¿Como construimos la situación probable antes de nuestro voto (la hipótesis de partida)? Pues considerando encuestas, elecciones anteriores, los hooligans de cada partido (también llamado suelo electoral), diversas hipotesis de abstención y situación electoral.
 También es útil considerar como situación probable de partida situaciones extremas.
 Si en condiciones extremas opuestas algo sigue pasando, es que pasará.
@@ -494,12 +749,12 @@ i les seves possibles conseqüències.&lt;/p&gt;
 
 &lt;p&gt;A l'acampada hem dut a terme una intensa recerca per comprovar si allò que
 &lt;a title="Resum de mites i llegendes sobre el sistema electoral" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;es diu sobre el tema és realment cert o no&lt;/a&gt;,
-analitzant lleis i &lt;a title="enVote: simulador de fluxos electorals" href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;simulant casos&lt;/a&gt;.
+analitzant lleis i &lt;a title="enVote: simulador de fluxos electorals" href="https://vokimon.github.io/mitoselectorales.org/drafts/pages/envote-simulador-de-flujos-electorales.html"&gt;simulant casos&lt;/a&gt;.
 Volem compartir aquest esforç amb tota la gent de Sant Joan Despi i d'altres galaxies.
 Us assegurem que algunes conclusions són realment sorprenents i tenen una bona base de justificació.&lt;/p&gt;
 &lt;p&gt;Esteu tots convidats a vindre amb els vostres pròpis dubtes, si no coneixem la resposta, potser ho podem passar pel simulador.
 I si no podeu vindre, teniu resums penjats al
-&lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n.html"&gt;blog de l'acampada&lt;/a&gt;.
+&lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="{filename}2011-11-15-0215-20n.md"&gt;blog de l'acampada&lt;/a&gt;.
 Doneu-los difussió!&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="Octaveta" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -595,7 +850,7 @@ Y explicamos algunas de las candidaturas menos conocidas.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Imaginarte la situación más probable como si aun no hubieras votado&lt;/li&gt;
 &lt;li&gt;Imaginar que tu voto vale por 100, 1.000, 10.00, o 100.000 y pensar en cada escala que pasaría si todas esas personas hicieran lo mismo que tu: pasar de la opcion A a la opción B.&lt;/li&gt;
-&lt;li&gt;Puedes usar &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;nuestro simulador&lt;/a&gt; para visualizar el efecto.&lt;/li&gt;
+&lt;li&gt;Puedes usar &lt;a href="https://vokimon.github.io/mitoselectorales.org/drafts/pages/envote-simulador-de-flujos-electorales.html"&gt;nuestro simulador&lt;/a&gt; para visualizar el efecto.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
 &lt;div class='caption'&gt;
@@ -643,26 +898,7 @@ Es calculen dividint els vots de cada partit per 1, 2, 3, 4...&lt;/p&gt;
 &lt;div class='caption'&gt;
 Taula de fla llei d'Hondt - Generals 2008 a Barcelona (Click per ampliar)
 &lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Legislación"></category></entry><entry><title>20N</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n.html" rel="alternate"></link><published>2011-11-15T02:15:37+01:00</published><updated>2011-11-15T02:15:37+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n.html</id><summary type="html">&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
-
-Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
-
-&lt;/a&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
-&lt;div class='caption'&gt;
-Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
-&lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Material de difusión preparado por la acampada para el 20N.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html"&gt;Sistema electoral actual, com funciona, que ens pertoca a la circunscripció de Barcelona
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;Opciones de voto (o no voto)
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;Mitos y leyendas sobre el sistema electoral
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote: Simulador de flujos electorales
-    &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png"&gt;&lt;img alt="Octaveta mites electorals" src="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png" width="220"&gt;
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Legislación"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png"&gt;&lt;img alt="Octaveta mites electorals" src="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png" width="220"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
 </summary><content type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png"&gt;&lt;img alt="Octaveta mites electorals" src="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png" width="220"&gt;
@@ -673,7 +909,7 @@ Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
 &lt;p&gt;Para confirmar o desmentir todas estas historias las hemos contrastado con lo que dice la
 &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
 y hemos simulado los efectos varios en nuestra circunscripción (Barcelona) con un simulador.
-Puedes bajarte &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html" title="enVote"&gt;el simulador y los datos&lt;/a&gt;
+Puedes bajarte &lt;a href="https://vokimon.github.io/mitoselectorales.org/drafts/pages/envote-simulador-de-flujos-electorales.html" title="enVote"&gt;el simulador y los datos&lt;/a&gt;
 y comprobarlo por ti mismo o simular tu propia provincia.&lt;/p&gt;
 &lt;p&gt;También puedes querer conocer cuales son las diferentes
 &lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;opciones de voto o no voto&lt;/a&gt;
