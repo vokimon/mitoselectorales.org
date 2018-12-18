@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Generales2011</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/generales2011.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2011-11-16T00:09:46+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Xerrada: Llei electoral, mites i llegendes.</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html" rel="alternate"></link><published>2011-11-16T00:09:46+01:00</published><updated>2011-11-16T00:09:46+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-16:/mitoselectorales.org/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html</id><summary type="html"></summary><content type="html">&lt;p style="display:block; width:220; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Generales2011</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/generales2011.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2011-11-16T00:09:46+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Xerrada: Llei electoral, mites i llegendes.</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html" rel="alternate"></link><published>2011-11-16T00:09:46+01:00</published><updated>2011-11-16T00:09:46+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-16:/mitoselectorales.org/posts/2011-11-16-xerrada-llei-electoral-mites-i-llegendes.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Aquest &lt;b&gt;dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí&lt;/b&gt; farem una xerrada sobre el
 &lt;a title="Com s'aplica la llei electoral a les generals a Barcelona" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html"&gt;sistema electoral&lt;/a&gt;,
 les &lt;a title="20N: opcions de vot i no vot" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;diferents opcions de vot y no vot&lt;/a&gt;,
 i les seves possibles conseqüències.&lt;/p&gt;
+</summary><content type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="/images/20N-CartellMitesElectorals.jpg"&gt;&lt;img alt="Cartell de la Xerrada" src="/images/20N-CartellMitesElectorals.jpg" width="220"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aquest &lt;b&gt;dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí&lt;/b&gt; farem una xerrada sobre el
+&lt;a title="Com s'aplica la llei electoral a les generals a Barcelona" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html"&gt;sistema electoral&lt;/a&gt;,
+les &lt;a title="20N: opcions de vot i no vot" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html"&gt;diferents opcions de vot y no vot&lt;/a&gt;,
+i les seves possibles conseqüències.&lt;/p&gt;
+
+
 &lt;p&gt;A l'acampada hem dut a terme una intensa recerca per comprovar si allò que
 &lt;a title="Resum de mites i llegendes sobre el sistema electoral" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html"&gt;es diu sobre el tema és realment cert o no&lt;/a&gt;,
 analitzant lleis i &lt;a title="enVote: simulador de fluxos electorals" href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;simulant casos&lt;/a&gt;.
@@ -14,7 +22,21 @@ Us assegurem que algunes conclusions són realment sorprenents i tenen una bona 
 I si no podeu vindre, teniu resums penjats al
 &lt;a title="Material sobre el 20N publicat per AcampadaDespi" href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n.html"&gt;blog de l'acampada&lt;/a&gt;.
 Doneu-los difussió!&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.</summary><content type="html">&lt;h2&gt;Votos a candidaturas&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!&lt;/b&gt;&lt;/p&gt;</content><category term="Generales"></category><category term="Charlas"></category></entry><entry><title>20N: Opciones de voto (o no voto)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html" rel="alternate"></link><published>2011-11-15T04:41:23+01:00</published><updated>2011-11-15T04:41:23+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-opciones-de-voto-o-no-voto.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="Octaveta" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Explicamos el efecto de todas las opciones en la jornada electoral del 20N.
+Tanto las opciones de voto, como las de no voto.
+Las simbólicas y las pragmáticas.
+Y explicamos algunas de las candidaturas menos conocidas.&lt;/p&gt;
+</summary><content type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="Octaveta" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Explicamos el efecto de todas las opciones en la jornada electoral del 20N.
+Tanto las opciones de voto, como las de no voto.
+Las simbólicas y las pragmáticas.
+Y explicamos algunas de las candidaturas menos conocidas.&lt;/p&gt;
+
+
+&lt;h2&gt;Votos a candidaturas&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.&lt;/p&gt;
 &lt;p&gt;Infórmate de las opciones. No hay ningún voto más útil que otro.&lt;/p&gt;
 &lt;ul&gt;
@@ -100,14 +122,12 @@ Doneu-los difussió!&lt;/p&gt;
 &lt;div class='caption'&gt;
 Resumen difundible sobre ley electoral  y las opciones para el 20N.
 &lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category></entry><entry><title>20N: Llei electoral actual</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html" rel="alternate"></link><published>2011-11-15T04:14:31+01:00</published><updated>2011-11-15T04:14:31+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html</id><summary type="html">&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
-
+&lt;/a&gt;&lt;/p&gt;</content><category term="Generales"></category></entry><entry><title>20N: Llei electoral actual</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html" rel="alternate"></link><published>2011-11-15T04:14:31+01:00</published><updated>2011-11-15T04:14:31+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-llei-electoral-actual.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="Octaveta" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;De la 
 &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
 hem extret el que ens afecta en aquestes eleccions com a part de la circunscripció de Barcelona.
-</summary><content type="html">&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
-&lt;div class=caption&gt;Octaveta llei i opcions&lt;/div&gt;
+</summary><content type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;&lt;img alt="Octaveta" src="https://vokimon.github.io/mitoselectorales.org/images/LleiOpcions.png"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;De la 
 &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
@@ -163,7 +183,14 @@ Resumenes difundibles: Ley electoral y opciones. Mitos y leyendas electorales
     &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote: Simulador de flujos electorales
     &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.</summary><content type="html">&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Generales"></category></entry><entry><title>20N: Mitos y leyendas sobre el sistema electoral</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html" rel="alternate"></link><published>2011-11-15T01:54:06+01:00</published><updated>2011-11-15T01:54:06+01:00</updated><author><name>envoter</name></author><id>tag:vokimon.github.io,2011-11-15:/mitoselectorales.org/posts/2011-11-15-20n-mitos-y-leyendas-sobre-el-sistema-electoral.html</id><summary type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png"&gt;&lt;img alt="Octaveta mites electorals" src="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png" width="220"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
+</summary><content type="html">&lt;p style="display:block; width:33%; float:right; margin: 0em 1em"&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png"&gt;&lt;img alt="Octaveta mites electorals" src="https://vokimon.github.io/mitoselectorales.org/images/MitosElectorales.png" width="220"&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.&lt;/p&gt;
+
+
 &lt;p&gt;Para confirmar o desmentir todas estas historias las hemos contrastado con lo que dice la
 &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg" target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"&gt;ley electoral&lt;/a&gt;
 y hemos simulado los efectos varios en nuestra circunscripción (Barcelona) con un simulador.
