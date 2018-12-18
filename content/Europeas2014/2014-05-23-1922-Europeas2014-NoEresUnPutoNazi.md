@@ -1,17 +1,19 @@
 title: El efecto de tu (no) voto (II): No eres un puto nazi de mierda
 date: 2014-05-23 19:22
 author: David García Garzón
-tags: Europeas2014
+tags: Europeas
 
 
 Antes de entrar con los números un poco de poca imparcialidad:
 Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
 Sabes leer.
 Pero hay mucha gente que vota al azar partidos pequeños como castigo.
-Es una estrategia viable cuyo efecto analizo más abajo, y no es del todo es mala, siempre que saques del sorteo a partidos neo-nazis o xenòfobos.
-Con tu voto inconsciente podrías hacer que todos nosotros contribuyamos con impuestos a su financiación,
-haciendo posibles esos pintorescos autobuses del 12 de Octubre repletos de orangutanes gamados.
-Así que para que no haya confusiones aquí una lista de dichos partidos con una pequeña descripción por si te sientes orangutan gamado, sepas cual es tu clan.
+Ojo, que puedes acabar financiando los pintorescos autobuses del 12 de Octubre repleto de orangutanes gamados.
+
+Lo de votar partidos pequeños al azar es una estrategia viable cuyo efecto analizo en otro post,
+y no es del todo es mala, siempre que saques del sorteo a partidos neo-nazis o xenòfobos.
+Así que para que no haya confusiones aquí una lista de dichos partidos
+con una pequeña descripción por si te sientes orangutan gamado, sepas cual es tu clan.
 Hay unos cuantos.
 Mejor.
 Menos posibilidades de que salgan.

@@ -1,7 +1,7 @@
 ---
 title: 20N: Llei electoral actual
 date: 2011-11-15 04:14:31
-tags: Generales2011
+tags: Generales, Legislación
 wp_ID: 227
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 02:14:31
@@ -22,15 +22,19 @@ wp_menu_order: 1
 wp_post_type: page
 wp_post_mime_type: ''
 wp_comment_count: 1
-_:
 ---
+[![]({static}/images/LleiOpcions.png)
+<div class=caption>Octaveta llei i opcions</div>
+]({static}/images/LleiOpcions.png)
+
 De la 
 [ley electoral](http://www.juntaelectoralcentral.es/cs/jec/loreg){target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"}
 hem extret el que ens afecta en aquestes eleccions com a part de la circunscripció de Barcelona.
+<!-- PELICAN_END_SUMMARY -->
 
 ## Qué decidim a les eleccions?
 
-Com el sistema electoral está *dividit en circunscripcions provincials**,
+Com el sistema electoral está **dividit en circunscripcions provincials**,
 només podem decidir sobre els **31 diputats** i els **4 senadors** que surten de **Barcelona**.
 
 Només una part del Senat es renova per elecció directa dels ciutadans.

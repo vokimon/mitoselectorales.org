@@ -1,7 +1,7 @@
 title: Elecciones al Parlament 2012: Cómo afecta mi voto
 date: 2012-11-25-16:24
 author: David García Garzón
-tags: Parlament2012
+tags: Parlament
 
 ### ¿Cómo evalúo el efecto de mi voto o no voto?
 

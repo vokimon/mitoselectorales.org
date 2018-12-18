@@ -1,10 +1,7 @@
 title: El efecto de tu (no)voto (III): Los números
 date: 2014-05-25 1:28
 author: David García Garzón
-tags: Europeas2014
-
-Un poco justo, lo se.
-El tema es que hoy he tenido un día ocupadillo y no quería publicar nada sin revisar.
+tags: Europeas
 
 Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
@@ -20,24 +17,42 @@ el reparto de escaños en una circunscripción se hará repartiéndolos según l
 entre los partidos que superen un determinado porcentaje sobre el voto válido.
 El voto válido es el voto a candidaturas más el blanco.
 
+La ley explica la Regla de Hondt con el algoritmo para calcularlo.
+Pero se puede entender mejor lo que hace explicando el objetivo:
+Lo que hace es fijar un **precio de escaño** ($P$)
+de tal manera que se repartan **todos los escaños** ($E$)
+sin que a ningún partido le sobren votos para pillar un escaño más.
 
-Regla de Hondt:
-fija en una especie de subasta un precio mínimo por escaño (P)
-de tal manera que se repartan todos los escaños (E) sin que a ningún partido le sobren votos para pillar un escaño más.
-En general, los votos totales a candidaturas (V) se repartiran entre los votos asignados P*E (donde E es el número total de escaños) y los votos sobrantes de cada candidatura que sumarán, como máximo (P-1)*C, donde C es el número de candidaturas.
-Así, simplificando el -1, tenemos la relacion:
-$P*E < V < P*E + P*C$.
-Haciendo algebra con esta relacion podemos delimitar el precio del escaño,
-expresado en porcentaje del "voto a candidatura": 100/(E+C) % < 100*P/V % < 100/E %.
+En general, los **votos totales a candidaturas** ($V$)
+se repartiran entre los votos que han servido para obtener el escaño $P·E$
+y los que han sobrado.
+A cada candididatura le pueden sobrar de $0$ a $P-1$ votos.
+Si $C$ es el **número de candidaturas** podemos delimitar esto:
 
+$$P*E < V < P*E + P*C$$
+
+Haciendo algebra podemos delimitar delimitar el precio del escaño:
+
+$${V \over E+C} < P < {V \over E}$$
+
+Expresado en porcentaje del "voto a candidatura":
+
+$${100 \over E+C} < 100 {P \over V} < {100 \over E}$$
 
 Esa expresión delimita entre los dos casos extremos e improbables, pero ¿qué es lo más probable?
-A los partidos con escaños, hay una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
-Eso implica que el sobrante medio de los partidos con escaños tenderá a ser P/2.
-Respecto a los partidos sin escaño, por el comportamiento electoral típico, no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
-Voy a hacer una suposición de que solo un cuarto de los partidos extra parlamentarios sigue la distribución uniforme de los partidos con escaño.
-El voto sobrante no sería $P*C$ sinó que se aproximaría mejor con $P/2*C/4 = P*C/8$ y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al $100/(E+C/8)%$.
-Si mi suposición no os gusta, podéis cambiar los números, pero mucho no cambia.
+
+Los **partidos con escaños** tienen una probabilidad uniforme de que los votos sobrantes estén en cualquier punto entre un escaño y el siguiente.
+Por eso, el sobrante medio de los partidos con escaños tenderá a ser $P/2$.
+
+Respecto a los **partidos sin escaño**, por el comportamiento electoral típico,
+no sigue esa misma distribución uniforme del voto sobrante sinó que tiende a estar por la parte más baja en la mayoría de ellos.
+Voy a hacer una suposición de que algo menos de un cuarto de los partidos sigue la distribución uniforme de los partidos con escaño
+y que el resto cubren el _algo menos_ que le falta al cuarto.
+Mi suposición más o menos corresponde con pasados eventos electorles.
+Podeis experimentar con otras proporciones pero más o menos da lo mismo.
+
+El voto sobrante no sería ${P·C\over 2}$ sinó que se aproximaría mejor con ${P \over 2}·{C \over 4} = { P·C \over 8}$
+y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al ${ 100 \over E+C/8}%$.
 
 
 En resumen, el porcentaje de voto a candidatura necesario para un escaño es:
@@ -49,13 +64,11 @@ En resumen, el porcentaje de voto a candidatura necesario para un escaño es:
 
 ## ¿Cuales son los números concretos de estas elecciones?
 
+En las Europeas del 2014 tenemos
 
 - Una circunscripción única para toda España
-
 - El umbral para entrar en el reparto es del 0% (¡no hay umbral!)
-
 - 34.420.170 electores
-
 - Hay 54 escaños a repartir
 - Hay 39 candidaturas
 

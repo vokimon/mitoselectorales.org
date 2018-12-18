@@ -32,7 +32,7 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU=False
 USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = "Otros"
-
+SUMMARY_USE_FIRST_PARAGRAPH = True
 
 MENUITEMS=(
 	('Simulador', 'pages/envote-simulador-de-flujos-electorales.html'),
@@ -53,7 +53,7 @@ FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 ARTICLE_URL='posts/{date:%Y-%m-%d}-{slug}.html'
 ARTICLE_SAVE_AS='posts/{date:%Y-%m-%d}-{slug}.html'
 
-DEFAULT_PAGINATION = 8
+DEFAULT_PAGINATION = None
 
 LICENSE= "by-sa"
 
@@ -62,8 +62,15 @@ JINJA_ENVIRONMENT = {
     'jinja2.ext.i18n',
   ],
 }
-PLUGIN_PATHS = ['repos/pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGIN_PATHS = [
+	'repos/pelican-plugins',
+]
+PLUGINS = [
+	#'pelican_albums',
+	'summary',
+	'i18n_subsites',
+	'render_math',
+]
 
 I18N_TEMPLATES_LANG = 'en'
 
@@ -86,7 +93,7 @@ BLOG_AUTHORS={}
 #THEME = 'themes/pelican-bootstrap3'
 
 #THEME = 'themes/bricabrac' # no furula
-THEME = 'themes/bricks' # plus plus
+#THEME = 'themes/bricks' # plus plus
 #THEME = 'themes/brownstone' # cool
 #THEME = 'themes/built-texts'
 #THEME = 'themes/cebong'
@@ -121,4 +128,4 @@ THEME = 'themes/bricks' # plus plus
 #THEME = 'themes/waterspill'
 #THEME = 'themes/waterspill-en'
 #THEME = 'themes/zurb-F5-basic'
-
+THEME = 'pelican-theme-votingmyths'

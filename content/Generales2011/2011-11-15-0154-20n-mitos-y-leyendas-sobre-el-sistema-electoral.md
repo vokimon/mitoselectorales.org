@@ -1,7 +1,7 @@
 ---
 title: 20N: Mitos y leyendas sobre el sistema electoral
 date: 2011-11-15 01:54:06
-tags: Generales2011
+tags: Generales
 hide: true
 wp_ID: 215
 wp_post_author: 4

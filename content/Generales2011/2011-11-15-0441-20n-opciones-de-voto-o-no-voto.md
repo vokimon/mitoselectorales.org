@@ -1,7 +1,7 @@
 ---
 title: 20N: Opciones de voto (o no voto)
 date: 2011-11-15 04:41:23
-tags: Generales2011
+tags: Generales
 wp_ID: 231
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 02:41:23
