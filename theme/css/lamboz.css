@@ -296,7 +296,7 @@ div#title-block P.blurb {
 	display: inline;
 }
 
-.summary-thumbnail {
+.cover {
   width:33%;
   float:right;
   margin:10pt;
