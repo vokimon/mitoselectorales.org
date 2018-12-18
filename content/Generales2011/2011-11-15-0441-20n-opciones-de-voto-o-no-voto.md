@@ -23,6 +23,18 @@ wp_post_type: page
 wp_post_mime_type: ''
 wp_comment_count: 3
 ---
+
+[![Octaveta]({static}/images/LleiOpcions.png)
+]({static}/images/LleiOpcions.png)
+{style="display:block; width:33%; float:right; margin: 0em 1em"}
+
+Explicamos el efecto de todas las opciones en la jornada electoral del 20N.
+Tanto las opciones de voto, como las de no voto.
+Las simbólicas y las pragmáticas.
+Y explicamos algunas de las candidaturas menos conocidas.
+
+<!-- PELICAN_END_SUMMARY -->
+
 ## Votos a candidaturas
 
 **Como:** Hay que depositar en el sobre solo papeletas de un solo partido sin nada escrito.

@@ -26,13 +26,14 @@ _: ''
 ---
 [![Cartell de la Xerrada](/images/20N-CartellMitesElectorals.jpg){width=220}
 ](/images/20N-CartellMitesElectorals.jpg)
-{style="display:block; width:220; float:right; margin: 0em 1em"}
+{style="display:block; width:33%; float:right; margin: 0em 1em"}
 
 Aquest <b>dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí</b> farem una xerrada sobre el
 <a title="Com s'aplica la llei electoral a les generals a Barcelona" href="{filename}2011-11-15-0414-20n-llei-electoral-actual.md">sistema electoral</a>,
 les <a title="20N: opcions de vot i no vot" href="{filename}2011-11-15-0441-20n-opciones-de-voto-o-no-voto.md">diferents opcions de vot y no vot</a>,
 i les seves possibles conseqüències.
 
+<!-- PELICAN_END_SUMMARY -->
 
 A l'acampada hem dut a terme una intensa recerca per comprovar si allò que
 <a title="Resum de mites i llegendes sobre el sistema electoral" href="{filename}2011-11-15-0154-20n-mitos-y-leyendas-sobre-el-sistema-electoral.md">es diu sobre el tema és realment cert o no</a>,

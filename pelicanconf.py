@@ -24,14 +24,14 @@ DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_ATOM = False
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DISPLAY_PAGES_ON_MENU=False
-USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = "Otros"
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU=False
 SUMMARY_USE_FIRST_PARAGRAPH = True
 
 MENUITEMS=(
@@ -49,7 +49,7 @@ _LINKS = (
 SOCIAL = (
 	('Twitter', '@mitosElectorales'),
 )
-FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
+#FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 ARTICLE_URL='posts/{date:%Y-%m-%d}-{slug}.html'
 ARTICLE_SAVE_AS='posts/{date:%Y-%m-%d}-{slug}.html'
 
@@ -72,13 +72,15 @@ PLUGINS = [
 	'render_math',
 ]
 
-I18N_TEMPLATES_LANG = 'en'
+I18N_TEMPLATES_LANG = 'es'
 
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
-BLOG_AUTHORS={}
+BLOG_AUTHORS={
+	'envoter': "David García Gazón",
+}
 
 
 #THEME = 'themes/aboutwilson'

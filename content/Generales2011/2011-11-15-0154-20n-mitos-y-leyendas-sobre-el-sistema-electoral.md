@@ -24,7 +24,14 @@ wp_post_type: page
 wp_post_mime_type: ''
 wp_comment_count: 0
 ---
+
+[![Octaveta mites electorals]({static}/images/MitosElectorales.png){width=220}
+]({static}/images/MitosElectorales.png)
+{style="display:block; width:33%; float:right; margin: 0em 1em"}
+
 Esta página resume el trabajo que hemos hecho en la acampada intentando averiguar que había de cierto o de falso en los diferentes rumores que nos habían llegado de como funciona el sistema electoral.
+
+<!-- PELICAN_END_SUMMARY -->
 
 Para confirmar o desmentir todas estas historias las hemos contrastado con lo que dice la
 [ley electoral](http://www.juntaelectoralcentral.es/cs/jec/loreg){target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"}

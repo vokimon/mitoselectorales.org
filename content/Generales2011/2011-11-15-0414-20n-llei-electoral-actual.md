@@ -23,9 +23,9 @@ wp_post_type: page
 wp_post_mime_type: ''
 wp_comment_count: 1
 ---
-[![]({static}/images/LleiOpcions.png)
-<div class=caption>Octaveta llei i opcions</div>
+[![Octaveta]({static}/images/LleiOpcions.png)
 ]({static}/images/LleiOpcions.png)
+{style="display:block; width:33%; float:right; margin: 0em 1em"}
 
 De la 
 [ley electoral](http://www.juntaelectoralcentral.es/cs/jec/loreg){target="_blank" title="LOREG: Ley Organica del Regimen Electoral General"}
