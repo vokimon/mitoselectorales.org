@@ -53,7 +53,7 @@ però, la situació més esperable serien (N-1)/2 escons.&lt;/p&gt;
 &lt;p&gt;Per exemple, com es pot veure al graf,
 amb dos formacions hi ha una probabilitat del 50%
 d'obtenir 0 escons i 50% d'obtenir 1 escó.
-Amb tres formacions, lo més probable, 67%, és que sumi un escò
+Amb tres formacions, lo més probable, 67%, és que sumi un escó
 però també podria obtindre cap o 2.&lt;/p&gt;
 &lt;p&gt;És a dir, la suma dels sobrants afegirien per cada circumscripció:&lt;/p&gt;
 &lt;ul&gt;
@@ -73,7 +73,7 @@ tenen un efecte a la suma dels restos més gran del normal.
 Es tracta de les candidatures que, a Barcelona província, i només a Barcelona,
 tenen perill de no arribar al llidar del 3% que marca la llei.&lt;/p&gt;
 &lt;p&gt;Això és una singularitat que es dona a les autonòmiques catalanes
-i només a la província de Barcelona perquè el preu de l'escò,
+i només a la província de Barcelona perquè el preu de l'escó,
 que normalment és lleugerament superior al 1%, està molt per sota del llindar del 3%.
 Així una formació es pot quedar fora del repartiment tenint vots
 per 2 o gairebé 3 escons.&lt;/p&gt;
@@ -87,67 +87,39 @@ En aquestes formacions, el vot residual, que és tot el vot rebut,
 no respon a una distribució uniforme,
 sinó que tendeix a estar concentrat a la part baixa.
 Sumaran, però una part molt petita.&lt;/p&gt;
-&lt;h2&gt;Repartiment desproporcional de les fraccions per D'Hondt&lt;/h2&gt;
-&lt;p&gt;Adalt he suposat que el preu per escó no varia pel fet de agregar les candidatures.
-Pero no és així.
-D'Hondt fa que les candidatures amb més vots estiguin sobrerepresentades.
-Però aquesta tendència mal entesa, fa que sovint treguem conclusions errònies
-com les que s'han vist als mitjans aquests dies.
-Analitzem-ho.&lt;/p&gt;
-&lt;p&gt;D'on ve aquesta sobrerrepresentació?
-Si poguessim repartir trossos d'escons podríem fer repartiment totalment proporcional als vots.
+&lt;h2&gt;Mite: D'Hondt afavoreix l'agregació de candidatures&lt;/h2&gt;
+&lt;p&gt;D'Hondt fa que les candidatures amb més vots estiguin sobrerepresentades.
+Una candidatura agregada estaría més sobrerepresentada encara?
+Doncs sí, però, no.
+Es a dir, estaria més sobrepresentada, sí,
+però treient la suma dels restos que explicavem abans,
+&lt;strong&gt;el que fa es sumar les sobrerepresentacións de les dues candidatures originals.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ho pots comprobar empíricament amb l'eina &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote&lt;/a&gt;,
+agafant qualsevol parell de candidatures i fent una transferència total d'una cap a l'altra.
+Comprovaràs que &lt;strong&gt;no hi ha més guany del que poguem preveure amb la suma de restos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Per entendre perquè és així cal entendre d'on ve la sobrerrepresentació de D'Hondt.&lt;/p&gt;
+&lt;p&gt;Si poguessim escuarterar els polítics, podríem fer un repartiment totalment proporcional als vots.
 Una formació podria tindre 7'3 escons i una altra 2'7.
-Els sistemes de repartiment, difereixen en com es reparteixen els escons trossejats per tenir escons sencers.
-Un sistema com el de Hamilton, més proporcional,
-repartiria els escons a les formacions que tenen més decimals.
-És a dir, que 2'7 s'emportaria l'escò perque està més a prop del 3 que 7'3 del 8.&lt;/p&gt;
-&lt;p&gt;D'Hondt, en canvi, el que fa es baixar el preu de l'escó fins que es reparteixen tots.
-Si baixem el preu de l'escò un 1%, un formació amb 10 escons es com si li sumessis als restos un 11% del preu d'escó,
-en canvi una formació amb 3 econs només li pujaries un 4%.
-És possible que una formació minoritària obtingues l'escó sobrant (si ja tingues un 96% del següent escó), però és molt menys probable.&lt;/p&gt;
-&lt;p&gt;A un nombre do vots fix:
-- Preu minim: quan totes les candidatures tenen molts restos 1/(E+C)
-- Preu maxim: quan totes les candidatures tenen minims restos 1/C&lt;/p&gt;
-&lt;p&gt;Considerem que a un repartiment hi han hagut &lt;em&gt;V&lt;/em&gt; vots i &lt;em&gt;E&lt;/em&gt; escons a repartir.
-El preu màxim sera &lt;code&gt;P=V/E&lt;/code&gt; vots per escó.
-Assignant escons a aquest preu, una formació que ha obtingut &lt;em&gt;v&lt;/em&gt; vots obte &lt;em&gt;e&lt;/em&gt; escons i li sobren &lt;em&gt;r&lt;/em&gt; vots.
-Quin factor &lt;em&gt;f&lt;/em&gt; ha de reduir el preu la llei D'Hondt per que s'obtingui exactament el següent escò?&lt;/p&gt;
-&lt;div class="math"&gt;$$ v = e · p + r  = (e+1) · p · f $$&lt;/div&gt;
-&lt;div class="math"&gt;$$ e + r/p = (e + 1) · f  $$&lt;/div&gt;
-&lt;div class="math"&gt;$$ f = { e + r/p \over  e + 1}  $$&lt;/div&gt;
-&lt;div class="math"&gt;$$ v = e · p + r  = (e+1) · p · f $$&lt;/div&gt;
-&lt;p&gt;f = (e·p + r) / (e·p + p)&lt;/p&gt;
-&lt;p&gt;f = (e + r/p) / (e+1)&lt;/p&gt;
-&lt;p&gt;v = e · p + r = (e+1) · (p - d)&lt;/p&gt;
-&lt;p&gt;ep+r = ep -ed +p -d
-r = -ed +p -d&lt;/p&gt;
-&lt;p&gt;d = (p-r) / (e+1)
-d/p = (p-r)/p / (e+1)&lt;/p&gt;
-&lt;p&gt;Quants es el minim d'escons de restos que es reparteixen?&lt;/p&gt;
-&lt;p&gt;Descartant el cas infinitament improbable que totes les candidatures recollissin l'escó just per tenir el darrer escó (&lt;span class="math"&gt;\(1\over {p^C}\)&lt;/span&gt;),
-la següent opció molt més probable es que totes les formacions tinguèssin alguna part d'un sól escó.&lt;/p&gt;
-&lt;p&gt;Quants escons extres podrien acabar caient en una formació?
-Doncs normalment un.
-És possible que es donin més d'un però, per a que això passi
-la força majoritària hauria de tenir uns percentatges de vots tals que
-ja no ens treuria la son un o dos escons més o menys.&lt;/p&gt;
-&lt;p&gt;Així doncs, D'Hondt reparteix un escó extra
-a cadascuna de les formacions majoritàries a cada circumscripció.
-I aquí està la clau!!
-Donat que CiU i ERC són ara mateix les dues formacions majoritàries,
-serien les primeres en rebre els escons de sobrerrepresentació.
-Dos escons per circumscripció. Total: 8 escons.
-I si van juntes, com només són una formació,
-només reben 4 escons, un per circumscripció.&lt;/p&gt;
+Els sistemes de repartiment, difereixen en com es reparteixen els escons trossejats per tenir escons sencers
+i no haver de fer cap canisseria.&lt;/p&gt;
+&lt;p&gt;Per exemple, el sistema &lt;a href="https://ca.wikipedia.org/wiki/M%C3%A8tode_de_Hamilton"&gt;Hamilton&lt;/a&gt;,
+més proporcional que el que es fa servir a Espanya,
+repartiria els escons a les formacions que tenen els restos més grans.
+És a dir, que 2'7 s'emportaria l'escó perque està més a prop del 3 que ho està 7'3 del 8.&lt;/p&gt;
+&lt;p&gt;D'Hondt, en canvi, el que fa es baixar el preu de l'escó fins que es reparteixen tots els escons.
+Si baixem el preu de l'escó un 1%, una formació amb 10 escons afegeix als seus restos un 1% per escó, el 10%.
+En canvi, una formació amb 3 escons només li afegiries un 3%.
+Potser la minoritària tenia 96% i amb el 3% ja agafa l'escó,
+però pots veure que si tenim molts escons sobrants, el repartiment acabarà sent proporcional al tamany de la candidaura.
+En contra Hamilton reparteix només un o zero escons sobrants a cada candidatura.&lt;/p&gt;
+&lt;p&gt;Llavors, perque no es beneficia d'això una coalició?
+Perque la proporcionalitat ja s'estava aplicant per separat,
+i l'únic efecte que té, són la suma dels esmentats restos.&lt;/p&gt;
 &lt;h2&gt;Resumint els efectes de la llei electoral&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Suma de restos:&lt;ul&gt;
 &lt;li&gt;Una candidatura amb representació a totes les circumscripcions, que s'agregui a la candidatura unitària sumaria 2 escons&lt;/li&gt;
 &lt;li&gt;Una candidatura en risc de no arribar per separat a Barcelona al llindar del 3%, a la candidatura 2 i 3 escons&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Sobrerrepresentació per D'Hondt&lt;ul&gt;
-&lt;li&gt;Cada candidatura majoritaria a una circumscripció implica perdre 4 escons&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -199,62 +171,7 @@ O sigui, en global, crec que una candidatura unitària és electoralment contrap
 pel bloc independentista, a part de que és contrari a la democràcia,
 en castrar la possibilitat de que els ciutadans es posicionin també
 en altres aspectes de la vida i, molt important,
-quines serien les bases sobre les que construir aquest nou país.&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="Parlament"></category><category term="Coaliciones"></category><category term="D'Hont"></category></entry><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-25:/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+quines serien les bases sobre les que construir aquest nou país.&lt;/p&gt;</content><category term="Parlament"></category><category term="Coaliciones"></category><category term="D'Hont"></category></entry><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-25:/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
 Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
