@@ -16,9 +16,10 @@
 			  <div class="date">{{ article.locale_date}}</div>
             </div>
             <h2><a href="{{ SITEURL }}/{{ article.url }}" rel=Bookmark title="Permalink to {{ article.title | striptags }}">{{ article.title }}</a></h2>
-            <p>
-            {{ article.summary }}
-            </p>
+            {% if article.cover %}
+			<img class="cover"  src="{{ SITEURL }}/{{ article.cover }}"/>
+            {% endif %}
+            <p>{{ article.summary }}</p>
         </div>
         {% if cnt == 0 %}
         <ul class="medium-block-grid-2">
@@ -34,10 +35,11 @@
               <div class='category'>{{ article.category}}</div>
 			  <div class="date">{{ article.locale_date}}</div>
             </div>
-             <h3><a href="{{ SITEURL }}/{{ article.url }}" rel=Bookmark title="Permalink to {{ article.title | striptags }}">{{ article.title }}</a></h3>
-            <p>
-            {{ article.summary }}            
-            </p>
+            <h3><a href="{{ SITEURL }}/{{ article.url }}" rel=Bookmark title="Permalink to {{ article.title | striptags }}">{{ article.title }}</a></h3>
+            {% if article.cover %}
+			<img class="cover"  src="{{ SITEURL }}/{{ article.cover }}"/>
+            {% endif %}
+            <p>{{ article.summary }}</p>
         </div>
         </li>
     {% endif %}    
