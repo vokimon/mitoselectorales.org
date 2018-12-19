@@ -1,6 +1,7 @@
 title: enVote: Simulador de flujos electorales
 date: 2011-11-15 03:30:05
 tags: Simulador
+status: published
 wp_ID: 222
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 01:30:05

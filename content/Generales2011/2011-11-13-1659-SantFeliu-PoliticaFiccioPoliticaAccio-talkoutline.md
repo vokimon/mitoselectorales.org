@@ -2,6 +2,7 @@ title: De la politica ficción a la política acción
 author: David García Garzón
 date: 2011-11-13 16:59
 tags: Generales, Charlas
+status: published
 
 Este es el _outline_ que seguimos en las primeras charlas que dimos
 para dar difusión a los resultados de nuestras pesquisas.

@@ -1,5 +1,6 @@
 title: Sobre esta pagina
 date: 2018-12-12
+status: published
 
 La misión de esta página es desenmascarar la multitud de mitos
 que circulan, por mala intención o puro desconocimiento,

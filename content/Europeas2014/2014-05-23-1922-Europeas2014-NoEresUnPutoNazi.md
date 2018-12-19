@@ -2,7 +2,7 @@ title: El efecto de tu (no) voto (II): No eres un puto nazi de mierda
 date: 2014-05-23 19:22
 author: David García Garzón
 tags: Europeas
-
+status: published
 
 Antes de entrar con los números un poco de poca imparcialidad:
 Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.

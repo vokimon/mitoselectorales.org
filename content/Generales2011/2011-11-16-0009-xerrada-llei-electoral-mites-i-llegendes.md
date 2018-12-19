@@ -2,6 +2,7 @@
 title: Xerrada: Llei electoral, mites i llegendes.
 date: 2011-11-16 00:09:46
 tags: Generales, Charlas
+status: published
 wp_ID: 242
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 22:09:46

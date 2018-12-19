@@ -2,6 +2,7 @@ title: El efecto de tu (no)voto (III): Los números
 date: 2014-05-25 1:28
 author: David García Garzón
 tags: Europeas
+status: published
 
 Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.

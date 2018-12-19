@@ -2,6 +2,7 @@ title: El efecto de tu (no)voto (I): Te mola PP o PSOE
 date: 2014-05-23 18:15
 author: David García Garzón
 tags: Europeas
+status: published
 
 A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
 Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.

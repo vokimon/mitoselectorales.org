@@ -19,8 +19,10 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'es'
-
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
+DEFAULT_METADATA = {
+	'status': 'draft',
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

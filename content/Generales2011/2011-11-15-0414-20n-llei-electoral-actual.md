@@ -2,6 +2,7 @@
 title: 20N: Llei electoral actual
 date: 2011-11-15 04:14:31
 tags: Generales, Legislación
+status: published
 wp_ID: 227
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 02:14:31
