@@ -43,8 +43,6 @@ Volem compartir aquest esforç amb tota la gent de Sant Joan Despi i d'altres ga
 Us assegurem que algunes conclusions són realment sorprenents i tenen una bona base de justificació.
 
 Esteu tots convidats a vindre amb els vostres pròpis dubtes, si no coneixem la resposta, potser ho podem passar pel simulador.
-I si no podeu vindre, teniu resums penjats al
-<a title="Material sobre el 20N publicat per AcampadaDespi" href="{filename}2011-11-15-0215-20n.md">blog de l'acampada</a>.
 Doneu-los difussió!
 
 <b>El 20N fes el que vulguis però fes-ho informat. El coneixement és la millor arma. Arma't!</b>
