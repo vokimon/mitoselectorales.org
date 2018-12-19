@@ -14,6 +14,10 @@ from pelicanconf import *
 SITEURL = 'https://vokimon.github.io/mitoselectorales.org'
 RELATIVE_URLS = True
 
+PLUGINS = PLUGINS + [
+	'optimize_images',
+]
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 

@@ -77,7 +77,6 @@ PLUGINS = [
 	'summary',
 	'i18n_subsites',
 	'render_math',
-	#'optimize_images',
 ]
 
 I18N_TEMPLATES_LANG = 'es'
