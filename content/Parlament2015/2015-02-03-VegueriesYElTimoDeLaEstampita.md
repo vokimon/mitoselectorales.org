@@ -1,8 +1,10 @@
+---
 title: Las Veguerias, el timo de la estampita
 author: vokimon
 tags: Circumscripciones, Parlament
 cover: images/PlaDeVegueries2016.png
 covercaption: Pla de Vegueries de 2016 <br> Font: Vikipedia
+---
 
 Una pregunta:
 _¿Quién representa mejor los intereses de una persona que votó al PP en Barcelona?

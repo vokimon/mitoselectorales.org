@@ -1,9 +1,11 @@
+---
 title: Llistes d'unitat nacional, confluències i d'altres animals (polítics)
 author: David García Garzón
 tags: Parlament, Coaliciones, D'Hont
 cover: images/llistaunitaria-sumarestos.png
 covercaption: Probabilitat d'afegir escons en una circumscripció amb la suma de candidatures
 status: published
+---
 
 Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
 Junts o barrejats.
