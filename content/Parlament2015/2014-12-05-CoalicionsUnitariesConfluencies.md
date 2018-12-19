@@ -136,7 +136,7 @@ Els sistemes de repartiment, difereixen en com es reparteixen els escons trossej
 i no haver de fer cap canisseria.
 
 Per exemple, el sistema [Hamilton](https://ca.wikipedia.org/wiki/M%C3%A8tode_de_Hamilton),
-més proporcional que el que es fa servir a Espanya,
+més proporcional que el que tenim,
 repartiria els escons a les formacions que tenen els restos més grans.
 És a dir, que 2'7 s'emportaria l'escó perque està més a prop del 3 que ho està 10'3 de l'11.
 
