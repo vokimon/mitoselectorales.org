@@ -19,12 +19,12 @@
  
    </header>
     <section class='article'>
-        
-<!--
-        <div class="entry-summary">
-            {{ article.summary }}
-        </div>
--->    
+        {% if article.cover %}
+        <div class='thumb-right'>
+			<a href='{{ SITEURL }}/{{ article.cover}}'><img src='{{ SITEURL }}/{{ article.cover }}'/></a>
+			{{ article.covercaption }}
+		</div>
+        {% endif %}
         <div class="entry-content">
             {{ article.content }}
         </div>

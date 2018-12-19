@@ -2,9 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'envoter'
-SITENAME = 'Mitos Electorales'
+AUTHOR = 'vokimon'
+BLOG_AUTHORS={
+	'vokimon': "David García Gazón",
+}
+
 SITEURL = ''
+SITENAME = 'Mitos Electorales'
 SITESUBTITLE = 'El mítico voto útil y otros cuentos'
 SITEDESCRIPTION = (
 	"Contraste de los mitos sobre el efecto "
@@ -37,6 +41,7 @@ DISPLAY_PAGES_ON_MENU=False
 SUMMARY_USE_FIRST_PARAGRAPH = True
 
 MENUITEMS=(
+	('Proyecto', 'pages/el-proyecto.html'),
 	('Simulador', 'pages/envote-simulador-de-flujos-electorales.html'),
 	#('Mitos', 'mitos.md'),
 	#('Memes', 'memes.md'),
@@ -72,6 +77,7 @@ PLUGINS = [
 	'summary',
 	'i18n_subsites',
 	'render_math',
+	#'optimize_images',
 ]
 
 I18N_TEMPLATES_LANG = 'es'
@@ -79,10 +85,6 @@ I18N_TEMPLATES_LANG = 'es'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
-
-BLOG_AUTHORS={
-	'envoter': "David García Gazón",
-}
 
 
 #THEME = 'themes/aboutwilson'
