@@ -3,6 +3,8 @@ title: Xerrada: Llei electoral, mites i llegendes.
 date: 2011-11-16 00:09:46
 tags: Generales, Charlas
 status: published
+cover: images/20N-CartellMitesElectorals.jpg
+covercaption: Cartell de la Xerrada
 wp_ID: 242
 wp_post_author: 4
 wp_post_date_gmt: 2011-11-15 22:09:46
@@ -25,9 +27,6 @@ wp_post_mime_type: ''
 wp_comment_count: 0
 _: ''
 ---
-[![Cartell de la Xerrada](/images/20N-CartellMitesElectorals.jpg){width=220}
-](/images/20N-CartellMitesElectorals.jpg)
-{style="display:block; width:33%; float:right; margin: 0em 1em"}
 
 Aquest <b>dijous 17 de Novembre al Foment Cultural i Artístic de Sant Joan Despí</b> farem una xerrada sobre el
 <a title="Com s'aplica la llei electoral a les generals a Barcelona" href="{filename}2011-11-15-0414-20n-llei-electoral-actual.md">sistema electoral</a>,
