@@ -133,4 +133,4 @@ RELATIVE_URLS = False
 #THEME = 'themes/waterspill'
 #THEME = 'themes/waterspill-en'
 #THEME = 'themes/zurb-F5-basic'
-THEME = 'pelican-theme-votingmyths'
+THEME = 'theme'
