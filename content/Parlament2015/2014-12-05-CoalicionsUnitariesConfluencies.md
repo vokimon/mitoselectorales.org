@@ -206,3 +206,13 @@ que canviarien el seu vot o no-vot i després intentar quantificar el seu númer
 
 El guany matemàtic es prou petit com per a que aquests moviments el malmetin.
 
+Potser és el guany que es requereix per obtindre la majoria sense la CUP (o amb la CUP).
+
+El que tinc clar es que per donar força a un eix polític, el nacional,
+els ciutadans tindran menys opcions per escollir d'altres eixos, i en concret el social.
+
+Potser la gent que vota a Esquerra que te més present l'eix social i
+que no volen a MAS aniran a parar a la CUP.
+
+Qui ho sap.
+
