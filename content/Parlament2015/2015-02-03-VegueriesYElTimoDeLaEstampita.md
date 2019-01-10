@@ -4,18 +4,18 @@ author: vokimon
 tags: Circumscripciones, Parlament
 cover: images/PlaDeVegueries2016.png
 covercaption: Pla de Vegueries de 2016 <br> Font: Vikipedia
+status: published
 ---
 
 Una pregunta:
-_¿Quién representa mejor los intereses de una persona que votó al PP en Barcelona?
-¿Una candidata de la CUP de Barcelona? ¿O una candidata del PP de Tarragona?_
+_¿Quién representa mejor los intereses de una persona que votó al **PP en Barcelona**?
+¿Una candidata de la **CUP de Barcelona** o una candidata del **PP de Tarragona**?_
+(Cambia partidos y províncias, hasta que te chirríe.)
 
-Cambia los partidos hasta que te veas en el ejemplo y te chirríe.
-
-Algunas de las propuestas que se han ido haciendo de reforma de la ley electoral catalana,
+Algunas de las propuestas que se han ido haciendo de la ley electoral catalana,
 propone cambiar la circumscripción de la província a la veguería.
 ¿La razón expuesta? Una forma de acercar la gente a su electorado.
-¡Qué bonito!
+¡Precioso!
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -28,15 +28,14 @@ Pues tal como està planteada la ley electoral va a ser que no.
 
 ## La representatividad
 
-Normalmente hay dos elementos que miden la bondad de un sistema electoral.
+Normalmente se consideran dos criterios para analizar la bondad de un sistema electoral.
 Por un lado, está la **representatividad**, es decir,
-como de bien el parlamento elegido es un reflejo de lo que piensa la ciudadanía.
-La otra fuerza que se le opone, suele ser la **gobernabilidad**.
-Como de fácil o difícil es tirar adelante propuestas,
-partiendo de la afirmación, yo creo que en gran parte falaz,
-de que si una fuerza no tiene mayoría absoluta es muy difícil hacerlo.
+en qué medida el parlamento es un reflejo mas o menos distorsionado de lo que piensa la ciudadanía.
+El criterio que se le suele oponer es la **gobernabilidad**:
+cómo de fácil o difícil es tirar adelante propuestas,
+partiendo de la suposición de que si no hay mayorías absolutas es complicadísimo.
 
-Yo opino que esta última fuerza está puesta aquí a conveniencia de
+Yo opino que el criterio de la gobernabilidad  aquí a conveniencia de
 los que siempre gobiernan.
 
 En todo caso, esta vez no se nos dice que las veguerías son buenas por la gobernabilidad.
