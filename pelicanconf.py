@@ -40,6 +40,17 @@ USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU=False
 SUMMARY_USE_FIRST_PARAGRAPH = True
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+        },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.tables': {},
+    },
+    'output_format': 'html5',
+}
+
 MENUITEMS=(
 	('Proyecto', 'pages/el-proyecto.html'),
 	('Simulador', 'pages/envote-simulador-de-flujos-electorales.html'),
