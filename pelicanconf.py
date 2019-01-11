@@ -54,6 +54,7 @@ MARKDOWN = {
 MENUITEMS=(
 	('Proyecto', 'pages/el-proyecto.html'),
 	('Simulador', 'pages/envote-simulador-de-flujos-electorales.html'),
+	('Fundamentos', 'category/fundamentos.html'),
 	#('Mitos', 'mitos.md'),
 	#('Memes', 'memes.md'),
 )
