@@ -1,5 +1,5 @@
 ---
-title: Las Veguerias, el timo de la estampita
+title: Veguerias, el timo de la estampita
 author: vokimon
 tags: Circumscripciones, Parlament
 cover: images/PlaDeVegueries2016.png
