@@ -1,51 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2019-01-11T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Entendiendo la regla D'Hondt</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2019-01-11-entendiendo-la-regla-dhondt.html" rel="alternate"></link><published>2019-01-11T00:00:00+01:00</published><updated>2019-01-11T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2019-01-11:/mitoselectorales.org/posts/2019-01-11-entendiendo-la-regla-dhondt.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2019-01-11T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Entendiendo la regla de D'Hondt</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2019-01-11-entendiendo-la-regla-de-dhondt.html" rel="alternate"></link><published>2019-01-11T00:00:00+01:00</published><updated>2019-01-11T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2019-01-11:/mitoselectorales.org/posts/2019-01-11-entendiendo-la-regla-de-dhondt.html</id><summary type="html">
 
-&lt;p&gt;Podríamos hilar una serie de medias verdades verosímiles
-que circulan sobre D'Hondt y acabar en conclusiones muy peligrosas
-para la salud (democrática del país).
-Por ejemplo:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Creencia popular:&lt;/strong&gt;
-El sistema electoral se rige por la Ley D'Hondt.
-Es una ley injusta que beneficia a las candidaturas mayoritarias.
-Cuando derroguemos D'Hondt todo será más proporcional.
-Mientras que siga vigente esa ley,
-es mejor hacer coaliciones de partidos para que no nos penalice.&lt;/p&gt;
-&lt;/blockquote&gt;
-</summary><content type="html">&lt;h2&gt;Unos tienen la fama y otros cardan la lana&lt;/h2&gt;
+&lt;p&gt;En este artículo se explica, de una forma gráfica y sobretodo diferente,
+la Regla de D'Hondt, responsable del reparto de representantes.
+No explica el procedimiento para calcularla
+sinó el objetivo que se persigue obtener:
+&lt;strong&gt;un precio en votos que reparta los escaños
+sin que sobre ni falte ninguno&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Esta perspectiva aclara el origen de la desproporción,
+los casos en los que se da y sus límites.
+También permite conocer la &lt;strong&gt;masa crítica para que pasen ciertos cambios&lt;/strong&gt;,
+y establecer la base para descartar &lt;strong&gt;mitos y ideas preconcebidas&lt;/strong&gt;.
+Mitos como
+que D'Hondt es la principal responsable de la desproporción
+cuando lo son las &lt;a href="https://vokimon.github.io/mitoselectorales.org/tag/circumscripciones.html"&gt;circumscripciónes&lt;/a&gt;,
+o que las &lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html"&gt;coaliciones
+se ven mágicamente beneficiadas&lt;/a&gt;
+por D'Hondt.&lt;/p&gt;
+</summary><content type="html">
+
+&lt;p&gt;En este artículo se explica, de una forma gráfica y sobretodo diferente,
+la Regla de D'Hondt, responsable del reparto de representantes.
+No explica el procedimiento para calcularla
+sinó el objetivo que se persigue obtener:
+&lt;strong&gt;un precio en votos que reparta los escaños
+sin que sobre ni falte ninguno&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Esta perspectiva aclara el origen de la desproporción,
+los casos en los que se da y sus límites.
+También permite conocer la &lt;strong&gt;masa crítica para que pasen ciertos cambios&lt;/strong&gt;,
+y establecer la base para descartar &lt;strong&gt;mitos y ideas preconcebidas&lt;/strong&gt;.
+Mitos como
+que D'Hondt es la principal responsable de la desproporción
+cuando lo son las &lt;a href="https://vokimon.github.io/mitoselectorales.org/tag/circumscripciones.html"&gt;circumscripciónes&lt;/a&gt;,
+o que las &lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html"&gt;coaliciones
+se ven mágicamente beneficiadas&lt;/a&gt;
+por D'Hondt.&lt;/p&gt;
 
 
-&lt;p&gt;Podríamos hilar una serie de medias verdades verosímiles
-que circulan sobre D'Hondt y acabar en conclusiones muy peligrosas
-para la salud (democrática del país).
-Por ejemplo:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Creencia popular:&lt;/strong&gt;
-El sistema electoral se rige por la Ley D'Hondt.
-Es una ley injusta que beneficia a las candidaturas mayoritarias.
-Cuando derroguemos D'Hondt todo será más proporcional.
-Mientras que siga vigente esa ley,
-es mejor hacer coaliciones de partidos para que no nos penalice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;¿Qué cosas no son ciertas?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Primero, D'Hondt es una ley matemática (o regla, como la "regla de tres"),
-no una ley civil/legal como mucha gente piensa.
-La ley legal es la &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg"&gt;LOREG&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;La LOREG tiene muchos elementos que favorecen a los mayoritarios.
-El uso de la regla D'Hondt es uno de ellos,
-pero apenas tiene efecto en comparación con lo que afectan las &lt;a href="https://vokimon.github.io/mitoselectorales.org/tag/circumscripciones.html"&gt;circumscripciones&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;D'Hondt es &lt;em&gt;proporcionalmente desproporcionada&lt;/em&gt;, los escaños de más de cada candidatura son proporcionales al tamaño.
-Si sumas los resultados de dos candidaturas, sumarán los escaños de más que ya tenian por separado.&lt;/li&gt;
-&lt;li&gt;Si que hay un efecto beneficioso de juntarse, pero no es por D'Hondt es por la suma de restos
-y su efecto esta limitado a un escaño o no en cada circumscripcion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Así que, no, D'Hondt no beneficia especialmente las coaliciones respecto a ir separado.
-Hay ventaja, pero una más pequeña, la de la suma de restos, que tendríamos también si usáramos otra regla,
-y es una ventaja tan pequeña que puede no ser suficiente si los electores no están de acuerdo con la coalición.&lt;/p&gt;
+&lt;h2&gt;Unos tienen la fama y otros cardan la lana&lt;/h2&gt;
+&lt;p&gt;Se oye a menudo llamar &lt;em&gt;Ley de D'Hondt&lt;/em&gt; al sistema electoral en sí.
+Por eso, aclarémoslo de entrada:
+la &lt;em&gt;Ley de D'Hondt&lt;/em&gt; es una ley matemática, como la &lt;em&gt;regla de tres&lt;/em&gt;,
+no una ley legal.
+La ley electoral, la legal, es la &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg"&gt;LOREG&lt;/a&gt; que, entre muchas otras cosas,
+incluye la Regla de D'Hondt como método de reparto de escaños.
+Prefiero llamarle regla (o método, o sistema)
+para no ahondar en la confusión.&lt;/p&gt;
+&lt;p&gt;En cualquier caso veremos que aunque sí que genera desproporción
+esta sólo es notable en casos concretos en que las diferencias
+entre opciones ya son notables de entrada.
+Normalmente va de uno o dos escaños para arriba para cada formación.
+Una desproporción injusta pero no notable hasta que entran
+en juego las circumscripciones, que multiplican ese efecto
+e introducen nuevos elementos distorsionadores.&lt;/p&gt;
+&lt;p&gt;De hecho una regla más proporcional,
+como Hamilton, también padecería los efectos de las circumscripciones.
+Hasta tal punto que
+&lt;strong&gt;si se compara Hamilton usando las actuales circumscripciones
+con D'Hondt en circumscripción única,
+éste último tiene menos oportunidades
+de distorsionar la proporción real de votantes.&lt;/strong&gt;
+Es decir, si priorizamos algo a reformar,
+reformemos primero las circumscripciones.
+Eso sí ¡no para hacerlas &lt;a href="https://vokimon.github.io/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html"&gt;más pequeñas&lt;/a&gt;, por favor! &lt;/p&gt;
+&lt;p&gt;Otro efecto sorprendente de D'Hondt es que es
+&lt;strong&gt;proporcionalmente desproporcionada&lt;/strong&gt;.
+Es decir, los escaños extra que se obtienen,
+los que causan la desproporción,
+tienden a ser proporcionales a los escaños antes de añadir los extra.&lt;/p&gt;
+&lt;p&gt;Más abajo explico porqué, pero podemos decir, que
+&lt;strong&gt;aunque D'Hondt beneficia a las opciones más grandes,
+el beneficio de juntarse dos formaciones simplemente
+suma el beneficio ya les da por separado&lt;/strong&gt;
+(más la suma de restos, que tambien tendrían con Hamilton
+y que da un escaño por circumscripción como máximo).&lt;/p&gt;
 &lt;p&gt;Y, ahora, te puedes creer lo que digo como nos creemos todos estos mitos,
 porque lo dice Internet,
 o podemos entender un poco mejor como funciona la regla D'Hondt
@@ -86,8 +114,9 @@ Si le damos un par de vueltas,
 entenderemos un poco mejor donde está la desproporción,
 en qué casos se da y qué papel juega.&lt;/p&gt;
 &lt;h2&gt;Delimitando la búsqueda&lt;/h2&gt;
-&lt;p&gt;Es muy útil entender que esa búsqueda del &lt;em&gt;precio justo&lt;/em&gt;,
-está delimitada entre dos casos extremos.&lt;/p&gt;
+&lt;p&gt;Puesto que el reparto de D'Hondt se base en ajustar el precio del escaño,
+muchas cosas dependen de el y nos interesa acotarlo,
+por ejemplo para conocer cuál es la masa crítica para cambiar las cosas.&lt;/p&gt;
 &lt;p&gt;El &lt;strong&gt;precio màximo&lt;/strong&gt; posible se da en el improbable caso en que no le sobrara a nadie votos.
 Todas las candidaturas tienen los votos justos para sus escaños.&lt;/p&gt;
 &lt;div class="math"&gt;$$ Precio_{máximo} = { Votos \over Escaños } $$&lt;/div&gt;
@@ -112,7 +141,7 @@ $$&lt;/div&gt;
 &lt;p&gt;Para el caso anterior, el precio mínimo seria 83.333,5.
 Por ejemplo, si los votos fueran: 583.334, 583.333, 416.667, 250.000 y 166.666,
 todas las formaciones obtendrían el mismo resultado y 
-todas menos la primera se quedarían a un voto del siguiente escaño.&lt;/p&gt;
+todas las formaciones menos una se quedarían a un voto del siguiente escaño.&lt;/p&gt;
 &lt;p&gt;Estos dos ejemplos de escenarios extremos están disponibles en el simulador.
 La zona translúcida son los votos que no han servido para sumar escaño.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/images/revote-maxminprice.gif" style="text-align:center"&gt;
@@ -120,6 +149,17 @@ La zona translúcida son los votos que no han servido para sumar escaño.&lt;/p&
 Dos escenarios con el mismo número de votos a candidaturas, y el mismo resultado, 
 uno con el precio máximo y otro con el precio mínimo
 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Y cual sería el precio típico.&lt;/p&gt;
+&lt;div class="math"&gt;$$ Precio_{real}
+= { Votos \over Escaños + Candidaturas · Resto_{medio} }
+$$&lt;/div&gt;
+&lt;p&gt;Donde $ RestoMedio $ es el factor medio del escaño se han quedado las formaciones.&lt;/p&gt;
+&lt;p&gt;Teniendo en cuenta que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toda las formaciones con representación tienen la misma probabilidad de quedarse en un punto cualquiera entre un escaño y el siguiente, la esperanza de estas es estar a la mitad&lt;/li&gt;
+&lt;li&gt;La mayoria de formaciones extraparlamentarias no suelen superar el 30% del precio del escaño.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Asi que R tenderá a ser algo inferior a 0.5 .&lt;/p&gt;
 &lt;h2&gt;Acotando la desproporción&lt;/h2&gt;
 &lt;p&gt;Hemos comentado que cuando tenemos precio máximo,
 nos sale una proporción exacta con los votos.
@@ -127,22 +167,22 @@ Si aplicáramos ese precio a un escenario cualquiera,
 normalmente no salen escaños enteros.
 Tendríamos que andar con la motosierra y los diputados y eso no es legal en España.
 Al final tendríamos escaños que estan partidos entre varias opciones
-y no se reparten, y opciones con votos de sobra.&lt;/p&gt;
+que no se reparten, y opciones con votos de sobra.&lt;/p&gt;
 &lt;p&gt;La forma más natural (¡y justa!) de repartir esas sobras
 es la que se llama
 &lt;a href="https://es.wikipedia.org/wiki/Regla_de_Hamilton"&gt;Regla de Hamilton&lt;/a&gt;
 o de &lt;em&gt;restos mayores&lt;/em&gt;.
 Lo que hace es
 repartir los escaños sobrantes a las opciones con más restos de votos,
-que se habían quedado más cerca de obtener el siguiente.
+que por tanto se habían quedado más cerca de obtener el siguiente escaño.
 Cada opción como máximo se lleva un escaño extra o ninguno.&lt;/p&gt;
 &lt;p&gt;Pero como hemos dicho, D'Hondt lo que hace es ir bajando el precio hasta que se reparten todos.
 Si bajamos el precio y con el precio máximo una opción ya ha obtenido N escaños,
 bajando el precio solo puede obtener más.&lt;/p&gt;
-&lt;p&gt;Así que de entrada concluimos que&lt;/p&gt;
+&lt;p&gt;Así que de entrada concluimos que tanto Hamilton como D'Hondt&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;D'Hondt reparte como mínimo los escaños enteros al precio máximo, igual que Hamilton&lt;/li&gt;
-&lt;li&gt;La desproporción de D'Hondt es la que cause el reparto de esos escaños sobrantes&lt;/li&gt;
+&lt;li&gt;Reparten como mínimo los escaños enteros al precio máximo&lt;/li&gt;
+&lt;li&gt;La desproporción es la que cause el reparto de esos escaños sobrantes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;¿Sabemos cuantos escaños sobrarán?&lt;/p&gt;
 &lt;p&gt;Como poco, ninguno, en el caso ideal de escaños justos.
