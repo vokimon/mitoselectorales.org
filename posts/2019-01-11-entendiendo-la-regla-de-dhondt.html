@@ -201,8 +201,11 @@ entenderemos un poco mejor donde está la desproporción,
 en qué casos se da y qué papel juega.</p>
 <h2>Acorralando el precio de D'Hondt</h2>
 <p>Puesto que el reparto de D'Hondt se base en ajustar el precio del escaño,
-muchas cosas dependen de el y nos interesa acotarlo,
-por ejemplo para conocer cuál es la masa crítica para cambiar las cosas.</p>
+muchas cosas dependen de él y nos interesa acotarlo.
+Por ejemplo para conocer cuál es la <strong>masa crítica para cambiar las cosas</strong>,
+o para saber si el <strong>umbral electoral</strong>,
+que suele ser del 3% según la convocatoria,
+tiene efecto o es totalmente inútil.</p>
 <p>El <strong>precio màximo</strong> posible se da en el improbable caso en que no le sobrara a nadie votos.
 Todas las candidaturas tienen los votos justos para sus escaños.</p>
 <div class="math">$$ Precio_{máximo} = { Votos \over Escaños } $$</div>
@@ -237,27 +240,30 @@ uno con el precio máximo y otro con el precio mínimo
 </a></p>
 <p>El precio final es exactamente:</p>
 <div class="math">$$ Precio_{real}
-= { Votos \over Escaños + R }
+= { Votos \over Escaños + Candidaturas · R }
 $$</div>
-<p>Donde <code>R</code> es la porción media a la que se han quedado
-las candidaturas del siguiente escaño.
-Por ejemplo 0.5 si se han quedado en media a la mitad.</p>
-<p>Teniendo en cuenta que:</p>
-<ul>
-<li>Toda las formaciones con representación tienen la misma probabilidad de quedarse en un punto cualquiera entre un escaño y el siguiente, la esperanza de estas es estar a la mitad</li>
-<li>La mayoria de formaciones extraparlamentarias no suelen superar el 30% del precio del escaño.</li>
-</ul>
-<p>Asi que R tenderá a ser algo inferior a la mitad de las candidaturas.</p>
-<p>Normalmente, en una circumscripción,
-mas o menos sabemos qué candidaturas tienen opción de entrar.
-Da igual si no acaban entrando,
-si tiene opción, entrarían en el regimen general).
-Así que suelo hacer:</p>
-<div class="math">$$ R_{estimado}
-= Candidaturas_{parlamentarias} · 0'5 + F · Candidaturas_{extraparlamentarias} · F $$</div>
-<p>
-$$</p>
-<p>Y voy ajustando el factor F para ver si da muy distinto.</p>
+<p>Donde <code>R</code> es la media de las porciones de escaño sin completar
+a las candidaturas.</p>
+<p>Por ejemplo si en media, las candidaturas 
+se han quedado a medio camino entre un escaño y el siguiente:</p>
+<div class="math">$$ R = {1\over 2} $$</div>
+<p>De hecho eso es lo que tiende a pasar con todas las candidaturas con opciones
+a tener representacion.
+Con la misma probabilidad pueden quedarse
+en cualquier punto entre el mismo escaño y el siguiente.
+Por eso el resto esperado es medio escaño.</p>
+<p>Sin embaro, eso no suele pasar con las candidaturas extraparlamentarias.
+Suelen quedarse siempre por debajo del 30%.
+Así que normalmente <code>R</code> sera un factor por debajo de 0,5.</p>
+<p>Si para una convocatoria y circumscripción concreta
+sabemos mas o menos el número de candidaturas que se quedarán
+fuera, y más o menos los votos medios,
+podemos ajustar más R.</p>
+<p>Hace rato que entrado hace rato en el mundo de la aproximación.
+En el simulador de flujos electorales aparecen estos factores
+cuando abres un escenario electoral concreto,
+así que puedes ver los valores típicos para la convocatoria
+que te interese.</p>
 <h2>Acotando la desproporción</h2>
 <p>Hemos comentado que cuando tenemos precio máximo,
 nos sale una proporción exacta con los votos.
@@ -273,21 +279,29 @@ o de <em>restos mayores</em>.
 Lo que hace es
 repartir los escaños sobrantes a las opciones con más restos de votos,
 que por tanto se habían quedado más cerca de obtener el siguiente escaño.
+Esto minimiza los votos que estan representados
+por una opción que no es la que escogieron, aunque siguen habiéndolos.
 Cada opción como máximo se lleva un escaño extra o ninguno.</p>
-<p>Pero como hemos dicho, D'Hondt lo que hace es ir bajando el precio hasta que se reparten todos.
-Si bajamos el precio y con el precio máximo una opción ya ha obtenido N escaños,
-bajando el precio solo puede obtener más.</p>
-<p>Así que de entrada concluimos que tanto Hamilton como D'Hondt</p>
-<ul>
-<li>Reparten como mínimo los escaños enteros al precio máximo</li>
-<li>La desproporción es la que cause el reparto de esos escaños sobrantes</li>
-</ul>
+<p>Pero D'Hondt reparte los restos de una forma distinta.
+Va reduciendo el precio hasta que se acaban repartiendo todos.
+Si con el precio máximo una opción ya ha obtenido N escaños,
+bajando el precio solo puede obtener más.
+Así que de entrada concluimos que <strong>tanto Hamilton como D'Hondt
+reparten como mínimo los escaños que quedan enteros en un reparto puramente proporcional.</strong></p>
+<p>La posible desproporción es la que cause el reparto de los escaños sobrantes.</p>
 <p>¿Sabemos cuantos escaños sobrarán?</p>
 <p>Como poco, ninguno, en el caso ideal de escaños justos.
 Como mucho, a todas las candidaturas les sobraría casi un escaño,
 menos a una candidatura que tendría lo que les falte a las otras.
 Serían el número de candidaturas menos una.</p>
+<p>En un escenario típico, vuelven a ser la mitad de las candidaturas
+con opción mas los restos de las extraparlamentarias.
+Atención, por eso porque ahora estamos hablando de los restos
+en el reparto puramente proporcional, y antes de los restos de D'Hondt.</p>
 <h2>Una desproporción proporcional</h2>
+<p>Ya hemos aproximado lo que vale un escaño.
+Hemos visto que la desproporción solo puede venir de los escaños de restos,
+y sabemos aproximadamente cuantos escaños son.</p>
 <p>Veamos cómo reparte los restos la regla de D'Hondt:</p>
 <p>Si se baja el precio,
 una opción con más votos sobrantes
@@ -295,16 +309,28 @@ tiene más probabilidades de llegar al siguiente.
 Esto sería igual que Hamilton:
 Un escaño arriba o no, y se lo llevan las opciones con más restos.</p>
 <p>La diferencia radica en un pequeño detalle:
-Si, para repartir todos los escaños, hay que bajar el precio, digamos a un 90%,
+Si, para repartir todos los escaños, hay que bajar el precio,
+digamos a un 90%,
 no solo estamos rebajando el umbral al que tienen que llegar los restos.
-También liberamos un 10% de votos que usabamos para cada escaño que obtuvimos con el precio máximo
-que ahora pasarán a formar parte de los restos.</p>
+También liberamos un 10% de votos que usabamos para cada escaño entero que obtuvimos con el precio máximo
+y que ahora pasarán a formar parte de los restos.</p>
 <p>Tanto es así que, por ejemplo, una formación con 9 escaños, y un 10% de rebaja en el precio,
 llegaría sí o sí al 90% del siguiente escaño, tenga los restos que tenga.
 Es más, una formación con 18 escaños llegaría al segundo extra tenga los restos que tenga.
 Y entre medias una ventajita, proporcional a los escaños enteros.</p>
 <p>Como ves, esta ventaja es proporcional a los escaños enteros
-que al mismo tiempo es más o menos proporcional a los votos.</p>
+que al mismo tiempo es más o menos proporcional a los votos.
+Pero no deja de ser una desproporción, porque la proporción
+ya la teníamos más o menos con los escaños enteros
+y al añadir más de un escaño con seguridad la estamos rompiendo.</p>
+<p>Pero el hecho de que se aproximadamente proporcional tiene un efecto paradójico con las coaliciones.
+Imaginemos dos formaciones que habrían obtenido 8 y 3 escaños enteros en la repartición proporcional.
+Por separado D'Hondt les da 8 y 3 veces los votos que se ha tenido que reducir el precio.
+Juntos obtendrían 11 escaños enteros o, con una probabilidad del 50%, quizas 12 por la suma de los restos.
+11 es la suma de la ventaja que ya tenían por separado.
+Podría ser 12 pero si ya han sumado los restos, los nuevos restos son menos del 50%,
+así que generalmente el único beneficio de la coalición es la suma de restos
+que ya sucede con una distribución de Hamilton.</p>
 <h2>Conclusiones</h2>
 <ul>
 <li>D'Hondt reparte los escaños enteros igual que lo hace Hamilton</li>
