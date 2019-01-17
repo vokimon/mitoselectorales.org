@@ -61,65 +61,109 @@
         <div class="entry-content">
             
 
-<p>En este artículo se explica, de una forma gráfica y sobretodo diferente,
-la Regla de D'Hondt, responsable del reparto de representantes.
-No explica el procedimiento para calcularla
-sinó el objetivo que se persigue obtener:
-<strong>un precio en votos que reparta los escaños
+<p>En este artículo se explica, de una forma diferente y gráfica,
+la Regla de D'Hondt, el sistema responsable del reparto de
+representantes en nuestro sistema electoral.</p>
+<p>Si en vez de centrarnos en el proceso de cálculo,
+nos centramos en su propósito,
+entendremos de forma más clara lo que está pasando.
+D'Hondt pretende
+<strong>encontrar un precio en votos por el que repartir los escaños
 sin que sobre ni falte ninguno</strong>.</p>
-<p>Esta perspectiva aclara el origen de la desproporción,
+<p>Con ese enfoque se observa claramente
+donde está su famoso favor a los mayoritarios,
 los casos en los que se da y sus límites.
 También permite conocer la <strong>masa crítica para que pasen ciertos cambios</strong>,
 y establecer la base para descartar <strong>mitos y ideas preconcebidas</strong>.
 Mitos como
 que D'Hondt es la principal responsable de la desproporción
-cuando lo son las <a href="https://vokimon.github.io/mitoselectorales.org/tag/circumscripciones.html">circumscripciónes</a>,
+cuando lo son las <a href="https://vokimon.github.io/mitoselectorales.org/tag/circumscripciones.html">circumscripciones</a>,
 o que las <a href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html">coaliciones
 se ven mágicamente beneficiadas</a>
 por D'Hondt.</p>
 
 
-<h2>Unos tienen la fama y otros cardan la lana</h2>
-<p>Se oye a menudo llamar <em>Ley de D'Hondt</em> al sistema electoral en sí.
-Por eso, aclarémoslo de entrada:
+<h2>TL;DR (Demasiado Largo; No Leí)</h2>
+<p>Todos tenemos muchas cosas que hacer
+y este artículo, aunque tiene gráficos y animaciones, y aporta
+una perspectiva clarificadora de D'Hondt, es largo.
+Así que para tu conveniencia, resumo aquí las conclusiones:</p>
+<ul>
+<li>Si bien D'Hondt beneficia a los mayoritarios,
+otros elementos de la ley electoral como la división
+en circumscripciones tienen un impacto mucho mayor en ese sentido.</li>
+<li>D'Hondt respeta el reparto de <strong>escaños enteros</strong> que haría un reparto puramente proporcional</li>
+<li>La distorsión, pues, la provoca el reparto de los escaños que no se repartirían enteros, los <strong>escaños partidos</strong><ul>
+<li>Son siempre menos que el número de candidaturas</li>
+<li>Tienden a ser poco menos que la mitad del número de candidaturas con opción a representación</li>
+<li>Se reparten mas o menos proporcionalmente a los escaños enteros<ul>
+<li>Por ejemplo: para recibir 3 extras, hay de tener aproximadamente 3 veces los escaños enteros de quien recibe 1 extra</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Por eso solo hay grandes beneficios por D'Hondt cuando hay grandes desigualdades</li>
+<li>Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circumscripciones, y, históricamente como mucho a 4</li>
+<li>Aunque parezca paradógico,
+D'Hondt no da ninguna ventaja a las coaliciones
+que no les de ya por separado.
+El beneficio es la suma de restos de votos,
+que se da en cualquier otro método
+y esta limitada a 0 o 1 escaños por circumscripción.</li>
+<li>D'Hondt acaba fijando un precio para el escaño:<ul>
+<li>Saber ese precio, nos da una idea de la <strong>masa crítica para tener impacto</strong></li>
+<li>Dada la participación, se puede acotar por arriba y por abajo</li>
+<li>Dada la participación tiene un valor esperado</li>
+</ul>
+</li>
+</ul>
+<p>En este mundo, no hay tiempo para contrastar, leer o reflexionar.
+Pero recuerda:
+Los mitos se propagan porque la gente en general se cree
+lo que lee en Internet si está en un formato guai y más o menos le cuadra.
+Te puedes quedar con estas conclusiones
+o puedes seguir leyendo y entender porqué
+y como de grises son los grises.</p>
+<h2>Se le llama <em>ley</em>, pero no es una ley legal</h2>
+<p>A menudo, se oye llamar <em>Ley de D'Hondt</em> a la ley electoral.</p>
+<p>Por eso, aclarémoslo de entrada:
 la <em>Ley de D'Hondt</em> es una ley matemática, como la <em>regla de tres</em>,
 no una ley legal.
-La ley electoral, la legal, es la <a href="http://www.juntaelectoralcentral.es/cs/jec/loreg">LOREG</a> que, entre muchas otras cosas,
-incluye la Regla de D'Hondt como método de reparto de escaños.
-Prefiero llamarle regla (o método, o sistema)
-para no ahondar en la confusión.</p>
-<p>En cualquier caso veremos que aunque sí que genera desproporción
-esta sólo es notable en casos concretos en que las diferencias
-entre opciones ya son notables de entrada.
-Normalmente va de uno o dos escaños para arriba para cada formación.
-Una desproporción injusta pero no notable hasta que entran
-en juego las circumscripciones, que multiplican ese efecto
-e introducen nuevos elementos distorsionadores.</p>
-<p>De hecho una regla más proporcional,
-como Hamilton, también padecería los efectos de las circumscripciones.
-Hasta tal punto que
-<strong>si se compara Hamilton usando las actuales circumscripciones
-con D'Hondt en circumscripción única,
-éste último tiene menos oportunidades
-de distorsionar la proporción real de votantes.</strong>
-Es decir, si priorizamos algo a reformar,
-reformemos primero las circumscripciones.
-Eso sí ¡no para hacerlas <a href="https://vokimon.github.io/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html">más pequeñas</a>, por favor! </p>
-<p>Otro efecto sorprendente de D'Hondt es que es
-<strong>proporcionalmente desproporcionada</strong>.
-Es decir, los escaños extra que se obtienen,
-los que causan la desproporción,
-tienden a ser proporcionales a los escaños antes de añadir los extra.</p>
-<p>Más abajo explico porqué, pero podemos decir, que
-<strong>aunque D'Hondt beneficia a las opciones más grandes,
-el beneficio de juntarse dos formaciones simplemente
-suma el beneficio ya les da por separado</strong>
-(más la suma de restos, que tambien tendrían con Hamilton
-y que da un escaño por circumscripción como máximo).</p>
-<p>Y, ahora, te puedes creer lo que digo como nos creemos todos estos mitos,
-porque lo dice Internet,
-o podemos entender un poco mejor como funciona la regla D'Hondt
-para comprobar si lo que digo es cierto o no.</p>
+La ley electoral, la legal, es la <a href="http://www.juntaelectoralcentral.es/cs/jec/loreg">LOREG</a> que incluye,
+entre muchas otras cosas,
+la Regla de D'Hondt como método de reparto de escaños.
+Para no ahondar en la confusión,
+prefiero usar la palabra <em>regla</em> (o <em>método</em>, o <em>sistema</em>).</p>
+<h2>Unos tienen la fama y otros cardan la lana</h2>
+<p>Se dice también que la Regla de D'Hondt es la responsable de que
+la ley electoral beneficie a las opciones mayoritarias.</p>
+<p>Y sí, realmente la Regla de D'Hondt beneficia a los mayoritarios.
+Pero es que la LOREG en general contiene muchos otros elementos
+que benefician a los mayoritarios con el pretexto de la <strong>gobernabilidad</strong>.
+La Ley de D'Hondt es sólo uno de ellos,
+y de hecho no es el que tiene más impacto.
+Las que cardan la lana son las circumscripciones.</p>
+<p>La división en circumscripciones distorsiona por dos motivos principales:</p>
+<ul>
+<li>
+<p>Por un lado genera un efecto umbral muy acusado (20%-40%)
+en las numerosas circumscripciones pequeñas con 3 o 4 diputados.</p>
+</li>
+<li>
+<p>Por otro multiplican la distorsión que provoque D'Hondt
+o cualquier regla que usemos para repartir.
+Como es ilegal en España entrar con la motosierra a los parlamentarios,
+uses el reparto que uses, siempre habrá alguna distorsión.
+<strong>Tiene menos impacto tener 10 escaños mal repartidos
+en una circumscripción única,
+que tener un solo escaño mal repartido
+en cada una de las 52 circumscripciones actuales.</strong></p>
+</li>
+</ul>
+<p>Por eso, a los actuales y futuros renovadores de la ley electoral:
+Sí. D'Hondt es mala y molaría substituirla.
+Pero invertid los esfuerzos en reformar primero las circumscripciones.
+<strong>Eso sí ¡no para hacerlas <a href="https://vokimon.github.io/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html">aún más pequeñas</a>, por favor!</strong></p>
 <h2>Entendamos el objetivo, no el procedimiento</h2>
 <p>En la LOREG, y en la mayoría de fuentes,
 se explica D'Hondt describiendo un aburrido procedimiento para calcularlo:</p>
@@ -155,7 +199,7 @@ Pues lo es bastante, aunque no del todo.
 Si le damos un par de vueltas,
 entenderemos un poco mejor donde está la desproporción,
 en qué casos se da y qué papel juega.</p>
-<h2>Delimitando la búsqueda</h2>
+<h2>Acorralando el precio de D'Hondt</h2>
 <p>Puesto que el reparto de D'Hondt se base en ajustar el precio del escaño,
 muchas cosas dependen de el y nos interesa acotarlo,
 por ejemplo para conocer cuál es la masa crítica para cambiar las cosas.</p>
@@ -191,17 +235,29 @@ La zona translúcida son los votos que no han servido para sumar escaño.</p>
 Dos escenarios con el mismo número de votos a candidaturas, y el mismo resultado, 
 uno con el precio máximo y otro con el precio mínimo
 </a></p>
-<p>Y cual sería el precio típico.</p>
+<p>El precio final es exactamente:</p>
 <div class="math">$$ Precio_{real}
-= { Votos \over Escaños + Candidaturas · Resto_{medio} }
+= { Votos \over Escaños + R }
 $$</div>
-<p>Donde $ RestoMedio $ es el factor medio del escaño se han quedado las formaciones.</p>
+<p>Donde <code>R</code> es la porción media a la que se han quedado
+las candidaturas del siguiente escaño.
+Por ejemplo 0.5 si se han quedado en media a la mitad.</p>
 <p>Teniendo en cuenta que:</p>
 <ul>
 <li>Toda las formaciones con representación tienen la misma probabilidad de quedarse en un punto cualquiera entre un escaño y el siguiente, la esperanza de estas es estar a la mitad</li>
 <li>La mayoria de formaciones extraparlamentarias no suelen superar el 30% del precio del escaño.</li>
 </ul>
-<p>Asi que R tenderá a ser algo inferior a 0.5 .</p>
+<p>Asi que R tenderá a ser algo inferior a la mitad de las candidaturas.</p>
+<p>Normalmente, en una circumscripción,
+mas o menos sabemos qué candidaturas tienen opción de entrar.
+Da igual si no acaban entrando,
+si tiene opción, entrarían en el regimen general).
+Así que suelo hacer:</p>
+<div class="math">$$ R_{estimado}
+= Candidaturas_{parlamentarias} · 0'5 + F · Candidaturas_{extraparlamentarias} · F $$</div>
+<p>
+$$</p>
+<p>Y voy ajustando el factor F para ver si da muy distinto.</p>
 <h2>Acotando la desproporción</h2>
 <p>Hemos comentado que cuando tenemos precio máximo,
 nos sale una proporción exacta con los votos.
