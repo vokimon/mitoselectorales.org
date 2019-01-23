@@ -8,59 +8,64 @@ covercaption: El precio de D'Hondt
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-En este artículo se explica, de una forma diferente y gráfica,
-la Regla de D'Hondt, el sistema responsable del reparto de
-representantes en nuestro sistema electoral.
+La Regla de D'Hondt se usa para el reparto de representantes
+en nuestro sistema electoral.
+Este artículo la explica de una forma diferente y gráfica,
+que nos permite dejar de verla como una caja negra
+y sacar muchas conclusiones.
 
-Si en vez de centrarnos en el proceso de cálculo,
-nos centramos en su propósito,
-entendremos de forma más clara lo que está pasando.
-D'Hondt pretende
+La clave de todo es, en vez de centrarnos en el método de cálculo,
+centrarnos en su propósito:
 **encontrar un precio en votos por el que repartir los escaños
 sin que sobre ni falte ninguno**.
 
-Con ese enfoque se observa claramente
-donde está su famoso favor a los mayoritarios,
-los casos en los que se da y sus límites.
-También permite conocer la **masa crítica para que pasen ciertos cambios**,
-y establecer la base para descartar **mitos y ideas preconcebidas**.
-Mitos como
-que D'Hondt es la principal responsable de la desproporción
-cuando lo son las [circumscripciones]({tag}circumscripciones),
-o que las [coaliciones
-se ven mágicamente beneficiadas]({filename}/Parlament2015/2014-12-05-CoalicionsUnitariesConfluencies.md)
-por D'Hondt.
+Gráficamente se puede entender donde está el beneficio a los mayoritarios,
+pero también se puede delimitar el alcance de ese beneficio
+y saber en qué casos se nota más y en qué casos menos.
+También permite saber la
+**masa crítica necesaria para que pasen ciertos cambios**.
+Y sobretodo sirve para fundamentar el descarte de muchos
+**mitos y ideas preconcebidas**.
+
+Por ejemplo, que D'Hondt sería el objetivo a tumbar para tener un sistema más proporcional,
+cuando la distorsión principal viene de las [circumscripciones]({tag}circumscripciones).
+O que las [coaliciones
+se ven muy beneficiadas]({filename}/Parlament2015/2014-12-05-CoalicionsUnitariesConfluencies.md)
+por D'Hondt, cuando el beneficio es irrisorio, medio escaño, por grande que sea la coalición resultante.
+
 
 <!-- PELICAN_END_SUMMARY -->
 
 ## TL;DR (Demasiado Largo; No Leí)
 
-Todos tenemos muchas cosas que hacer
-y este artículo, aunque tiene gráficos y animaciones, y aporta
-una perspectiva clarificadora de D'Hondt, es largo.
-Así que para tu conveniencia, resumo aquí las conclusiones:
+Aunque el interés de este artículo sea la nueva perspectiva,
+y cómo nos permite llegar a conclusiones,
+es posible que seas una persona ocupada,
+y el artículo, con gráficos y animaciones, no deja de ser largo.
 
-- Si bien D'Hondt beneficia a los mayoritarios,
-otros elementos de la ley electoral como la división
+Así que para tu conveniencia, resumo aquí las conclusiones a las que he podido llegar yo:
+
+- D'Hondt beneficia a los mayoritarios,
+pero otros elementos de la ley electoral como la división
 en circumscripciones tienen un impacto mucho mayor en ese sentido.
-- D'Hondt respeta el reparto de **escaños enteros** que haría un reparto puramente proporcional
-- La distorsión, pues, la provoca el reparto de los escaños que no se repartirían enteros, los **escaños partidos**
-	- Son siempre menos que el número de candidaturas
-	- Tienden a ser poco menos que la mitad del número de candidaturas con opción a representación
-	- Se reparten mas o menos proporcionalmente a los escaños enteros
-		- Por ejemplo: para recibir 3 extras, hay de tener aproximadamente 3 veces los escaños enteros de quien recibe 1 extra
-- Por eso solo hay grandes beneficios por D'Hondt cuando hay grandes desigualdades
-- Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circumscripciones, y, históricamente como mucho a 4
-- Aunque parezca paradógico,
-D'Hondt no da ninguna ventaja a las coaliciones
-que no les de ya por separado.
-El beneficio es la suma de restos de votos,
-que se da en cualquier otro método
-y esta limitada a 0 o 1 escaños por circumscripción.
 - D'Hondt acaba fijando un precio para el escaño:
 	- Saber ese precio, nos da una idea de la **masa crítica para tener impacto**
 	- Dada la participación, se puede acotar por arriba y por abajo
-	- Dada la participación tiene un valor esperado
+	- Dada la participación, podemos predecir un valor aproximado
+- D'Hondt respeta el reparto de **escaños enteros** que haría un reparto puramente proporcional
+- La distorsión, pues, la provoca el reparto de los escaños que no se repartirían enteros, los **escaños partidos**
+	- Siempre serán menos escaños que el número de candidaturas
+	- Tienden a ser poco menos que la mitad del número de candidaturas con opción a representación
+	- Se reparten mas o menos proporcionalmente a los escaños enteros de cada candidatura
+		- Por ejemplo: para recibir 3 extras, hay de tener aproximadamente 3 veces los escaños enteros de quien recibe 1 extra
+- Por eso solo hay grandes beneficios por D'Hondt cuando hay grandes desigualdades
+- Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circumscripciones, y, históricamente como mucho a 4
+- Aunque parezca paradójico,
+D'Hondt no da ninguna ventaja a las coaliciones
+que no les de ya por separado.
+	- El beneficio real de coaligarse es la suma de votos sobrantes,
+	que se da en cualquier otro método
+	y esta limitada a 0 o 1 escaños por circumscripción.
 
 En este mundo, no hay tiempo para contrastar, leer o reflexionar.
 Pero recuerda:
@@ -68,7 +73,8 @@ Los mitos se propagan porque la gente en general se cree
 lo que lee en Internet si está en un formato guai y más o menos le cuadra.
 Te puedes quedar con estas conclusiones
 o puedes seguir leyendo y entender porqué
-y como de grises son los grises.
+como de grises son los grises,
+y sacar las tuyas propias.
 
 ## Se le llama _ley_, pero no es una ley legal
 
@@ -138,16 +144,24 @@ Es mucho más ilustrador si explicamos D'Hondt por su objetivo:
 > - se repartan todos los escaños disponibles
 > - a ninguna candidatura le sobren votos para ningun escaño más
 
+Sí, en la tabla anterior el precio se correspondería
+con el número rojo de fondo azul,
+6.080, el último cociente que ha obtenido escaño.
+Si divides los votos de cada formación por ese número obtendrás
+el número de escaños y algunos decimales.
+Cualquier precio entre el último cociente y el siguiente nos vale.
+
 En vez de usar el método D'Hondt de los cocientes,
 podríamos llegar al mismo resultado moviendo el precio
 hasta encontrar uno que reparta el número justo de escaños.
 
-![Animación: Ajustando el precio hasta que se reparten todos los escaños
+![TODO: Animación: Ajustando el precio hasta que se reparten todos los escaños
 ]({static}/images/revote-fittingprice.png)
 
 Todo lo que suene a precios que se fijan solos
 recuerda mucho a la [mano invisible del mercado][AdamSmith].
-Quizás por eso les sonó tan _bueno y justo_ a las democracias liberales del siglo pasado.
+Quizás por eso les sonó tan _bueno y justo_
+a las democracias liberales del siglo pasado.
 
 En todo caso, parece proporcional, ¿verdad?
 Pues lo es bastante, aunque no del todo.
@@ -223,7 +237,7 @@ $$ R = {1\over 2} $$
 De hecho eso es lo que tiende a pasar con todas las candidaturas con opciones
 a tener representacion.
 Con la misma probabilidad pueden quedarse
-en cualquier punto entre el mismo escaño y el siguiente.
+en cualquier punto entre el último escaño y el siguiente.
 Por eso el resto esperado es medio escaño.
 
 Sin embaro, eso no suele pasar con las candidaturas extraparlamentarias.
@@ -235,11 +249,26 @@ sabemos mas o menos el número de candidaturas que se quedarán
 fuera, y más o menos los votos medios,
 podemos ajustar más R.
 
-Hace rato que entrado hace rato en el mundo de la aproximación.
 En el simulador de flujos electorales aparecen estos factores
 cuando abres un escenario electoral concreto,
 así que puedes ver los valores típicos para la convocatoria
 que te interese.
+Hay una coonvocatoria en que el factor se dispara:
+**Barcelona en autonómicas**.
+Es por que hay tantos escaños a repartir que
+el precio de D'Hondt es bajo y el umbral electoral
+que dice la LOREG del 3% son casi tres escaños.
+Es la única convocatoria y circumscripción donde algo así pasa.
+
+![TODO: Pantallazo del factor R en la interfaz
+]({static}/images/revote-factorr.png)
+
+En resumen, dada la participación,
+podemos acotar el precio por arriba y por abajo
+e incluso podríamos estimar un precio final
+haciendo suposiciones sobre el número de partidos que tendrán
+representación y el voto medio a los extraparlamentarios.
+
 
 ## Acotando la desproporción
 
@@ -247,9 +276,13 @@ Hemos comentado que cuando tenemos precio máximo,
 nos sale una proporción exacta con los votos.
 Si aplicáramos ese precio a un escenario cualquiera,
 normalmente no salen escaños enteros.
-Tendríamos que andar con la motosierra y los diputados y eso no es legal en España.
-Al final tendríamos escaños que estan partidos entre varias opciones
-que no se reparten, y opciones con votos de sobra.
+Tendríamos que andar partiendo diputados con la motosierra
+y eso no es legal en España.
+Al final, tendríamos opciones con votos sobrantes
+que correspondrían a los escaños que no se han repartido.
+
+![TODO: Los votos sobrantes
+]({static}/images/revote-votossobrantes.png)
 
 La forma más natural (¡y justa!) de repartir esas sobras
 es la que se llama
@@ -262,14 +295,18 @@ Esto minimiza los votos que estan representados
 por una opción que no es la que escogieron, aunque siguen habiéndolos.
 Cada opción como máximo se lleva un escaño extra o ninguno.
 
-Pero D'Hondt reparte los restos de una forma distinta.
-Va reduciendo el precio hasta que se acaban repartiendo todos.
+![TODO: Escaños sobrantes repartidos por Hamilton
+]({static}/images/revote-restosdehamilton.png)
+
+Pero D'Hondt reparte los restos de una forma distinta:
+Va reduciendo el precio hasta que se acaban repartiendo todos los escaños.
 Si con el precio máximo una opción ya ha obtenido N escaños,
-bajando el precio solo puede obtener más.
+al bajar el precio solo puede obtener más.
 Así que de entrada concluimos que **tanto Hamilton como D'Hondt
 reparten como mínimo los escaños que quedan enteros en un reparto puramente proporcional.**
 
-La posible desproporción es la que cause el reparto de los escaños sobrantes.
+Como la posible desproporción es la que cause el reparto de los escaños sobrantes,
+delimitemos los escaños sobrantes y tendremos delimitada la desproporción.
 
 ¿Sabemos cuantos escaños sobrarán?
 
@@ -278,10 +315,12 @@ Como mucho, a todas las candidaturas les sobraría casi un escaño,
 menos a una candidatura que tendría lo que les falte a las otras.
 Serían el número de candidaturas menos una.
 
-En un escenario típico, vuelven a ser la mitad de las candidaturas
-con opción mas los restos de las extraparlamentarias.
+En un escenario típico, lo esperado vuelve a ser:
+la mitad de las candidaturas con opción,
+más los restos de las extraparlamentarias.
 Atención, por eso porque ahora estamos hablando de los restos
-en el reparto puramente proporcional, y antes de los restos de D'Hondt.
+del reparto puramente proporcional,
+y cuando delimitábamos el precio, hablábamos de los restos de D'Hondt.
 
 
 ## Una desproporción proporcional
@@ -292,11 +331,12 @@ y sabemos aproximadamente cuantos escaños son.
 
 Veamos cómo reparte los restos la regla de D'Hondt:
 
-Si se baja el precio,
+Al bajar el precio,
 una opción con más votos sobrantes
-tiene más probabilidades de llegar al siguiente.
+tiene más probabilidades de llegar al siguiente
+que otra con los mismos escaños enteros pero menos votos sobrantes.
 Esto sería igual que Hamilton:
-Un escaño arriba o no, y se lo llevan las opciones con más restos.
+Representa un escaño arriba o no, y se lo llevan las opciones con más restos.
 
 La diferencia radica en un pequeño detalle:
 Si, para repartir todos los escaños, hay que bajar el precio,
@@ -308,7 +348,6 @@ y que ahora pasarán a formar parte de los restos.
 Tanto es así que, por ejemplo, una formación con 9 escaños, y un 10% de rebaja en el precio,
 llegaría sí o sí al 90% del siguiente escaño, tenga los restos que tenga.
 Es más, una formación con 18 escaños llegaría al segundo extra tenga los restos que tenga.
-Y entre medias una ventajita, proporcional a los escaños enteros.
 
 Como ves, esta ventaja es proporcional a los escaños enteros
 que al mismo tiempo es más o menos proporcional a los votos.
