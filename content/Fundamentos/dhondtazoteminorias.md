@@ -6,12 +6,13 @@ tags: D'Hondt, Circumscripciones
 description: Provando
 cover: images/jose-arpa-y-perea-cabeza-de-turco.jpg
 covercaption: 'Cabeza de turco' de Jose Arpa
+---
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 ¿Te suena la historia de que los partidos mayoritarios
 copan el poder por culpa de una ley llamada D'Hondt?
-Entonces es posible que te hayan llegado algunos bulos que circulan.
+Entonces es posible que te hayan llegado mezclados algunos bulos que circulan.
 Como todos los bulos tienen algo de cierto que los hace verosímiles.
 Como todos los bulos, si nos dejamos llevar por ellos,
 cometeremos errores en nuestras decisiones.
