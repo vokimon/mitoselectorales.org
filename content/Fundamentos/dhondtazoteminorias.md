@@ -1,6 +1,7 @@
+---
 title: D'Hondt (I): ¿Azote de minorias o cabeza de turco?
 autor: vokimon
-date: 2018-03-10
+date: 2018-03-10 00:00
 status: published
 tags: D'Hondt, Circumscripciones
 cover: images/jose-arpa-y-perea-cabeza-de-turco.jpg
