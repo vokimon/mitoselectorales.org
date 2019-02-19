@@ -12,7 +12,7 @@ La Regla de D'Hondt se usa para el reparto de representantes
 en nuestro sistema electoral.
 Este artículo la explica de una forma diferente y gráfica,
 que nos permite dejar de verla como una caja negra,
-para sacar muchas conclusiones y descartar muchos mitos.
+para sacar muchas conclusiones y para descartar muchos mitos.
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -173,7 +173,7 @@ Las formaciones extraparlamentarias
 no siguen ese patrón sinó que la mayoria están por la parte baja, por debajo del `0'3`.
 
 Si para una convocatoria y circumscripción concreta
-sabemos mas o menos el número de candidaturas que se quedarán
+sabemos más o menos el número de candidaturas que se quedarán
 fuera, y más o menos los votos medios que obtendrán,
 podemos ajustar la R.
 
@@ -372,7 +372,7 @@ en circumscripciones tienen un impacto mucho mayor en ese sentido.
 - La distorsión, pues, la provoca el reparto de los escaños que no se repartirían enteros, los **escaños partidos**
 	- Siempre serán menos escaños que el número de candidaturas
 	- Tienden a ser poco menos que la mitad del número de candidaturas con opción a representación
-	- Se reparten mas o menos proporcionalmente a los escaños enteros de cada candidatura
+	- Se reparten más o menos proporcionalmente a los escaños enteros de cada candidatura
 		- Por ejemplo: para recibir 3 extras, hay de tener aproximadamente 3 veces los escaños enteros de quien recibe 1 extra
 - Por eso solo hay grandes beneficios por D'Hondt cuando hay grandes desigualdades
 - Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circumscripciones, y, históricamente como mucho a 4
