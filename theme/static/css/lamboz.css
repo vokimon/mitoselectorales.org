@@ -297,9 +297,10 @@ div#title-block P.blurb {
 }
 
 .cover {
-  width:33%;
+  max-width:33%;
   float:right;
   margin:10pt;
+  max-height: 8em;
 }
 
 .thumb-right {
