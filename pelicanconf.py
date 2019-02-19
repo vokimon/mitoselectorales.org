@@ -39,12 +39,12 @@ DEFAULT_CATEGORY = "Otros"
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU=False
 SUMMARY_USE_FIRST_PARAGRAPH = True
-
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {
             'css_class': 'highlight',
         },
+        'markdown.extensions.toc': {},
         'markdown.extensions.extra': {},
         'markdown.extensions.tables': {},
     },
