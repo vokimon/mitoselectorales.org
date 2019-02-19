@@ -67,6 +67,7 @@ _LINKS = (
 # Social widget
 SOCIAL = (
 	('Twitter', '@votomitico', 'https://twitter.com/votomitico'),
+	('Mastodon', '@votomitico@mastodon.social', 'https://mastodon.social/@votomitico'),
 )
 #FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 ARTICLE_URL='posts/{date:%Y-%m-%d}-{slug}.html'
