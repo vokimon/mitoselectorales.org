@@ -11,7 +11,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 SSH_HOST=canvoki.net
 SSH_PORT=22
 SSH_USER=dgarcia
-SSH_TARGET_DIR=envoter
+SSH_TARGET_DIR=votomitico.org
 
 GITHUB_PAGES_BRANCH=gh-pages
 
