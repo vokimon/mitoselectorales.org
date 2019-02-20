@@ -33,7 +33,7 @@ Un mal entendimiento de D'Hondt o del sistema electoral es el que nos lleva a pe
 que D'Hondt es el muro a derribar para tener un sistema más proporcional,
 que si bien es cierto que introduce desproporción,
 el origen de la desproporción actual se puede achacar sobretodo a la división en
- [circumscripciones]({tag}circumscripciones).
+ [circunscripciones]({tag}circunscripciones).
 
 Otro malentendido es el que dice que como D'Hondt beneficia a las candidaturas grandes,
 si nos juntamos en
@@ -172,13 +172,13 @@ Pero, históricamente, eso solo se da con las formaciones con representación.
 Las formaciones extraparlamentarias
 no siguen ese patrón sinó que la mayoria están por la parte baja, por debajo del `0'3`.
 
-Si para una convocatoria y circumscripción concreta
+Si para una convocatoria y circunscripción concreta
 sabemos más o menos el número de candidaturas que se quedarán
 fuera, y más o menos los votos medios que obtendrán,
 podemos ajustar la R.
 
 Mi consejo es que uses el [simulador de flujos electorales]
-para ver el comportamiento histórico de tu convocatoria y circumscripción.
+para ver el comportamiento histórico de tu convocatoria y circunscripción.
 El simulador muestra el valor de `R` así que te puedes hacer una idea.
 
 Eso sí, ojo con los datos históricos, porque la
@@ -196,7 +196,7 @@ Hay una convocatoria en que el factor se dispara:
 Es por que hay tantos escaños a repartir que
 el precio de D'Hondt es bajo y el umbral electoral
 que dice la LOREG del 3% son casi tres escaños.
-Es la única convocatoria y circumscripción donde pasa algo así.
+Es la única convocatoria y circunscripción donde pasa algo así.
 
 En resumen, dada la participación,
 podemos acotar el precio por arriba y por abajo
@@ -363,7 +363,7 @@ Así que para tu conveniencia, resumo aquí las conclusiones a las que he podido
 
 - D'Hondt beneficia a los mayoritarios,
 pero otros elementos de la ley electoral como la división
-en circumscripciones tienen un impacto mucho mayor en ese sentido.
+en circunscripciones tienen un impacto mucho mayor en ese sentido.
 - D'Hondt acaba fijando un precio para el escaño:
 	- Saber ese precio, nos da una idea de la **masa crítica para tener impacto**
 	- Dada la participación, se puede acotar por arriba y por abajo
@@ -375,13 +375,13 @@ en circumscripciones tienen un impacto mucho mayor en ese sentido.
 	- Se reparten más o menos proporcionalmente a los escaños enteros de cada candidatura
 		- Por ejemplo: para recibir 3 extras, hay de tener aproximadamente 3 veces los escaños enteros de quien recibe 1 extra
 - Por eso solo hay grandes beneficios por D'Hondt cuando hay grandes desigualdades
-- Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circumscripciones, y, históricamente como mucho a 4
+- Y como hay pocos extras a repartir, los beneficios suelen limitarse a 2, en las grandes circunscripciones, y, históricamente como mucho a 4
 - Aunque parezca paradójico,
 D'Hondt no da ninguna ventaja a las coaliciones
 que no les de ya por separado.
 	- El beneficio real de coaligarse es la suma de votos sobrantes,
 	que se da en cualquier otro método
-	y esta limitada a 0 o 1 escaños por circumscripción.
+	y esta limitada a 0 o 1 escaños por circunscripción.
 
 En este mundo, no hay tiempo para contrastar, leer o reflexionar.
 Pero recuerda:

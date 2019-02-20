@@ -24,14 +24,14 @@ status: published
 		- Últimas encuestas
 		- Añadiendo lo que crees que ha pasado desde entonces
 	- Puedes plantear hipótesis extremas de partida para delimitar los efectos posibles.
-- Tu opción solo afecta a los resultados de tu circumscripción (província)
+- Tu opción solo afecta a los resultados de tu circunscripción (província)
 	- Un voto solo suma con otros iguales en la misma província.
 	- Esta es la mayor causa de desproporción del sistema electoral. Más que la ley de hondt o el umbral del 3%.
 
 
 ### El caso que nos atañe
 
-Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.
+Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circunscripción Barcelona.
 
 - Se reparten 85 escaños.
 	- Muy diferente de los 31 escaños de las generales donde es improbable que afecte el umbral del 3%.
@@ -49,7 +49,7 @@ Y se considera un voto válido de 60% del censo. (abstencion+nulo=40%).**
 Para el Parlament de Catalunya, la ley es la misma que
 para elegir diputados en el Congreso de los Diputados.
 
-Para **cada circumscripción** se hace lo siguiente:
+Para **cada circunscripción** se hace lo siguiente:
 
 1. Se cuentan los votos validos, esto es los votos a candidaturas y los votos en blanco, descartándose los nulos (y las abstenciones)
 1. Se descartan las candidaturas que no lleguen al 3% de esos votos válidos
@@ -79,7 +79,7 @@ Pero ¿qué implicaciones tiene?
 	- **Todas las formaciones que han superado el umbral tienen una igual probabilidad de obtener cualquier resto entre cero y el mínimo coste sin llegar a él.**
 		- En porcentaje, se diluye en los mayoritarios, y gana importancia en minoritarios.
 			- Esto es lo que genera la desproporción en la ley de Hondt.
-			- Mitificado: Hay causas mayores para la desproporción como son la división en circumscripciones, y, en Barcelona para las autonómicas, el umbral.
+			- Mitificado: Hay causas mayores para la desproporción como son la división en circunscripciones, y, en Barcelona para las autonómicas, el umbral.
 			- Esta acotada por el coste mínimo, suele dar como máximo dos o tres escaños más a los mayoritarios respecto a una repartición proporcional pura.
 		- En cambio, considerando que todos han votado ya y os toca a tu grupo:
 			- tienes las mismas posibilidades de que vuestro voto sea resto inútil para cualquier opción que haya pasado del umbral.

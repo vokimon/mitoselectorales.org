@@ -1,7 +1,7 @@
 ---
 title: Llistes d'unitat nacional, confluències i d'altres animals (polítics)
 author: David García Garzón
-tags: Parlament, Coaliciones, D'Hondt
+tags: Parlament, Coaliciones, D'Hondt, Circunscripciones
 cover: images/llistaunitaria-sumarestos.png
 covercaption: Probabilitat d'afegir escons en una circumscripció amb la suma de candidatures
 status: published

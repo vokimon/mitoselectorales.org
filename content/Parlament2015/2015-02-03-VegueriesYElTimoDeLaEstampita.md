@@ -1,7 +1,7 @@
 ---
 title: Veguerias, el timo de la estampita
 author: vokimon
-tags: Circumscripciones, Parlament
+tags: Circunscripciones, Parlament
 cover: images/PlaDeVegueries2016.png
 covercaption: Pla de Vegueries de 2016 <br> Font: Vikipedia
 status: published
@@ -13,7 +13,7 @@ _¿Quién representa mejor los intereses de una persona que votó al **PP en Bar
 (Cambia partidos y províncias, hasta que te chirríe.)
 
 Algunas de las propuestas que se han ido haciendo de la ley electoral catalana,
-propone cambiar la circumscripción de la província a la veguería.
+propone cambiar la circunscripción de la província a la veguería.
 ¿La razón expuesta? Una forma de acercar la gente a su electorado.
 ¡Precioso!
 
@@ -23,7 +23,7 @@ Vuelvo a hacer la pregunta.
 _¿Quién representa mejor los intereses de alguien de alguien que votó a Iniciativa en Lleida?
 ¿Alguien de Convergència de Lleida? ¿O alguien de Iniciativa de Girona?_
 
-¿Hacer circumpscripciones más pequeñas acerca los electores a los elegido?
+¿Hacer circunpscripciones más pequeñas acerca los electores a los elegido?
 Pues tal como està planteada la ley electoral va a ser que no.
 
 ## La representatividad
@@ -46,15 +46,15 @@ Por eso vuelvo a preguntar:
 _¿Quién representa mejor los intereses de alguien de alguien que votó a ERC en Girona?
 ¿Alguien de Ciudadanos de Girona? ¿O alguien de ERC de Barcelona?_
 
-## Las circumscripciones
+## Las circunscripciones
 
 En otros artículos, hemos dejado patente que lo que principalmente hace
 que la representación no se parezca demasiado a lo que proporcionalmente
 piensan los ciudadanos, no es tanto la Regla de D'Hondt, que parte de culpa
-tiene, pero tiene más fama que culpa, sinó la partición en circumscripciones.
+tiene, pero tiene más fama que culpa, sinó la partición en circunscripciones.
 
 La partición hace que muchos votos no lleguen a sumar para llegar al escaño.
-Votos que si se juntaran con votos de otras circumscripciones si que llegarían.
+Votos que si se juntaran con votos de otras circunscripciones si que llegarían.
 A los mayoritarios no les importa demasiado, porque la mayoría de sus votos
 tendrán escaño,
 y si el sistema actual les permite arrancar representación de los minoritarios,
@@ -64,7 +64,7 @@ La conclusión:
 ¿de qué me sirve que mi voto sirva para escoger personas que viven cerca
 si las personas que salen no son lo que he elegido?
 
-Si hacemos las circumscripciones aún más pequeñas,
+Si hacemos las circunscripciones aún más pequeñas,
 hacemos el problema incluso más extremo.
 
 **La intención clara de quien hace esta propuesta es beneficiar a las formaciones
@@ -74,7 +74,7 @@ Para nada es acercar a elegidas y electoras.
 
 ## Contra propuesta
 
-Hacer circumscripción única.
+Hacer circunscripción única.
 Repartir los escaños a las candidaturas si asignar la persona.
 Una vez repartidos por candidaturas, cada candidatura asigna
 la persona según los votos obtenidos por la candidatura en cada
@@ -89,7 +89,7 @@ y que sería material para otro artículo.
 
 
 **Actualización 2017-02-01:** Aquest [article de el Món][ArticleElMon]{target=blank_} té un interactiu prou esclaridor
-per comparar l'efecte de les circumscripcións a les darreres eleccions.
+per comparar l'efecte de les circunscripcións a les darreres eleccions.
 
 
 [Vegueria-ca]:https://ca.wikipedia.org/wiki/Vegueria

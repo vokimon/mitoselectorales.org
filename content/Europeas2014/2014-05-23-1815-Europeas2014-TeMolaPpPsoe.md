@@ -13,7 +13,7 @@ Este es: **No os olvideis de ir a votar a vuestro partido, como siempre**, pero,
 casi tan importante como votar es **emplearos a fondo para desmotivar a todo aquel que veais que no tiene pinta de votar a vuestra opción**.
 
 ¿Por qué? Porque la gente esta que trina con los partidos que han ejercido "su responsabilidad de gobierno", y, si ese descontento se materializase en votos a candidaturas alternativas, podría ser una debacle electoral sin precedentes.
-Ademas en las europeas al ser circumscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
+Ademas en las europeas al ser circunscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
 Hay que evitar que la mayoría social se convierta en mayoría electoral.
 Hay que mantener a gente lejos de las candidaturas alternativas al bipartito.
 Hasta ahora habeis podido disfrutar de mayorias absolutas con entre un 20% y un 30% de los votos.

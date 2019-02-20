@@ -3,7 +3,7 @@ title: D'Hondt (I): ¿Azote de minorias o cabeza de turco?
 autor: vokimon
 date: 2018-03-10 00:00
 status: published
-tags: D'Hondt, Circumscripciones
+tags: D'Hondt, Circunscripciones
 cover: images/jose-arpa-y-perea-cabeza-de-turco.jpg
 covercaption: 'Cabeza de turco' de Jose Arpa
 ---
@@ -93,7 +93,7 @@ Entonces, si D'Hondt no es tan malo,
 ## Son las circunscripciones, idiota
 
 Pues sí, las circunscripciones.
-El reparto de escaños se hace separadamente para cada circumscripción.
+El reparto de escaños se hace separadamente para cada circunscripción.
 En las generales, cada provincia.
 Eso distorsiona la proporcionalidad en varios aspectos:
 
@@ -123,7 +123,7 @@ Pero invertid los esfuerzos en reformar primero las circunscripciones.
 
 **Eso sí ¡no para hacerlas [aún más pequeñas][Veguerias], por favor!**
 
-![No seas como Pablito, focaliza en las circumscripciones
+![No seas como Pablito, focaliza en las circunscripciones
 ]({static}/images/noseascomodhondt.png)
 
 Te puedes creer lo que decimos porque lo dice internet y quedarte tan pancho, como con los bulos.
