@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }} - {{SITENAME}}{% endblock title %}
+{% block description %}{{ article.description or SITEDESCRIPTION }}{% endblock description %}
 {% block pageheader %}
 <div class="hp-header-inner">
     <div class="page-header">
