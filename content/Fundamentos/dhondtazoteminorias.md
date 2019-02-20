@@ -1,9 +1,11 @@
 ---
 title: D'Hondt (I): ¿Azote de minorias o cabeza de turco?
 autor: vokimon
-date: 2018-03-10 00:00
+date: 2018-02-18 00:00
 status: published
+description: D'Hondt tiene la fama ser el origen de la discriminación de los partidos minoritarios en el sistema electoral español, pero las principales responsables de ello son las circunscripciones.
 tags: D'Hondt, Circunscripciones
+keywords: D'Hondt, Minoritarios, Ley Electoral, Circunscripciones
 cover: images/jose-arpa-y-perea-cabeza-de-turco.jpg
 covercaption: 'Cabeza de turco' de Jose Arpa
 ---
@@ -18,9 +20,6 @@ Como todos los bulos, si nos dejamos llevar por ellos,
 cometeremos errores en nuestras decisiones.
 
 <!-- PELICAN_END_SUMMARY -->
-
-[Podemos propone cambiar D'Hondt
-por otro sistema más proporcional](https://www.elperiodico.com/es/politica/20180207/podemos-presenta-ley-electoral-para-permitir-voto-16-anos-6609275)
 
 [TOC]
 
@@ -121,12 +120,15 @@ Por eso, actuales y futuros renovadores de la ley electoral:
 Sí. D'Hondt es mala y molaría substituirla.
 Pero invertid los esfuerzos en reformar primero las circunscripciones.
 
-**Eso sí ¡no para hacerlas [aún más pequeñas][Veguerias], por favor!**
+[Podemos propone cambiar D'Hondt
+por otro sistema más proporcional](https://www.elperiodico.com/es/politica/20180207/podemos-presenta-ley-electoral-para-permitir-voto-16-anos-6609275)
 
 ![No seas como Pablito, focaliza en las circunscripciones
 ]({static}/images/noseascomodhondt.png)
 
-Te puedes creer lo que decimos porque lo dice internet y quedarte tan pancho, como con los bulos.
+**Eso sí, si reformas las circunscripciones ¡que no sea para hacerlas [aún más pequeñas][Veguerias], por favor!**
+
+Y ahora, te puedes creer lo que digo porque lo dice internet, como con los bulos.
 Pero, si te interesa saber como hemos llegado a la conclusión del efecto real de D'Hondt,
 te aconsejo que leas los próximos artículos sobre:
 

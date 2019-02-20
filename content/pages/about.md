@@ -47,6 +47,6 @@ bajo la marca UPF Barcelona School of Management
 Muchos de los contenidos presentados aquí
 se construyeron en el contexto de la acampada del 15M de Sant Joan Despí.
 Participantes en dicho colectivo colaboraron desinteresadamente
-a mejorar dichos contenidos.
+a mejorar estos contenidos.
 
 
