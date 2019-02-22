@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2015</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/parlament2015.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2015-02-03T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Veguerias, el timo de la estampita</title><link href="https://votomitico.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html" rel="alternate"></link><published>2015-02-03T00:00:00+01:00</published><updated>2015-02-03T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:votomitico.org,2015-02-03:/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html</id><summary type="html">&lt;p&gt;Una pregunta:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2015</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/parlament2015.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2015-02-03T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Veguerias, el timo de la estampita</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html" rel="alternate"></link><published>2015-02-03T00:00:00+01:00</published><updated>2015-02-03T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2015-02-03:/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html</id><summary type="html">&lt;p&gt;Una pregunta:
 &lt;em&gt;¿Quién representa mejor los intereses de una persona que votó al &lt;strong&gt;PP en Barcelona&lt;/strong&gt;?
 ¿Una candidata de la &lt;strong&gt;CUP de Barcelona&lt;/strong&gt; o una candidata del &lt;strong&gt;PP de Tarragona&lt;/strong&gt;?&lt;/em&gt;
 (Cambia partidos y províncias, hasta que te chirríe.)&lt;/p&gt;
@@ -70,7 +70,7 @@ Estaríamos invirtiendo el efecto,
 pero para compensar eso tenemos las ponderaciones territoriales que ya aplicamos hoy
 y que sería material para otro artículo.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Actualización 2017-02-01:&lt;/strong&gt; Aquest &lt;a href="https://elmon.cat/politica/qui-guanya-i-qui-perd-amb-un-nou-sistema-electoral" target="blank_"&gt;article de el Món&lt;/a&gt; té un interactiu prou esclaridor
-per comparar l'efecte de les circunscripcións a les darreres eleccions.&lt;/p&gt;</content><category term="Circunscripciones"></category><category term="Parlament"></category></entry><entry><title>Llistes d'unitat nacional, confluències i d'altres animals (polítics)</title><link href="https://votomitico.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="alternate"></link><published>2014-12-05T00:00:00+01:00</published><updated>2014-12-05T00:00:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2014-12-05:/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html</id><summary type="html">Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
+per comparar l'efecte de les circunscripcións a les darreres eleccions.&lt;/p&gt;</content><category term="Circunscripciones"></category><category term="Parlament"></category></entry><entry><title>Llistes d'unitat nacional, confluències i d'altres animals (polítics)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="alternate"></link><published>2014-12-05T00:00:00+01:00</published><updated>2014-12-05T00:00:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-12-05:/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html</id><summary type="html">Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
 Junts o barrejats.
 Un dels arguments que s'han fet servir per fer una candidatura unitària
 és que es veuria beneficiada pel sistema electoral.
@@ -115,8 +115,8 @@ estadísticament el número de vots sobrants tenen la mateixa probabilitat
 de ser 0, 1, 40, o el preu minim menys 1.
 És el que s'en diu una distribució de probabilitat uniforme
 que seria la corba plana de la gràfica.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://votomitico.org/images/llistaunitaria-sumarestos.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://votomitico.org/Parlament2015/llistaunitaria.py"&gt;Codi Python per generar la gràfica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://vokimon.github.io/mitoselectorales.org/images/llistaunitaria-sumarestos.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/Parlament2015/llistaunitaria.py"&gt;Codi Python per generar la gràfica&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Quan sumes els sobrants de N partits amb representacio,
 el resultat són distribucions que ja no són uniformes.
 En general, el realme del que és possible estaria entre 0 i N-1 escons addicionals,
@@ -165,7 +165,7 @@ Doncs sí, però, no.
 Es a dir, estaria més sobrepresentada, sí,
 però treient la suma dels restos que explicavem abans,
 &lt;strong&gt;el que fa es sumar les sobrerepresentacións de les dues candidatures originals.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ho pots comprobar empíricament amb l'eina &lt;a href="https://votomitico.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote&lt;/a&gt;,
+&lt;p&gt;Ho pots comprobar empíricament amb l'eina &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote&lt;/a&gt;,
 agafant qualsevol parell de candidatures i fent una transferència total d'una cap a l'altra.
 Comprovaràs que &lt;strong&gt;no hi ha més guany del que poguem preveure amb la suma de restos&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Per entendre perquè és així cal entendre d'on ve la sobrerrepresentació de D'Hondt.&lt;/p&gt;
