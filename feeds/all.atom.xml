@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2018-02-21T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>San nulo, salvador de los débiles</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2018-02-21-san-nulo-salvador-de-los-debiles.html" rel="alternate"></link><published>2018-02-21T00:00:00+01:00</published><updated>2018-02-21T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2018-02-21:/mitoselectorales.org/posts/2018-02-21-san-nulo-salvador-de-los-debiles.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2018-02-21T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>San nulo, ¿salvador de los débiles?</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2018-02-21-san-nulo-salvador-de-los-debiles.html" rel="alternate"></link><published>2018-02-21T00:00:00+01:00</published><updated>2018-02-21T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2018-02-21:/mitoselectorales.org/posts/2018-02-21-san-nulo-salvador-de-los-debiles.html</id><summary type="html">
 
 &lt;p&gt;¿Te planteas votar nulo
 por no perjudicar a los pequeños con un voto en blanco?
@@ -60,11 +60,10 @@ Mejor si protestas usando el voto nulo que no les perjudica."&lt;/p&gt;
 Hasta parece bien intencionado para con los minoritarios.
 Simplemente pasa que omite muchas verdades.&lt;/p&gt;
 &lt;h2 id="cuando-el-umbral-es-relevante"&gt;¿Cuándo el umbral es relevante?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Para muchas convocatorias el umbral es irrelevante&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Para muchas convocatorias el umbral es irrelevante&lt;/strong&gt;.
 En una circunscripción con pocos escaños a repartir,
-el primer escaño ya cuesta mucho más porcentaje de votos,
-pon que cueste el 10%,
-eso deja el umbral del 3% o 5% es irelevante.&lt;/p&gt;
+el primer escaño ya cuesta mucho más porcentaje de votos.
+Si el primer escaño cuesta, por ejemplo, un 10%, umbrales del 3% o del 5% no tienen efecto.&lt;/p&gt;
 &lt;p&gt;¿Cuando se vuelve irrelevante el umbral aproximadamente?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Con el 5%, si la circunscripción tiene menos de 18 escaños.&lt;/li&gt;
@@ -74,18 +73,22 @@ eso deja el umbral del 3% o 5% es irelevante.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Autonómicas en Madrid: con 129 escaños y umbral del 5% (el umbral ya son 6 escaños)&lt;/li&gt;
 &lt;li&gt;Autonómicas en Barcelona: con 85 escaños y umbral del 3% (el umbral ya son 2'5 escaños)&lt;/li&gt;
-&lt;li&gt;Municipales en ciudades de mas de 20.000 electores y, por tanto, con 21 o mas escaños.&lt;/li&gt;
+&lt;li&gt;Municipales en ciudades de mas de 20.000 electores y, por tanto, con 21 o mas escaños y donde se aplica el 5%.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Notablemente &lt;strong&gt;en ninguna circunscripción de las generales es relevante&lt;/strong&gt;,
-y, &lt;strong&gt;en las europeas tampoco se aplica&lt;/strong&gt;, porque se define un umbral del 0%.&lt;/p&gt;
+&lt;p&gt;Notablemente no es relevante en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ninguna circunscripción de las generales&lt;/strong&gt;. Matemáticamente Madrid podría pero nunca ha pasado.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;En las autonómicas&lt;/strong&gt; con excepción, mencionada antes de Madrid y Barcelona.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;En las europeas&lt;/strong&gt;, porque se define un umbral del 0%.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="como-afecta-el-voto-en-blanco-al-umbral"&gt;¿Cómo afecta el voto en blanco al umbral?&lt;/h2&gt;
+&lt;p&gt;No solo el umbral no es relevante para muchas convocatorias,
+cuando es relevante, el efecto del blanco en el umbral es miseria.&lt;/p&gt;
 &lt;p&gt;Con un umbral del 3%,
 &lt;strong&gt;tu voto en blanco eleva el umbral 3 centesimas de voto&lt;/strong&gt;.
-100 como tú votando en blanco, subiran el umbral apenas 3 votos.
-Una auténtica miseria. Pero sí, algo sube.&lt;/p&gt;
-&lt;p&gt;En resumen, no solo el umbral no es relevante para muchas convocatorias,
-cuando es relevante, el efecto del blanco en el umbral es miseria.
-Nos están haciendo preocupar por algo que no es relevante.
+100 como tú votando en blanco, elevarán el umbral apenas 3 votos.
+Algo sube, sí, pero, una auténtica miseria.&lt;/p&gt;
+&lt;p&gt;Nos están haciendo preocupar por algo que no es relevante.
 ¿Hay malicia? ¿Qué opinas?
 Sigamos la disección.&lt;/p&gt;
 &lt;h2 id="que-efecto-tiene-la-opcion-sugerida"&gt;¿Qué efecto tiene la opción sugerida?&lt;/h2&gt;
