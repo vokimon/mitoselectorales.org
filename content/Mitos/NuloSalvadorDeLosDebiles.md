@@ -4,7 +4,7 @@ autor: vokimon
 date: 2018-02-21 00:00
 status: published
 description: Si quieres beneficiar a los pequeños el voto nulo es mejor que el blanco, pero mucho peor que votarles
-tags: D'Hondt, Circunscripciones
+tags: Umbral_Electoral, Voto_Nulo, No_Voto, Voto_en_Blanco
 keywords: Minoritarios, Umbral, Nulo, Blanco
 cover: images/votonulo-retrete.png
 ---
@@ -13,7 +13,7 @@ cover: images/votonulo-retrete.png
 
 ¿Te planteas votar nulo
 por no perjudicar a los pequeños con un voto en blanco?
-Tiene pinta de que un bulo te ha colocado en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
+Parece que un bulo te ha puesto en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
 
 El voto nulo ciertamente perjudica a los pequeños algo menos que el blanco...
 Pero, si te preocupa lo que les pase a los pequeños,
@@ -26,11 +26,11 @@ Si te gusta votar en nulo, vota nulo, es tu derecho y tu opción.
 Vamos a desmentir algunas razones para votar nulo que no son ciertas.
 Tú puedes tener las tuyas y que no sean estas, y es perfecto.
 
-Este bulo me encanta por lo brillante de su meme-ingeniería.
-Es un virus memético diseñado para llegar quirúrgicamente a una población diana,
+De este bulo me encanta lo maquiavélico de su meme-ingeniería.
+Es un virus (memético) diseñado para llegar quirúrgicamente a una población diana
 y hacer que se autodestruya (electoralmente).
 
-Lo diseccionamos.
+Lo diseccionamos:
 
 [TOC]
 
@@ -83,7 +83,7 @@ Son, de hecho, pocas las convocatorias donde es relevante:
 
 Notablemente no es relevante en:
 
-- **Ninguna circunscripción de las generales**. Matemáticamente Madrid podría pero nunca ha pasado.
+- **En las generales**. Matemáticamente Madrid podría pero nunca ha pasado.
 - **En las autonómicas** con excepción, mencionada antes de Madrid y Barcelona.
 - **En las europeas**, porque se define un umbral del 0%.
 
@@ -97,9 +97,10 @@ Con un umbral del 3%,
 100 como tú votando en blanco, elevarán el umbral apenas 3 votos.
 Algo sube, sí, pero, una auténtica miseria.
 
-Nos están haciendo preocupar por algo que no es relevante.
-¿Hay malicia? ¿Qué opinas?
-Sigamos la disección.
+Así que, de entrada, nos estan señalando un peligro
+que la mayor parte del tiempo no existe y cuando existe el efecto es irrelevante.
+Si fuera el único efecto que tiene, evitémoslo, vale.
+Pero sigamos la disección.
 
 ## ¿Qué efecto tiene la opción sugerida?
 
@@ -116,10 +117,7 @@ y perjudicas estadísticamente a las candidaturas que **tú** podrías haber vot
 
 ## ¿Qué tipo de persona hará caso del consejo?
 
-¿Por qué es tan magistral este bulo?
-Por cómo dirige el mensaje a una población tan concreta.
-
-Fijaos en el perfil de la persona que hara caso de él:
+Este bulo es tan magistral porque dirige el mensaje a un perfil muy concreto:
 **alguien que está defraudado con los partidos con representación
 como para hacer un voto de protesta,
 pero que no quiere perjudicar a los minoritarios**.
@@ -131,40 +129,43 @@ aludiendo que es para no perjudicarlos!** ¡Genio y figura!
 
 Por tanto, el no-voto de alguien con ese perfil:
 
-- Beneficia a los partidos contra los que se quiere protestar, a los que no votaría
-- Perjudica a los minoritarios con los que simpatizas y podrías votar
+- Perjudica a los minoritarios con los simpatiza y a los que podría votar
+- Beneficia a los partidos contra los que se protesta y a los que nunca iría su voto
 
 
-## ¿Qué efecto tendría la opción omitida?
+## ¿Qué otra opción hay?
 
-Evidentemente la opción que omite es votar a los minoritarios con los que simpatizas.
-Incluso si tú y otros tantos, decidís votar al azar a uno de ellos, el efecto sobre el umbral es positivo.
-Los votos a candidatura también elevan el umbral pero como vimos,
-lo eleva tan poco que, aunque repartais el voto al azar, compensa.
+Votar minoritarios. Está claro. ¿O no?
+Si hay varios minoritarios que te son simpáticos,
+¿votar a unos no se lo pone crudo a los otros subiéndoles el umbral?
 
-Con un umbral de 3%:
+Aplicando la regla del grupo, imagínate que no eres tú solo,
+que sois 100, con un umbral del 3% y comparado con la abstención:
 
 - 100 votos blancos alejan el umbral 3 votos.
-- 100 votos nulos lo dejan donde está.
-- 100 votos repartidos al azar entre 10 candidaturas minoritarias, lo acercan 7.
+- 100 votos nulos dejan el umbral a la misma distancia.
+- 100 votos repartidos al azar entre 10 candidaturas minoritarias lo acercan 7 votos.
 - 100 votos repartidos al azar entre 5 candidaturas lo acercan 17 votos.
 - 100 votos concentrados en una minoritaria se lo acercan 97 votos.
+
+## El voto a minoritarios como voto de protesta
 
 Votar extraparlamentarios siempre ha sido un voto de protesta también.
 De hecho, últimamente se han creado partidos sin programa,
 exclusivamente para visibilizar ese voto de protesta.
-Uno de ellos [Escaños en blanco] postulan representar al voto en blanco
+Uno de ellos, [Escaños en blanco], postulan representar al voto en blanco
 dejando los escaños vacíos.
 No es mi opción pero es mejor que un voto nulo
 y recoge el sentido pretendido del voto en blanco.
 
 También estan los programáticos tradicionales (PACMA, Verdes, PCPE...).
 
-Ojo, entre los extraparlamentarios tambien estan los xenofobos y fascistas:
-Movimiento Social Revolucionario (ojo con el nombre, son xenofobos),
-PxC, España2000, Falanges, Familia y Vida...
+Ojo, entre los extraparlamentarios también están los xenofobos y fascistas:
+MSR, PxC, España2000, Falanges, Familia y Vida...
+Has llegado leyendo hasta aquí asi que entiendo que no son los tuyos.
 A estos, te pido sin ambajes que los saques de la tómbola si haces voto al azar.
-Para cada convocatoria suelo hacer un catálogo para que no los confundas.
+Para cada convocatoria suelo hacer un catálogo de chusma para que no los confundas.
+Y es que muchos como el MSR o PxC usan siglas y discursos que a propósito llevan a confusión.
 
 
 [Escaños en blanco]:https://es.wikipedia.org/wiki/Esca%C3%B1os_en_Blanco
