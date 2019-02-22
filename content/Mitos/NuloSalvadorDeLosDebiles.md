@@ -1,5 +1,5 @@
 ---
-title: San nulo, salvador de los débiles
+title: San nulo, ¿salvador de los débiles?
 autor: vokimon
 date: 2018-02-21 00:00
 status: published
@@ -65,13 +65,12 @@ Simplemente pasa que omite muchas verdades.
 
 ## ¿Cuándo el umbral es relevante?
 
-**Para muchas convocatorias el umbral es irrelevante**
-Con pocos escaños a repartir,
-el primer escaño ya cuesta mucho porcentaje de votos
-y el umbral del 3% o 5% es irelevante
-porque igual para el primer escaño hace falta, por ejemplo, un 10% de los votos.
+**Para muchas convocatorias el umbral es irrelevante**.
+En una circunscripción con pocos escaños a repartir,
+el primer escaño ya cuesta mucho más porcentaje de votos.
+Si el primer escaño cuesta, por ejemplo, un 10%, umbrales del 3% o del 5% no tienen efecto.
 
-¿Cuando se vuelve irrelevante el umbral?
+¿Cuando se vuelve irrelevante el umbral aproximadamente?
 
 - Con el 5%, si la circunscripción tiene menos de 18 escaños.
 - Con el 3%, si la circunscripción tiene menos de 31 escaños.
@@ -80,20 +79,24 @@ Son, de hecho, pocas las convocatorias donde es relevante:
 
 - Autonómicas en Madrid: con 129 escaños y umbral del 5% (el umbral ya son 6 escaños)
 - Autonómicas en Barcelona: con 85 escaños y umbral del 3% (el umbral ya son 2'5 escaños)
-- Municipales en ciudades de mas de 20.000 electores y, por tanto, con 21 o mas escaños.
+- Municipales en ciudades de mas de 20.000 electores y, por tanto, con 21 o mas escaños y donde se aplica el 5%.
 
-Notablemente **en ninguna circunscripción de las generales es relevante**,
-y, **en las europeas tampoco se aplica**, porque se define un umbral del 0%.
+Notablemente no es relevante en:
+
+- **Ninguna circunscripción de las generales**. Matemáticamente Madrid podría pero nunca ha pasado.
+- **En las autonómicas** con excepción, mencionada antes de Madrid y Barcelona.
+- **En las europeas**, porque se define un umbral del 0%.
 
 ## ¿Cómo afecta el voto en blanco al umbral?
 
-Con un umbral del 3%,
-tu voto en blanco eleva el umbral un 0,03 votos.
-**100 como tú votando en blanco, subiran el umbral apenas 3 votos.**
-Una auténtica miseria. Pero sí, algo sube.
+No solo el umbral no es relevante para muchas convocatorias,
+cuando es relevante, el efecto del blanco en el umbral es miseria.
 
-En resumen, a veces el umbral es relevante, a veces no.
-Y aún cuando es relevante, el efecto del blanco en el umbral es miseria.
+Con un umbral del 3%,
+**tu voto en blanco eleva el umbral 3 centesimas de voto**.
+100 como tú votando en blanco, elevarán el umbral apenas 3 votos.
+Algo sube, sí, pero, una auténtica miseria.
+
 Nos están haciendo preocupar por algo que no es relevante.
 ¿Hay malicia? ¿Qué opinas?
 Sigamos la disección.
@@ -107,9 +110,9 @@ Por ejemplo, a veces se dice que la abstención perjudica a uno o otro lado
 pero la realidad es que el efecto de la abstención y las otras opciones de no-voto
 depende del perfil de electorado que no se ha mobilizado.
 
-En concreto si dejas de votar tú,
-beneficias a las candidaturas que nunca se te ocurriría votar,
-y perjudicas estadísticamente a las candidaturas que podrías haber votado.
+En concreto si dejas de votar **tú**,
+beneficias a las candidaturas que **a ti** nunca se te ocurriría votar,
+y perjudicas estadísticamente a las candidaturas que **tú** podrías haber votado.
 
 ## ¿Qué tipo de persona hará caso del consejo?
 
@@ -132,12 +135,12 @@ Por tanto, el no-voto de alguien con ese perfil:
 - Perjudica a los minoritarios con los que simpatizas y podrías votar
 
 
-## ¿Qué opciones omite?
+## ¿Qué efecto tendría la opción omitida?
 
 Evidentemente la opción que omite es votar a los minoritarios con los que simpatizas.
 Incluso si tú y otros tantos, decidís votar al azar a uno de ellos, el efecto sobre el umbral es positivo.
-Los votos a candidatura también suben el umbral pero como vimos,
-lo sube tan poco que aunque repartas, compensa.
+Los votos a candidatura también elevan el umbral pero como vimos,
+lo eleva tan poco que, aunque repartais el voto al azar, compensa.
 
 Con un umbral de 3%:
 
@@ -157,7 +160,7 @@ y recoge el sentido pretendido del voto en blanco.
 
 También estan los programáticos tradicionales (PACMA, Verdes, PCPE...).
 
-Entre los extraparlamentarios tambien estan los xenofobos y fascistas
+Ojo, entre los extraparlamentarios tambien estan los xenofobos y fascistas:
 Movimiento Social Revolucionario (ojo con el nombre, son xenofobos),
 PxC, España2000, Falanges, Familia y Vida...
 A estos, te pido sin ambajes que los saques de la tómbola si haces voto al azar.
