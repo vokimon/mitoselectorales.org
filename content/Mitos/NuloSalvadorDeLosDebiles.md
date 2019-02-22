@@ -13,21 +13,21 @@ cover: images/votonulo-retrete.png
 
 ¿Te planteas votar nulo
 por no perjudicar a los pequeños con un voto en blanco?
-Parece que un bulo te ha puesto en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
+Al parecer, un bulo te ha puesto en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
 
-El voto nulo ciertamente perjudica a los pequeños algo menos que el blanco...
-Pero, si te preocupa lo que les pase a los pequeños,
-¿no te parece mejor otro tipo de voto protesta?
+El voto nulo ciertamente perjudica a los pequeños algo menos que el voto en blanco.
+Pero, si te preocupa lo que les pase a los pequeños...
+¿porqué no les ayudas?
 
 <!-- PELICAN_END_SUMMARY -->
 
 Primero de todo, hay que respetar la opción de cada uno.
 Si te gusta votar en nulo, vota nulo, es tu derecho y tu opción.
-Vamos a desmentir algunas razones para votar nulo que no son ciertas.
+Vamos a desmentir algunas razones concretas para votar nulo que no son ciertas.
 Tú puedes tener las tuyas y que no sean estas, y es perfecto.
 
-De este bulo me encanta lo maquiavélico de su meme-ingeniería.
-Es un virus (memético) diseñado para llegar quirúrgicamente a una población diana
+De este bulo me encanta lo maquiavélico de su ingeniería memética.
+Es un virus diseñado para llegar quirúrgicamente a una población diana
 y hacer que se autodestruya (electoralmente).
 
 Lo diseccionamos:
@@ -42,7 +42,7 @@ La [LOREG] dice que
 para que una candidatura entre al recuento en una circunscripción,
 los votos obtenidos han de superar un cierto porcentaje del voto válido,
 el llamado umbral electoral, que según la convocatoria puede ser el 3%, 5% o 0%.
-Como voto válido cuenta voto a candidaturas y el voto en blanco.
+Como voto válido cuenta el voto a candidaturas y el voto en blanco.
 
 [LOREG]: http://www.juntaelectoralcentral.es/cs/jec/loreg
 
@@ -56,18 +56,18 @@ San Nullo, municipio siciliano con nombre de un santo que no existe
 El bulo dice algo así:
 
 > "Si protestas con un voto blanco, perjudicarás a los minoritarios,
-> al elevar el umbral electoral para conseguir el primer escaño.
+> pues elevas el umbral electoral para que consegan su primer escaño.
 > Mejor si protestas usando el voto nulo que no les perjudica."
 
 No es propiamente un bulo porque no dice ninguna mentira.
 Hasta parece bien intencionado para con los minoritarios.
 Simplemente pasa que omite muchas verdades.
 
-## ¿Cuándo el umbral es relevante?
+## ¿Cuándo es relevante el umbral?
 
 **Para muchas convocatorias el umbral es irrelevante**.
-En una circunscripción con pocos escaños a repartir,
-el primer escaño ya cuesta mucho más porcentaje de votos.
+Si una circunscripción reparte pocos escaños,
+el primer escaño costará mucho más porcentaje de votos que el umbral.
 Si el primer escaño cuesta, por ejemplo, un 10%, umbrales del 3% o del 5% no tienen efecto.
 
 ¿Cuando se vuelve irrelevante el umbral aproximadamente?
@@ -81,11 +81,12 @@ Son, de hecho, pocas las convocatorias donde es relevante:
 - Autonómicas en Barcelona: con 85 escaños y umbral del 3% (el umbral ya son 2'5 escaños)
 - Municipales en ciudades de mas de 20.000 electores y, por tanto, con 21 o mas escaños y donde se aplica el 5%.
 
-Notablemente no es relevante en:
+El umbral no te ha de preocupar en:
 
-- **En las generales**. Matemáticamente Madrid podría pero nunca ha pasado.
-- **En las autonómicas** con excepción, mencionada antes de Madrid y Barcelona.
-- **En las europeas**, porque se define un umbral del 0%.
+- **Generales**. En ninguna circunscripción. Matemáticamente en Madrid pero no.
+- **Autonómicas** con las excepciones mencionadas antes de Madrid y Barcelona.
+- **Europeas**, porque se define un umbral del 0%.
+- **Municipales**, en municipos con menos de 20.000 electores.
 
 ## ¿Cómo afecta el voto en blanco al umbral?
 
@@ -98,18 +99,21 @@ Con un umbral del 3%,
 Algo sube, sí, pero, una auténtica miseria.
 
 Así que, de entrada, nos estan señalando un peligro
-que la mayor parte del tiempo no existe y cuando existe el efecto es irrelevante.
+que la mayor parte del tiempo no existe y cuando existe tiene un efecto marginal.
 Si fuera el único efecto que tiene, evitémoslo, vale.
 Pero sigamos la disección.
 
-## ¿Qué efecto tiene la opción sugerida?
+## ¿Qué efecto real tiene el voto nulo?
 
-El bulo te hace dirimir entre dos opciones, ambas son de no-voto.
+El falso dilema te hace dirimir entre dos opciones, blanco y nulo, ambas de no-voto.
 El mayor efecto de las opciones de no-voto, umbrales a parte,
 es el _voto cesante_.
-Por ejemplo, a veces se dice que la abstención perjudica a uno o otro lado
-pero la realidad es que el efecto de la abstención y las otras opciones de no-voto
-depende del perfil de electorado que no se ha mobilizado.
+Por ejemplo, es cultura mediática, también falsa,
+que la abstención perjudica a las izquierdas.
+Pero si tu eres de derechas y te abstienes
+para perjudicar a las izquierdas, flaco favor te haces.
+Son las derechas las que están perdiendo un voto.
+El perjuicio del no-voto depende del perfil de electorado que no se ha mobilizado.
 
 En concreto si dejas de votar **tú**,
 beneficias a las candidaturas que **a ti** nunca se te ocurriría votar,
@@ -148,6 +152,9 @@ que sois 100, con un umbral del 3% y comparado con la abstención:
 - 100 votos repartidos al azar entre 5 candidaturas lo acercan 17 votos.
 - 100 votos concentrados en una minoritaria se lo acercan 97 votos.
 
+En conclusión, incluso si se hace voto al azar, hay un beneficio mayor que el voto nulo.
+Si se deja de hacer, es un perjuicio para los minoritarios.
+
 ## El voto a minoritarios como voto de protesta
 
 Votar extraparlamentarios siempre ha sido un voto de protesta también.
@@ -155,15 +162,17 @@ De hecho, últimamente se han creado partidos sin programa,
 exclusivamente para visibilizar ese voto de protesta.
 Uno de ellos, [Escaños en blanco], postulan representar al voto en blanco
 dejando los escaños vacíos.
-No es mi opción pero es mejor que un voto nulo
+No es mi opción personal pero es mejor que un voto nulo
 y recoge el sentido pretendido del voto en blanco.
 
 También estan los programáticos tradicionales (PACMA, Verdes, PCPE...).
 
-Ojo, entre los extraparlamentarios también están los xenofobos y fascistas:
+Ojo, entre los extraparlamentarios suelen estar los xenofobos y fascistas:
 MSR, PxC, España2000, Falanges, Familia y Vida...
 Has llegado leyendo hasta aquí asi que entiendo que no son los tuyos.
 A estos, te pido sin ambajes que los saques de la tómbola si haces voto al azar.
+Que lo de protestar está bien, pero nos puede salir cara la broma.
+
 Para cada convocatoria suelo hacer un catálogo de chusma para que no los confundas.
 Y es que muchos como el MSR o PxC usan siglas y discursos que a propósito llevan a confusión.
 
