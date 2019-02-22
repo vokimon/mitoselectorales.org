@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2012</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/parlament2012.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2012-11-25T16:24:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Elecciones al Parlament 2012: Cómo afecta mi voto</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html" rel="alternate"></link><published>2012-11-25T16:24:00+01:00</published><updated>2012-11-25T16:24:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2012-11-25:/mitoselectorales.org/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html</id><summary type="html">Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.</summary><content type="html">&lt;h3&gt;¿Cómo evalúo el efecto de mi voto o no voto?&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2012</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/parlament2012.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2012-11-25T16:24:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Elecciones al Parlament 2012: Cómo afecta mi voto</title><link href="https://votomitico.org/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html" rel="alternate"></link><published>2012-11-25T16:24:00+01:00</published><updated>2012-11-25T16:24:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2012-11-25:/posts/2012-11-25-elecciones-al-parlament-2012-como-afecta-mi-voto.html</id><summary type="html">Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circunscripción Barcelona.</summary><content type="html">&lt;h3 id="como-evaluo-el-efecto-de-mi-voto-o-no-voto"&gt;¿Cómo evalúo el efecto de mi voto o no voto?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;El efecto de tu opción es lo que haces, pero también lo que dejas de hacer: Es importante el &lt;strong&gt;voto cesante&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;A los que votastes y ahora no.&lt;/li&gt;
@@ -31,14 +31,14 @@
 &lt;li&gt;Puedes plantear hipótesis extremas de partida para delimitar los efectos posibles.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Tu opción solo afecta a los resultados de tu circumscripción (província)&lt;ul&gt;
+&lt;li&gt;Tu opción solo afecta a los resultados de tu circunscripción (província)&lt;ul&gt;
 &lt;li&gt;Un voto solo suma con otros iguales en la misma província.&lt;/li&gt;
 &lt;li&gt;Esta es la mayor causa de desproporción del sistema electoral. Más que la ley de hondt o el umbral del 3%.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;El caso que nos atañe&lt;/h3&gt;
-&lt;p&gt;Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circumscripción Barcelona.&lt;/p&gt;
+&lt;h3 id="el-caso-que-nos-atane"&gt;El caso que nos atañe&lt;/h3&gt;
+&lt;p&gt;Elecciones autonómicas catalanas del 25 de Noviembre 2012. Circunscripción Barcelona.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Se reparten 85 escaños.&lt;ul&gt;
 &lt;li&gt;Muy diferente de los 31 escaños de las generales donde es improbable que afecte el umbral del 3%.&lt;/li&gt;
@@ -54,22 +54,22 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Si no se dice lo contrario, cuando se habla de número de votos se habla de este caso.
 Y se considera un voto válido de 60% del censo. (abstencion+nulo=40%).&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;El recuento según la ley&lt;/h3&gt;
+&lt;h3 id="el-recuento-segun-la-ley"&gt;El recuento según la ley&lt;/h3&gt;
 &lt;p&gt;Para el Parlament de Catalunya, la ley es la misma que
 para elegir diputados en el Congreso de los Diputados.&lt;/p&gt;
-&lt;p&gt;Para &lt;strong&gt;cada circumscripción&lt;/strong&gt; se hace lo siguiente:&lt;/p&gt;
+&lt;p&gt;Para &lt;strong&gt;cada circunscripción&lt;/strong&gt; se hace lo siguiente:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Se cuentan los votos validos, esto es los votos a candidaturas y los votos en blanco, descartándose los nulos (y las abstenciones)&lt;/li&gt;
 &lt;li&gt;Se descartan las candidaturas que no lleguen al 3% de esos votos válidos&lt;/li&gt;
 &lt;li&gt;Se obtienen cocientes de dividir los votos de cada candidatura por 1, 2, 3, 4....&lt;/li&gt;
 &lt;li&gt;Se asigna escaño a los mayores cocientes de todas las candidaturas&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img alt="Pantalla del enVote con la estadística de El Pais" src="https://vokimon.github.io/mitoselectorales.org/images/parlament2012-EncuestaElPais17N.png" title="Encuesta de El Pais del 17 de Noviembre simulada con enVote"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Pantalla del enVote con la estadística de El Pais" src="https://votomitico.org/images/parlament2012-EncuestaElPais17N.png" title="Encuesta de El Pais del 17 de Noviembre simulada con enVote"&gt;&lt;/p&gt;
 &lt;p&gt;Mecánicamente la norma es esa.
 Pero ¿qué implicaciones tiene?
 ¿Cómo afecta mi voto?
 ¿Cúal es la mejor estratégia como votante?&lt;/p&gt;
-&lt;h3&gt;Costo mínimo por escaño&lt;/h3&gt;
+&lt;h3 id="costo-minimo-por-escano"&gt;Costo mínimo por escaño&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;El &lt;strong&gt;costo por escaño&lt;/strong&gt; para una formación es el cociente votos/escaños.&lt;ul&gt;
 &lt;li&gt;Coincide con el último cociente de la formación que obtuvo escaño.&lt;/li&gt;
@@ -91,7 +91,7 @@ Pero ¿qué implicaciones tiene?
 &lt;li&gt;&lt;strong&gt;Todas las formaciones que han superado el umbral tienen una igual probabilidad de obtener cualquier resto entre cero y el mínimo coste sin llegar a él.&lt;/strong&gt;&lt;ul&gt;
 &lt;li&gt;En porcentaje, se diluye en los mayoritarios, y gana importancia en minoritarios.&lt;ul&gt;
 &lt;li&gt;Esto es lo que genera la desproporción en la ley de Hondt.&lt;/li&gt;
-&lt;li&gt;Mitificado: Hay causas mayores para la desproporción como son la división en circumscripciones, y, en Barcelona para las autonómicas, el umbral.&lt;/li&gt;
+&lt;li&gt;Mitificado: Hay causas mayores para la desproporción como son la división en circunscripciones, y, en Barcelona para las autonómicas, el umbral.&lt;/li&gt;
 &lt;li&gt;Esta acotada por el coste mínimo, suele dar como máximo dos o tres escaños más a los mayoritarios respecto a una repartición proporcional pura.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -104,7 +104,7 @@ Pero ¿qué implicaciones tiene?
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Efecto del umbral&lt;/h3&gt;
+&lt;h3 id="efecto-del-umbral"&gt;Efecto del umbral&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;En las autonómicas en Barcelona, cobra importancia el umbral del 3%.&lt;ul&gt;
 &lt;li&gt;Hay suficientes escaños (85) para que el &lt;strong&gt;coste mínimo de los escaños esté por debajo del umbral&lt;/strong&gt;.&lt;/li&gt;
@@ -120,7 +120,7 @@ Pero ¿qué implicaciones tiene?
 &lt;li&gt;Las formaciones que entran, lo hacen con dos escaños y se quedan muy cerca (a unos 800 votos) del tercero&lt;/li&gt;
 &lt;li&gt;Se necesitan 56 votos válidos para subir el umbral un voto.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Efectos en general&lt;/h3&gt;
+&lt;h3 id="efectos-en-general"&gt;Efectos en general&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Abstención y nulo son equivalentes en el conteo. No cuentan y su único efecto es su voto cesante.&lt;ul&gt;
 &lt;li&gt;Si los usas como protesta, (abstencion activa y nulo intencionado) se confunden con abstención pasiva y errores no intencionados.&lt;/li&gt;

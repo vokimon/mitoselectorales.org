@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Europeas2014</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/europeas2014.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-25:/mitoselectorales.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Europeas2014</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/europeas2014.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2014-05-25T01:28:00+02:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>El efecto de tu (no)voto (III): Los números</title><link href="https://votomitico.org/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html" rel="alternate"></link><published>2014-05-25T01:28:00+02:00</published><updated>2014-05-25T01:28:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2014-05-25:/posts/2014-05-25-el-efecto-de-tu-novoto-iii-los-numeros.html</id><summary type="html">Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
 Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.</summary><content type="html">&lt;p&gt;Después de las dos entradas anteriores, el resto de personitas tenemos que hacer números.
 Principalmente porque se nos ha bombardeado con un montón de mitos sobre el sistema electoral y las posibilidades del mismo que no son ciertas.
 Y también porque lo que es verdad para unas elecciones no tiene que serlo para otras y hay que desaprender algunas cosas.&lt;/p&gt;
-&lt;h2&gt;La teoría&lt;/h2&gt;
+&lt;h2 id="la-teoria"&gt;La teoría&lt;/h2&gt;
 &lt;p&gt;Primero un poco de teoria básica:
 La ley electoral que se aplica a todas las elecciones dice que
 el reparto de escaños en una circunscripción se hará repartiéndolos según la regla de Hondt
@@ -42,7 +42,7 @@ y el precio del escaño en porcentaje de voto a candidaturas se aproximaría al 
 &lt;li&gt;Típico: 100/(E+C/8) %&lt;/li&gt;
 &lt;li&gt;Máximo: 100/E %&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;¿Cuales son los números concretos de estas elecciones?&lt;/h2&gt;
+&lt;h2 id="cuales-son-los-numeros-concretos-de-estas-elecciones"&gt;¿Cuales son los números concretos de estas elecciones?&lt;/h2&gt;
 &lt;p&gt;En las Europeas del 2014 tenemos&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Una circunscripción única para toda España&lt;/li&gt;
@@ -78,7 +78,7 @@ Depende del perfil del desmotivado.
 Un descontento que no vota es voto cesante de los grandes partidos.
 Una persona que vea las elecciones como un pulso entre los mayoritarios que no vota es voto cesante de los grandes.
 En la abstención yo creo que hoy en día predomina el primer caso.&lt;/p&gt;
-&lt;h2&gt;Coaliciones, candidatos ocultos y partidos europeos&lt;/h2&gt;
+&lt;h2 id="coaliciones-candidatos-ocultos-y-partidos-europeos"&gt;Coaliciones, candidatos ocultos y partidos europeos&lt;/h2&gt;
 &lt;p&gt;Respecto a las candidaturas, coaliciones y demás hay algunas cosas importantes a tener en cuenta:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -97,7 +97,7 @@ Podría pasar que un votante de Euskadi vote a una lista en la que solo aparece 
 Puede que le parezca bien o puede que no, pero es importante ser consciente de ello.
 Los partidos que forman las coaliciones y a qué partido europeo pertenecen los puedes encontrar en la &lt;a href="https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Europeo_de_2014_%28Espa%C3%B1a%29"&gt;wikipedia&lt;/a&gt;, por ejemplo.
 Por otro lado, tampoco hay demasiada disciplina de partido europeo en Bruselas así que el partido europeo solo es importante de cara a la elección de los cargos y no en las votaciones concretas.&lt;/p&gt;
-&lt;h2&gt;Teoría de juegos&lt;/h2&gt;
+&lt;h2 id="teoria-de-juegos"&gt;Teoría de juegos&lt;/h2&gt;
 &lt;p&gt;A partir de aqui, ¿como evalúo el efecto de mi (no)voto? Siguiendo la teoría de juegos, tendríamos que pensar que todo el mundo ha tomado su decisión y faltas tú.
 Tendríamos que considerar los posibles escenarios previos a tu decisión, lo que se llama las hipótesis de partida, y la probabilidad de que pasen.
 La triste noticia es que tu voto considerado así es muy poco probable que tenga efecto alguno, votes a quien votes.
@@ -108,19 +108,19 @@ Eso pasa con una probabilidad de 1/P, donde P hemos visto que son cientosmiles.&
 Dado un dilema si hacer una cosa o otra, me pregunto: Que efecto tiene que mil, 10mil, 100mil...
 en mi misma disyuntiva tome una misma opción y después qué probabilidad hay de que os junteis todos esos en todo el estado.
 Todo es un poco difuso pero vereis que nos permitirá hacer algunos razonamientos para entender el efecto de nuestro voto o no voto.
-Con ayuda de programas como &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
+Con ayuda de programas como &lt;a href="https://votomitico.org/pages/envote-simulador-de-flujos-electorales.html"&gt;envote&lt;/a&gt; puedes simular esos flujos de personas fácilmente a partir de una situación que pienses que es probable y incluyendo como opciones las de no-voto.&lt;/p&gt;
 &lt;p&gt;¿Como construimos la situación probable antes de nuestro voto (la hipótesis de partida)? Pues considerando encuestas, elecciones anteriores, los hooligans de cada partido (también llamado suelo electoral), diversas hipotesis de abstención y situación electoral.
 También es útil considerar como situación probable de partida situaciones extremas.
 Si en condiciones extremas opuestas algo sigue pasando, es que pasará.
 Y ojo con nuestro sesgo, no tiene porque pasar lo que queremos nosotros que pase y mola mucho construir situaciones bonitas.&lt;/p&gt;
-&lt;h2&gt;El voto cesante&lt;/h2&gt;
+&lt;h2 id="el-voto-cesante"&gt;El voto cesante&lt;/h2&gt;
 &lt;p&gt;Cuando consideramos nuestra opción (y la de los otros ene-mil que ante la misma disyuntiva hacen lo mismo), el otro efecto importante que tiene nuestro voto o no-voto es el de VOTO (O NO-VOTO) CESANTE a cualquier opción que podríamos haber escogido.
 El efecto es más importante cuanta mayor hubiera sido probabilidad de escoger la otra opción.
 Por ejemplo, si construimos la hipótesis de partida a partir de los resultados de las elecciones anteriores, es importante considerar que habíamos escogido en las elecciones previas y elegir 'grupo con nuestro dilema' entre la gente que había tomado esa opción.
 Si hemos construido esa situación probable a partir de encuestas, tenemos que valorar el voto cesante entre las que eran nuestras opciones en el momento de la encuesta.&lt;/p&gt;
 &lt;p&gt;Por eso decia en la anterior entrada que a los "partidos de gobierno" les interesa que los descontentos no voten a candidaturas.
 Si los descontentos escogen opciones de no-voto, el voto cesante se lo llevan sobretodo las otras candidaturas y ellos salen ganando con menos competencia en el reparto de escaños.&lt;/p&gt;
-&lt;h2&gt;Casos simulados&lt;/h2&gt;
+&lt;h2 id="casos-simulados"&gt;Casos simulados&lt;/h2&gt;
 &lt;p&gt;Como no creo que me de tiempo a la cuarta parte, en la que quería poner algunas conclusiones de casos que he simulado, os resumo un par aquí, uno de aplicacion a los extraparlamentario y otro de aplicación a los que consideráis varias opciones con representación:&lt;/p&gt;
 &lt;p&gt;Si no-votos se convirtieran en votos al azar a partidos extraparlamentarios no fascistas (20 opciones) dichas opciones suben el doble de lo que pudiera subir el precio por escaño por añadir votos a la cesta.
 Si lo concentras en 10 o en 5 opciones, la cosa tiene un efecto mas grande aun.
@@ -191,7 +191,7 @@ Que conste que no es mi opción, pero la recomendaré siempre como mejor opción
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-23:/mitoselectorales.org/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
+&lt;/script&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no) voto (II): No eres un puto nazi de mierda</title><link href="https://votomitico.org/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html" rel="alternate"></link><published>2014-05-23T19:22:00+02:00</published><updated>2014-05-23T19:22:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2014-05-23:/posts/2014-05-23-el-efecto-de-tu-no-voto-ii-no-eres-un-puto-nazi-de-mierda.html</id><summary type="html">Antes de entrar con los números un poco de poca imparcialidad:
 Supongo que, si me estás leyendo, NO eres un puto nazi de mierda.
 Sabes leer.
 Pero hay mucha gente que vota al azar partidos pequeños como castigo.
@@ -249,7 +249,7 @@ Se que hay mucha gente que meteria en esta lista al PP y a otros, pero hay que s
 Puede que en el PP haya algun facha y algun nazi, pero
 muchos PPeros solo estan ahi para pillar cacho y es injusto que les tachemos de nazis o fachas por ello.&lt;/p&gt;
 &lt;p&gt;Y despues de esto, me dejo de dar capones por parcial y pasamos a los numeros y a las matematicas.
-Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-05-23:/mitoselectorales.org/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
+Que es lo que es posible y que es lo que no es posible en estas elecciones y como afecta tu voto o no voto en el resultado.&lt;/p&gt;</content><category term="Europeas"></category></entry><entry><title>El efecto de tu (no)voto (I): Te mola PP o PSOE</title><link href="https://votomitico.org/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html" rel="alternate"></link><published>2014-05-23T18:15:00+02:00</published><updated>2014-05-23T18:15:00+02:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2014-05-23:/posts/2014-05-23-el-efecto-de-tu-novoto-i-te-mola-pp-o-psoe.html</id><summary type="html">A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
 Es imposible hacerlo neutral, pero al menos intentaré cubrir todas las opciones.
 Mi primer consejo, para que no se diga que no tengo en cuenta a todo el mundo, es para los hooligans del bipartidismo (PP-PSOE).
 Y este primero, sin números, para que lo entiendan.</summary><content type="html">&lt;p&gt;A petición popular hago un resumen del efecto de los votos o no votos en estas Europeas.
@@ -259,7 +259,7 @@ Y este primero, sin números, para que lo entiendan.&lt;/p&gt;
 &lt;p&gt;Este es: &lt;strong&gt;No os olvideis de ir a votar a vuestro partido, como siempre&lt;/strong&gt;, pero, en vuestro caso,
 casi tan importante como votar es &lt;strong&gt;emplearos a fondo para desmotivar a todo aquel que veais que no tiene pinta de votar a vuestra opción&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;¿Por qué? Porque la gente esta que trina con los partidos que han ejercido "su responsabilidad de gobierno", y, si ese descontento se materializase en votos a candidaturas alternativas, podría ser una debacle electoral sin precedentes.
-Ademas en las europeas al ser circumscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
+Ademas en las europeas al ser circunscripción única, los partidos pequeños no están tan penalizados, asi que, si mobilizan a gente, os pueden dar ingratas sorpresas.
 Hay que evitar que la mayoría social se convierta en mayoría electoral.
 Hay que mantener a gente lejos de las candidaturas alternativas al bipartito.
 Hasta ahora habeis podido disfrutar de mayorias absolutas con entre un 20% y un 30% de los votos.

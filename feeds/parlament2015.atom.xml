@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2015</title><link href="https://vokimon.github.io/mitoselectorales.org/" rel="alternate"></link><link href="https://vokimon.github.io/mitoselectorales.org/feeds/parlament2015.atom.xml" rel="self"></link><id>https://vokimon.github.io/mitoselectorales.org/</id><updated>2015-02-03T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Veguerias, el timo de la estampita</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html" rel="alternate"></link><published>2015-02-03T00:00:00+01:00</published><updated>2015-02-03T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:vokimon.github.io,2015-02-03:/mitoselectorales.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html</id><summary type="html">&lt;p&gt;Una pregunta:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Parlament2015</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/parlament2015.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2015-02-03T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Veguerias, el timo de la estampita</title><link href="https://votomitico.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html" rel="alternate"></link><published>2015-02-03T00:00:00+01:00</published><updated>2015-02-03T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:votomitico.org,2015-02-03:/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html</id><summary type="html">&lt;p&gt;Una pregunta:
 &lt;em&gt;¿Quién representa mejor los intereses de una persona que votó al &lt;strong&gt;PP en Barcelona&lt;/strong&gt;?
 ¿Una candidata de la &lt;strong&gt;CUP de Barcelona&lt;/strong&gt; o una candidata del &lt;strong&gt;PP de Tarragona&lt;/strong&gt;?&lt;/em&gt;
 (Cambia partidos y províncias, hasta que te chirríe.)&lt;/p&gt;
 &lt;p&gt;Algunas de las propuestas que se han ido haciendo de la ley electoral catalana,
-propone cambiar la circumscripción de la província a la veguería.
+propone cambiar la circunscripción de la província a la veguería.
 ¿La razón expuesta? Una forma de acercar la gente a su electorado.
 ¡Precioso!&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Una pregunta:
@@ -12,7 +12,7 @@ propone cambiar la circumscripción de la província a la veguería.
 ¿Una candidata de la &lt;strong&gt;CUP de Barcelona&lt;/strong&gt; o una candidata del &lt;strong&gt;PP de Tarragona&lt;/strong&gt;?&lt;/em&gt;
 (Cambia partidos y províncias, hasta que te chirríe.)&lt;/p&gt;
 &lt;p&gt;Algunas de las propuestas que se han ido haciendo de la ley electoral catalana,
-propone cambiar la circumscripción de la província a la veguería.
+propone cambiar la circunscripción de la província a la veguería.
 ¿La razón expuesta? Una forma de acercar la gente a su electorado.
 ¡Precioso!&lt;/p&gt;
 
@@ -20,9 +20,9 @@ propone cambiar la circumscripción de la província a la veguería.
 &lt;p&gt;Vuelvo a hacer la pregunta.
 &lt;em&gt;¿Quién representa mejor los intereses de alguien de alguien que votó a Iniciativa en Lleida?
 ¿Alguien de Convergència de Lleida? ¿O alguien de Iniciativa de Girona?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;¿Hacer circumpscripciones más pequeñas acerca los electores a los elegido?
+&lt;p&gt;¿Hacer circunpscripciones más pequeñas acerca los electores a los elegido?
 Pues tal como està planteada la ley electoral va a ser que no.&lt;/p&gt;
-&lt;h2&gt;La representatividad&lt;/h2&gt;
+&lt;h2 id="la-representatividad"&gt;La representatividad&lt;/h2&gt;
 &lt;p&gt;Normalmente se consideran dos criterios para analizar la bondad de un sistema electoral.
 Por un lado, está la &lt;strong&gt;representatividad&lt;/strong&gt;, es decir,
 en qué medida el parlamento es un reflejo mas o menos distorsionado de lo que piensa la ciudadanía.
@@ -37,13 +37,13 @@ Se juega la carta de la representatividad.&lt;/p&gt;
 &lt;p&gt;Por eso vuelvo a preguntar:
 &lt;em&gt;¿Quién representa mejor los intereses de alguien de alguien que votó a ERC en Girona?
 ¿Alguien de Ciudadanos de Girona? ¿O alguien de ERC de Barcelona?&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Las circumscripciones&lt;/h2&gt;
+&lt;h2 id="las-circunscripciones"&gt;Las circunscripciones&lt;/h2&gt;
 &lt;p&gt;En otros artículos, hemos dejado patente que lo que principalmente hace
 que la representación no se parezca demasiado a lo que proporcionalmente
 piensan los ciudadanos, no es tanto la Regla de D'Hondt, que parte de culpa
-tiene, pero tiene más fama que culpa, sinó la partición en circumscripciones.&lt;/p&gt;
+tiene, pero tiene más fama que culpa, sinó la partición en circunscripciones.&lt;/p&gt;
 &lt;p&gt;La partición hace que muchos votos no lleguen a sumar para llegar al escaño.
-Votos que si se juntaran con votos de otras circumscripciones si que llegarían.
+Votos que si se juntaran con votos de otras circunscripciones si que llegarían.
 A los mayoritarios no les importa demasiado, porque la mayoría de sus votos
 tendrán escaño,
 y si el sistema actual les permite arrancar representación de los minoritarios,
@@ -51,14 +51,14 @@ algo cogen.&lt;/p&gt;
 &lt;p&gt;La conclusión:
 ¿de qué me sirve que mi voto sirva para escoger personas que viven cerca
 si las personas que salen no son lo que he elegido?&lt;/p&gt;
-&lt;p&gt;Si hacemos las circumscripciones aún más pequeñas,
+&lt;p&gt;Si hacemos las circunscripciones aún más pequeñas,
 hacemos el problema incluso más extremo.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;La intención clara de quien hace esta propuesta es beneficiar a las formaciones
 mayoritarias a costa de una escabechina en las minoritarias.
 Para nada es acercar a elegidas y electoras.
 &lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;Contra propuesta&lt;/h2&gt;
-&lt;p&gt;Hacer circumscripción única.
+&lt;h2 id="contra-propuesta"&gt;Contra propuesta&lt;/h2&gt;
+&lt;p&gt;Hacer circunscripción única.
 Repartir los escaños a las candidaturas si asignar la persona.
 Una vez repartidos por candidaturas, cada candidatura asigna
 la persona según los votos obtenidos por la candidatura en cada
@@ -70,7 +70,7 @@ Estaríamos invirtiendo el efecto,
 pero para compensar eso tenemos las ponderaciones territoriales que ya aplicamos hoy
 y que sería material para otro artículo.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Actualización 2017-02-01:&lt;/strong&gt; Aquest &lt;a href="https://elmon.cat/politica/qui-guanya-i-qui-perd-amb-un-nou-sistema-electoral" target="blank_"&gt;article de el Món&lt;/a&gt; té un interactiu prou esclaridor
-per comparar l'efecte de les circumscripcións a les darreres eleccions.&lt;/p&gt;</content><category term="Circumscripciones"></category><category term="Parlament"></category></entry><entry><title>Llistes d'unitat nacional, confluències i d'altres animals (polítics)</title><link href="https://vokimon.github.io/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="alternate"></link><published>2014-12-05T00:00:00+01:00</published><updated>2014-12-05T00:00:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:vokimon.github.io,2014-12-05:/mitoselectorales.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html</id><summary type="html">Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
+per comparar l'efecte de les circunscripcións a les darreres eleccions.&lt;/p&gt;</content><category term="Circunscripciones"></category><category term="Parlament"></category></entry><entry><title>Llistes d'unitat nacional, confluències i d'altres animals (polítics)</title><link href="https://votomitico.org/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="alternate"></link><published>2014-12-05T00:00:00+01:00</published><updated>2014-12-05T00:00:00+01:00</updated><author><name>David García Garzón</name></author><id>tag:votomitico.org,2014-12-05:/posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html</id><summary type="html">Tothom ha escoltat les propostes de ERC i CiU de com anar a unes eventuals eleccions plebiscitàries.
 Junts o barrejats.
 Un dels arguments que s'han fet servir per fer una candidatura unitària
 és que es veuria beneficiada pel sistema electoral.
@@ -90,7 +90,7 @@ i això simplificant les opcions es puguin simplificar en dos únics eixos.&lt;/
 &lt;p&gt;Així doncs, malgrat que intento recolzar-me en les matemàtiques,
 otorgo la responsabilitat jutjar l'efecte del meu biaix al lector.&lt;/p&gt;
 &lt;p&gt;Realment el sistema electoral afavoriria una llista conjunta?&lt;/p&gt;
-&lt;h2&gt;La hipòtesis de simplement sumar (ni restar, ni multiplicar)&lt;/h2&gt;
+&lt;h2 id="la-hipotesis-de-simplement-sumar-ni-restar-ni-multiplicar"&gt;La hipòtesis de simplement sumar (ni restar, ni multiplicar)&lt;/h2&gt;
 &lt;p&gt;Hi ha factors en l'efecte d'una llista conjunta que són molt poc previsibles
 i que cal estimar de forma molt subjectiva.
 No tothom que votés a una opció per separat votaria la conjunta i a l'inrevés.
@@ -99,7 +99,7 @@ els vots a les diferents opcions en una llista conjunta simplement s'agregarien,
 sense foragitar votants, ni atreure nous votant.
 Una hipòtesi molt improbable, però que dibuixa un escenari base
 sobre el que fer després les nostres estimacions subjectives sobre els fluxos electorals que es puguin donar.&lt;/p&gt;
-&lt;h2&gt;Efecte de la suma de restes&lt;/h2&gt;
+&lt;h2 id="efecte-de-la-suma-de-restes"&gt;Efecte de la suma de restes&lt;/h2&gt;
 &lt;p&gt;Sovint s'explica D'Hondt descrivint el procediment que cal seguir per repartir els escons,
 i aquest procediment sovint enmascara la comprensió del s'està fent:
 &lt;strong&gt;Una subasta que estableix el preu mínim en vots per cada escó&lt;/strong&gt;
@@ -115,8 +115,8 @@ estadísticament el número de vots sobrants tenen la mateixa probabilitat
 de ser 0, 1, 40, o el preu minim menys 1.
 És el que s'en diu una distribució de probabilitat uniforme
 que seria la corba plana de la gràfica.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://vokimon.github.io/mitoselectorales.org/images/llistaunitaria-sumarestos.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://vokimon.github.io/mitoselectorales.org/Parlament2015/llistaunitaria.py"&gt;Codi Python per generar la gràfica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://votomitico.org/images/llistaunitaria-sumarestos.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://votomitico.org/Parlament2015/llistaunitaria.py"&gt;Codi Python per generar la gràfica&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Quan sumes els sobrants de N partits amb representacio,
 el resultat són distribucions que ja no són uniformes.
 En general, el realme del que és possible estaria entre 0 i N-1 escons addicionals,
@@ -138,7 +138,7 @@ però també podria obtindre cap o 2.&lt;/p&gt;
 aporta 2 escons addicionals per suma de restos.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ERC+CiU obtindria 2 escons addicionals i ERC+CIU+CUP obtindria 4.
 No és gaire però podria ser decissiu.&lt;/p&gt;
-&lt;h2&gt;Sumant restes de formacions amb perill de quedar fora&lt;/h2&gt;
+&lt;h2 id="sumant-restes-de-formacions-amb-perill-de-quedar-fora"&gt;Sumant restes de formacions amb perill de quedar fora&lt;/h2&gt;
 &lt;p&gt;Hi ha formacions que incorporades a la candidatura unitària
 tenen un efecte a la suma dels restos més gran del normal.
 Es tracta de les candidatures que, a Barcelona província, i només a Barcelona,
@@ -158,14 +158,14 @@ En aquestes formacions, el vot residual, que és tot el vot rebut,
 no respon a una distribució uniforme,
 sinó que tendeix a estar concentrat a la part baixa.
 Sumaran, però una part molt petita.&lt;/p&gt;
-&lt;h2&gt;Mite: D'Hondt afavoreix l'agregació de candidatures&lt;/h2&gt;
+&lt;h2 id="mite-dhondt-afavoreix-lagregacio-de-candidatures"&gt;Mite: D'Hondt afavoreix l'agregació de candidatures&lt;/h2&gt;
 &lt;p&gt;D'Hondt fa que les candidatures amb més vots estiguin sobrerepresentades.
 Una candidatura agregada estaría més sobrerepresentada encara?
 Doncs sí, però, no.
 Es a dir, estaria més sobrepresentada, sí,
 però treient la suma dels restos que explicavem abans,
 &lt;strong&gt;el que fa es sumar les sobrerepresentacións de les dues candidatures originals.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ho pots comprobar empíricament amb l'eina &lt;a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote&lt;/a&gt;,
+&lt;p&gt;Ho pots comprobar empíricament amb l'eina &lt;a href="https://votomitico.org/pages/envote-simulador-de-flujos-electorales.html"&gt;enVote&lt;/a&gt;,
 agafant qualsevol parell de candidatures i fent una transferència total d'una cap a l'altra.
 Comprovaràs que &lt;strong&gt;no hi ha més guany del que poguem preveure amb la suma de restos&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Per entendre perquè és així cal entendre d'on ve la sobrerrepresentació de D'Hondt.&lt;/p&gt;
@@ -186,7 +186,7 @@ En contra Hamilton reparteix a cada candidatura només un o zero escons sobrants
 &lt;p&gt;Llavors, perque no es beneficia d'això una coalició?
 Perque la proporcionalitat en el repartimen dels escons sobrants ja s'estava aplicant per separat,
 i l'únic efecte que té, són els esmentats restos de vots sense esco.&lt;/p&gt;
-&lt;h2&gt;Resumint la suma matemàtica de vots&lt;/h2&gt;
+&lt;h2 id="resumint-la-suma-matematica-de-vots"&gt;Resumint la suma matemàtica de vots&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;El que afecta es la suma de restos:&lt;ul&gt;
 &lt;li&gt;Una candidatura amb representació a totes les circumscripcions, afegeix a la candidatura unitària 2 escons extres (mig per circumscripció)&lt;/li&gt;
@@ -204,7 +204,7 @@ moviment de vot ni en positiu ni en negatiu, tenim que:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Junts ERC + CiU + CUP: +4 escons de restes +2 de la CUP a Barcelona que es podrien perdre si no arriben al llindar &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Possibles moviments pel fet de juntar-se&lt;/h2&gt;
+&lt;h2 id="possibles-moviments-pel-fet-de-juntar-se"&gt;Possibles moviments pel fet de juntar-se&lt;/h2&gt;
 &lt;p&gt;Aixì doncs tenim quantificat l'avantatge de la coalició si no hi haguessin moviments electorals.
 Per fer l'anàlisi complert necessitem evaluar quins moviments hi hauria i comparar-ho.
 Cal identificar els perfils que podrien moure la seva opció i comparar-ho amb els escons d'avantatge.&lt;/p&gt;
@@ -306,4 +306,4 @@ que no volen a MAS aniran a parar a la CUP.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="Parlament"></category><category term="Coaliciones"></category><category term="D'Hondt"></category></entry></feed>
+&lt;/script&gt;</content><category term="Parlament"></category><category term="Coaliciones"></category><category term="D'Hondt"></category><category term="Circunscripciones"></category></entry></feed>

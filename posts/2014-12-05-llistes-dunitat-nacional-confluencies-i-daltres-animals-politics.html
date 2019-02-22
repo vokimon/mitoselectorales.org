@@ -1,17 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+  <title>Llistes d'unitat nacional, confluències i d'altres animals (polítics) - Mitos Electorales</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Contraste de los mitos sobre el efecto de las distintas opciones de voto y de no voto y su aplicación a las distintas convocatorias electorales.">
   <meta name="author" content="vokimon">
-  <link rel="stylesheet" href="../theme/css/foundation.min.css" media="all">
+  <link rel="stylesheet" href="../theme/css/foundation.min.css" media="all"/>
   <script type="text/javascript" src="../theme/js/modernizr.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="../theme/css/lamboz.css" media="all">
   <link rel="shortcut icon" href="../images/favicon.ico">
-  <title>Llistes d'unitat nacional, confluències i d'altres animals (polítics) - Mitos Electorales</title>
-<link href="https://vokimon.github.io/mitoselectorales.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mitos Electorales Full Atom Feed" />
+<link href="https://votomitico.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mitos Electorales Full Atom Feed" />
  <!-- Preventing FOUC -->
   <script type="text/javascript">
     var elm=document.getElementsByTagName("html")[0];
@@ -29,7 +29,7 @@
             <li >
                <a href="../pages/el-proyecto.html">Proyecto</a></li>
             <li >
-               <a href="../pages/envote-simulador-de-flujos-electorales.html">Simulador</a></li>
+               <a href="../pages/revote-simulador-online-de-flujos-electorales.html">Simulador</a></li>
             <li >
                <a href="../category/fundamentos.html">Fundamentos</a></li>
         </ul>
@@ -74,7 +74,7 @@ i això simplificant les opcions es puguin simplificar en dos únics eixos.</p>
 <p>Així doncs, malgrat que intento recolzar-me en les matemàtiques,
 otorgo la responsabilitat jutjar l'efecte del meu biaix al lector.</p>
 <p>Realment el sistema electoral afavoriria una llista conjunta?</p>
-<h2>La hipòtesis de simplement sumar (ni restar, ni multiplicar)</h2>
+<h2 id="la-hipotesis-de-simplement-sumar-ni-restar-ni-multiplicar">La hipòtesis de simplement sumar (ni restar, ni multiplicar)</h2>
 <p>Hi ha factors en l'efecte d'una llista conjunta que són molt poc previsibles
 i que cal estimar de forma molt subjectiva.
 No tothom que votés a una opció per separat votaria la conjunta i a l'inrevés.
@@ -83,7 +83,7 @@ els vots a les diferents opcions en una llista conjunta simplement s'agregarien,
 sense foragitar votants, ni atreure nous votant.
 Una hipòtesi molt improbable, però que dibuixa un escenari base
 sobre el que fer després les nostres estimacions subjectives sobre els fluxos electorals que es puguin donar.</p>
-<h2>Efecte de la suma de restes</h2>
+<h2 id="efecte-de-la-suma-de-restes">Efecte de la suma de restes</h2>
 <p>Sovint s'explica D'Hondt descrivint el procediment que cal seguir per repartir els escons,
 i aquest procediment sovint enmascara la comprensió del s'està fent:
 <strong>Una subasta que estableix el preu mínim en vots per cada escó</strong>
@@ -99,8 +99,8 @@ estadísticament el número de vots sobrants tenen la mateixa probabilitat
 de ser 0, 1, 40, o el preu minim menys 1.
 És el que s'en diu una distribució de probabilitat uniforme
 que seria la corba plana de la gràfica.</p>
-<p><img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://vokimon.github.io/mitoselectorales.org/images/llistaunitaria-sumarestos.png"></p>
-<p><a href="https://vokimon.github.io/mitoselectorales.org/Parlament2015/llistaunitaria.py">Codi Python per generar la gràfica</a></p>
+<p><img alt="Distribució de probabilitat de guanyar escons adicionals sumant restos" src="https://votomitico.org/images/llistaunitaria-sumarestos.png"></p>
+<p><a href="https://votomitico.org/Parlament2015/llistaunitaria.py">Codi Python per generar la gràfica</a></p>
 <p>Quan sumes els sobrants de N partits amb representacio,
 el resultat són distribucions que ja no són uniformes.
 En general, el realme del que és possible estaria entre 0 i N-1 escons addicionals,
@@ -122,7 +122,7 @@ però també podria obtindre cap o 2.</p>
 aporta 2 escons addicionals per suma de restos.</strong></p>
 <p>ERC+CiU obtindria 2 escons addicionals i ERC+CIU+CUP obtindria 4.
 No és gaire però podria ser decissiu.</p>
-<h2>Sumant restes de formacions amb perill de quedar fora</h2>
+<h2 id="sumant-restes-de-formacions-amb-perill-de-quedar-fora">Sumant restes de formacions amb perill de quedar fora</h2>
 <p>Hi ha formacions que incorporades a la candidatura unitària
 tenen un efecte a la suma dels restos més gran del normal.
 Es tracta de les candidatures que, a Barcelona província, i només a Barcelona,
@@ -142,14 +142,14 @@ En aquestes formacions, el vot residual, que és tot el vot rebut,
 no respon a una distribució uniforme,
 sinó que tendeix a estar concentrat a la part baixa.
 Sumaran, però una part molt petita.</p>
-<h2>Mite: D'Hondt afavoreix l'agregació de candidatures</h2>
+<h2 id="mite-dhondt-afavoreix-lagregacio-de-candidatures">Mite: D'Hondt afavoreix l'agregació de candidatures</h2>
 <p>D'Hondt fa que les candidatures amb més vots estiguin sobrerepresentades.
 Una candidatura agregada estaría més sobrerepresentada encara?
 Doncs sí, però, no.
 Es a dir, estaria més sobrepresentada, sí,
 però treient la suma dels restos que explicavem abans,
 <strong>el que fa es sumar les sobrerepresentacións de les dues candidatures originals.</strong></p>
-<p>Ho pots comprobar empíricament amb l'eina <a href="https://vokimon.github.io/mitoselectorales.org/pages/envote-simulador-de-flujos-electorales.html">enVote</a>,
+<p>Ho pots comprobar empíricament amb l'eina <a href="https://votomitico.org/pages/envote-simulador-de-flujos-electorales.html">enVote</a>,
 agafant qualsevol parell de candidatures i fent una transferència total d'una cap a l'altra.
 Comprovaràs que <strong>no hi ha més guany del que poguem preveure amb la suma de restos</strong>.</p>
 <p>Per entendre perquè és així cal entendre d'on ve la sobrerrepresentació de D'Hondt.</p>
@@ -170,7 +170,7 @@ En contra Hamilton reparteix a cada candidatura només un o zero escons sobrants
 <p>Llavors, perque no es beneficia d'això una coalició?
 Perque la proporcionalitat en el repartimen dels escons sobrants ja s'estava aplicant per separat,
 i l'únic efecte que té, són els esmentats restos de vots sense esco.</p>
-<h2>Resumint la suma matemàtica de vots</h2>
+<h2 id="resumint-la-suma-matematica-de-vots">Resumint la suma matemàtica de vots</h2>
 <ul>
 <li>El que afecta es la suma de restos:<ul>
 <li>Una candidatura amb representació a totes les circumscripcions, afegeix a la candidatura unitària 2 escons extres (mig per circumscripció)</li>
@@ -188,7 +188,7 @@ moviment de vot ni en positiu ni en negatiu, tenim que:</p>
 <ul>
 <li>Junts ERC + CiU + CUP: +4 escons de restes +2 de la CUP a Barcelona que es podrien perdre si no arriben al llindar </li>
 </ul>
-<h2>Possibles moviments pel fet de juntar-se</h2>
+<h2 id="possibles-moviments-pel-fet-de-juntar-se">Possibles moviments pel fet de juntar-se</h2>
 <p>Aixì doncs tenim quantificat l'avantatge de la coalició si no hi haguessin moviments electorals.
 Per fer l'anàlisi complert necessitem evaluar quins moviments hi hauria i comparar-ho.
 Cal identificar els perfils que podrien moure la seva opció i comparar-ho amb els escons d'avantatge.</p>
@@ -295,7 +295,7 @@ que no volen a MAS aniran a parar a la CUP.</p>
     </section>
     <footer class="footer-article">
         <div class="tags-and-categories">Filed under <a href="../category/parlament2015.html">Parlament2015</a>
-        | Tagged: <a href="../tag/parlament.html">Parlament </a><a href="../tag/coaliciones.html">Coaliciones </a><a href="../tag/dhondt.html">D'Hondt </a>
+        | Tagged: <a href="../tag/parlament.html">Parlament </a><a href="../tag/coaliciones.html">Coaliciones </a><a href="../tag/dhondt.html">D'Hondt </a><a href="../tag/circunscripciones.html">Circunscripciones </a>
         | <a href="../posts/2014-12-05-llistes-dunitat-nacional-confluencies-i-daltres-animals-politics.html" rel="bookmark"
          title="Permalink to Llistes d'unitat nacional, confluències i d'altres animals (polítics)">Permalink</a>            
         </div>
@@ -306,12 +306,19 @@ que no volen a MAS aniran a parar a la CUP.</p>
 </div>
             </div>
             <div class="large-2 aside column">
+                <div class="social">
+                    <h3>Social</h3>
+                    <ul>
+                        <li><i class='fa-icon fa-Twitter' />&nbsp;Twitter:&nbsp;<a target='_blank' href="https://twitter.com/votomitico">@votomitico</a></li>
+                        <li><i class='fa-icon fa-Mastodon' />&nbsp;Mastodon:&nbsp;<a target='_blank' href="https://mastodon.social/@votomitico">@votomitico@mastodon.social</a></li>
+                    </ul>
+                </div><!-- /.social -->
                 <h3>Tags</h3>
                 <ul>
-                    <li class="active"><a href="../tag/dhondt.html">D'Hondt</a>&nbsp;(2)</li>
-                    <li class="active"><a href="../tag/coaliciones.html">Coaliciones</a>&nbsp;(2)</li>
-                    <li><a href="../tag/circumscripciones.html">Circumscripciones</a>&nbsp;(1)</li>
+                    <li class="active"><a href="../tag/dhondt.html">D'Hondt</a>&nbsp;(3)</li>
+                    <li class="active"><a href="../tag/circunscripciones.html">Circunscripciones</a>&nbsp;(4)</li>
                     <li class="active"><a href="../tag/parlament.html">Parlament</a>&nbsp;(3)</li>
+                    <li class="active"><a href="../tag/coaliciones.html">Coaliciones</a>&nbsp;(1)</li>
                     <li><a href="../tag/europeas.html">Europeas</a>&nbsp;(3)</li>
                     <li><a href="../tag/generales.html">Generales</a>&nbsp;(5)</li>
                     <li><a href="../tag/charlas.html">Charlas</a>&nbsp;(2)</li>
@@ -322,6 +329,7 @@ que no volen a MAS aniran a parar a la CUP.</p>
                     <li><a href="../category/europeas2014.html">Europeas2014</a>&nbsp;(3)</li>
                     <li><a href="../category/fundamentos.html">Fundamentos</a>&nbsp;(1)</li>
                     <li><a href="../category/generales2011.html">Generales2011</a>&nbsp;(5)</li>
+                    <li><a href="../category/mitos.html">Mitos</a>&nbsp;(1)</li>
                     <li><a href="../category/parlament2012.html">Parlament2012</a>&nbsp;(1)</li>
                     <li class="active"><a href="../category/parlament2015.html">Parlament2015</a>&nbsp;(2)</li>
                 </ul>
@@ -337,10 +345,10 @@ que no volen a MAS aniran a parar a la CUP.</p>
            <div class="large-6 tag-cloud column">
                 <h3>Tags</h3>
                 <ul>
-                    <li><a href="../tag/dhondt.html">D'Hondt</a>(2)</li>
-                    <li><a href="../tag/coaliciones.html">Coaliciones</a>(2)</li>
-                    <li><a href="../tag/circumscripciones.html">Circumscripciones</a>(1)</li>
+                    <li><a href="../tag/dhondt.html">D'Hondt</a>(3)</li>
+                    <li><a href="../tag/circunscripciones.html">Circunscripciones</a>(4)</li>
                     <li><a href="../tag/parlament.html">Parlament</a>(3)</li>
+                    <li><a href="../tag/coaliciones.html">Coaliciones</a>(1)</li>
                     <li><a href="../tag/europeas.html">Europeas</a>(3)</li>
                     <li><a href="../tag/generales.html">Generales</a>(5)</li>
                     <li><a href="../tag/charlas.html">Charlas</a>(2)</li>
@@ -353,11 +361,13 @@ que no volen a MAS aniran a parar a la CUP.</p>
                     <li><a href="../category/europeas2014.html">Europeas2014</a> (3)</li>
                     <li><a href="../category/fundamentos.html">Fundamentos</a> (1)</li>
                     <li><a href="../category/generales2011.html">Generales2011</a> (5)</li>
+                    <li><a href="../category/mitos.html">Mitos</a> (1)</li>
                     <li><a href="../category/parlament2012.html">Parlament2012</a> (1)</li>
                     <li class="active"><a href="../category/parlament2015.html">Parlament2015</a> (2)</li>
                 </ul>
              
             </div>
+
         </row>
         </div>
     </div>
