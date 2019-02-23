@@ -96,6 +96,17 @@ PLUGINS = [
 I18N_TEMPLATES_LANG = 'es'
 
 
+# static paths will be copied without parsing their contents
+STATIC_PATHS = [
+	'images',
+    'extra/htaccess',
+    ]
+# path-specific metadata
+EXTRA_PATH_METADATA = {
+    'extra/htaccess': {'path': '.htaccess'},
+    }
+
+
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = False
 
