@@ -6,14 +6,15 @@ status: published
 description: Si quieres beneficiar a los pequeños el voto nulo es mejor que el blanco, pero mucho peor que votarles
 tags: Umbral_Electoral, Voto_Nulo, No_Voto, Voto_en_Blanco
 keywords: Minoritarios, Umbral, Nulo, Blanco
-cover: images/votonulo-retrete.png
+cover: images/votonulo-meme.jpg
+cover-caption: lalala
 ---
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 ¿Te planteas votar nulo
-por no perjudicar a los pequeños con un voto en blanco?
-Al parecer, un bulo te ha puesto en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
+por no perjudicar a los pequeños votando en blanco?
+Al parecer, un bulo te ha acorralado en un [falso dilema](https://es.wikipedia.org/wiki/Falso_dilema).
 
 El voto nulo ciertamente perjudica a los pequeños algo menos que el voto en blanco.
 Pero, si te preocupa lo que les pase a los pequeños...
@@ -181,10 +182,14 @@ Y es que muchos como el MSR o PxC usan siglas y discursos que a propósito lleva
 
 ## Si tu protesta es el nulo, hazlo
 
+<div class='thumb-right' style=width:25%>
+<img alt='Papeleta Nula' src="{static}/images/votonulo-retrete.png" style='max-width:100%'/>
+Papeleta nula
+</div>
+
 Repito que no estoy diciendo que si votas nulo tengas que cambiar tu opción.
 Solo que si votabas nulo por no perjudicar a minoritarios
-entiendas las consecuencias reales y completas de ello,
-y actues en consciencia.
+el umbral no es un peligro real y que les perjudica el no-voto en sí.
 
 Si aún asi no te vale la pena votar a minoritarios,
 y prefieres votar nulo o blanco o no votar,
@@ -195,6 +200,19 @@ Las opciones de no-voto tienen su espacio y sentido.
 Dedicaremos un artículo a ellas.
 
 Siendo consciente de su efecto, tú eres quien eliges.
+
+## Conclusión
+
+- El supuesto peligro para los minoritarios de que el voto blanco eleve el umbral no es un peligro real
+	- El umbral no aplica en la mayoría de convocatorias
+	- En las que aplica, el voto en blanco aporta poquísimo al umbral
+- Si que es un peligro el voto cesante de los nulos motivados por el bulo
+	- La gente que hace caso del bulo
+		- quiere protestar contra los parlamentarios
+		- pero se preocupa por los minoritarios
+	- Por eso es el caladero de votos natural de los minoritarios
+	- La llamada a votar nulo, teóricamente para protegerlos, en el fondo anula esos posibles votos
+	- Además son votos que rara vez irían a los partidos parlamentarios
 
 
 
