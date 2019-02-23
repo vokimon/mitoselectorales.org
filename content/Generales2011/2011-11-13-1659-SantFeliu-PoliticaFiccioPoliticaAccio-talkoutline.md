@@ -108,7 +108,7 @@ después las tuvimos que revisar.
 			- Preguntas? Chao senado.
 	- El Congres
 		- S'escullen 31 de 350
-		- Umbral per entrar al recompte: 30% a les generals (canvia a d'altres convocatories, no a Barcelona)
+		- Umbral per entrar al recompte: 3% a les generals (canvia a d'altres convocatories, no a Barcelona)
 		- Recompte per llei d'Hondt
 			- Obtenció dels cocients: dividir els vots de cadascu per 1, 2..
 			- Els 31 cocients majors obtenen l'esco
