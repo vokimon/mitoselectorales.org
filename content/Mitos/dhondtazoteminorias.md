@@ -1,7 +1,7 @@
 ---
 title: D'Hondt (I): ¿Azote de minorias o cabeza de turco?
 autor: vokimon
-date: 2018-02-18 00:00
+date: 2019-02-18 00:00
 status: published
 description: D'Hondt tiene la fama ser el origen de la discriminación de los partidos minoritarios en el sistema electoral español, pero las principales responsables de ello son las circunscripciones.
 tags: D'Hondt, Circunscripciones

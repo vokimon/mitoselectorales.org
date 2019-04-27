@@ -1,8 +1,8 @@
 ---
 title: San nulo, ¿salvador de los débiles?
 autor: vokimon
-date: 2019-02-21 00:00
-status: published
+date: 2018-02-21 00:00
+status: draft
 description: Si quieres beneficiar a los pequeños el voto nulo es mejor que el blanco, pero mucho peor que votarles
 tags: Umbral_Electoral, Voto_Nulo, No_Voto, Voto_en_Blanco
 keywords: Minoritarios, Umbral, Nulo, Blanco
