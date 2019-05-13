@@ -310,6 +310,33 @@ div#title-block P.blurb {
   text-align: center;
 }
 
+table {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table th,
+table td {
+	padding-left: 2pt;
+	padding-right: 2pt;
+}
+table th {
+	background-color: darkred;
+	color: white
+}
+table tr {
+	border-bottom: 1pt solid grey;
+}
+table tbody tr:hover {
+	background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+	background-color: #f5f0f0;
+}
+table td {
+	border: none;
+}
 
 
 @media (max-width: 768px) {
@@ -380,8 +407,5 @@ div#title-block P.blurb {
   }
 
 }
-
-
-
 
 

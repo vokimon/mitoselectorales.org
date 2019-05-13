@@ -9,7 +9,7 @@
 - [ ] Senado: Diluyendo el poder de la lista más votada
 - [ ] Especificidades de las Elecciones Europeas
 - [ ] Voto nulo: ideas originales para tirar tu voto
-- [ ] Voto blanco y el umbral, el miedo a lo que nunca pasará
+- [x] Voto blanco y el umbral, el miedo a lo que nunca pasará (San nulo)
 - [ ] Abstención: el gigante con pies de barro
 - [ ] Efecto del voto aleatorio a minoritarios
 - [ ] Identificando a los partidos fascistas y xenófobos
