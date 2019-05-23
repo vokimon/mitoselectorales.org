@@ -1,0 +1,277 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <title>Lógica de bloques y voto estratégico - Mitos Electorales</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contraste de los mitos sobre el efecto de las distintas opciones de voto y de no voto y su aplicación a las distintas convocatorias electorales.">
+  <meta name="author" content="vokimon">
+  <link rel="stylesheet" href="https://votomitico.org/theme/css/foundation.min.css" media="all"/>
+  <script type="text/javascript" src="https://votomitico.org/theme/js/modernizr.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://votomitico.org/theme/css/lamboz.css" media="all">
+  <link rel="shortcut icon" href="https://votomitico.org/images/favicon.ico">
+<link href="https://votomitico.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mitos Electorales Full Atom Feed" />
+ <!-- Preventing FOUC -->
+  <script type="text/javascript">
+    var elm=document.getElementsByTagName("html")[0];
+    elm.style.display="none";
+    document.addEventListener("DOMContentLoaded",function(event) {
+		elm.style.display="block";
+	});
+  </script>
+ <!-- Preventing FOUC -->
+</head>
+<body>
+    <div class="pages">
+        <ul>
+            <li class="home"><a href="https://votomitico.org/index.html">Home</a></li>
+            <li >
+               <a href="https://votomitico.org/pages/el-proyecto.html">Proyecto</a></li>
+            <li >
+               <a href="https://votomitico.org/pages/revote-simulador-online-de-flujos-electorales.html">Simulador</a></li>
+            <li >
+               <a href="https://votomitico.org/category/fundamentos.html">Fundamentos</a></li>
+        </ul>
+    </div>
+<div class="hp-header-inner">
+    <div class="page-header">
+        <div class="content-header">
+            <div id="title-block">
+            <h1>  <a href="https://votomitico.org/posts/2019-04-26-logica-de-bloques-y-voto-estrategico.html" rel="bookmark"
+                    title="Permalink to Lógica de bloques y voto estratégico">Lógica de bloques y voto estratégico</a></h1>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content">
+        <div class="data-holder">
+        <div class="row">
+           <div class="large-10 content-column column">
+<div class="content-article">
+    <header class="header-article">
+        <div class="read-more">Posted on 2019-04-26 23:15</div>
+ 
+   </header>
+    <section class='article'>
+        <div class='thumb-right'>
+			<a href='https://votomitico.org/images/Gen2019-ProyeccionVanguardiaFebrero.png'><img src='https://votomitico.org/images/Gen2019-ProyeccionVanguardiaFebrero.png'/></a>
+			
+		</div>
+        <div class="entry-content">
+            <p>Para las generales del 28A se está imponiendo la lógica de bloques:
+Derechas, izquierdas, constitucionalistas, independentistas, soberanistas...
+¿Cómo decido cúal es estratégicamente el mejor voto dentro de mi bloque?
+La intuición y los bulos a menudo nos indican en la peor dirección.
+Hemos usado mates y simuladores, y estas son las conclusiones.</p>
+<p>Por ejemplo, se suele imponer lo que se llama el <em>voto útil</em>, pero os explico
+más abajo que tal como se entiende normalmente (votar a la opción mayor dentro del bloque)
+no tiene respaldo ni lógico ni matemático.</p>
+<p>Este artículo da algunas guías para hacer voto estratégico de verdad, cuando es posible.
+Intentaré ser neutro, pero, como siempre digo, yo tengo mi sesgo y se me podría colar algo,
+así que tenlo en cuenta.</p>
+<div class="toc">
+<ul>
+<li><a href="#al-congreso-provincias-grandes">Al congreso, provincias grandes</a></li>
+<li><a href="#al-congreso-provincias-pequenas">Al congreso, provincias pequeñas</a></li>
+<li><a href="#opciones-de-no-voto">Opciones de no-voto</a></li>
+<li><a href="#al-senado-voto-estrategico">Al senado, voto estratégico</a></li>
+<li><a href="#consultas">Consultas</a></li>
+</ul>
+</div>
+<h2 id="al-congreso-provincias-grandes">Al congreso, provincias grandes</h2>
+<p>Si estás en una provincia donde se deciden 5 escaños o más,
+el consejo sería: <strong>vota a quien te parezca mejor, no existe el voto útil</strong>.
+Excluyo aquí las extraparlamentarias que no tengan opción a entrar.</p>
+<p>Si han votado todos menos 30mil personas y volcamos todos esos 30mil votos
+en cualquier opción que ya tenga escaños,
+hay la misma probabilidad de que sirvan para obtener el siguiente escaño
+sea una candidatura grande o sea una candidatura pequeña.</p>
+<p>¿Porqué?</p>
+<p>D'Hondt decidirá el precio del escaño, dado ese precio,
+todas las candidaturas con representacion se pueden quedar
+en cualquier punto entre un escaño y el siguiente
+y con la misma probabilidad.
+Como no sabemos donde quedarà,
+añadir 30mil escaños, puede servir para nada o sumar uno.</p>
+<p>Pero D'Hondt beneficia a las más grandes,
+¿porqué no vale más mi voto cuando voto a las más grandes?
+Por la propiedad distributiva de las matemáticas.
+El beneficio que da d'Hondt también es proporcional a los votos,
+igual que lo es el reparto antes de ese beneficio.
+Si concentras todos los votos de las dos opciones de un bloque en solo una de ellas,
+sumarás los beneficios de d'hondt de ambas.</p>
+<p>La propiedad distribuitiva aplicada aquí no es exacta
+porque hacemos la división entera.
+La diferencia es un escaño que se puede perder o no al partir el bloque en dos.
+Pero si tomas el simulador y vas transferiendo votos entre cualquier par de opciones,
+verás que ese escaño va subiendo y bajando cíclicamente,
+igual cuando el voto está muy concentrado que cuando está muy repartido.</p>
+<p>Es algo similar a lo que pasaba cuando hablabamos de coaliciones.</p>
+<p>En resumen, si estás en una provincia que reparte 5 escaños o más
+y votas a una opción que seguramente tenga representación
+o esta cerca de tenerla, vota sin complejos.
+Para tí el voto útil es el que más te guste.</p>
+<h2 id="al-congreso-provincias-pequenas">Al congreso, provincias pequeñas</h2>
+<p>En las provincias pequeñas la cosa cambia.
+Aquí el precio del escaño es muy alto en porcentaje de votos
+así que <strong>ese escaño que baila es crucial</strong>.
+La buena noticia es que <strong>es más fácil predecir a partir de sondeos
+donde estará peleándose el escaño</strong> y apoyar al partido del bloque
+que lo tenga en riesgo.</p>
+<p>Asi que sí, <strong>en las provincias con pocos escaños sí se aplica
+el voto útil, pero no como se entiende normalmente,
+votando al mayor</strong>, sinó, a partir de como parece que va a ir la cosa
+ayudar a las <strong>opciones del bloque que tienen sus escaños en juego</strong>.</p>
+<p>Para tener una idea, sirven sondeos que den resultados
+por provincias y que tengan suficiente muestra.
+Un ejemplo de buen sondeo para hacer esto es <a href="https://www.lavanguardia.com/politica/20190225/46671680529/elecciones-28-a-encuesta-sondeo.html">este fantástico estudio</a> que hizo la Vanguardia
+cuando se convocaron elecciones.
+Lo malo es que desde entonces ha habido mucho movimiento,
+y tenemos que hacer nuestra proyección.
+Ojalá se hicieran sondeos (y estudios) así con más frecuencia.</p>
+<h2 id="opciones-de-no-voto">Opciones de no-voto</h2>
+<p>En Generales, todas las opciones de no voto (blanco, nulo o abstención)
+tienen el mismo efecto.
+No hay ninguna provincia donde el umbral del 3%
+pueda tener matemáticamente efecto alguno.
+Ese umbral es el que teoricamente podría verse afectado por el voto en blanco,
+de una forma que no afecta el nulo o la abstención.
+Pero es un peligro que no existe porque en todas las circunscripciones
+el precio del voto en porcentaje de voto valido esta por encima
+del 3%, en algunas por el 20%.</p>
+<p>Entonces, descartando ese pretendido efecto diferencial del voto en blanco,
+¿cual es el efecto común de las opciones de no-voto?
+El voto cesante.
+Depende del perfil de la persona que no vote.
+Como lo que te estás planteando es tu opción, depende de tu perfil.
+Que no votes perjudicará a las opciones a las que podrías haber votado,
+y por falta de competencia, beneficiaría justamente a las opciones que nunca votarías.</p>
+<h2 id="al-senado-voto-estrategico">Al senado, voto estratégico</h2>
+<p>El senado, como se ha visto en las legislaturas anteriores,
+aunque no sirve para mucho tiene una capacidad importante de bloqueo.
+También se ha visto que es mucho menos proporcional de lo que ya es el congreso.</p>
+<p>Si todo el mundo escoge los 3 senadores del partido que más les gusta,
+al final 3 se los llevará la formación con más votos y 1 senador se lo llevará la segunda,
+a pesar de que quizás, más de la mitad de los votos de la provincia no sean a esas dos opciones.</p>
+<p>¿Cuál sería la estrategia?</p>
+<ul>
+<li>Si la opción que más te gusta tiene pinta de luchar por ser la más votada,
+sin duda, concéntrale las 3 cruces en ella.</li>
+<li>Si tu opción no será la mayoritaria, reparte 2-1 o 1-1-1.</li>
+<li>Si ves que la opción que más te gusta va a ser la más votada pero con mucho margen
+puedes usar una o dos o tres cruces para ayudar a la siguente formación del bloque.</li>
+<li>Recuerda que el voto va a la persona no a la formación.
+Si repartes, pon la cruz en los primeros candidatos, para coincidir con otras personas que hagan lo mismo.</li>
+<li>Recuerda también que cada cruz cuenta como un voto, si solo pones una cruz,
+no estas concentrando las tres en una persona, estás perdiendo 2 votos.</li>
+</ul>
+<h2 id="consultas">Consultas</h2>
+<p>Y ya está, espero que os sea útil para saber como potenciar vuestro voto.
+Si teneis cualquier duda, preguntar en los perfiles de Facebook y Twitter.
+Si son de interés general, las publicaré aquí mismo.</p>
+        </div>
+    </section>
+    <footer class="footer-article">
+        <div class="tags-and-categories">Filed under <a href="https://votomitico.org/category/generales2019.html">Generales2019</a>
+        | Tagged: <a href="https://votomitico.org/tag/generales.html">Generales </a><a href="https://votomitico.org/tag/voto_estrategico.html">Voto_Estratégico </a>
+        | <a href="https://votomitico.org/posts/2019-04-26-logica-de-bloques-y-voto-estrategico.html" rel="bookmark"
+         title="Permalink to Lógica de bloques y voto estratégico">Permalink</a>            
+        </div>
+        <!-- metaldata 
+        -->
+    </footer>
+    <!-- disqus  -->
+</div>
+            </div>
+            <div class="large-2 aside column">
+                <div class="social">
+                    <h3>Social</h3>
+                    <ul>
+                        <li><i class='fa-icon fa-Twitter' />&nbsp;Twitter:&nbsp;<a target='_blank' href="https://twitter.com/votomitico">@votomitico</a></li>
+                        <li><i class='fa-icon fa-Mastodon' />&nbsp;Mastodon:&nbsp;<a target='_blank' href="https://mastodon.social/@votomitico">@votomitico@mastodon.social</a></li>
+                        <li><i class='fa-icon fa-Facebook' />&nbsp;Facebook:&nbsp;<a target='_blank' href="https://facebook.com/votomitico">@votomitico</a></li>
+                    </ul>
+                </div><!-- /.social -->
+                <h3>Tags</h3>
+                <ul>
+                    <li class="active"><a href="https://votomitico.org/tag/generales.html">Generales</a>&nbsp;(7)</li>
+                    <li class="active"><a href="https://votomitico.org/tag/voto_estrategico.html">Voto_Estratégico</a>&nbsp;(2)</li>
+                    <li><a href="https://votomitico.org/tag/senado.html">Senado</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/umbral_electoral.html">Umbral_Electoral</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/voto_nulo.html">Voto_Nulo</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/no_voto.html">No_Voto</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/voto_en_blanco.html">Voto_en_Blanco</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/dhondt.html">D'Hondt</a>&nbsp;(2)</li>
+                    <li><a href="https://votomitico.org/tag/circunscripciones.html">Circunscripciones</a>&nbsp;(3)</li>
+                    <li><a href="https://votomitico.org/tag/novoto.html">NoVoto</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/nulo.html">Nulo</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/blanco.html">Blanco</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/abstencion.html">Abstención</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/parlament.html">Parlament</a>&nbsp;(3)</li>
+                    <li><a href="https://votomitico.org/tag/coaliciones.html">Coaliciones</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/tag/europeas.html">Europeas</a>&nbsp;(3)</li>
+                    <li><a href="https://votomitico.org/tag/charlas.html">Charlas</a>&nbsp;(2)</li>
+                    <li><a href="https://votomitico.org/tag/legislacion.html">Legislación</a>&nbsp;(1)</li>
+                </ul>
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="https://votomitico.org/category/europeas2014.html">Europeas2014</a>&nbsp;(3)</li>
+                    <li><a href="https://votomitico.org/category/fundamentos.html">Fundamentos</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/category/generales2011.html">Generales2011</a>&nbsp;(5)</li>
+                    <li class="active"><a href="https://votomitico.org/category/generales2019.html">Generales2019</a>&nbsp;(2)</li>
+                    <li><a href="https://votomitico.org/category/mitos.html">Mitos</a>&nbsp;(2)</li>
+                    <li><a href="https://votomitico.org/category/parlament2012.html">Parlament2012</a>&nbsp;(1)</li>
+                    <li><a href="https://votomitico.org/category/parlament2015.html">Parlament2015</a>&nbsp;(2)</li>
+                </ul>
+            </div>
+         </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="data-holder">
+        <div class="row">
+            <div class="large-3 column">
+           </div>
+           <div class="large-6 tag-cloud column">
+                <h3>Tags</h3>
+                <ul>
+                    <li><a href="https://votomitico.org/tag/generales.html">Generales</a>(7)</li>
+                    <li><a href="https://votomitico.org/tag/voto_estrategico.html">Voto_Estratégico</a>(2)</li>
+                    <li><a href="https://votomitico.org/tag/senado.html">Senado</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/umbral_electoral.html">Umbral_Electoral</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/voto_nulo.html">Voto_Nulo</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/no_voto.html">No_Voto</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/voto_en_blanco.html">Voto_en_Blanco</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/dhondt.html">D'Hondt</a>(2)</li>
+                    <li><a href="https://votomitico.org/tag/circunscripciones.html">Circunscripciones</a>(3)</li>
+                    <li><a href="https://votomitico.org/tag/novoto.html">NoVoto</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/nulo.html">Nulo</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/blanco.html">Blanco</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/abstencion.html">Abstención</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/parlament.html">Parlament</a>(3)</li>
+                    <li><a href="https://votomitico.org/tag/coaliciones.html">Coaliciones</a>(1)</li>
+                    <li><a href="https://votomitico.org/tag/europeas.html">Europeas</a>(3)</li>
+                    <li><a href="https://votomitico.org/tag/charlas.html">Charlas</a>(2)</li>
+                    <li><a href="https://votomitico.org/tag/legislacion.html">Legislación</a>(1)</li>
+                </ul>
+            </div>
+            <div class="large-3 category-column column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="https://votomitico.org/category/europeas2014.html">Europeas2014</a> (3)</li>
+                    <li><a href="https://votomitico.org/category/fundamentos.html">Fundamentos</a> (1)</li>
+                    <li><a href="https://votomitico.org/category/generales2011.html">Generales2011</a> (5)</li>
+                    <li class="active"><a href="https://votomitico.org/category/generales2019.html">Generales2019</a> (2)</li>
+                    <li><a href="https://votomitico.org/category/mitos.html">Mitos</a> (2)</li>
+                    <li><a href="https://votomitico.org/category/parlament2012.html">Parlament2012</a> (1)</li>
+                    <li><a href="https://votomitico.org/category/parlament2015.html">Parlament2015</a> (2)</li>
+                </ul>
+             
+            </div>
+
+        </row>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,124 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Fundamentos</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/fundamentos.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2018-02-18T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>D'Hondt (I): ¿Azote de minorias o cabeza de turco?</title><link href="https://votomitico.org/posts/2018-02-18-dhondt-i-azote-de-minorias-o-cabeza-de-turco.html" rel="alternate"></link><published>2018-02-18T00:00:00+01:00</published><updated>2018-02-18T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:votomitico.org,2018-02-18:/posts/2018-02-18-dhondt-i-azote-de-minorias-o-cabeza-de-turco.html</id><summary type="html">
-
-&lt;p&gt;¿Te suena la historia de que los partidos mayoritarios
-copan el poder por culpa de una ley llamada D'Hondt?
-Entonces es posible que hayas estado expuesto a varios bulos.
-Como todos los bulos tienen algo de cierto que los hace verosímiles.
-Como todos los bulos, si nos dejamos llevar por ellos,
-cometeremos errores en nuestras decisiones.&lt;/p&gt;
-</summary><content type="html">
-
-&lt;p&gt;¿Te suena la historia de que los partidos mayoritarios
-copan el poder por culpa de una ley llamada D'Hondt?
-Entonces es posible que hayas estado expuesto a varios bulos.
-Como todos los bulos tienen algo de cierto que los hace verosímiles.
-Como todos los bulos, si nos dejamos llevar por ellos,
-cometeremos errores en nuestras decisiones.&lt;/p&gt;
-
-
-&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mitos Electorales - Fundamentos</title><link href="https://votomitico.org/" rel="alternate"></link><link href="https://votomitico.org/feeds/fundamentos.atom.xml" rel="self"></link><id>https://votomitico.org/</id><updated>2019-02-01T00:00:00+01:00</updated><subtitle>El mítico voto útil y otros cuentos</subtitle><entry><title>Opciones de no-voto</title><link href="https://votomitico.org/posts/2019-02-01-opciones-de-no-voto.html" rel="alternate"></link><published>2019-02-01T00:00:00+01:00</published><updated>2019-02-01T00:00:00+01:00</updated><author><name>vokimon</name></author><id>tag:votomitico.org,2019-02-01:/posts/2019-02-01-opciones-de-no-voto.html</id><summary type="html">Hay algunos paises en los que el voto es obligatorio.
+No es el caso de España.
+El no-voto es una opción legítima y se puede ejercer de diferentes maneras.</summary><content type="html">&lt;p&gt;Hay algunos paises en los que el voto es obligatorio.
+No es el caso de España.
+El no-voto es una opción legítima y se puede ejercer de diferentes maneras.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#es-una-ley-matematica"&gt;Es una ley... matemática&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#si-beneficia-a-los-mayoritarios-pero"&gt;Sí, beneficia a los mayoritarios pero...&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#son-las-circunscripciones-idiota"&gt;Son las circunscripciones, idiota&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#en-resumen"&gt;En resumen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Abstención (activa o pasiva)&lt;/li&gt;
+&lt;li&gt;Voto nulo&lt;/li&gt;
+&lt;li&gt;Voto en blanco&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id="es-una-ley-matematica"&gt;Es una &lt;em&gt;ley&lt;/em&gt;... matemática&lt;/h2&gt;
-&lt;p&gt;D'Hondt no es una ley jurídica.
-Es una ley matemática, como la &lt;em&gt;regla de tres&lt;/em&gt;
-que usábamos en el cole para encontrar proporciones.
-D'Hondt sirve para algo parecido,
-para encontrar un reparto de escaños que sea
-más o menos proporcional a los votos recibidos.
-Para no ahondar en la confusión,
-mejor si en vez de llamarla &lt;em&gt;ley&lt;/em&gt;,
-la llamamos &lt;em&gt;regla&lt;/em&gt; (o &lt;em&gt;método&lt;/em&gt;, o &lt;em&gt;sistema&lt;/em&gt;).&lt;/p&gt;
-&lt;p&gt;De hecho, sí hay una ley jurídica, la ley electoral, que se llama &lt;a href="http://www.juntaelectoralcentral.es/cs/jec/loreg"&gt;LOREG&lt;/a&gt;.
-La LOREG establece, entre muchas otras cosas,
-la regla de D'Hondt como método de reparto de escaños
-dentro de una circunscripción electoral.&lt;/p&gt;
-&lt;p&gt;Que D'Hondt se use en la ley electoral y que se le llame Ley
-porque es una ley matemática, hizo que Johny se pensara
-que la ley electoral se llama &lt;em&gt;Ley D'Hondt&lt;/em&gt;.
-No seas como Johny.&lt;/p&gt;
-&lt;h2 id="si-beneficia-a-los-mayoritarios-pero"&gt;Sí, beneficia a los mayoritarios pero...&lt;/h2&gt;
-&lt;p&gt;D'Hondt tiene la fama de ser responsable de que
-los minoritarios no estén bien representados.&lt;/p&gt;
-&lt;p&gt;Y sí, realmente la Regla de D'Hondt beneficia a los mayoritarios.
-Pero es que la LOREG en general,
-con el pretexto de la &lt;strong&gt;gobernabilidad&lt;/strong&gt;,
-contiene muchos otros elementos
-que también benefician a los mayoritarios.
-Y comparado con esos otros elementos,
-el impacto de D'Hondt es muy modesto.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Bloody chainsaw" src="https://votomitico.org/images/bloodychainsaw.jpg" style="float:right; margin-left:2em" width="30%"&gt;
-¿Cómo distorsiona D'Hondt?
-Si quisieramos conseguir los mismos porcentajes de escaños
-que porcentajes de votos que se han conseguido,
-es decir, si quisieramos hacer un reparto puramente proporcional,
-nos saldrían escaños no enteros, con decimales.
-Por divertido que parezca,
-resulta que no podemos partir a los candidatos con motosierra,
-suele ser ilegal y ensucia mucho.
-Así que &lt;strong&gt;todos los métodos de reparto introducen
-algun tipo de distorsión&lt;/strong&gt; cuando reparten de una forma o otra
-esos escaños que no se han podido repartir enteros.
-D'Hondt opta por repartir los escaños sobrantes
-más o menos proporcionalmente a los escaños enteros ya obtenidos.
-Eso hace que los más grandes se lleven más escaños extras que los pequeños.
-Es una ventaja, pero está limitada.&lt;/p&gt;
-&lt;p&gt;Por un lado, 
-los escaños sobrantes suelen ser poquitos.
-Suelen ser más o menos la mitad del número de candidaturas con escaño
-y nunca pueden ser más que el número total de candidaturas.&lt;/p&gt;
-&lt;p&gt;Por otro, para que a una candidatura le toquen 3 escaños extra,
-ha de tener tres veces los escaños enteros de a quien le toca 1 escaño extra.
-Así que la cosa suele ir de uno o dos escaños extras
-y solo distorsiona mucho cuando ya hay, de entrada,
-grandes diferencias entre candidaturas.&lt;/p&gt;
-&lt;p&gt;Entonces, si D'Hondt no es tan malo,
-¿de dónde sale tanta desproporción en la ley electoral?&lt;/p&gt;
-&lt;h2 id="son-las-circunscripciones-idiota"&gt;Son las circunscripciones, idiota&lt;/h2&gt;
-&lt;p&gt;Pues sí, las circunscripciones.
-El reparto de escaños se hace separadamente para cada circunscripción.
-En las generales, cada provincia.
-Eso distorsiona la proporcionalidad en varios aspectos:&lt;/p&gt;
+&lt;p&gt;El efecto electoral común de todas las opciones de no-voto es el efecto del &lt;strong&gt;voto cesante&lt;/strong&gt;.
+Se suele escuchar en los medios que el no-voto, en concreto, la abstención, perjudica a la izquierda.
+En realidad, depende del perfil del electorado desmobilizado.
+Puede parecer solo un matiz, pero se entiende mejor las implicaciones concretando en ti:
+Si tú no votas, los partidos a los que nunca votarías
+no se ven perjudicados en absoluto,
+de hecho, ya les viene bien tu no-voto.
+En cambio, sí que perjudica a los partidos a los que podrías haber votado...
+si es que pudieras haber votado a alguno.&lt;/p&gt;
+&lt;p&gt;El voto cesante también sucede cuando votas a candidaturas.
+Por ejemplo si dudas entre dos candidaturas y acabas eligiendo una de ellas,
+eres voto cesante de la otra.
+La diferencia es que el &lt;strong&gt;bloque de las candidaturas a las que podrías votar&lt;/strong&gt;  se llevan el voto,
+con lo cual no beneficia al &lt;strong&gt;bloque de las candidaturas que no votarías ni en pintura&lt;/strong&gt; como pasaría con un no-voto tuyo.&lt;/p&gt;
+&lt;p&gt;En cualquier caso,
+si realmente no quieres votar a ninguna candidatura,
+el no-voto sigue siendo una opción.
+Así que entendamos las opciones:
+cómo se ejerce, que lectura tiene, y como afecta desmintiendo los mitos.&lt;/p&gt;
+&lt;h2 id="abstencion"&gt;Abstención&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; No yendo a votar.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Por un lado, genera un efecto umbral muy acusado.
-¿Te parecía injusto el umbral del 3%? 
-Pues en las numerosas circunscripciones pequeñas con 3 o 4 diputados,
-el umbral para entrar en el reparto podría llegar al 25% de los votos.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Por otro, multiplica cualquier distorsión en el sistema de reparto,
-sea D'Hondt o cualquier otro.
-Hemos dicho que siempre habrá distorsión.
-&lt;strong&gt;Tiene menos impacto tener 10 escaños mal repartidos
-en una circunscripción única,
-que tener un solo escaño mal repartido
-en cada una de las 52 circunscripciones actuales.&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Alcance:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;En porcentaje, la abstención suele quedar como primera o segunda opción. Hay mucha.&lt;/li&gt;
+&lt;li&gt;Considerando los acérrimos de cada partido, podemos establecer una una cota superior para las simulaciones:&lt;ul&gt;
+&lt;li&gt;Considerar mínimos resultados históricos en votos (no en porcentaje) para cada partido en cada província&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="en-resumen"&gt;En resumen&lt;/h2&gt;
-&lt;p&gt;En lo de beneficiar a los mayoritarios,
-D'Hondt no es ningún santo, porque contribuye,
-pero en comparación con las circunscripciones
-es un pelele.&lt;/p&gt;
-&lt;p&gt;Por eso, actuales y futuros renovadores de la ley electoral:
-Sí. D'Hondt es mala y molaría substituirla.
-Pero invertid los esfuerzos en reformar primero las circunscripciones.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.elperiodico.com/es/politica/20180207/podemos-presenta-ley-electoral-para-permitir-voto-16-anos-6609275"&gt;Podemos propone cambiar D'Hondt
-por otro sistema más proporcional&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="No seas como Pablito, focaliza en las circunscripciones
-" src="https://votomitico.org/images/noseascomodhondt.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Eso sí, si reformas las circunscripciones ¡que no sea para hacerlas &lt;a href="https://votomitico.org/posts/2015-02-03-veguerias-el-timo-de-la-estampita.html"&gt;aún más pequeñas&lt;/a&gt;, por favor!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Y ahora, te puedes creer lo que digo porque lo dice internet, como con los bulos.
-Pero, si te interesa saber como hemos llegado a la conclusión del efecto real de D'Hondt,
-te aconsejo que leas los próximos artículos sobre:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recuento:&lt;/strong&gt; Ningún efecto más allá del voto cesante.&lt;/li&gt;
+&lt;li&gt;Hay dos tipos de abstención según los motivos.&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abstención pasiva:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; &lt;em&gt;No me interesa la política&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Representa mínimo el 85% de la abstención (&lt;a href="http://www.reis.cis.es/REIS/PDF/REIS_161_031515156747980.pdf" target="_blank"&gt;según CIS&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstención activa:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; &lt;em&gt;No quiero legitimar el sistema con mi participación&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;És difícil diferenciarla de la pasiva&lt;/li&gt;
+&lt;li&gt;Sigue siendo una opción ética personal válida&lt;/li&gt;
+&lt;li&gt;No estás haciendo abstención activa si no haces algo para organizarte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desmentidos:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;No existe mínimo de participación para que unas elecciones sean válidas&lt;/li&gt;
+&lt;li&gt;En global, no perjudica a la izquierda, ni a los minoritarios, sinó a las opciones que no han mobilizado a su electorado&lt;ul&gt;
+&lt;li&gt;El perfil es variado, un 30% o un 40% es mucha gente.&lt;/li&gt;
+&lt;li&gt;Según tengan inquietudes políticas&lt;ul&gt;
+&lt;li&gt;Conformistas: cuando votan tienden a votar a los que tienen opciones de ganar, normalmente votan por reacción a la otra opción que también tiene opciones de ganar&lt;/li&gt;
+&lt;li&gt;Críticos: normalmente no votan porque no les gustan los partidos establecidos, cuando votan tienden a votar rupturista con esperanza de cambio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="voto-nulo-activo"&gt;Voto nulo (activo)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; Metiendo algo que no sea una papeleta de un solo partido o tachándola.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;D'Hondt (II), una forma muy visual de entenderlo&lt;/li&gt;
-&lt;li&gt;D'Hondt (IV), el alcance de la desproporción&lt;/li&gt;
-&lt;/ul&gt;</content><category term="D'Hondt"></category><category term="Circunscripciones"></category></entry></feed>
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; Es un voto de queja&lt;ul&gt;
+&lt;li&gt;Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito por nosotros o una loncha de chorizo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Problema:&lt;/strong&gt; Confundible con errores, pero, si hay mucho, la queja es perfectamente visible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efecto:&lt;/strong&gt; Ningún efecto para los partidos de ningún tipo, más allá del voto cesante.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desmentidos:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;No hay ningún tope en el voto nulo que haga que se anulen las elecciones.&lt;/li&gt;
+&lt;li&gt;La mesa no está obligada a leer lo que ponga en los votos nulos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="voto-blanco"&gt;Voto blanco&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Como:&lt;/strong&gt; No metiendo nada en el sobre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Significa:&lt;/strong&gt; 'no me gusta ninguno'&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alcance:&lt;/strong&gt; Suele estar por debajo del 1%&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recuento:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cuenta como voto válido, y por tanto, contribuye a subir el umbral electoral, cuando lo hay&lt;/li&gt;
+&lt;li&gt;¿Es grave? No. Cada 100 votos en blanco, solo sube 3 o 5 votos el umbral (si es 3% o 5%)&lt;/li&gt;
+&lt;li&gt;En la mayoría de convocatorias no hay suficientes escaños para que el umbral electoral afecte&lt;ul&gt;
+&lt;li&gt;Generales (matemáticamente podría en Barcelona y Madrid, pero es poco probable)&lt;/li&gt;
+&lt;li&gt;Municipales en municipios con menos de 20.000 electores&lt;/li&gt;
+&lt;li&gt;Europeas (el umbral es del 0%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;En las que afecta el umbral:&lt;ul&gt;
+&lt;li&gt;Autonómicas en Madrid y Barcelona&lt;/li&gt;
+&lt;li&gt;Municipales en muncipios con mas de 20.000 electores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Problema:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En teoría, el voto en blanco dificulta la entrada de los minoritarios&lt;ul&gt;
+&lt;li&gt;En la práctica, el efecto es tan nímio como el porcentaje de voto blanco&lt;/li&gt;
+&lt;li&gt;El umbral electoral solo tiene efecto en circumscripciones con muchos escaños (más de 20 escaños con el 5%, o más de 18 con el 3%)&lt;/li&gt;
+&lt;li&gt;En las Europeas el umbral es del 0%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;En las Generales, el efecto del umbral no es tan importante como en las autonòmicas.&lt;/li&gt;
+&lt;li&gt;Nunca ha afectado en Generales pero podría evitar que el último partido no entre si entra justo.&lt;/li&gt;
+&lt;li&gt;En ese caso, ese escaño iría a parar con mayor probabilidad a un mayoritario.&lt;/li&gt;
+&lt;li&gt;Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efecto:&lt;/strong&gt; A parte de subir el umbral del 3%/5%, ninguno a los partidos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desmentidos:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;No hay ningún tope al voto en blanco que haga que se anulen las elecciones&lt;/li&gt;
+&lt;li&gt;El voto en blanco no va a parar a los mayoritarios (más allá del efecto del voto cesante)&lt;/li&gt;
+&lt;li&gt;100 votos en blanco apenas suben el umbral electoral 3 votos (para el 3%)&lt;/li&gt;
+&lt;li&gt;En la mayoría de circunscripciones (menos de 22 escaños en el 5% y menos de 18 en el 3%) no afecta el umbral electoral&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="otras-opciones-de-protesta"&gt;Otras opciones de protesta&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Escaños en blanco:&lt;/strong&gt; Es un partido a favor del &lt;strong&gt;voto en blanco computable&lt;/strong&gt;. Se comprometen a no ocupar el escaño ni cobrar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Candidaturas de protesta:&lt;/strong&gt; Son las que se presentan como tales.
+    Suelen ser absurdas o cachondas, denunciando el sinsentido del sistema.
+    A menudo no tienen programa realista. Si acaban saliendo no tenemos porque saber como actuarán.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Voto repartido a extraparlamentarios:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Mientras se reparta en menos de 33 partidos, va a compensar cualquier subida del umbral&lt;/li&gt;
+&lt;li&gt;Si la alternativa es la abstención&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Voto coordinado:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Requiere una cierta masa crítica&lt;/li&gt;
+&lt;li&gt;Depende mucho de las encuestas y lo&lt;/li&gt;
+&lt;li&gt;Nos podemos pasar de tirada&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="NoVoto"></category><category term="Nulo"></category><category term="Blanco"></category><category term="Abstención"></category></entry></feed>
