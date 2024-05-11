@@ -88,7 +88,7 @@ PLUGIN_PATHS = [
 ]
 PLUGINS = [
 	#'pelican_albums',
-	'summary',
+	'plugins.summary',
 	'i18n_subsites',
 	'render_math',
 ]
