@@ -4,7 +4,7 @@ date: 2024-05-08 09:03
 author: David García Garzón
 tags: Umbral_Electoral, Parlament, Voto_Estratégico, D'Hondt
 status: published
-cover: images/2019-ResultatsSenatBarcelona.png
+cover: images/3percent.svg
 ---
 
 <!-- PELICAN_BEGIN_SUMMARY -->

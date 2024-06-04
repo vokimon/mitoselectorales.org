@@ -88,9 +88,10 @@ PLUGIN_PATHS = [
 ]
 PLUGINS = [
 	#'pelican_albums',
-	'plugins.summary',
-	'i18n_subsites',
-	'render_math',
+	#'pelican.plugins.summary',
+	'minchin.pelican.plugins.summary',
+	'pelican.plugins.i18n_subsites',
+	'pelican.plugins.render_math',
 ]
 
 I18N_TEMPLATES_LANG = 'es'
