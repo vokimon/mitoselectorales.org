@@ -1,0 +1,12 @@
+pelican
+#markdown
+#pelican-more-categories
+pelican-entities
+pelican-render-math
+pelican-i18n-subsites
+minchin.pelican.plugins.summary
+minchin.pelican.plugins.optimize-images
+#pelican-jinja2content
+#markdown-customblocks
+pelican-yaml-metadata
+
