@@ -1,2 +1,4 @@
 # vim swaps
 .*sw?
+.venv
+__pycache__
