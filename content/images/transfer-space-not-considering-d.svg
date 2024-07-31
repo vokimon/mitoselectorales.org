@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -45 620 280" width="100%" height="100%" font-family="sans, ubuntu sans" font-size=".6rem" >
+<rect stroke="grey" fill="transparent" x="0" y="0" width="540" height="200" />
+<rect fill="red" opacity="5%" x="0" y="0" width="90" height="200" />
+<rect fill="green" opacity="1%" x="90" y="0" width="90" height="200" />
+<rect fill="red" opacity="5%" x="180" y="0" width="90" height="200" />
+<rect fill="green" opacity="1%" x="270" y="0" width="90" height="200" />
+<rect fill="red" opacity="5%" x="360" y="0" width="90" height="200" />
+<rect fill="green" opacity="1%" x="450" y="0" width="90" height="200" />
+<text fill="darkred" x="20" y="20">Sb=0</text>
+<text fill="darkgreen" x="110" y="20">Sb=1</text>
+<text fill="darkred" x="200" y="20">Sb=2</text>
+<text fill="darkgreen" x="290" y="20">Sb=3</text>
+<text fill="darkred" x="380" y="20">Sb=4</text>
+<text fill="darkgreen" x="470" y="20">Sb=5</text>
+<text fill="darkred" x="20" y="40">Sa=5</text>
+<text fill="darkgreen" x="110" y="40">Sa=4</text>
+<text fill="darkred" x="200" y="40">Sa=3</text>
+<text fill="darkgreen" x="290" y="40">Sa=2</text>
+<text fill="darkred" x="380" y="40">Sa=2</text>
+<text fill="darkgreen" x="470" y="40">Sa=0</text>
+<path stroke="#00f" opacity="10%" d="M0,60 h540"/>
+<text x="-20" y="60">Ps</text>
+<path stroke="#00f" opacity="10%" d="M0,100 h540"/>
+<text x="-20" y="100">Pc</text>
+<path stroke="#00f" opacity="10%" d="M0,150 h540"/>
+<text x="-25" y="150">Ps+1</text>
+<path stroke="#00f" opacity="10%" d="M0,170 h540"/>
+<text x="-20" y="170">Pd</text>
+<path stroke="red" d="M0,100 h40 m60,0 h40 m60,0 h40 m60,0 h40 m60,0 h40 m60,0 h40"/>
+<path stroke="grey" opacity="100%" d="M0,150
+   m40,0 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,0 v-2
+   m40,0 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,0 v-2
+   m40,0 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,0 v-2
+   m40,0 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,0 v-2
+   m40,0 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,-2 v2 m10,0 v-2 "/>
+<path stroke="orange" opacity="20%" d="M0,60 l90,90 m18,-90 l72,90 m36,-90 l54,90 m54,-90 l36,90 m72,-90 l18,90"/>
+<path stroke="green" opacity="20%" d="M90,150 l18,-90 m72,90 l36,-90 m54,90 l54,-90 m36,90 l72,-90 m18,90 l90,-90"/>
+<path stroke="orange" d="M40,100 l50,50 m50,-50 l40,50 m60,-50 l30,50 m70,-50 l20,50 m80,-50 l10,50"/>
+<path stroke="green" d="M90,150 l10,-50 m80,50 l20,-50 m70,50 l30,-50 m60,50 l40,-50 m50,50 l50,-50"/>
+<path stroke="green" d="M90,150 l10,-50 m80,50 l20,-50 m70,50 l30,-50 m60,50 l40,-50 m50,50 l50,-50"/>
+<text x="0" y="215">0</text>
+<text x="0" y="-5">5Pc+R</text>
+<path stroke="orange" opacity="20%" d="M0,-5 v210"/>
+<text x="40" y="215">R</text>
+<text x="40" y="-5">5Pc</text>
+<path stroke="orange" opacity="20%" d="M40,-5 v210"/>
+<text x="100" y="215">Pc</text>
+<text x="100" y="-5">4Pc+R</text>
+<path stroke="orange" opacity="20%" d="M100,-5 v210"/>
+<text x="140" y="215">Pc+R</text>
+<text x="140" y="-5">4Pc</text>
+<path stroke="orange" opacity="20%" d="M140,-5 v210"/>
+<text x="200" y="215">2Pc</text>
+<text x="200" y="-5">3Pc+R</text>
+<path stroke="orange" opacity="20%" d="M200,-5 v210"/>
+<text x="240" y="215">2Pc+R</text>
+<text x="240" y="-5">3Pc</text>
+<path stroke="orange" opacity="20%" d="M240,-5 v210"/>
+<text x="300" y="215">3Pc</text>
+<text x="300" y="-5">2Pc+R</text>
+<path stroke="orange" opacity="20%" d="M300,-5 v210"/>
+<text x="340" y="215">3Pc+R</text>
+<text x="340" y="-5">2Pc</text>
+<path stroke="orange" opacity="20%" d="M340,-5 v210"/>
+<text x="400" y="215">4Pc</text>
+<text x="400" y="-5">Pc+R</text>
+<path stroke="orange" opacity="20%" d="M400,-5 v210"/>
+<text x="440" y="215">4Pc+R</text>
+<text x="440" y="-5">Pc</text>
+<path stroke="orange" opacity="20%" d="M440,-5 v210"/>
+<text x="500" y="215">5Pc</text>
+<text x="500" y="-5">R</text>
+<path stroke="orange" opacity="20%" d="M500,-5 v210"/>
+<text x="540" y="215">5Pc+R</text>
+<text x="540" y="-5">0</text>
+<path stroke="orange" opacity="20%" d="M540,-5 v210"/>
+<text x="250" y="-20">Va</text>
+<text x="250" y="235">Vb</text>
+</svg>

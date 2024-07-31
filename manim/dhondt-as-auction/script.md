@@ -6,10 +6,10 @@ partidos políticos ficticios
 
 ### Narrador
 
-> Recuerdo, con pesadillas, cuando me explicaron en la escuela,
+> Recuerdo, con pesadillas, cuando nos explicaron en la escuela,
 > el método D'Hondt.
 > Sí, el que se usa para repartir los escaños.
-> Un montón de divisiones oscuras y al final los escaños.
+> Un montón de divisiones oscuras y, al final, los escaños.
 
 Empieza animación de la tabla, añadiendo columnas con los cocientes
 
@@ -26,8 +26,8 @@ Empieza animación en la que se marcan los cocientes de mayor a menor
 
 ### Narrador
 
-> Vale, quizás aprendí la forma más rápida de calcularlo a mano,
-> pero no entendí que estaba pasando ahí.
+> Vale, quizás aprendimos la forma más rápida de calcularlo a mano,
+> pero no entendimos que estaba pasando ahí.
 > Ahora ya hay máquinitas que lo calculan, así que,
 > veamos otra forma de explicarlo
 > que nos será mucho más útil para saber que está pasando.
