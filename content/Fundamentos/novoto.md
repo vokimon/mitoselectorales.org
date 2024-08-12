@@ -46,13 +46,13 @@ cómo se ejerce, que lectura tiene, y como afecta desmintiendo los mitos.
 		- Considerar mínimos resultados históricos en votos (no en porcentaje) para cada partido en cada província
 - **Recuento:** Ningún efecto más allá del voto cesante.
 - Hay dos tipos de abstención según los motivos.
-    - **Abstención pasiva:**
-        - **Significa:** _No me interesa la política_
-        - Representa mínimo el 85% de la abstención ([según CIS](http://www.reis.cis.es/REIS/PDF/REIS_161_031515156747980.pdf){target='_blank'})
-    - **Abstención activa:**
-        - **Significa:** _No quiero legitimar el sistema con mi participación_
-        - És difícil diferenciarla de la pasiva
-        - Sigue siendo una opción ética personal válida
+	- **Abstención pasiva:**
+		- **Significa:** _No me interesa la política_
+		- Representa mínimo el 85% de la abstención ([según CIS](http://www.reis.cis.es/REIS/PDF/REIS_161_031515156747980.pdf){target='_blank'})
+	- **Abstención activa:**
+		- **Significa:** _No quiero legitimar el sistema con mi participación_
+		- És difícil diferenciarla de la pasiva
+		- Sigue siendo una opción ética personal válida
 		- No estás haciendo abstención activa si no haces algo para organizarte
 - **Desmentidos:**
 	- No existe mínimo de participación para que unas elecciones sean válidas
@@ -67,11 +67,11 @@ cómo se ejerce, que lectura tiene, y como afecta desmintiendo los mitos.
 **Como:** Metiendo algo que no sea una papeleta de un solo partido o tachándola.
 
 - **Significa:** Es un voto de queja
-    - Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito por nosotros o una loncha de chorizo.
+	- Circulan varios modelos de papeleta por internet, pero podemos poner un papel escrito por nosotros o una loncha de chorizo.
 - **Problema:** Confundible con errores, pero, si hay mucho, la queja es perfectamente visible.
 - **Efecto:** Ningún efecto para los partidos de ningún tipo, más allá del voto cesante.
 - **Desmentidos:**
-    - No hay ningún tope en el voto nulo que haga que se anulen las elecciones.
+	- No hay ningún tope en el voto nulo que haga que se anulen las elecciones.
 	- La mesa no está obligada a leer lo que ponga en los votos nulos
 
 ## Voto blanco
@@ -96,31 +96,39 @@ cómo se ejerce, que lectura tiene, y como afecta desmintiendo los mitos.
 		- En la práctica, el efecto es tan nímio como el porcentaje de voto blanco
 		- El umbral electoral solo tiene efecto en circumscripciones con muchos escaños (más de 20 escaños con el 5%, o más de 18 con el 3%)
 		- En las Europeas el umbral es del 0%
-    - En las Generales, el efecto del umbral no es tan importante como en las autonòmicas.
-    - Nunca ha afectado en Generales pero podría evitar que el último partido no entre si entra justo.
-    - En ese caso, ese escaño iría a parar con mayor probabilidad a un mayoritario.
-    - Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.
+	- En las Generales, el efecto del umbral no es tan importante como en las autonòmicas.
+	- Nunca ha afectado en Generales pero podría evitar que el último partido no entre si entra justo.
+	- En ese caso, ese escaño iría a parar con mayor probabilidad a un mayoritario.
+	- Si no te quieres arriesgar a perjudicar a minoritarios escoge otra modalidad de voto.
 - **Efecto:** A parte de subir el umbral del 3%/5%, ninguno a los partidos
 - **Desmentidos:**
-    - No hay ningún tope al voto en blanco que haga que se anulen las elecciones
-	- El voto en blanco no va a parar a los mayoritarios (más allá del efecto del voto cesante)
-	- 100 votos en blanco apenas suben el umbral electoral 3 votos (para el 3%)
-	- En la mayoría de circunscripciones (menos de 22 escaños en el 5% y menos de 18 en el 3%) no afecta el umbral electoral
+	- No hay ningún tope al voto en blanco que haga que se anulen las elecciones
+		- El voto en blanco no va a parar a los mayoritarios (más allá del efecto del voto cesante)
+		- 100 votos en blanco apenas suben el umbral electoral 3 votos (para el 3%)
+		- En la mayoría de circunscripciones (menos de 22 escaños en el 5% y menos de 18 en el 3%) no afecta el umbral electoral
 
 ## Otras opciones de protesta
 
 - **Escaños en blanco:** Es un partido a favor del **voto en blanco computable**. Se comprometen a no ocupar el escaño ni cobrar.
 - **Candidaturas de protesta:** Son las que se presentan como tales.
-	Suelen ser absurdas o cachondas, denunciando el sinsentido del sistema.
-	A menudo no tienen programa realista. Si acaban saliendo no tenemos porque saber como actuarán.
+	- Suelen ser absurdas o cachondas, denunciando el sinsentido del sistema.
+	- A menudo no tienen programa realista. Si acaban saliendo no tenemos porque saber como actuarán.
+	- Ojo con las candidaturas reaccionarias/fascistas disfrazadas de antisistema
 - **Voto repartido a extraparlamentarios:**
-	- Mientras se reparta en menos de 33 partidos, va a compensar cualquier subida del umbral
-	- Si la alternativa es la abstención
+	- Si te planteas votar en blanco o no porque puede subir el umbral a los extraparlamentarios, quizás es que deberías votar a esos extraparlamentarios aunque sea al azar.
+	- Como el blanco, un voto a cualquier opcion sube el umbral pero un voto repartido aleatorio compensa con creces esa subida
+	- 100 votos válidos suben 3 votos el umbral del 3%.
+		- Si repartimos los 100 votos entre 33 formaciones ya obtendríamos esos 3 votos
+		- Normalmente repartiremos entre unas 10 o menos, así que queda compensada la subida del umbral.
+	- Cuanto menos formaciones entran en nuestra lotería más beneficios obtienen
+		- Descartando adversas, por ejemplo, xenofobas y fascistas
+		- Seleccionando afines
+	- Recordemos también que el umbral solo es importante en pocas convocatorias electorales.
 - **Voto coordinado:**
 	- Requiere una cierta masa crítica
-	- Depende mucho de las encuestas y lo
-	- Nos podemos pasar de tirada
-	- 
+	- Depende mucho de las encuestas y el número de personas que se cordinen
+	- Puede llegar a ser un riesgo, pasarnos de tirada, según lo que se pretenda
+		- El voto coordinado también es voto cesante de otras opciones.
 
 
 

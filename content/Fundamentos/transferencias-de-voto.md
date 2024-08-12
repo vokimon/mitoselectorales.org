@@ -362,7 +362,14 @@ y por lo tanto no sabemos en qué línea estamos moviendonos,
 ni de qué punto de la línea partimos.
 Lo que sabemos es que ciertos parámetros en ese espacio se van a mantener.
 
-De lo que hemos visto
+De lo que hemos visto dentro de esa línea,
+la variación del resultado conjunto tras un trasvase solo podría ser de un escaño arriba o abajo.
+Sería un escaño arriba si partimos de un escenario $S-1$ y el trasvase nos lleva a uno $S$.
+Sería un escaño abajo si partimos de un escenario $S$ y el trasvase  nos lleva a uno $S-1$.
+Para cualquier otro caso, no habría cambio.
+
+
+
 
 Para tener una ganancia se tienen que cumplir dos condiciones:
 
