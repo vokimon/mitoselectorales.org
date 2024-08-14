@@ -10,8 +10,9 @@ cover: images/dhondt-seat-rest-view.png
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 D'Hondt es el método usado en España para el reparto de escaños en cada circunscripción.
-Se nos suele explicar el método, pero no porqué hacemos todas esas operaciones. ¿Cuál es su objetivo?
-Si entendemos eso, obtendremos las claves para desmontar muchos mitos y entender el efecto real de nuestro voto.
+Se nos suele explicar el método, pero no porqué hacemos todas esas operaciones.
+Una forma más visual de entender D'Hondt 
+nos dará las claves para desmontar muchos mitos y entender el efecto real de nuestro voto.
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -58,7 +59,7 @@ es posible que ya intuyas por donde va la cosa.
 
 Vamos a ello.
 
-## Una subasta inversa
+## Un precio para un reparto exacto
 
 El método de D'Hondt resuelve el problema de **encontrar un precio**
 (cuántos votos ha de costar un escaño) para que
@@ -82,10 +83,7 @@ el precio máximo por el que cada candidatura puede obtener un cierto número de
 ¿Y porqué escogemos los cocientes ordenados de mayor a menor?
 Es una forma de bajar el precio de forma controlada,
 si están ordenados cada cociente añade un escaño y solo uno a los ya seleccionados,
-asegurando el reparto exacto cuando tenemos tantos cocientes como el número de escaños disponibles.
-
-Le llamamos una subasta inversa porque, en vez de ir subiendo el precio,
-lo bajamos hasta que casamos oferta con demanda.
+asegurando el reparto exacto cuando tengamos tantos cocientes como el número de escaños disponibles.
 
 Esta es la perspectiva del método de D'Hondt que nos va a permitir
 llegar a un montón de conclusiones sobre como funciona el sistema electoral.
@@ -104,8 +102,8 @@ o cómo se agotan para perderlo.
 ::: figure {filename}/images/dhondt-seat-rest-view.png alt="Una serie de barras con los votos a las candidaturas, divididas en segmentos de la misma longitud, que representarian los escaños, con un segmento tranlúcido al final de la barra que representarían los restos."
 	Esta captura del simulador visualiza como,
 	dado un precio, los votos de cada candidatura
-	se reparten en tantos segmentos del tamaño del precio como escaños se consiguen, y,
-	la parte translúcida del final, que son los restos que no llegan al siguiente escaño.
+	se reparten en tantos segmentos, del tamaño del precio, como escaños se consiguen.
+	La parte translúcida del final son los restos que no han llegado al siguiente escaño.
 
 Cuando un precio consigue que los escaños repartidos coincidan con los disponibles, tenemos un reparto exacto.
 
@@ -123,8 +121,9 @@ Donde:
 
 ## El último cociente con escaño, $P_{max}$
 
-En el simulador, el último cociente en entrar, se indica con los números en rojo y el fondo azul.
-Es el menor de los que han obtenido escaño, marcados en azul.
+El simulador marca los cocientes que han conseguido escaño con fondo azul.
+El último en conseguirlo, el menor de ellos, se marca con los números en rojo.
+Este último cociente es el que marca el precio.
 
 ![](/images/trasvases-ejemplo-cociente-fijador.png)
 

@@ -5,7 +5,7 @@ tags: Simulador
 status: published
 ---
 
-![Logo reVote]({static}/images/revote.png){style=float:right;padding:20px}
+![Logo reVote](/images/revote.png){style=float:right;padding:20px}
 
 `reVote` es una aplicación web que,
 partiendo de escenarios electorales reales o hipotéticos,
@@ -13,11 +13,11 @@ permite simular flujos de electores
 entre diferentes opciones,
 incluyendo opciones de no-voto.
 
-[¡Úsala!](/revote) 
-[¡Modifícala!](https://github.com/vokimon/revote) 
+[¡Úsala!](https://vokimon.github.io/revote)  &nbsp;&nbsp;&nbsp;
+[¡Modifícala!](https://github.com/vokimon/revote)  &nbsp;&nbsp;&nbsp;
 [¡Tradúcela!](https://github.com/vokimon/revote/tree/master/src/i18n) 
 
-[![Pantallada reVote]({static}/images/revote-pantallada-pricebars-full.png)]({static}/images/revote-pantallada-pricebars-full.png)
+[![Pantallada reVote](/images/revote-pantallada-pricebars-full.png)](/images/revote-pantallada-pricebars-full.png)
 
 ## Historia
 
@@ -50,7 +50,7 @@ Uso
 Justo debajo del título, tienes un desplegable y dos botones
 para ir cambiando de escenario base.
 
-[![Control de escenario]({static}/images/revote-pantallada-scenario.png)]({static}/images/revote-pantallada-scenario.png)
+[![Control de escenario](/images/revote-pantallada-scenario.png)](/images/revote-pantallada-scenario.png)
 
 Puedes modificar el escenario con los controles
 que hay abajo a la derecha.
@@ -59,9 +59,9 @@ Se puede seleccionar origen y destino con los desplegables
 o mucho más práctico, a veces, se puede clickar con los botones derecho o izquierdo
 a una opcion en cualquier gráfico (tartas, cocientes, barras...).
 
-[![Control de transferéncia]({static}/images/revote-transfer-widget.png)]({static}/images/revote-transfer-widget.png)
+[![Control de transferéncia](/images/revote-transfer-widget.png)](/images/revote-transfer-widget.png)
 
-[![Hemiciclos]({static}/images/revote-pantallada-hemiciclos.png){max-heigth=5em}]({static}/images/revote-pantallada-hemiciclos.png){style='max-heigth:5em;float:right;padding-left:1em'}
+[![Hemiciclos](/images/revote-pantallada-hemiciclos.png){max-heigth=5em}](/images/revote-pantallada-hemiciclos.png){style='max-heigth:5em;float:right;padding-left:1em'}
 
 Las tartas de la parte izquierda representan, de arriba a abajo,
 como cambia progresivamente las proporciones desde la opción
@@ -81,7 +81,7 @@ El **tab `Precio`** muestra barras que representan el voto directo.
 Pero tiene una doble escala móbil que muestra el precio variable
 del escaño cuando cambiamos el escenario.
 
-[![Vista de precio móbil de reVote]({static}/images/revote-pantallada-pricebars.png)]({static}/images/revote-pantallada-pricebars.png)
+[![Vista de precio móbil de reVote](/images/revote-pantallada-pricebars.png)](/images/revote-pantallada-pricebars.png)
 
 La gracia de la vista es visualizar como los flujos alteran el precio del escaño
 y poder comparar visualmente ese precio con el umbral electoral.
@@ -91,7 +91,7 @@ La parte tanslúcida al final de cada son los votos que no han servido para suma
 El **tab `Cocientes`** muestra el resultado del reparto de D'Hondt
 por el procedimiento habitual, la subasta de cocientes:
 
-[![Vista de cocientes del reVote]({static}/images/revote-pantallada-quocients.png)]({static}/images/revote-pantallada-quocients.png)
+[![Vista de cocientes del reVote](/images/revote-pantallada-quocients.png)](/images/revote-pantallada-quocients.png)
 
 * Los cocientes con el fondo azul son los que han obtenido escaño.
 * Los cocientes con un fondo azul más oscuro son los escaños extra por D'Hondt.
