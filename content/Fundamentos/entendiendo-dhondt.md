@@ -9,22 +9,22 @@ cover: images/dhondt-seat-rest-view.png
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-D'Hondt es el método de reparto de escaños que se usa, por ejemplo, en España para cada circunscripción.
-A menudo se nos explica como procedimiento,
-pero ¿qué pretende obtener?
-La respuesta a esta pregunta nos empoderará para entender
-sus efectos y el efecto real de nuestro voto
-y nos servirá como herramienta para desmontar muchos mitos.
+D'Hondt es el método usado en España para el reparto de escaños en cada circunscripción.
+Se nos suele explicar el método, pero no porqué hacemos todas esas operaciones. ¿Cuál es su objetivo?
+Si entendemos eso, obtendremos las claves para desmontar muchos mitos y entender el efecto real de nuestro voto.
 
 <!-- PELICAN_END_SUMMARY -->
 
+[TOC]
 
 ## El procedimiento
 
-Cuando se nos explica el método de D'Hondt
+Cuando se nos explica el [método de D'Hondt](https://es.wikipedioa.org/MétodoD'Hondt)
 que usamos para repartir los escaños en una circunscripción,
-se nos suele explicar un procedimiento.
-(No hace falta que lo leas, lo voy a simplificar después)
+se nos suele explicar un procedimiento,
+el objetivo del cual queda tras la niebla de su complejidad.
+No hace falta que lo descifres porque lo voy a simplificar abajo,
+pero sería:
 
 > Para cada candidatura X, se calcula el cociente $V_X \over S_X + 1$
 > donde $V_X$ son los votos obtenidos por esa candidatura
@@ -33,8 +33,8 @@ se nos suele explicar un procedimiento.
 > se le recalcula su cociente
 > y se repite hasta que todos los escaños se han repartido.
 
-Este procedimiento tiene un punto de complejidad para reducir el número de cocientes a calcular,
-lo que es de agradecir si tenemos que hacerlo a mano.
+Parte de la complejidad viene de que se intenta minimizar los coeficientes (divisiones) a calcular,
+lo que es de agradecer si tenemos que hacerlo a mano.
 Pero, hoy en día, tenemos ordenadores.
 Al final lo que estamos haciendo es:
 
@@ -42,18 +42,21 @@ Al final lo que estamos haciendo es:
 > dividir los votos de cada candidatura
 > por sucesivos enteros 1, 2, 3...
 
-Lo que mostramos en esta tabla en el simulador:
+Lo que se muestra en esta tabla del simulador:
 
 ![Cocientes de un reparto de D'Hondt real.
 Cada celda de la tabla contiene los votos obtenidos por cada candidatura dividido por un número de escaños.
 Los 33 mayores cocientes con el fondo azul fueron los que obtuvieron escaño,
 ](/images/revote-dhondttable.png)
 
-Aún así, simplificando el procedimiento,
-no explica porqué hacemos esto.
-Entenderlo nos va a permitir entender mejor sus efectos.
+Aunque sigue sin estar explícito,
+con esta simplificación,
+es posible que ya intuyas por donde va la cosa.
 
-Entonces, ¿cuál sería el objetivo?
+- ¿Qué significan estos cocientes?
+- ¿Porqué escogemos los más altos?
+
+Vamos a ello.
 
 ## Una subasta inversa
 
@@ -62,46 +65,49 @@ El método de D'Hondt resuelve el problema de **encontrar un precio**
 se **repartan exactamente** los escaños disponibles,
 ni de más ni de menos.
 
-Una candidatura que tenga 100.000 votos:
+Los cocientes responden a la pregunta:
+"¿cuál ha de ser el precio para que una formación obtenga N votos?"
 
-- No obtendrá representación si el precio es superior a 100.000
-- Obtendrá un escaño cuando sea 100.000 (100.000/1) o inferior
+Por ejemplo, una candidatura que tenga 100.000 votos:
+
+- No obtendrá escaño si el precio es superior a 100.000
+- Obtendrá un escaño cuando sea 100.000 (100.000/1) o menor
 - Obtendrá dos cuando sea 50.000 (100.000/2) o menor
 - Obtendra tres cuando sea 33.333 (100.000/3) o menor
-- ...
+- ...en general, podrà obtener N escaños cuando el precio sea 100.000/N o menor
 
 Eso es lo que representan los cocientes:
 el precio máximo por el que cada candidatura puede obtener un cierto número de escaños.
 
-Cuando el Método de D'Hondt va escogiendo cocientes ordenados de mayor a menor,
-lo que está haciendo es ir bajando el precio hasta que se han escogido tantos cocientes
-como escaños hay disponibles, asegurando el reparto exacto.
+¿Y porqué escogemos los cocientes ordenados de mayor a menor?
+Es una forma de bajar el precio de forma controlada,
+si están ordenados cada cociente añade un escaño y solo uno a los ya seleccionados,
+asegurando el reparto exacto cuando tenemos tantos cocientes como el número de escaños disponibles.
+
 Le llamamos una subasta inversa porque, en vez de ir subiendo el precio,
 lo bajamos hasta que casamos oferta con demanda.
 
 Esta es la perspectiva del método de D'Hondt que nos va a permitir
 llegar a un montón de conclusiones sobre como funciona el sistema electoral.
-
-Vamos a escarbar un poco más.
+Así que vamos a escarbar un poco más.
 
 ## Escaños y restos
 
-![
-Fijado el precio del escaño cada barra està dividida
-en tantos segmentos de ese tamaño como escaños obtenidos.
-Al final, todas las barras tienen un segmento translucido más corto
-que son los restos.
-La tercera candidatura ha fijado el precio y no tiene restos.
-](/images/dhondt-seat-rest-view.png)
+Una vez establecido un precio, los votos que ha recibido una candidatura
+pueden servir para sumar escaños, o, si no llegan, a formar parte de los restos.
+Esto es importante porque muchas de las cuestiones
+a resolver tienen que ver con esos restos,
+cómo se nutren para obtener el siguiente escaño
+o cómo se agotan para perderlo.
 
-Visualmente, tal y como muestra esta vista del simulador,
-dado un precio $P$, los votos de cada candidatura
-se dividirán en tantos bloques de tamaño $P$ como escaños obtenidos
-y un bloque extra menor que $P$, representado translúcido al final de la barra,
-que serían los restos que no han llegado a conseguir escaño.
 
-El reparto sería *exacto* si los escaños repartidos a ese precio
-coinciden con los escaños disponibles.
+::: figure {filename}/images/dhondt-seat-rest-view.png alt="Una serie de barras con los votos a las candidaturas, divididas en segmentos de la misma longitud, que representarian los escaños, con un segmento tranlúcido al final de la barra que representarían los restos."
+	Esta captura del simulador visualiza como,
+	dado un precio, los votos de cada candidatura
+	se reparten en tantos segmentos del tamaño del precio como escaños se consiguen, y,
+	la parte translúcida del final, que son los restos que no llegan al siguiente escaño.
+
+Cuando un precio consigue que los escaños repartidos coincidan con los disponibles, tenemos un reparto exacto.
 
 Más formalmente, D'Hondt nos sirve para encontrar un precio, $P$,
 tal que, para cualquier candidatura X:
@@ -117,9 +123,14 @@ Donde:
 
 ## El último cociente con escaño, $P_{max}$
 
-Llamemos C a la candidatura que ha obtenido el último escaño.
+En el simulador, el último cociente en entrar, se indica con los números en rojo y el fondo azul.
+Es el menor de los que han obtenido escaño, marcados en azul.
+
+![](/images/trasvases-ejemplo-cociente-fijador.png)
+
+Llamemos C a la candidatura que ha obtenido este último escaño.
 Su último cociente escogido, $P_C$, fijará el precio $P_{max}$,
-que será el máximo con el que P obtiene exactamente $S_C$ escaños sin que le sobren votos.
+que será el máximo con el que la candidatura C obtiene exactamente $S_C$ escaños sin que le sobren votos.
 
 $$ P_{max} = P_C = { V_C \over S_C }$$
 $$R_C = 0$$
@@ -127,57 +138,58 @@ $$R_C = 0$$
 Si el preció fuera levemente superior, C no tendría suficientes votos para obtener $S_C$ escaños.
 Al reparto le sobraría un escaño y ya no sería exacto.
 
-En el simulador, este último cociente en entrar, se indica con los números en rojo y el fondo azul.
-Es el menor de los marcados en azul que han obtenido escaño.
-
-![](/images/trasvases-ejemplo-cociente-fijador.png)
-
 ## El primer cociente excluido, $P_{min}$
 
-Al mayor cociente que se ha quedado sin representacion,
-el inmediatamente inferior a $P_C$, le vamos a llamar $P_D$
-y vamos a llamar D a la candidatura a la que pertenece.
-Este cociente marca el precio que llamaremos $P_{min}$,
-Repartir escaños a ese precio o menores nos haria repartir escaños de más.
-En concreto, a ese precio repartiriamos $S_D+1$ escaños para D y
-$S_{total} + 1$ en total.
-
-$$ P_{min} = P_D = { V_D \over {S_D + 1}} $$
-
-En el simulador, se indica en rojo también, pero con fondo blanco,
-como el resto de cocientes sin escaño, de los cuales $P_D$ es el mayor de todos.
+El simulador, deja con el fondo blanco los cocientes que no obtienen escaño.
+El mayor de ellos, el inmediatamente inferior a $P_{max}$,
+se marca en rojo porque es el límite inferior $P_{min}$ para los precios
+que resultan en un reparto exacto de los escaños.
+De ese precio para abajo, se reparten escaños de más.
 
 ![](/images/trasvases-ejemplo-cociente-excluido.png)
 
-Para precios superiores a $P_{min}$, el reparto aún sería exacto.
-Es decir que el reparto exacto no se da para un precio concreto,
-sinó para un intervalo de precios:
+Llamemos D a la candidatura a la que pertenece y, al coeficiente, $P_D$.
+Si dicha candidatura, a precio $P_{max}$, obtenía $S_D$ escaños,
+bajando el precio a dicho coeficiente, obtendría $S_D +1$ escaños y estaríamos repartiendo uno de más.
+Pero cualquier precio superior aún resultaría en un reparto exacto.
+
+$$ P_{min} = P_D = { V_D \over {S_D + 1}} $$
+
+Y tenemos que cualquier precio $P$ en ese intervalo resulta en un reparto exacto.
 
 $$P_{min} < P <= P_{max}$$
 
-La existencia de estos dos precios y sus dinámicas nos servirán
-para entender, de forma mucho más simple,
-los efectos de trasvases de votos entre candidaturas.
+La existencia de estos dos precios y sus dinámicas nos servirán,
+en otros artículos, por ejemplo, para simplificar bastante el análisis
+de los efectos de un trasvase de votos entre candidaturas,
+limitando la influencia de las muchas candidaturas a la existencia de estos dos coeficientes.
+Ya lo veremos.
 
 ## Acotando y estimando el precio
 
-Sabiendo que el objetivo de D'Hondt es
-encontrar un precio que reparta los escaños exactamemte,
+Ahora que conocemos que el objetivo de D'Hondt es
+encontrar un precio que reparta los escaños exactamente,
 podemos experimentar con otras formas de encontrarlo.
-Por ejemplo, podemos probar valores,
+
+Por ejemplo, podemos empezar por un precio arbitrario,
 si sobran escaños bajamos el precio, si faltan lo subimos,
 hasta que encontremos un precio que reparta exactamente los escaños,
 uno entre $P_{min}$ y $P_{max}$.
 
-Ademas, podemos acotar la búsqueda entre los siguientes dos casos extremos:
+En una búsqueda como esta, es muy útil acotar los precios posibles.
+Usemos estos dos casos extremos:
 
-- la cota superior, para el caso en que a nadie le sobran votos:
-$ P_H = {V_{total} \over S_{total}}$[^cotasuperior], y
-- la cota inferior, para el caso en que a todos les falta un voto para el siguiente escaño
-$ P_L = {V_{total} \over S_{total} + K }$[^cotainferior], donde $K$ es el número de candidaturas.
+El mayor precio posible se da cuando todos los votos a candidaturas
+sirven para obtener escaño y no hay restos[^cotasuperior].
+Este precio también se llama _cociente de Hare_, y hablaremos más sobre él:
 
-$$P_L <= P_{min} < P <= P_{max} <= P_H$$
+$$ P_{Hare} = {V_{total} \over S_{total}}$$
 
+El menor precio se daría si las $K$ candidaturas
+se quedasen al límite del obtener el siguiente escaño
+y sus restos fuesen casi el precio del escaño[^cotainferior]:
+
+$$ P_L = {V_{total} \over S_{total} + K }$$
 [^cotasuperior]:
 La cota superior $P_H$ viene de que, si no hay restos, $$V_{total} = S_{total} P_H$$
 y entonces
@@ -190,14 +202,23 @@ tienen los restos máximos (casi $P_L$), entonces:
 $$V_{total} = S_{total} P_L + K P_L$$
 y entonces
 $$P_L = { V_{total}  \over S_{total} + K }$$
+Si acotamos P_{max}, una candidatura ha de tener resto cero, podriamos tener una cota inferior más estricta:
+$$P_L = { V_{total}  \over S_{total} + K - 1 }$$
+Por simplicidad, usamos la primera.
 
-Podemos además ajustar un buen precio de partida estimándolo[^precioestimado]
-como 
-$P_E = {V_{total} \over S_{total} + K'/2}$
-donde $K'$ sería la cantidad de candidaturas
-con opciones a escaño, es decir ,
-aquellas cuyos votos superan $P_L$.
+::: figure {filename}/images/revote-maxminprice.gif alt="Animación alternando entre los dos casos" />
+	Con los mismos votos a candidaturas (2M), el precio variará según los votos que vayan a restos.
 
+Esto nos deja el siguiente panorama:
+
+$$P_L <= P_{min} < P <= P_{max} <= P_{Hare}$$
+
+Suponiendo que las candidaturas con opciones a representación ($K'$),
+por ejemplo, aquellas que superen $P_L$,
+se quedarán en media a la mitad entre un escaño y el otro,
+también podemos ajustar un buen precio de partida para la búsqueda[^precioestimado]:
+
+$$P_E = {V_{total} \over S_{total} + K'/2}$$
 
 [^precioestimado]:
 La estimación supone que
@@ -210,16 +231,36 @@ En cualquier caso, la estimación suele funcionar bastante bien con pasadas conv
 $$V_{total} = S_{total} P_E + K' P_E / 2 $$
 $$P_E = {V_{total} \over S_{total} + K' / 2 }$$
 
-Estas cotas y estimaciones del precio del escaño serán útiles, por ejemplo,
-para prever el impacto real del umbral electoral (3%, 5%...)
-considerando los parámetros
-de la convocatoria y de la circunscripción concreta.
-Para que pueda afectar el umbral éste ha de estar por encima del precio por escaño.
-En la mayoría de situaciones, el umbral no tendrá efecto alguno,
-pero en las pocas que lo tiene, suele ser importante.
+Estas cotas y estimaciones del precio del escaño no sólo sirven para hacer este tipo de búsqueda.
+También son útiles para nuestra cruzada contra los mitos electorales.
 
-También son útiles para determinar, por ejemplo,
+Por ejemplo,
+para evaluar el efecto del umbral electoral.
+Si una circumscripción reparte 4 escaños y hay 5 candidaturas en liza
+un precio de entre el 25% y el 10% limita mas que un umbral al 3% o al 5%.
+En las pocas circumscripciones y convocatorias que si afecta,
+nos puede servir para evaluar si es mejor desistir o apoyar
+una candidatura que puede quedar lejos o cerca de obtener
+varios escaños de golpe o ninguno.
+
+De forma similar, también son útiles para determinar, por ejemplo,
 la masa crítica de un voto estratégico coordinado.
+
+## Un atajo para calcular D'Hondt
+
+Como sabemos que el precio de D'Hondt será igual o menor que $P_{Hare}$,
+¿por qué no empezar a calcular cocientes a partir de ese punto?
+
+- Calculamos el cociente Hare $P_{Hare} = V_{total} / S_{total}$
+- Dividimos los votos de cada candidatura por dicho precio
+- Asignamos los escaños determinados por la parte entera resultante
+- Calculamos los coeficientes para el siguente escaño de cada candidatura
+- A partir de ahí aplicamos D'Hondt: asignamos escaño al mayor coeficiente, recalculamos coeficiente y vuelta a empezar hasta que no queden escaños.
+
+Es un método más eficiente si se da la condición
+de que haya más escaños a repartir
+que candidaturas con opción a escaño.
+
 
 ## Cociente de Hare, un mundo ideal
 
@@ -228,29 +269,30 @@ por ejemplo, 5'61 escaños.
 Motosierra en mano, podríamos conseguir representaciones exactamente proporcionales
 al número de votos.
 
-![](/images/bloodychainsaw.jpg)
+:::figure {filename}/images/bloodychainsaw.jpg alt="Un hombre con una motosierra que acaba de conseguir un reparto proporcional"
+	Aquí ya han conseguido ser proporcionales.
 
 El precio a pagar por escaño en este "mundo ideal",
-es el llamado _cociente de Hare_,
-que coincide con la cota superior que habíamos establecido antes
-para el precio de D'Hondt.
+a parte de la sangre,
+es el _cociente de Hare_.
+Sí, la cota superior que habíamos establecido antes para el precio de D'Hondt.
 
 $$P_{Hare} = {V_{total} \over S_{total}}$$
 
 Por desgracia, este tipo de descuartizamiento es ilegal en la mayoría de democracias.
 Nos tendremos que quedar, como mucho, con la parte entera.
 Pero, después, quedarían por repartir los escaños que quedaban fraccionados.
+En esto es en lo que difieren distintos métodos de reparto llamados proporcionales.
 
 Si quisieramos alejarnos lo menos posible de la proporcionalidad de Hare,
-la mejor opción darle un escaño extra a las opciones con mayores restos,
+una buena opción sería darle un escaño extra a las candidaturas con mayores restos,
 las que estarían más cerca de obtener el siguiente escaño.
-
 Esto sería el [Método Hamilton](https://es.wikipedia.org/Método_Hamilton) o _de mayores restos_.
 También tiene una cierta divergencia con el reparto sádico/ideal de Hare,
 pero intenta ser justo en la distribución de los escaños fraccionados,
 minimizando la sobre/infa-representación.
 
-El origen de la desproporcionalidad está vinculado, pues, a los escaños fraccionados.
+El origen de la desproporcionalidad está vinculado, pues, a los escaños fraccionados de Hare.
 Contra más escaños enteros se repartan, más proporcional será el resultado.
 Los escaños fraccionados están acotados entre $0$ y $K$ se pueden estimar
 como la mitad de las candidaturas con opción $K'/2$.
@@ -266,8 +308,9 @@ La desproporción, otra vez, vendrá en como se repartirán los escaños fraccio
 Partimos de los restos de Hare, como en Hamilton,
 por eso podemos decir que D'Hondt también favorece a las candidaturas que se habían
 quedado cerca del escaño.
-Pero aquí la diferencia está que, al bajar el precio, los restos de cada candidatura
-se van a nutrir con lo que al bajar el precio le sobrará a cada escaño obtenido.
+Pero no es el único criterio.
+Al bajar el precio, los restos de cada candidatura
+se van a nutrir con lo que ahora le sobrará a cada escaño ya obtenido.
 
 Por ejemplo, si el precio se reduciera 3 votos,
 una candidatura sin escaños estará 3 votos más cerca del siguiente escaño.
@@ -286,7 +329,6 @@ Se nota cuando
  (y por tanto, menos escaños enteros de Hare respecto a los fraccionados)
 - o cuando la desproporción entre candidaturas es notable y la ventaja es más significativa
 
-
 Al final el gran disruptor de la proporción en el sistema electoral
 es la división en circunscripciones, que multiplica las desproporciones
 que existan en cada circunscripción.
@@ -303,6 +345,11 @@ para representar la realidad.
 
 ## El poder de N votos
 
+Entonces parece que D'Hondt favorece a las candidaturas grandes.
+¿Quiere eso decir que si voto a las grandes tengo más capacidad de cambio que si voto a pequeñas?
+Pues bien, como nuestro voto es más bien humilde, veamos el poder de $N < P$ votos.
+
+¿De dónde partimos?
 Si existe cierta incertidumbre sobre los escaños que obtendrá una candidatura,
 sus restos son aún menos predecibles.
 Por eso, consideraremos que, para una candidatura X
@@ -310,45 +357,44 @@ con probabilidad de alcanzar representación,
 sus restos tienen igual probabilidad de estar en cualquier punto entre 0 y $P$,
 sin incluir $P$.
 
-En ese caso, N votos tienen la misma probabilidad de ganar un escaño
-para una candidatura con algunos pocos escaños que para una candidatura
-con muchos escaños.
-Similar probabilidad existe para ambas de perder un escaño si esos N votos se pierden.
+Bajo este supuesto, la probabilidad de que una formación con escaños,
+esté a N o menos de ganar un escaño es $N/P$.
+Mientras que se le proyecten más de un escaño, da igual si es grande o pequeña.
+La misma probabilidad hay de que N votos menos le arrebaten un escaño.
 
-## Un atajo para calcular D'Hondt
+Antes lo que estábamos haciendo era variar el precio,
+pero añadiendo votos o quitándolos no altera el precio hasta que hay un cambio.
+La complejidad de que pasa a partir de cuando hay un cambio en el precio,
+la analizaremos en otros artículos.
+También analizaremos la salvedad de lo que pasa cuando involucramos en el trasvase a formaciónes lejos de obtener escaño.
 
-Como sabemos que el precio de D'Hondt será igual o menor que $P_{Hare}$,
-¿por qué no empezar a calcular cocientes a partir de ese punto?
-
-- Calculamos el cociente Hare $P_{Hare} = V_{total} / S_{total}$
-- Dividimos los votos de cada candidatura por dicho precio
-- Asignamos tantos escaños como la parte entera resultante
-- Calculamos los coeficientes para el siguente escaño de cada candidatura
-- A partir de ahí aplicamos D'Hondt: asignamos escaño al mayor coeficiente, recalculamos coeficiente y vuelta a empezar hasta que no queden escaños.
 
 ## Conclusiones
 
 Resumiendo todo lo anterior:
 
 - D'Hondt es un procedimiento para buscar un precio en votos por escaño,
-que reparta de forma exacta los excaños disponibles, sin que sobren ni falten.
+que reparta de forma exacta los escaños disponibles, sin que sobren ni falten.
 
 - Los cocientes que cálcula el método se corresponden con el precio máximo
 con el que cada candidatura puede conseguir un número de escaños determinado.
+El número de escaños a obtener es el divisor del cociente.
 
 - Escogiendo los $S_{total}$ mayores cocientes asegura que, fijando el precio
-al del último cociente, se obtenga el reparto exacto.
+al del último cociente, se obtenga el reparto exacto de escaños.
 
 - El mayor cociente no escogido, también sirve para acotar el precio por abajo.
-El reparto exacto se da para cualquier precio entre estos dos, no incluyendo el último.
+El reparto exacto se da para cualquier precio entre estos dos, no incluyendo éste último.
 
-- Al final todas las candidatura tendrán un resto de votos inferior a dicho precio.
-Si hay incertidumbre de los escaños que obtendrá una candidatura,
-mayor incertidumbre hay en los restos, cualquier número de votos restantes es igual de posible.
+- Cuando se reparte escaños por un precio,
+todas las candidatura tendrán un resto de votos inferior a dicho precio.
+Si existe incertidumbre sobre los escaños que obtendrá una candidatura,
+mayor incertidumbre hay sobre los restos,
+pudiéndose considerar que es igual de posible cualquier número de votos restantes entre cero y el precio.
 
 - Eso determina que ganar o perder N votos ( $N < P$ )
 tiene la misma probabilidad de hacer ganar o perder escaño,
-tanto a una candidatura grande como a una pequeña.
+tanto a una candidatura grande como a una pequeña con representación.
 
 - Sin hacer el reparto, podemos acotar el precio
 entre el precio de una situación sin restos,
@@ -383,12 +429,5 @@ mayor profundidad en otro artículo.
 
 Ahora, con todas estas herramientas en la mochila,
 validemos o descartemos las cosas que se dicen sobre el tema.
-
-
-## Bibliografia
-
-
-
-
 
 
