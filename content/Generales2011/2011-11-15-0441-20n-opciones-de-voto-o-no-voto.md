@@ -106,8 +106,8 @@ El truco para pensar en el efecto de tu voto es:
 - Puedes usar [nuestro simulador]({filename}/pages/envote.md) para visualizar el efecto.
 
 
-[![]({static}/images/LleiOpcions.png)
+[![Folleto difundible sobre la ley electoral y las opciones para el 20N]({static}/images/LleiOpcions.png)
 <div class='caption'>
-Resumen difundible sobre ley electoral  y las opciones para el 20N.
+Resumen difundible sobre ley electoral y las opciones para el 20N.
 </div>
 ]({static}/images/LleiOpcions.png)

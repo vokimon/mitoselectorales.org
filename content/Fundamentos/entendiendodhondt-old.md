@@ -1,6 +1,6 @@
 title: Entendiendo la regla de D'Hondt
 autor: vokimon
-date: 2019-01-11 00:00:00
+date: 2019-08-14 00:00:00
 status: draft
 tags: D'Hondt, Coaliciones
 cover: images/revote-maxminprice.gif

@@ -1,9 +1,9 @@
 ---
 title: Efecto de las transferencias de voto
-date: 2024-06-09 09:03
+date: 2024-08-20 09:03
 author: David García Garzón
 tags: D'Hondt, Lógica_de_Bloques, Voto_Concentrado
-status: published
+status: draft
 cover: images/transfer-space-with-minimum.svg
 ---
 
