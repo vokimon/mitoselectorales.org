@@ -11,6 +11,8 @@
   <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/lamboz.css" media="all">
   <link rel="shortcut icon" href="{{ SITEURL }}/images/favicon.ico">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {% block head %}
   {% include 'feedlinks.html' %}
   {% endblock head %}
@@ -25,20 +27,32 @@
   {% endraw %} <!-- Preventing FOUC -->
 </head>
 <body>
-    <div class="pages">
-        <ul>
-            <li class="home"><a href="{{ SITEURL }}/index.html">Home</a></li>
-            {% for title, url in MENUITEMS %}
-            <li {% if title == page %} class="active"{% endif %}>
-               <a href="{{ SITEURL }}/{{ url }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-			<li class="divider-vertical"></li>
-            {% for page in pages %}
-            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
-            {% endif %}
-        </ul>
+    <div class="app-bar">
+        <div class="pages">
+            <ul>
+                <li class="home"><a href="{{ SITEURL }}/index.html">{{SITESHORTNAME}}</a></li>
+                {% for title, url in MENUITEMS %}
+                <li {% if title == page %} class="active"{% endif %}>
+                   <a href="{{ SITEURL }}/{{ url }}">{{ title }}</a>
+                </li>
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                            <li class="divider-vertical"></li>
+                {% for page in pages %}
+                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
+        {% if SOCIAL %}
+        <div class="social">
+            <ul>
+                {% for name, id, link, icon in SOCIAL %}
+                <li><a title="{{name}}: {{id}}" target='_blank' href="{{ link }}"><i class='{{ icon }} bx-sm'></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </div>
     {% block pageheader %}
     <div class="hp-header">
@@ -55,21 +69,15 @@
     <div class="content">
         <div class="data-holder">
         <div class="row">
+            <div class="aside content-column column large-2">
+            {% block rightside %}
+            {% endblock %}
+            </div>
            <div class="large-10 content-column column">
                 {% block content %}
                 {% endblock %}
             </div>
             <div class="large-2 aside column">
-                {% if SOCIAL %}
-                <div class="social">
-                    <h3>Social</h3>
-                    <ul>
-                        {% for name, id, link in SOCIAL %}
-                        <li><i class='fa-icon fa-{{ name }}' />&nbsp;{{ name }}:&nbsp;<a target='_blank' href="{{ link }}">{{ id }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div><!-- /.social -->
-                {% endif %}
                 {% if LINKS %}
                 <h3>Links</h3>
                 <ul>

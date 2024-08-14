@@ -8,6 +8,7 @@ BLOG_AUTHORS={
 }
 
 SITEURL = ''
+SITESHORTNAME = "Voto Mítico"
 SITENAME = 'Mitos Electorales'
 SITESUBTITLE = 'El mítico voto útil y otros cuentos'
 SITEDESCRIPTION = (
@@ -39,14 +40,20 @@ DEFAULT_CATEGORY = "Otros"
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU=False
 SUMMARY_USE_FIRST_PARAGRAPH = True
+TOC_INCLUDES_TITLE = False
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {
             'css_class': 'highlight',
         },
-        'markdown.extensions.toc': {},
+	'markdown.extensions.toc': {},
         'markdown.extensions.extra': {},
         'markdown.extensions.tables': {},
+        'customblocks': {
+            'config': {
+                'youtube_inlineFluidStyle': True,
+            },
+        }
     },
     'output_format': 'html5',
 }
@@ -66,9 +73,9 @@ _LINKS = (
 
 # Social widget
 SOCIAL = (
-	('Twitter', '@votomitico', 'https://twitter.com/votomitico'),
-	('Mastodon', '@votomitico@mastodon.social', 'https://mastodon.social/@votomitico'),
-	('Facebook', '@votomitico', 'https://facebook.com/votomitico'),
+	('Mastodon', '@votomitico@mastodon.social', 'https://mastodon.social/@votomitico', 'bx bxl-mastodon'),
+	('Twitter', '@votomitico', 'https://twitter.com/votomitico', 'bx bxl-twitter'),
+	('Facebook', '@votomitico', 'https://facebook.com/votomitico', 'bx bxl-facebook'),
 )
 #FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 ARTICLE_URL='posts/{date:%Y-%m-%d}-{slug}.html'
@@ -84,11 +91,13 @@ JINJA_ENVIRONMENT = {
   ],
 }
 PLUGIN_PATHS = [
-	'repos/pelican-plugins',
+	'plugins',
 ]
 PLUGINS = [
 	#'pelican_albums',
-	#'pelican.plugins.summary',
+	'plugins.pelican-toc',
+	#'plugins.summary',
+	'pelican.plugins.summary',
 	'minchin.pelican.plugins.summary',
 	'pelican.plugins.i18n_subsites',
 	'pelican.plugins.render_math',
@@ -100,11 +109,11 @@ I18N_TEMPLATES_LANG = 'es'
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
 	'images',
-    'extra/htaccess',
+	'extra/htaccess',
     ]
 # path-specific metadata
 EXTRA_PATH_METADATA = {
-    'extra/htaccess': {'path': '.htaccess'},
+	'extra/htaccess': {'path': '.htaccess'},
     }
 
 

@@ -96,6 +96,9 @@ github: prepublish
 env:
 	test -e .venv || python -m venv .venv
 	.venv/bin/pip install -r requirements.txt
+	mkdir -p plugins
+	git clone https://github.com/ingwinlu/pelican-toc.git plugins/pelican-toc
+
 	
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload github

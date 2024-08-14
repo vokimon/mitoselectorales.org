@@ -1,4 +1,5 @@
 pelican
+bs4
 #markdown
 #pelican-more-categories
 pelican-entities
@@ -7,6 +8,6 @@ pelican-i18n-subsites
 minchin.pelican.plugins.summary
 minchin.pelican.plugins.optimize-images
 #pelican-jinja2content
-#markdown-customblocks
+markdown-customblocks
 pelican-yaml-metadata
 

@@ -13,6 +13,12 @@
     </div>
 </div>
 {% endblock %}
+{% block rightside %}
+{% if article.toc %}
+    <h3> Contents </h3>
+    {{ article.toc }}
+{% endif %}
+{% endblock %}
 {% block content %}
 <div class="content-article">
     <header class="header-article">
