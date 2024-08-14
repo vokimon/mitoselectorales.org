@@ -2,7 +2,7 @@
 title: Europeas 2024: ¿Hay que concentrar el voto?
 date: 2024-06-03 09:03
 author: David García Garzón
-tags: D'Hondt, Europeas, Lógica_de_Bloques
+tags: D'Hondt, Europeas, Lógica_de_Bloques, Voto_Concentrado
 status: published
 cover: images/hay-que-concentrar-el-voto.png
 ---
@@ -10,11 +10,17 @@ cover: images/hay-que-concentrar-el-voto.png
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 Europeas 2024.
-Los partidos insisten con el mensaje: «Hay que concentrar el voto en nuestro partido para que le vaya bien a tal o cual bloque ideológico».
+Muchos partidos insisten con un mensaje:
+«Para que le vaya bien a nuestro bloque ideológico,
+hay que concentrar el voto en nuestro partido que es el grande».
 No son tontos... ni sinceros.
-Es mentira que funcione así y te lo explicamos visualmente en este artículo.
+
+Te explicamos visualmente que NO funciona así.
+Todos los bulos se apoyan en cierta verdad
+que después transgiversan.
 
 <!-- PELICAN_END_SUMMARY -->
+
 
 ## No. Concentar el voto no tiene beneficios para el bloque.
 
@@ -23,23 +29,25 @@ En general: **Concentrar el voto en el partido más grande de un bloque ideológ
 Dejadme decirlo de primeras y así de claro.
 Después os lo demuestro pero es tan flagrante que veo necesario decirlo así.
 
-No hay nada mágico en la ley de D'Hondt que haga que tu voto valga más si votas a partidos grandes.
+Tampoco hay nada mágico en la ley de D'Hondt que haga que tu voto valga más si votas a partidos grandes.
 
-No es ahora en las Europeas, porque haya circunscripción única.
+Tampoco es ahora en las Europeas, porque haya circunscripción única.
 Es el caso general.
 Estamos demasiado acostumbradas a las excepciones.
 
 Las excepciones son:
 
-- Cuando en una circunscripcion se reparten pocos escaños (de 4 a 6).
+- Cuando en una circunscripción se reparten pocos escaños (de 4 a 6).
 Y en este caso el mayoritario no siempre es la mejor opción.
 - Cuando consideramos las opciones sin posibilidades de alcanzar representación (¡¡no hablamos aqui de minoritarios con opción a representación!!)
 
-## Qué está pasando
+## Contexto
 
-De entrada, lo que podemos asegurar es que concentrar el voto en un partido, beneficia, por supuesto, a ese partido.
-Por eso lo repiten tanto.
-Que no, que no son tontos.
+De entrada, lo que sí se puede asegurar es que
+
+> Concentrar el voto en un partido, beneficia, por supuesto, a ese partido.
+
+Por eso lo repiten tanto en sus discursos. Tontos no son.
 
 ![Recortes de prensa](/images/2024-Europeas-concentracion-voto-recortes.svg)
 
@@ -53,59 +61,110 @@ Que no, que no son tontos.
 - [Aragonès reclama concentrar en ERC el vot catalanista i independentista](https://www.lavanguardia.com/encatala/20240510/9629460/aragones-reclama-concentrar-erc-vot-catalanista-i-independentista.html)
 - [Aragonès crida a concentrar el vot d'esquerres i independentista per evitar un país de «casinos i asfalt»](https://naciodigital.cat/politica/aragones-crida-vot-esquerres-i-independentista-per-evitar-coalicio-han-manat-sempre_1930874_102.html)
 
-Todas estas llamadas se aprovechan de una percepción que tenemos que es eso, una percepción.
-
+Todas estas arengas se aprovechan de una percepción común, que como veremos no es real.
 La realidad es que una transferencia de votos entre opciones políticas del mismo bloque ideológico:
 
-- apenas puede suponer un escaño más para el bloque (en una circumscripción)
-- lo grave es que existe la misma probabilidad que suponga un escaño menos, y,
-- lo mas probable es que no altere para nada el resultado conjunto.
+- como máximo conseguiría un escaño más
+- pero existe la misma probabilidad que suponga un escaño menos,
+- y lo mas probable es que no altere para nada el resultado conjunto
+- la ganancia o perdida es aleatoria y no tiene ningún tipo de proporcionalidad con el voto transferido.
 
 Aquí no decimos las cosas por decir así que demostremoslo.
 
 ## Demostración
 
-Como hemos explicado otras veces, D'Hondt en el fondo consiste en fijar un precio de votos por escaño (P) para que se repartan todos los escaños, sin que a nadie le que sobren votos para obtener más.
+### Planteamiento
+
+Como hemos explicado otras veces,
+D'Hondt consiste, en el fondo, en establecer un precio de votos por escaño (que llamaremos P)
+de modo que se repartan todos los escaños, sin que a nadie le que sobren votos para obtener uno más.
+Lo que normalmente se explica de D'Hondt es el procedimiento para encontrar ese precio,
+pero esta visión del objetivo que persigue nos da mucho más entendimiento de lo que está pasando.
 
 ![La parte semi transparente de las barras es el resto](/images/revote-pantallada-pricebars.png )
 
-Todas las formaciones tendrán un resto de votos sin escaño entre 0 y P-1.
+Según esto, todas las formaciones acabarán con un resto de votos sin escaño entre 0 y P-1.
 En el [simulador](https://vokimon.github.io/revote), el resto es la parte semitransparente al final de las barras.
 
 ![La parte semi transparente de las barras es el resto](/images/2024-sobrantes.png )
 
-Partamos de una situación de referencia en la que se ha establecido un precio P por escaño.
-Planteemos: ¿Qué pasa si trasvasamos de N votos de una formación emisora a otra receptora del mismo bloque ideológico? ¿Mejora la representación del bloque en conjunto o no?
+Para comprobar si concentrar el voto consigue o no un beneficio para el bloque,
+supondremos una situación inicial en la que se ha establecido un precio P por escaño.
+Partiendo de esa situación inicial, plantearemos un trasvase de N votos de una formación a otra mayor.
+¿mejora la representación de las dos en conjunto o no?
 
-Primero el caso sencillo: **transvasar justo el precio de un escaño, P votos**.
-La emisora perderá un escaño y la receptora lo ganará.
-Los restos siguirán siendo los mismos, por lo que no habrá que cambiar el precio.
-La suma del bloque quedaría exactamente igual.
+### Transfiriendo el precio de escaños enteros
 
-Con votos suficientes en la emisora, podemos repetir con paquetes de P votos y pasará lo mismo.
-Si movemos 10 escaños enteros, seguirá sin beneficio de bloque.
+La propia transferencia podría alterar el precio P, y esto hace que todo sea más complejo.
+Por eso, empezaremos por un caso que no altera el precio:
+una **transferencia de P votos**, es decir, **escaños enteros**.
+La formación emisora perderá un escaño y la receptora lo ganará.
+Como los restos seguirán siendo los mismos, nadie tendría votos para obtener más escaños de los que se habían repartido antes,
+por lo que, como decíamos, no hará falta alterar el precio.
 
-¿Igual tenemos algún beneficio trasvasando fracciones de P?
+El escaño obtenido por la receptora simplemente compensa el escaño perdido por la emisora y la suma de escaño de ambos quedaría igual.
+Podemos repetir el trasvase una y otra vez, mientras que tengamos votos a transferir, con el mismo resultado.
+Aquí lo vemos en el simulador:
 
-Intuitivamente podemos ver que juntando restos de dos formaciones a veces se podría sumar un escaño.
-Pero ¿realmente son restos lo que quitamos de la emisora? ¿son suficientes para sumar en la receptora? No sabemos de cuantos restos disponen cada una.
+![Animación simulando transferencias de escaños enteros](/images/2024-Europeas-full-price-transfers.gif)
 
-Los restos se comportan como una ruleta.
-Por la fuerza que lleva se podría prever las vueltas que darás, que serían los escaños.
-Predecir el sector final es más complicado.
-El sector serían los votos restantes.
+Aunque lo anterior solo se aplique a transferencias de votos múltiples exactos de P,
+nos dice que según vamos convenciendo a gente de que hay que agregar el voto,
+si en algún punto conseguimos que eso sume algun escaño para el bloque,
+si seguimos convenciendo a gente, antes de llegar al siguiente múltiplo de P
+ese efecto se revertirá.
 
-![Una ruleta](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXIxZjIzd2V1MjAxaGhqMnd0YmZhNWJvMTNlendjYnEyMXVtd3FyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwiunVgYqfVYVEs/giphy.gif)
+En resumen, estamos haciendo transferencias muy grandes de votos,
+convencimos a mucha gente de que hay que concentrar el voto,
+pero no obtuvimos mejora alguna para el bloque, solo para el partido receptor.
 
-Ante nuestra falta de información, la estimación más honesta es que todos los restos posibles entre 0 y P-1 tienen la misma probabilidad 1/P.
-No aplicaría cuando le damos flojo a la ruleta (0 o 1 escaños) pero dejamos para después ese caso.
+
+### Transfiriendo fracciones del precio del escaño
+
+En el anterior caso, ya hemos visto que,
+moviendo un montón de votos, no hemos conseguido ningún beneficio.
+Pero eso no quiere decir que no podamos obtenerlo entre múltiplo y múltiplo de P.
+A simple vista, vemos que las barras que movíamos arriba,
+tienen suficientes restos como para sumar un escaño nuevo si los juntamos.
+Un escaño no es la [Bicoca] pero sería un beneficio a considerar.
+
+[Bicoca]:https://es.wikipedia.org/wiki/Batalla_de_Bicoca
+
+El problema es que, normalmente, no sabemos cuantos restos tendrá cada formación
+y según los votos que trasvasemos, puede pasar que:
+
+- Le quitemos demasiados a la emisora, pierda el voto que ganamos, y quede igual.
+- No sumemos suficiente en la receptora y no llegue a sumar escaño, tambien quedaría igual
+- Si se dieran las dos condiciones anteriores a la vez. En vez de ganar un escaño lo perderíamos.
+
+¿Cómo de frecuente es cada caso?
+
+El resultado depende de los restos que tenga cada partido y,
+escaños y restos se comportan de forma parecida a una ruleta:
+
+![Una ruleta](/images/2024-Europeas-spinning-wheel.gif)
+
+Las **vueltas completas** que acaba dando serían los **escaños**.
+El **sector** que acaba elegido serían los **restos**.
+El **empuje** que le damos, o, más exactamente, la apreciación que tenemos de él, serían lo que dicen los **sondeos**.
+
+Si hacemos trampas y empujamos flojo la ruleta,
+tenemos bastante control de donde acabará la ruleta.
+Esto quiere decir que con las formaciones para las que se preveen
+pocos o ningún escaño, podríamos hacer predicciones de los restos.
+Si empujamos más fuerte, igual podemos predecir las vueltas/escaños,
+pero el sector final, los restos, se vuelve más impredecible.
+
+Si no podemos predecir los restos finales,
+lo mas honesto es considerar que todos los restos posibles, de 0 a P-1,
+tienen la misma probabilidad (1/P).
 
 Con un trasvase de N votos, la emisora pierde un escaño si su resto es menor que N.
 La probabilidad de que esté en esa zona es la proporcion entre N y P.
 
 ![La zona de riesgo](/images/2024-Europeas-ZonaDeRiesgo.svg)
 
-Para que la receptora gane el escaño, le tienen que faltar N o menos votos para llegar al siguiente.
+Y para que la receptora gane el escaño, le tienen que faltar N o menos votos para llegar al siguiente.
 La zona esta en el otro lado pero tiene la misma proporción N/P.
 
 ![La zona de oportunidad](/images/2024-Europeas-ZonaDeOportunidad.svg)
@@ -131,12 +190,12 @@ pero 500 votos tienen la misma capacidad de quitar o añadir escaño en grandes 
 
 ## Caso especial: Pocos escaños
 
-Siguiendo el símil de la ruleta, si apenas da vueltas es más facil predecir el sector final.
+Siguiendo el símil de la ruleta, si empujamos flojo para que dé pocas vueltas, es más facil predecir lo que saldrá.
 Esto pasa en convocatorias en que se reparten pocos escaños que no es el caso de las Europeas.
 También pasa con las formaciones con poca o nula representación.
 
 Podemos usar esa nueva información para ajustar el tiro: Si probablemente estés en la zona crítica entre dos escaños, puede beneficiar recibir un trasvase.
- Y si no tienes posibilidades de alcanzar el primer escaño, sintiendolo mucho pero, con lógica de bloques, tus votos pueden ser útiles al bloque en otro partido.
+Y si no tienes posibilidades de alcanzar el primer escaño, sintiendolo mucho pero, con lógica de bloques, tus votos pueden ser útiles al bloque en otro partido.
 
 La suposición que haciamos antes de que todos los restos son igualmente probables, se rompe en los minoritarios.
 Normalmente unos pocos partidos tienen más de medio escaño y el resto tienen muy poquitos votos.
@@ -171,6 +230,51 @@ Como han hecho Esquerra, Bildu, BNG...
 Como NO han sabido hacer Junts, PNV y Coalicion Canaria.
 Y como siempre hacen desastrosamente los Extremaduristas que este año van en 3 listas diferentes.
 
+
+## El origen de la falsa percepción
+
+Hay varias pistas falsas que nos llevan a pensar que agregar el voto en el mayoritario es bueno.
+
+### "Podríamos haber sumado estos restos"
+
+El retorno del Capitan "A Posteriori".
+
+![Capitan A Posteriori](/images/capitan-aposteriori.png)
+
+Cuando ya se tienen los resultados, sucede que a menudo ves que los restos de dos opciones juntas podrían sumar un escaño más.
+Además, si son opciones de tu bloque, duele, lo que lo hace más memorable.
+En cambio, las muchas otras veces en que esto no pasa, no son tan memorables pero son más.
+
+Cuando se ven los restos que podrían sumar,
+el Capitan A Posteriori dice: "Tendríamos que haber movido voto a un solo partido".
+Pero mientras no haya una coalicion electoral,
+y mientras que haya gente que siga votando a los dos partidos,
+los dos restos pueden estar en cualquier punto entre un escaño y el siguiente.
+Y eso implica que el movimento de votos no tienen asegurada ninguna ganancia
+en el bloque: puede sumar, quedarse igual o incluso restar.
+
+### "La proporción de votos por escaño es mayor en los pequeños"
+
+Para mostar los fallos del sistema electoral,
+a menudo, se menciona la proporción entre voto recibido y escaños obtenidos
+para señalar lo injusto del sistema electoral, y es un planteamiento correcto.
+Pero a menudo esa forma de expresarlo nos lleva a pensar que, realmente, tu voto si votas a un minoritario vale menos.
+
+¿De dónde sale esa desproporción y porqué no es correcto trasladarla a la capacidad de tu voto?
+
+Por como funciona D'Hondt,
+todos los partidos con representación en una circunscripción tendrán un resto entre 0 y P-1.
+En media les sobrará medio escaño.
+Ese medio escaño supone una parte proporcional de los votos más importante para los partidos con pocos escaños que para los que tienen muchos.
+
+Un ejemplo práctico: Imagina que sale un escaño vale 100.000 votos.
+A un partido con 10 escaños que le sobre medio, le sale un escaño a 105.000 votos.
+A un partido con 2 escaños que le sobre también medio, le sale a 125.000 votos.
+
+Dicho así parece que haya que juntar más votos para que salga un escaño del pequeño.
+Pero la verdad es que 50.001 votos, consiguirían el siguiente escaño tanto si van al grande como si van al pequeño.
+
+
 ## Conclusión
 
 - No, D'Hondt no hace que tu voto valga más si votas a un mayoritario.
@@ -180,3 +284,14 @@ Dentro de cada circunscripción 100 votos a uno pequeño valen lo mismo que a un
 Esto es más facil de predecir cuando la formaciones recibe pocos escaños, porque es pequeña o porque hay pocos a repartir.
 - Si, trasvasar los votos a los extraparlamentarios sin opciones de representación puede tener efectos buenos (aunque poquitos) para el bloque
 - No, lo anterior no es aplicable a los pequeños con representación solo a extraparlamentarios sin opciones.
+
+
+
+
+
+
+
+
+
+
+
