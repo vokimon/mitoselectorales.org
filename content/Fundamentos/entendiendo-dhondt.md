@@ -1,6 +1,6 @@
 ---
 title: Otra manera de entender D'Hondt
-date: 2024-06-09 09:03
+date: 2024-08-14 19:05
 author: David García Garzón
 tags: D'Hondt
 status: published
