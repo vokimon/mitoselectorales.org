@@ -15,123 +15,47 @@ hicimos algunas simplificaciones para tener una forma visual de explicarlo.
 Simplificaciones y suposiciones que no demostramos del todo.
 Si necesitas más pruebas, éste es el artículo que buscas.
 
+[TOC]
+
 ## Entendiendo el Método de D'Hondt
 
-### Una subasta inversa
+Recapitulando lo que explica con más detalle y ayudas visuales
+en el artículo [Otra manera de entender D'Hondt]({filename}entendiendo-dhondt.md),
+D'Hondt busca un precio que reparta exactamente los escaños disponibles, sin que sobren ni falten.
+Los coeficientes $V_X/S$ que calcula son el precio máximo por el que la candidatura X obtendría $S$ escaños.
+Al seleccionar los $S_{total}$ mayores aseguramos que el precio reparta justo $S_{total}$ escaños.
 
-Cuando se nos explica el método de D'Hondt
-que usamos para repartir los escaños en una circunscripción,
-se nos suele explicar un procedimiento:
-_Dividir los votos de cada formación por sucesivos enteros y otorgar los escaños a los cocientes mayores._[^dhont_optimo]
+:::figure /images/revote-dhondttable.png
+	Cocientes de un reparto de D'Hondt real.
+	Cada celda de la tabla contiene los votos obtenidos por cada partido dividido por un número de escaños.
+	Los 33 mayores cocientes con el fondo azul fueron los que obtuvieron escaño,
 
-[^dhont_optimo]:
-Hola, persona que se lee los pies de página.
-Para ti, aclaro que,
-de hecho, el método D'Hondt original minimiza el número de divisiones
-calculando el siguiente cociente de cada formación solo cuando su anterior cociente ya ha obtenido escaño.
-Pero esta optimización,
-que era más importante cuando se hacian las divisiones a mano.
-Solo añade una capa más de de complejidad para desentrañar el objetivo del método.
-Permitidme la licencia de calcular todos los cocientes de golpe. Se ve más claro.
+Cuando repartimos escaños a un precio $P$,
+los votos a cada formación X, se parten en tantos segmentos de tamaño $P$ como escaños obtenidos,
+y un bloque de restos de tamaño menor que $P$ que no han llegado a obtener representación.
 
-![Cocientes de un reparto de D'Hondt real.
-Cada celda de la tabla contiene los votos obtenidos por cada partido dividido por un número de escaños.
-Los 33 mayores cocientes con el fondo azul fueron los que obtuvieron escaño,
-](/images/revote-dhondttable.png)
+$$V_X =  S_X P + R_X$$
+$$0 \le R_X < P$$
 
-Explicar el procedimiento es útil si tienes que calcularlo.
-Pero no explica porqué lo estamos haciendo.
-Entender el objetivo del algoritmo nos va a permitir entender mejor sus efectos.
+::: figure {filename}/images/dhondt-seat-rest-view.png alt="Una serie de barras con los votos a las candidaturas, divididas en segmentos de la misma longitud, que representarian los escaños, con un segmento tranlúcido al final de la barra que representarían los restos."
+	La parte translúcida del final son los restos que no han llegado al siguiente escaño.
 
-Imagina que los votos son la moneda con la que las formaciones pueden "comprar" un escaño.
-El Método D'Hondt lo que hace es **establecer un precio con el que las formaciones
-puedan "comprar" exactamente el número de escaños disponibles**,
-donde, "_exactamente_" quiere decir dos cosas:
+Si C es la candidatura que obtiene el último escaño
+y D es a la que pertenece el mayor coeficiente que
+queda fuera:
 
-1. que ninguna tenga votos sobrantes para comprar un escaño de más, y
-2. que no quede ningún escaño por repartir.
+$$P_{max} = P_C = {V_C \over S_C} $$
+$$P_{min} = P_D = {V_D \over S_D + 1} $$
 
-Esto es lo que llamaremos un **reparto exacto** según el método D'Hondt.
+Los precios $P$ tal que $P_{min} < P \le P_{max}$
+generan un reparto exacto.
 
-El cociente que se obtiene de dividir los votos de una formación por un número de escaños,
-es el máximo precio con el que la formación podrá obtener ese número de escaños.
-Si se fija un precio superior, no podrá tener tantos.
 
-Por ejemplo, si una formación tiene 1.000 votos,
-y quiero saber cual es el máximo precio con el que obtendría
-5 escaños, divido por 5 y me da 200 votos por escaño.
-Si el precio final estuviera por encima, digamos 205 votos, ya no le llegará para obtener el quinto escaño.
-$1000/205=4'878...$ en este caso solo podría obtener 4.
-¿Cual es el cociente de 4? 250 que sí que es mayor que 205.
-
-Cuando el Método de D'Hondt va escogiendo cocientes ordenados de mayor a menor,
-lo que está haciendo es ir bajando el precio hasta que se han escogido tantos cocientes
-como escaños hay disponibles, asegurando un reparto exacto.
-Una subasta inversa porque, en vez de ir subiendo el precio,
-lo bajamos hasta que casamos oferta con demanda.
-
-### Invariantes de los escenarios
-
-Más formalmente, D'Hondt nos sirve para encontrar un precio, $P_{max}$, tal que, para cualquier formación X:
-
-$$ V_X = S_X P_{max} + R_X $$
-
-Donde:
-
-- $V_X \in \mathbb{N}$ son los votos que ha obtenido X, tal que $V_{total} = \sum_{\forall X}{V_X}$
-- $S_X \in \mathbb{N}$ son los escaños que consigue X del reparto,  tal que  $ S_{total} = \sum_{\forall X}{S_X}$
-- $R_X \in \mathbb{N}$ son los restos que sobran de repartir a $P_{max}$ y se tiene que dar que $ 0 <= R_X < P_{max}$
-
-### El último cociente con escaño, $P_{max}$
-
-Llamemos C al partido que ha obtenido el último escaño.
-Su último cociente escogido, $P_C$, fijará el precio $P_{max}$,
-que será el mínimo necesario para que P obtenga exactamente $S_C$ escaños sin que le sobren votos.
-
-$$ P_{max} = P_C = { V_C \over S_C }$$
-$$R_C = 0$$
-
-Si el preció fuera levemente superior, C no tendría suficientes votos para obtener $S_C$ escaños.
-Al reparto le sobraría un escaño y ya no sería exacto.
-
-En el simulador, este último cociente en entrar, se indica con los números en rojo y el fondo azul.
-Es el menor de los marcados en azul que han obtenido escaño.
-
-![](/images/trasvases-ejemplo-cociente-fijador.png)
-
-### El primer cociente excluido, $P_{min}$
-
-Al mayor cociente que se ha quedado sin representacion, el inmediatamente inferior a $P_C$, le vamos a llamar $P_D$
-y a la formación a la que pertenece, D.
-Este cociente marca el precio que llamaremos $P_{min}$,
-Repartir escaños a ese precio o menores nos haria repartir escaños de más.
-En concreto, a ese precio repartiriamos $S_D+1$ escaños para D y
-$S_{total} + 1$ en total.
-
-$$ P_{min} = P_D = { V_D \over {S_D + 1}} $$
-
-En el simulador, se indica en rojo también, pero con fondo normal, como el resto de cocientes sin escaño.
-Vemos que dicho cociente es el mayor de todos los que no han obtenido escaño.
-
-![](/images/trasvases-ejemplo-cociente-excluido.png)
-
-Para precios superiores a $P_{min}$, el reparto aún sería exacto.
-Es decir que el reparto exacto no se da para un precio, sinó para un intervalo de precios:
-
-$$P_{min} < P <= P_{max}$$
-
-Esto nos desliga del método en sí mismo.
-Podemos encontrar el reparto exacto
-probando precios y mirando si reparte más o menos escaños que los disponibles[^fuerzabruta].
-
-[^fuerzabruta]: Se puede refinar la búsqueda acotando entre
-el caso máximo en que a nadie le sobran votos $V_{total} \over S_{total}$,
-y el caso mínimo en que a todos les falta un voto para el siguiente $V_{total} - K \over S_{total} + K$,
-donde $K$ es el número de opciones.
-Entre esos dos límites, se puede estimar bastante bien,
-descartando las opciones que no obtienen escaño ni con el precio mínimo (Ahora tendríamos $K'$ filtrando esas y no $K$)
-y suponiendo que las restantes, en media, se quedan a la mitad entre un escaño y el siguiente:
-$V_{total} \over S_{total} + K'/2$.
+::: figure {filename}/images/trasvases-ejemplo-cociente-fijador.png
+	$P_{max}$ y $P_{min}$ destacados en rojo.
+	$P_{max}$, el menor de los cocientes seleccionados.
+	$P_{min}$, el mayor de los cocientes no seleccionados.
+	Definen el intérvalo de precios que resultan en el reparto exacto de escaños.
 
 ## Explorando el espacio de trasvases
 

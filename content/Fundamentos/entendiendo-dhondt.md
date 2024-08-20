@@ -20,7 +20,7 @@ nos dará las claves para desmontar muchos mitos y entender el efecto real de nu
 
 ## El procedimiento
 
-Cuando se nos explica el [método de D'Hondt](https://es.wikipedioa.org/MétodoD'Hondt)
+Cuando se nos explica el [método de D'Hondt](https://es.wikipedia.org/wiki/Sistema_D%27Hondt)
 que usamos para repartir los escaños en una circunscripción,
 se nos suele explicar un procedimiento,
 el objetivo del cual queda tras la niebla de su complejidad.
@@ -66,9 +66,7 @@ El método de D'Hondt resuelve el problema de **encontrar un precio**
 se **repartan exactamente** los escaños disponibles,
 ni de más ni de menos.
 
-Los cocientes responden a la pregunta:
-"¿cuál ha de ser el precio para que una formación obtenga N votos?"
-
+**¿Cuál ha de ser el precio para que una formación obtenga N votos?**
 Por ejemplo, una candidatura que tenga 100.000 votos:
 
 - No obtendrá escaño si el precio es superior a 100.000
@@ -80,7 +78,7 @@ Por ejemplo, una candidatura que tenga 100.000 votos:
 Eso es lo que representan los cocientes:
 el precio máximo por el que cada candidatura puede obtener un cierto número de escaños.
 
-¿Y porqué escogemos los cocientes ordenados de mayor a menor?
+**¿Y porqué escogemos los cocientes ordenados de mayor a menor?**
 Es una forma de bajar el precio de forma controlada,
 si están ordenados cada cociente añade un escaño y solo uno a los ya seleccionados,
 asegurando el reparto exacto cuando tengamos tantos cocientes como el número de escaños disponibles.
@@ -144,21 +142,24 @@ El mayor de ellos, el inmediatamente inferior a $P_{max}$,
 se marca en rojo porque es el límite inferior $P_{min}$ para los precios
 que resultan en un reparto exacto de los escaños.
 De ese precio para abajo, se reparten escaños de más.
+Resulta en un reparto exacto
+cualquier precio $P$ en el intervalo:
+
+$$P_{min} < P \le P_{max}$$
 
 ![](/images/trasvases-ejemplo-cociente-excluido.png)
+
+
 
 Llamemos D a la candidatura a la que pertenece y, al coeficiente, $P_D$.
 Si dicha candidatura, a precio $P_{max}$, obtenía $S_D$ escaños,
 bajando el precio a dicho coeficiente, obtendría $S_D +1$ escaños y estaríamos repartiendo uno de más.
-Pero cualquier precio superior aún resultaría en un reparto exacto.
 
 $$ P_{min} = P_D = { V_D \over {S_D + 1}} $$
 
-Y tenemos que cualquier precio $P$ en ese intervalo resulta en un reparto exacto.
-
-$$P_{min} < P <= P_{max}$$
-
-La existencia de estos dos precios y sus dinámicas nos servirán,
+La existencia de estos dos precios,
+$P_{min}$ y $P_{max}$,
+y sus dinámicas nos servirán,
 en otros artículos, por ejemplo, para simplificar bastante el análisis
 de los efectos de un trasvase de votos entre candidaturas,
 limitando la influencia de las muchas candidaturas a la existencia de estos dos coeficientes.
@@ -190,7 +191,8 @@ y sus restos fuesen casi el precio del escaño[^cotainferior]:
 
 $$ P_L = {V_{total} \over S_{total} + K }$$
 [^cotasuperior]:
-La cota superior $P_H$ viene de que, si no hay restos, $$V_{total} = S_{total} P_H$$
+La cota superior $P_H$ viene de que, si no hay restos,
+$$V_{total} = \sum_{\forall X} V_X = \sum_{\forall X} S_X * P_H + R_X  = \sum_{\forall X} S_X * P_H = S_{total} P_H$$
 y entonces
 $$P_H = { V_{total} \over S_{total}}$$
 
@@ -201,7 +203,7 @@ tienen los restos máximos (casi $P_L$), entonces:
 $$V_{total} = S_{total} P_L + K P_L$$
 y entonces
 $$P_L = { V_{total}  \over S_{total} + K }$$
-Si acotamos P_{max}, una candidatura ha de tener resto cero, podriamos tener una cota inferior más estricta:
+Si acotamos $P_{max}$, una candidatura ha de tener resto cero, podriamos tener una cota inferior más estricta:
 $$P_L = { V_{total}  \over S_{total} + K - 1 }$$
 Por simplicidad, usamos la primera.
 
@@ -286,7 +288,7 @@ En esto es en lo que difieren distintos métodos de reparto llamados proporciona
 Si quisieramos alejarnos lo menos posible de la proporcionalidad de Hare,
 una buena opción sería darle un escaño extra a las candidaturas con mayores restos,
 las que estarían más cerca de obtener el siguiente escaño.
-Esto sería el [Método Hamilton](https://es.wikipedia.org/Método_Hamilton) o _de mayores restos_.
+Esto sería el [Método Hamilton](https://es.wikipedia.org/wiki/Regla_de_Hamilton) o _de mayores restos_.
 También tiene una cierta divergencia con el reparto sádico/ideal de Hare,
 pero intenta ser justo en la distribución de los escaños fraccionados,
 minimizando la sobre/infa-representación.
@@ -368,65 +370,60 @@ la analizaremos en otros artículos.
 También analizaremos la salvedad de lo que pasa cuando involucramos en el trasvase a formaciónes lejos de obtener escaño.
 
 
-## Conclusiones
+## Resumen
 
 Resumiendo todo lo anterior:
-
-- D'Hondt es un procedimiento para buscar un precio en votos por escaño,
+D'Hondt es un procedimiento para buscar un precio, en votos por escaño,
 que reparta de forma exacta los escaños disponibles, sin que sobren ni falten.
+El número de votos recibidos por una formación
+dividido por un número de escaños
+da el precio máximo con el que se pueden obtener esos escaños.
+Esos son los coeficientes que calcula el método.
+Escogiendo los N mayores cocientes aseguramos que el último cociente
+marque un precio ($P_{max}$) para el que sólo se repartirán N escaños.
+Cualquier precio entre ese y el mayor cociente no escogido ($P_{min}$)
+serviría igualmente para obtener el reparto exacto.
 
-- Los cocientes que cálcula el método se corresponden con el precio máximo
-con el que cada candidatura puede conseguir un número de escaños determinado.
-El número de escaños a obtener es el divisor del cociente.
+Fijado un precio por escaño,
+todas las formaciones dedicarán sus votos a obtener escaños a ese precio
+y tendrán un sobrante de restos menor que dicho precio.
+Si tenemos incertidumbre sobre los escaños que obtendrán
+las candidaturas, los restos son mucho más impredecibles.
+Consideramos que cualquier resto es igual de probable
+y que el resto medio es la mitad del precio.
 
-- Escogiendo los $S_{total}$ mayores cocientes asegura que, fijando el precio
-al del último cociente, se obtenga el reparto exacto de escaños.
+La existència de un precio máximo y uno mínimo sirve
+para analizar situaciones, por ejemplo, de trasvase de votos,
+ignorando lo que hacen el resto de candidaturas.
 
-- El mayor cociente no escogido, también sirve para acotar el precio por abajo.
-El reparto exacto se da para cualquier precio entre estos dos, no incluyendo éste último.
-
-- Cuando se reparte escaños por un precio,
-todas las candidatura tendrán un resto de votos inferior a dicho precio.
-Si existe incertidumbre sobre los escaños que obtendrá una candidatura,
-mayor incertidumbre hay sobre los restos,
-pudiéndose considerar que es igual de posible cualquier número de votos restantes entre cero y el precio.
-
-- Eso determina que ganar o perder N votos ( $N < P$ )
-tiene la misma probabilidad de hacer ganar o perder escaño,
-tanto a una candidatura grande como a una pequeña con representación.
-
-- Sin hacer el reparto, podemos acotar el precio
-entre el precio de una situación sin restos,
-que coincide con el cociente Hare
+También hemos visto que,
+a partir de los votos a candidaturas,
+podemos acotar  el precio entre
+una situación sin restos
 $P_H={V_{total} \over S_{total}}$,
-y el precio de una situación con restos máximos
+y una situación con restos máximos
 $P_L={V_{total} \over S_{total} + K }$.
+y que podemos estimar el precio como
+$P_{E} = { V_{total} \over S_{total} + K'/2}$.
 
-- También podemos obtener una buena estimación
-del precio suponiendo que el resto medio de
-las candidaturas con representación es la mitad del precio:
-$P_{estimado} = { V_{total} \over S_{total} + K'/2}$.
+Hemos anticipado que estas cotas y estimaciones
+nos serviran para establecer el efecto del umbral electoral
+o la masa crítica de acciones de voto coordinado, por ejemplo.
 
-- Tanto las cotas como la estimación son útiles, por ejemplo,
-para saber cual es la masa crítica para un voto estratégico coordinado,
-o para saber que efecto puede tener el umbral electoral.
-
-- D'Hondt asegura que se repartan los escaños enteros de un reparto proporcional (Hare).
+D'Hondt asegura que se repartan los escaños enteros de un reparto puro proporcional (Hare).
 En ese sentido es bastante proporcional si hay suficientes escaños
 respecto al número de candidaturas con opciones.
+Los escaños fraccionados de Hare se reparten teniendo en cuenta
+los restos existentes pero también dando ventaja
+a las candidaturas grandes en el sentido de que
+cada reducción de precio, cada candidatura reduce
+distancia con el siguiente escaño proporcionalmente
+a los escaños que va a obtener.
 
-- Difiere de otros métodos, en como se reparten los escaños fracionados de Hare.
-Si bien da relativa preferencia a quien tuviera más restos,
-los reparte de forma proporcional a los escaños ya obtenidos,
-lo que, a partir de los enteros de Hare, genera desproporción a favor de los grandes.
-
-- Esta desventaja hay que relativizarla, puesto que N votos tienen el mismo poder
+Esta ventaja hay que relativizarla, puesto que N votos tienen el mismo poder
 de otorgar escaños (o quitar si se le retiran) a una candidatura grande
 que a una candidatura pequeña con representación.
-Esto, explicado así, parece un poco contradictorio así que lo analizaremos con
-mayor profundidad en otro artículo.
 
 Ahora, con todas estas herramientas en la mochila,
 validemos o descartemos las cosas que se dicen sobre el tema.
-
 
