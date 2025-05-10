@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta http-equiv="refresh" content="0; url={{SITEURL}}{{ target }}" />
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% block description %}{{ SITEDESCRIPTION }}{% endblock description %}">
+  <meta name="author" content="{{ AUTHOR }}">
+  <link rel="stylesheet" href="{{ SITEURL}}/theme/css/foundation.min.css" media="all"/>
+  <script type="text/javascript" src="{{ SITEURL }}/theme/js/modernizr.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/lamboz.css" media="all">
+  <link rel="shortcut icon" href="{{ SITEURL }}/images/favicon.ico">
+  {% block head %}
+  {% include 'feedlinks.html' %}
+  {% endblock head %}
+  {% raw %} <!-- Preventing FOUC -->
+  <script type="text/javascript">
+    var elm=document.getElementsByTagName("html")[0];
+    elm.style.display="none";
+    document.addEventListener("DOMContentLoaded",function(event) {
+		elm.style.display="block";
+	});
+  </script>
+  {% endraw %} <!-- Preventing FOUC -->
+</head>
+<body>
+    <div class="pages">
+        <ul>
+            <li class="home"><a href="{{ SITEURL }}/index.html">Home</a></li>
+            {% for title, url in MENUITEMS %}
+            <li {% if title == page %} class="active"{% endif %}>
+               <a href="{{ SITEURL }}/{{ url }}">{{ title }}</a></li>
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+			<li class="divider-vertical"></li>
+            {% for page in pages %}
+            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+            {% endif %}
+        </ul>
+    </div>
+    {% block pageheader %}
+    <div class="hp-header">
+        <div class="page-header">
+            <div class="content-header">
+                <div id="title-block">
+                <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+                <p class="blurb">{{ SITESUBTITLE }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+    <div class="content">
+        <div class="data-holder">
+        <div class="row">
+           <div class="large-10 content-column column">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <div class="large-2 aside column">
+                {% if SOCIAL %}
+                <div class="social">
+                    <h3>Social</h3>
+                    <ul>
+                        {% for name, id, link in SOCIAL %}
+                        <li><i class='fa-icon fa-{{ name }}' />&nbsp;{{ name }}:&nbsp;<a target='_blank' href="{{ link }}">{{ id }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div><!-- /.social -->
+                {% endif %}
+                {% if LINKS %}
+                <h3>Links</h3>
+                <ul>
+                    {% for title,link in LINKS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
+                    {% endfor %}
+                </ul>
+				{% endif %}
+                {% if tags %}
+                <h3>Tags</h3>
+                <ul>
+                    {% for t,tx in tags %}
+                    <li{% if (page or article) and t in (page or article).tags %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>&nbsp;({{ tx | length }})</li>
+                    {% endfor %}
+                </ul>
+				{% endif %}
+                {% if categories %}
+                <h3>Categories</h3>
+                <ul>
+                    {% for t,tx in categories %}
+                    <li{% if (page or article) and t == (page or article).category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>&nbsp;({{ tx | length }})</li>
+                    {% endfor %}
+                </ul>
+				{% endif %}
+            </div>
+         </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="data-holder">
+        {% block footer %}
+        <div class="row">
+            <div class="large-3 column">
+            {# include 'credits.html' #}
+           </div>
+           <div class="large-6 tag-cloud column">
+                <h3>Tags</h3>
+                <ul>
+                    {% for t,tx in tags %}
+                    <li{% if t==tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>({{ tx | length }})</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="large-3 category-column column">
+                <h3>Categories</h3>
+                <ul>
+                    {% for cat,l in categories %}
+                    <li{% if cat==category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> ({{ l | length }})</li>
+                    {% endfor %}
+                </ul>
+             
+            </div>
+
+        </row>
+        {% endblock %}
+        </div>
+        {% include 'trademark.html' %}
+    </div>
+</body>
+</html>
