@@ -78,6 +78,7 @@ equations = [
 	Eq(x_300 + x_210 + x_201 + x_120 + x_111 + x_100, erc1), # Perfiles que dan votos al primero de erc
 	Eq(x_030 + x_120 + x_021 + x_210 + x_111 + x_010, jxc1), # Perfiles que dan votos al primero de jxc
 	Eq(x_201 + x_021 + x_111 + x_001, fr), # Perfiles que dan votos a fr
+
 	# La diferencia de cruces entre lo que esperariamos
 	# si todos los que han votado independentista al congreso
 	# hubieran puesto tres cruces independentistas,
@@ -88,6 +89,7 @@ equations = [
 	# - los independentistas que se han abstenido en el senado
 	# - los no independentistas que han puesto cruz independentista
 	#Eq(2*x_001 + 2*x_010 + 2*x_100, sob+congress*3-erc1-erc2-erc3-jxc1-jxc2-jxc3-fr), # Menos de 3 cruces
+
 	# Restricciones para evitar negativos (ver desarrollo abajo)
 	# x_001 = A - x_010 - x_100
 	Eq(x_001, A - x_010 - x_100),
@@ -98,9 +100,9 @@ equations = [
 	# 155443 = 2*erc1 - erc2 - erc3 - fr - jxc1 - jxc2 + 2*jxc3
 	Eq(3*x_100, A + D + 2*erc1 -erc2 -erc3 -fr -jxc1 -jxc2 +2*jxc3),
 	# 0 <= A <= 388706; escogemos la mitad, menos aun sale negativo
-	Eq(A, 7*(erc1 - 2*erc2 + erc3 + fr + jxc1 - 2*jxc2 + jxc3)/12),
+	Eq(A, 6*(erc1 - 2*erc2 + erc3 + fr + jxc1 - 2*jxc2 + jxc3)/12),
 	# 0 <= B <= 223076 + 76489; escogemos 1/6
-	Eq(B, 1*(3*erc2 - 3*erc3)/12),
+	Eq(B, 2*(3*erc2 - 3*erc3)/12),
 	# 0 <= D <= 366886 - 155443, escogemos 1/6
 	Eq(D, 1*(3*jxc2 - 3*jxc3)/12),
 ]
