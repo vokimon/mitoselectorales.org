@@ -19,6 +19,8 @@ SITEDESCRIPTION = (
 )
 GITHUB_URL = 'http://github.com/vokimon/envote'
 
+GOOGLE_ANALYTICS='UA-140494538-1'
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
